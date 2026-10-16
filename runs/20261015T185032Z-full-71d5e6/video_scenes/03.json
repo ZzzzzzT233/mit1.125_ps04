@@ -1,0 +1,42 @@
+{
+  "piece_id": "03",
+  "scenes": [
+    {
+      "narration": "AI can look like a model answering a question in a chat window. But recent examples point to another kind of work: systems that help run model-building projects, companies adapting engineering workflows, and robots combining models with data and hardware. These cases do not prove that AI is changing every industry, or that AI caused each reported change. They do raise a more practical question: when a model becomes part of an operation, what surrounding tools, controls, and infrastructure become just as important as the model itself?",
+      "visual": "Open with an illustrative chat window expanding into three labeled settings: model-building workflow, software engineering, and robotics. Mark the scenes as illustrative.",
+      "claim_ids": [
+        "03-c6"
+      ]
+    },
+    {
+      "narration": "A Hugging Face article describes ML Intern as an agent that plans work, requests a budget, tests, trains, evaluates, and publishes models. The author reports using it across six projects, with about 103 dollars in compute charges. In this account, a human supplies instructions and spending limits while the agent carries out much of the workflow. That is more than generating a code snippet, but it is not hands-off: the budget and project direction still involve a person. The costs and results are reported by the builder, not independently audited. This example makes oversight concrete: permission to spend and a small test can be part of how the work is organized.",
+      "visual": "Animate an illustrative workflow card: instructions and budget approval, then test, train, evaluate, publish. Attribute the roughly $103 compute total to the article’s author.",
+      "claim_ids": [
+        "03-c1"
+      ]
+    },
+    {
+      "narration": "A different example comes from software engineering. Simon Willison relays Anthropic’s report that daily merged code changes rose from about 2,500 in May to more than 30,000 in September. He also notes Anthropic’s new source-control system, Scion, and code-review tool, Antique. Willison speculates that newer models may have contributed to the increase, but that is his interpretation, not an established cause. The reported change and new tools suggest that organizations may adapt infrastructure around the way work is produced. They do not show that AI agents alone caused the increase, and the figures are not independently audited in the evidence reviewed here.",
+      "visual": "Display the two reported monthly figures as a labeled comparison card, not a performance chart. Add Scion and Antique as reported tool names and attribute the figures to Anthropic via Willison.",
+      "claim_ids": [
+        "03-c2"
+      ]
+    },
+    {
+      "narration": "The physical-world example comes from an interview with Dyna Robotics co-founder Jason Ma. He says human demonstrations provide broad examples of physical activity, but must be adapted with robot data because human and robot actions differ. He identifies data and hardware as bottlenecks to more general-purpose robots. This is a company representative’s view, not an independent assessment of Dyna or robotics as a whole. Alongside the model-building and engineering examples, it suggests a cautious pattern: practical AI work can depend on fitting models into workflows and infrastructure, not just on improving model capability. These examples span unlike settings and cannot establish how common that pattern is.",
+      "visual": "Use an illustrative diagram connecting human demonstrations, robot data, model, and hardware. Attribute the bottleneck description to the Dyna co-founder; avoid depicting a real robot or test.",
+      "claim_ids": [
+        "03-c3",
+        "03-c6"
+      ]
+    },
+    {
+      "narration": "Deployment also involves rules about disclosure, filtering, and monitoring. TechCrunch reports that YouTube Music’s labels disclose AI’s role in a track, without making AI involvement alone a reason to deny monetization. A separate report says Deezer is working on an AI-music filter expected before year-end; it is not described as already available. Another TechCrunch report describes a dispute over Flock audio detection: its CEO said the microphones detect “just gunshots,” while a spokesperson described detection of other events and said the system is not designed to monitor conversations or analyze speech. The report supplies no independent technical test. Company statements and announced policies are not proof of accuracy or outcomes. What independent evidence would make these assurances checkable?",
+      "visual": "Show restrained policy cards: YouTube Music disclosure; Deezer filter planned, not yet available; Flock claims disputed in reporting. Attribute each and note the absence of an independent technical test for Flock.",
+      "claim_ids": [
+        "03-c4",
+        "03-c5"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "run_id": "20261014T234433Z-full-4bc4b0",
+  "review_id": "4170d3c8b2b2f0a76e5dd34cf6278e60eb50fb51a5e1e3c1445574744550c19e",
+  "approval_digest": "2b85ebbfb92dfa323c56b7c4461cad6d45033748a640e0a8f5529a9353cdf862",
+  "prepared_at": "2026-10-15T02:46:24.959782Z",
+  "assets": [
+    {
+      "piece_id": "01",
+      "kind": "articles",
+      "path": "runs/20261014T234433Z-full-4bc4b0/package/articles/01.md",
+      "content_digest": "5109a5a4cdf7b2da2dfd164d5a7f558d68f57ced81973f84451ed4e1878047ff"
+    },
+    {
+      "piece_id": "01",
+      "kind": "video_scripts",
+      "path": "runs/20261014T234433Z-full-4bc4b0/package/video_scripts/01.md",
+      "content_digest": "707d1a31ee5081b7864f7968f5d1fa4c5637f03165ebecc6c92dc63fa04a630a"
+    },
+    {
+      "piece_id": "01",
+      "kind": "source_notes",
+      "path": "runs/20261014T234433Z-full-4bc4b0/package/source_notes/01.json",
+      "content_digest": "77823f40fe237a5dff00e1e1583275584906bfad8c3246eda05e9438bf46b18d"
+    },
+    {
+      "piece_id": "02",
+      "kind": "articles",
+      "path": "runs/20261014T234433Z-full-4bc4b0/package/articles/02.md",
+      "content_digest": "4a6348048cf6be2536f9d87c544b30e5f4ebb53063fae30de3162ab0e65ed2a2"
+    },
+    {
+      "piece_id": "02",
+      "kind": "video_scripts",
+      "path": "runs/20261014T234433Z-full-4bc4b0/package/video_scripts/02.md",
+      "content_digest": "07ff55a8e75e1c8d4ad868f276275f4032bc53230c62325cd5f7ebe66b9b743f"
+    },
+    {
+      "piece_id": "02",
+      "kind": "source_notes",
+      "path": "runs/20261014T234433Z-full-4bc4b0/package/source_notes/02.json",
+      "content_digest": "9c2bfc6c279dc5af3573d241d3717fb5fdda2fdc05ae92277ca0ee4993082e8e"
+    },
+    {
+      "piece_id": "03",
+      "kind": "articles",
+      "path": "runs/20261014T234433Z-full-4bc4b0/package/articles/03.md",
+      "content_digest": "58b0b571163079245c3ba26b188c3514096c456990c4cf17279a96ca91e1df81"
+    },
+    {
+      "piece_id": "03",
+      "kind": "video_scripts",
+      "path": "runs/20261014T234433Z-full-4bc4b0/package/video_scripts/03.md",
+      "content_digest": "1c9c317caba4d42847d33079192297d54e1b723b185cd1f42256591014d9ebcc"
+    },
+    {
+      "piece_id": "03",
+      "kind": "source_notes",
+      "path": "runs/20261014T234433Z-full-4bc4b0/package/source_notes/03.json",
+      "content_digest": "7d145d52ddbdef18eb17fe1e5ecd5d6f928f37c78df6016090572bbbea452275"
+    }
+  ],
+  "publication_links_path": "runs/20261014T234433Z-full-4bc4b0/package/publication_links.json",
+  "manual_actions": [
+    "Produce videos in Google Vids or HeyGen.",
+    "Publish Substack/YouTube pairs and cross-links.",
+    "Record real publication links and verify access."
+  ]
+}

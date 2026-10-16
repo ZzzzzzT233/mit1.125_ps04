@@ -1,0 +1,131 @@
+{
+  "stage": "extract_content",
+  "status": "incomplete",
+  "input_count": 14,
+  "output_count": 10,
+  "started_at": "2026-10-14T23:33:30.669825Z",
+  "tools": [
+    "Python stdlib",
+    "curl",
+    "ffmpeg",
+    "ffprobe"
+  ],
+  "models": [
+    "whisper-1"
+  ],
+  "cost_usd": 0.48,
+  "cost_note": "Successful request fees are estimated; a failed request may also have been billed. Check provider usage. Local costs are unmeasured.",
+  "errors": [
+    "feed:6be51ff4ef44242d2e51699f539898cfa63365126a958310926f240d3e689cea: curl: (56) The requested URL returned error: 403",
+    "feed:9f9b8f5f04cba70c0a59d13454de38250463b79dc28d5331d9cc225a8dc9d6bc: curl: (56) The requested URL returned error: 403",
+    "podcast:8ddeacd8202375dcb627807364fa86ebbf721d5d9481f5eda6dcfca243729511: OpenAI transcription transport failed (curl exit 56); request cost is unconfirmed",
+    "podcast:ed7136659afac296738ddacd4b3b83a7bc659aa0e3d3b08982d0ed56162c2829: OpenAI transcription transport failed (curl exit 56); request cost is unconfirmed"
+  ],
+  "reused_count": 0,
+  "item_results": [
+    {
+      "item_id": "feed:6be51ff4ef44242d2e51699f539898cfa63365126a958310926f240d3e689cea",
+      "status": "incomplete",
+      "error": "curl: (56) The requested URL returned error: 403"
+    },
+    {
+      "item_id": "feed:9f9b8f5f04cba70c0a59d13454de38250463b79dc28d5331d9cc225a8dc9d6bc",
+      "status": "incomplete",
+      "error": "curl: (56) The requested URL returned error: 403"
+    },
+    {
+      "item_id": "feed:2417547fbcd4a08ff39cb3a84b7d6eede16d0808f385137d06219c2a3818e01d",
+      "status": "completed"
+    },
+    {
+      "item_id": "feed:650b1a40a921dc2f281493121ff171444b307775d255cfead9769244d805999d",
+      "status": "completed"
+    },
+    {
+      "item_id": "feed:890d9b1abb1aee38ddaf66fc51c1b22e40dbf1502357c1561af5a99a67ec4252",
+      "status": "completed"
+    },
+    {
+      "item_id": "feed:74f7c639767e5ff1cb437b2bfcedd7b9e9b9aadebbe208b61dad37317a2a8eff",
+      "status": "completed"
+    },
+    {
+      "item_id": "feed:8e314f039d969d5d3a6c5d21dc7b29f29bfbf3b5af93341fcab7e9aa486ce339",
+      "status": "completed"
+    },
+    {
+      "item_id": "feed:3e807c680553afa8e7a7fab0c86367379ffe15326fd7fb88ab84c99f58a26838",
+      "status": "completed"
+    },
+    {
+      "item_id": "feed:0d26c42f4dbee4d81bb457a0f7e7507cf6b9c7eb8875a14e845577dc5d01132b",
+      "status": "completed"
+    },
+    {
+      "item_id": "feed:21e7f3f15b3e9c2e170ab98ea75f451bd4ed9d6ef08b70a13748c6ecc1972231",
+      "status": "completed"
+    },
+    {
+      "item_id": "feed:44791ab1308689d8ac05120fed7ecef10e9f185703fdab2bedd148f93cdf19af",
+      "status": "completed"
+    },
+    {
+      "item_id": "podcast:8ddeacd8202375dcb627807364fa86ebbf721d5d9481f5eda6dcfca243729511",
+      "status": "incomplete",
+      "error": "OpenAI transcription transport failed (curl exit 56); request cost is unconfirmed"
+    },
+    {
+      "item_id": "podcast:a5722550a3b286ab7f03971ecfd02300b82428497f446ada3c8328f7918d698c",
+      "status": "completed"
+    },
+    {
+      "item_id": "podcast:ed7136659afac296738ddacd4b3b83a7bc659aa0e3d3b08982d0ed56162c2829",
+      "status": "incomplete",
+      "error": "OpenAI transcription transport failed (curl exit 56); request cost is unconfirmed"
+    }
+  ],
+  "transcription_requests": [
+    {
+      "offset_seconds": 0,
+      "status": "completed",
+      "estimated_cost_usd": 0.12,
+      "billed_or_estimated_seconds": 1200
+    },
+    {
+      "offset_seconds": 1200,
+      "status": "completed",
+      "estimated_cost_usd": 0.12,
+      "billed_or_estimated_seconds": 1200
+    },
+    {
+      "offset_seconds": 2400,
+      "status": "failed_cost_unconfirmed",
+      "estimated_cost_usd": null
+    },
+    {
+      "offset_seconds": 0,
+      "status": "cached",
+      "estimated_cost_usd": 0
+    },
+    {
+      "offset_seconds": 1200,
+      "status": "completed",
+      "estimated_cost_usd": 0.12,
+      "billed_or_estimated_seconds": 1200
+    },
+    {
+      "offset_seconds": 2400,
+      "status": "completed",
+      "estimated_cost_usd": 0.12,
+      "billed_or_estimated_seconds": 1200
+    },
+    {
+      "offset_seconds": 3600,
+      "status": "failed_cost_unconfirmed",
+      "estimated_cost_usd": null
+    }
+  ],
+  "cost_is_estimate": true,
+  "finished_at": "2026-10-14T23:40:01.508766Z",
+  "exit_code": 1
+}

@@ -1,0 +1,24 @@
+The Right Test Depends on the Job
+
+AI Frontier Watch — evidence edition: October 14, 2026 UTC.
+
+Read the matching article: https://tongzhou2.substack.com/p/the-right-test-depends-on-the-job
+
+This video uses AI-generated English narration and illustrative graphics. Company-reported results and interview statements are attributed in the presentation; they are not independent replications.
+
+Sources and referenced passages:
+Evidence as of 2026-10-14 UTC. Access conditions may change after publication.
+
+[1] [Run fast, private agents on-device with LFM2.5-24B-A2B](https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b).
+
+[2] [Run fast, private agents on-device with LFM2.5-24B-A2B](https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b).
+
+[3] [Introducing Falcon ASR](https://huggingface.co/blog/tiiuae/falcon-asr).
+
+[4] [Introducing Falcon ASR](https://huggingface.co/blog/tiiuae/falcon-asr).
+
+[5] [HiRO-ACEv2: Simulating extreme weather at 3 km resolution for a fraction of the cost](https://huggingface.co/blog/allenai/hiro-acev2).
+
+[6] [The model that didn't exist, so you made it yourself](https://huggingface.co/blog/building-with-ml-intern).
+
+[7] [Run fast, private agents on-device with LFM2.5-24B-A2B](https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b); [Introducing Falcon ASR](https://huggingface.co/blog/tiiuae/falcon-asr); [HiRO-ACEv2: Simulating extreme weather at 3 km resolution for a fraction of the cost](https://huggingface.co/blog/allenai/hiro-acev2).

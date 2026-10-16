@@ -1,0 +1,2 @@
+[aist#1:0/pcm_s16be @ 0x7fd3a0710980] Guessed Channel Layout: mono
+[aac @ 0x7fd3a1105540] Too many bits 7430.385488 > 6144 per frame requested, clamping to max

@@ -1,0 +1,70 @@
+{
+  "pieces": {
+    "01": {
+      "item_ids": [
+        "feed:227fcb0d624bcb1af08f2a503e5e63ae07741e6a1d5cbda81125e8eac82c391b",
+        "feed:2417547fbcd4a08ff39cb3a84b7d6eede16d0808f385137d06219c2a3818e01d",
+        "feed:74f7c639767e5ff1cb437b2bfcedd7b9e9b9aadebbe208b61dad37317a2a8eff",
+        "feed:7a6c716455f6be1bfda0beca6dfbc9cf90cf96199fa7d648b2b2f127c50b6b39",
+        "youtube:eBszYxzE2dk"
+      ],
+      "publisher_groups": [
+        "google",
+        "huggingface",
+        "liquidai",
+        "matt-wolfe",
+        "tiiuae"
+      ],
+      "input_kinds": [
+        "feed",
+        "youtube"
+      ],
+      "claim_count": 7,
+      "independence_verified": false
+    },
+    "02": {
+      "item_ids": [
+        "feed:7a6c716455f6be1bfda0beca6dfbc9cf90cf96199fa7d648b2b2f127c50b6b39",
+        "feed:890d9b1abb1aee38ddaf66fc51c1b22e40dbf1502357c1561af5a99a67ec4252",
+        "feed:e0c4cbb1514f53cea2127ff828cf01663429588c0c77de65f35d35817e1d0a58",
+        "podcast:a5722550a3b286ab7f03971ecfd02300b82428497f446ada3c8328f7918d698c"
+      ],
+      "publisher_groups": [
+        "allenai",
+        "latent-space",
+        "swiss-ai",
+        "tiiuae"
+      ],
+      "input_kinds": [
+        "feed",
+        "podcast"
+      ],
+      "claim_count": 7,
+      "independence_verified": false
+    },
+    "03": {
+      "item_ids": [
+        "feed:0d26c42f4dbee4d81bb457a0f7e7507cf6b9c7eb8875a14e845577dc5d01132b",
+        "feed:1d28b948019906af44beedd1d629604c92976362f43d35af7df3595d7756a95c",
+        "feed:21e7f3f15b3e9c2e170ab98ea75f451bd4ed9d6ef08b70a13748c6ecc1972231",
+        "feed:3e807c680553afa8e7a7fab0c86367379ffe15326fd7fb88ab84c99f58a26838",
+        "feed:855ef2ce6c6083db9cb9f7eaaab38698c38de14ab18bfeb0ea4645cef1b80384",
+        "podcast:a5722550a3b286ab7f03971ecfd02300b82428497f446ada3c8328f7918d698c"
+      ],
+      "publisher_groups": [
+        "huggingface",
+        "latent-space",
+        "simon-willison",
+        "techcrunch"
+      ],
+      "input_kinds": [
+        "feed",
+        "podcast"
+      ],
+      "claim_count": 6,
+      "independence_verified": false
+    }
+  },
+  "human_approval": false,
+  "checks": "Exact versions, quotes, segment IDs, producer minimums, multi-source inference references, and series input types. Semantic support and source independence still require review."
+}

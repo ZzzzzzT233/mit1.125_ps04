@@ -1,0 +1,33 @@
+{
+  "stage": "create_briefs",
+  "status": "completed",
+  "input_count": 16,
+  "output_count": 3,
+  "started_at": "2026-10-14T19:58:00.632693Z",
+  "tools": [
+    "Python stdlib"
+  ],
+  "models": [],
+  "cost_usd": null,
+  "cost_note": "No model API used; local compute and transfer costs are not measured.",
+  "errors": [],
+  "request_fingerprint": "8cb740560dd9a2bde8eeabc9d84e8b097be0bd30b5367a60027cef306f401802",
+  "request_bytes": 421103,
+  "request_fee_upper_bound_usd": 0.117776,
+  "model_requests": [
+    {
+      "status": "cached",
+      "estimated_cost_usd": 0
+    }
+  ],
+  "resolved_model": "gpt-6-luna",
+  "assistant_corrections": {
+    "file": "/Users/zhoutong/Desktop/Harvard/2026 Fall/MIT 1.125/mit1.125_ps04/runs/20261014T195037Z-briefs-017322/brief_corrections.json",
+    "notes": "Assistant inspection corrected three failed locators: one overlong ML Intern quotation and two table rows with flattened whitespace. Added missing supporting passages and segment IDs for multi-part claims, included table column headers, and narrowed prose that lacked a matching claim. Original response and failed validation receipt remain preserved. These are assistant corrections, not student judgment or approval.",
+    "source_output_digest": "81913037ad2d35398004c71bb76cca717fa0a93ab22eed5f33f78e13eb673ca8",
+    "corrected_output_digest": "689ea4b00d78245d9b911b3c8f270dd992c5a82ca770585243bf9e0f5f7d5792",
+    "human_approval": false
+  },
+  "finished_at": "2026-10-14T19:58:11.242458Z",
+  "exit_code": 0
+}

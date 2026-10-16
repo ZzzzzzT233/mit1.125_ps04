@@ -1,0 +1,234 @@
+{
+  "run_id": "20261014T234433Z-full-4bc4b0",
+  "youtube_channel_id": "UClTwqpmN5ZpNt0I2UXwnh0g",
+  "youtube_handle": "@TongZhou-t7c",
+  "substack_profile": "https://substack.com/@tongzhou2",
+  "article_drafts": {
+    "01": "https://tongzhou2.substack.com/publish/post/220469510",
+    "02": "https://tongzhou2.substack.com/publish/post/220470570",
+    "03": "https://tongzhou2.substack.com/publish/post/220474254"
+  },
+  "vids_projects": {
+    "01": "https://docs.google.com/videos/d/1zqErt2Af84pmMC6rLozLEO4JbkGlqOO_RiYCjfSe1Pw/edit",
+    "02": "https://docs.google.com/videos/d/1G3L-zfuIAHXP1aIfv-lRK-7gSfbph5kCotoz30J1cFo/edit",
+    "03": "https://docs.google.com/videos/d/17rq8FNw6ubXR-_3mYMVfmMQ8eW7ItfVy7-p3HunJrb0/edit"
+  },
+  "publication_status": "published_awaiting_youtube_external_link_verification",
+  "articles_published": {
+    "01": "https://tongzhou2.substack.com/p/a-release-is-only-as-useful-as-its",
+    "02": "https://tongzhou2.substack.com/p/the-right-test-depends-on-the-job",
+    "03": "https://tongzhou2.substack.com/p/the-hard-part-starts-after-the-model"
+  },
+  "native_slides": {
+    "01": "https://docs.google.com/presentation/d/1wNQwyDPMZgnJ4XGCbNHT5s73atG76K9I0Wx01u-nATs/edit",
+    "02": "https://docs.google.com/presentation/d/1qPwn32v4pFLT5PnborAzoGlTUYyQH5MRoKzg8hxjN8E/edit",
+    "03": "https://docs.google.com/presentation/d/1BnOwcCIutBchQvx5DL3w4dPhbl0LWcCOijvLn33qOP8/edit"
+  },
+  "native_slides_browser_access": "All three scene decks are shared read-only with the student-authorized browser account. Piece 02 access verified in Slides and the Vids picker.",
+  "videos_rendered": {
+    "01": {
+      "platform": "Google Vids",
+      "duration_seconds": 200.001,
+      "scenes": 6,
+      "voice": "Narrator",
+      "youtube_status": "Public; saved"
+    },
+    "02": {
+      "platform": "Google Vids",
+      "duration_seconds": 218.441,
+      "scenes": 6,
+      "voice": "Narrator",
+      "youtube_status": "Public; Changes saved confirmed"
+    },
+    "03": {
+      "platform": "Google Vids",
+      "duration_seconds": 215.321,
+      "scenes": 6,
+      "voice": "Narrator",
+      "youtube_status": "Public; Changes saved confirmed"
+    }
+  },
+  "videos_published": {
+    "01": "https://youtu.be/sBxcOquNgms",
+    "02": "https://youtu.be/8kLHG2qRHPQ",
+    "03": "https://youtu.be/NURPMsMGosY"
+  },
+  "crosslinks_complete": false,
+  "blocker": "YouTube Studio requires channel verification before external links become clickable. Full URLs are saved in descriptions, but public descriptions render shortened non-clickable text. Student must complete the platform verification, then link activation must be rechecked.",
+  "first_article_delivery": "Web only; Everyone; email and app delivery disabled.",
+  "first_article_verification": "Publisher dashboard confirmed Published at 11:00 PM and displayed the public share URL. Independent anonymous access check via web tool was unavailable.",
+  "second_article_status": "Publisher dashboard confirmed Published at 11:10 PM; public share URL verified. Dashboard shows one recipient; delivery mode not independently reconstructed.",
+  "local_video_previews": {
+    "status": "local_previews_only",
+    "voice": "macOS Samantha, en_US, 140 words/minute",
+    "production": "FFmpeg local assembly; not finalized in Google Vids or HeyGen",
+    "review_id": "4170d3c8b2b2f0a76e5dd34cf6278e60eb50fb51a5e1e3c1445574744550c19e",
+    "videos": [
+      {
+        "piece_id": "01",
+        "path": "production/video_previews/01-continuous.mp4",
+        "duration_seconds": 219.543764,
+        "sha256": "b1dc4b5bc9f25aa6cbd2279aea73153b80c07a437ba192b300d958459b7a829a",
+        "scenes": [
+          {
+            "scene": 1,
+            "duration_seconds": 32.63542,
+            "narration_sha256": "e28e58546badcd84a2bf6601a02ad5855cd485f6d09712d5dfe53cc6b2652647",
+            "image_sha256": "8dbfd1e39f00ba96a6a912d58c51aa665628287d1625b660d1cc33c9f31e1ecb"
+          },
+          {
+            "scene": 2,
+            "duration_seconds": 36.627483,
+            "narration_sha256": "3e9f76389af04c28317efb6b5c26aed7cbb7a9d59776663cd1b399dc63a11186",
+            "image_sha256": "bbbbd9de0f34fbc709daa3ba7a9830e94893675f3df77a9e84ae0e7ff7c72f99"
+          },
+          {
+            "scene": 3,
+            "duration_seconds": 34.692562,
+            "narration_sha256": "2ed4e544f38bfc1f1076ff35a4d78b0578c9995f018e1a694a81e65f08b00f55",
+            "image_sha256": "aacbf4f9af8f5c6bd25714a95648c96e40e84b104cd3f119858f603a5d1fb2a0"
+          },
+          {
+            "scene": 4,
+            "duration_seconds": 40.294694,
+            "narration_sha256": "57f5838c41cfd601611e8c3f2369acba4a570690abf03ff2bbde1837339766cd",
+            "image_sha256": "1bbe23b85b49aedd426345ce6cbd709221bb0a85d54f12dd9802d86f9a17b9d1"
+          },
+          {
+            "scene": 5,
+            "duration_seconds": 34.604172,
+            "narration_sha256": "66fb26b3a2e57d79b7bb543e95320703125dbf634a4bfa0851046d99fe139a9e",
+            "image_sha256": "c54c702794549e85dc100456911a38c74f653f2136ee6955f8da8143aa6984e8"
+          },
+          {
+            "scene": 6,
+            "duration_seconds": 40.689433,
+            "narration_sha256": "69f7561765dda13e13f3bd9eb24dcfa383fe67b3b97b45f5eefd83594107a5c0",
+            "image_sha256": "253bdf0a0c7ddaa424e6e7b9af6f00ef36406c587c0f97a825cb24841a74fa06"
+          }
+        ]
+      },
+      {
+        "piece_id": "02",
+        "path": "production/video_previews/02-continuous.mp4",
+        "duration_seconds": 238.453379,
+        "sha256": "4b5ad79287ec1db12fea63320879f87a8a1f04c97a8637904dbcdcc545e7b1a0",
+        "scenes": [
+          {
+            "scene": 1,
+            "duration_seconds": 33.490295,
+            "narration_sha256": "57bd57a61b6968906b0276292fbc83b5885f0d727466ff7834507f916986c215",
+            "image_sha256": "91d6b28251f1772d5f8d1dc00a388933085ca793a9ab80b7efe7d81082d732d2"
+          },
+          {
+            "scene": 2,
+            "duration_seconds": 40.98517,
+            "narration_sha256": "1a026df8e86154830e63b04c83209297b256fa17e35c575671d0f8cb738bbde3",
+            "image_sha256": "7c3d9ffec6d82dd00ae66e59ac892972700ad02f16f2bd3ed79a56df320f479a"
+          },
+          {
+            "scene": 3,
+            "duration_seconds": 37.543673,
+            "narration_sha256": "ed8b026d890b50112af995a798e7d1958ccbdbcaa19f3a16b0eff9bef0bc854c",
+            "image_sha256": "40d6bc08f7827778981ab0b15fd012d9c4d1051451c10b6632ede307bbc0a3af"
+          },
+          {
+            "scene": 4,
+            "duration_seconds": 39.42644,
+            "narration_sha256": "943761bb027be3ccab30a81ef4a64016ae4a6901ceacb9a4e96199f14c8663aa",
+            "image_sha256": "30e647c15215355a566561ba4b011a6d383ca51fa40be259f8eabe4af5e94214"
+          },
+          {
+            "scene": 5,
+            "duration_seconds": 36.846531,
+            "narration_sha256": "ad1bbc426776b475fe56315361e5cde3ac747e9ed6cac2a409fc0361655393bc",
+            "image_sha256": "10d2ff16acd4f31b509e98f14c9d22b66f98bb89e74212bb3cd940fbc2ed3b39"
+          },
+          {
+            "scene": 6,
+            "duration_seconds": 50.16127,
+            "narration_sha256": "beedda5eb29c83d7855005522ff7e14da92e552643051f5527d2999271d186ed",
+            "image_sha256": "6b8bf6f6a74d095d7d6c31ac7bade87b77a0b5b1d64f5dc0b77dbd4294bf8873"
+          }
+        ]
+      },
+      {
+        "piece_id": "03",
+        "path": "production/video_previews/03-continuous.mp4",
+        "duration_seconds": 239.675646,
+        "sha256": "9afd59ac543cb5b8c81f812e3800c2d0433c3b6b98817c299b6f294eef0de0fc",
+        "scenes": [
+          {
+            "scene": 1,
+            "duration_seconds": 31.702268,
+            "narration_sha256": "5ef10b8ddda337e1dfec68e1b5b8d4b9844b8ae0590452cc54177ecfaa6563fa",
+            "image_sha256": "4872570588ec9d5ca4240649d58fd6d03cba55396c1362ea83e0ec26974f72eb"
+          },
+          {
+            "scene": 2,
+            "duration_seconds": 40.43805,
+            "narration_sha256": "2f36be58662b9dfbef1e16be6ae41c02ff9393aa6c4e425d9f2d5c0f65168edf",
+            "image_sha256": "c1e3a516ed84b034987acfe9c6061f0cfa1200c419477e0b1f3d28576dff9497"
+          },
+          {
+            "scene": 3,
+            "duration_seconds": 39.787891,
+            "narration_sha256": "51faaf5ba839c1aeb5fc310a2cd11ec822df9f082bc0c737e85840d2db7d58a5",
+            "image_sha256": "bcc1998783c8319e44aa3ab46972a2c13418e4233c9a2519edbcaf6237cbec44"
+          },
+          {
+            "scene": 4,
+            "duration_seconds": 37.948844,
+            "narration_sha256": "0f55d984925c10988aa7c9ca63206b0a55e953fc34f550a6b55b85d6a29f1f45",
+            "image_sha256": "f04a871a05bfe040e0790d4e97210d239a4675bc98f9d8ae2ee4eda7097c37b9"
+          },
+          {
+            "scene": 5,
+            "duration_seconds": 42.328934,
+            "narration_sha256": "bd06be5bc9378370ff38e67288ff8f7686b3dab8c9e45cd9ecd7ffe6bbfdab23",
+            "image_sha256": "d44a864be7c2ef0c3bd53c1f145e12f1355e51478f3d87a7ecd336fc9b6c904a"
+          },
+          {
+            "scene": 6,
+            "duration_seconds": 47.46966,
+            "narration_sha256": "72f058dec7a79fe40c2e4464b2e72eeaa5dcd112f0155da8e9c3db7a4814e439",
+            "image_sha256": "1d6ee7413d90f3f316e771522366a96e29f8e41b1b09dc2bea0646255f559798"
+          }
+        ]
+      }
+    ]
+  },
+  "vids_finalization_complete": true,
+  "third_article_delivery": "Everyone; web only; email/app delivery disabled and confirmed.",
+  "video_02_checkpoint": {
+    "project_url": "https://docs.google.com/videos/d/1G3L-zfuIAHXP1aIfv-lRK-7gSfbph5kCotoz30J1cFo/edit",
+    "slides": 6,
+    "approved_speaker_notes_selected": true,
+    "generation_confirmed": true
+  },
+  "independent_access_check": "All three articles were readable without login and showed the correct video link when refreshed with publication_check=20261015. Canonical URLs initially showed stale cached content. All three YouTube videos started playback without login, with readyState 4 and advancing currentTime.",
+  "crosslinks_by_piece": {
+    "01": {
+      "article_to_video": "Confirmed link on published article",
+      "video_to_article": "Full matching URL saved in Studio; public external link shortened and not clickable until channel verification"
+    },
+    "02": {
+      "article_to_video": "Confirmed link on published article",
+      "video_to_article": "Full matching URL saved in Studio; public external link shortened and not clickable until channel verification"
+    },
+    "03": {
+      "article_to_video": "Confirmed link on published article",
+      "video_to_article": "Full matching URL saved in Studio; public external link shortened and not clickable until channel verification"
+    }
+  },
+  "video_03_checkpoint": {
+    "project_url": "https://docs.google.com/videos/d/17rq8FNw6ubXR-_3mYMVfmMQ8eW7ItfVy7-p3HunJrb0/edit",
+    "slides": 6,
+    "approved_speaker_notes_selected": true,
+    "generation_started": true,
+    "generation_complete": true,
+    "youtube_published": true
+  },
+  "crosslinks_added": true,
+  "external_links_clickable": false
+}

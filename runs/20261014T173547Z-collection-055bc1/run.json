@@ -1,0 +1,9 @@
+{
+  "run_id": "20261014T173547Z-collection-055bc1",
+  "started_at": "2026-10-14T17:35:47.238016Z",
+  "as_of_date": "2026-10-14",
+  "mode": "live",
+  "previous_run_id": "20261014T172342Z-collection-c2ecd7",
+  "scope": "collection_only",
+  "note": "Collection-stage execution only; does not demonstrate a completed publication pipeline."
+}

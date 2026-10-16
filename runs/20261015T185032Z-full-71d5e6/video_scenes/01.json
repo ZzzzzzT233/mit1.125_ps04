@@ -1,0 +1,43 @@
+{
+  "piece_id": "01",
+  "scenes": [
+    {
+      "narration": "When a new AI model is announced, “available” can mean several different things. You might be able to download its files, try a hosted demonstration, call a paid API, or use it through a subscription. Those routes are not interchangeable. Hardware matters too: a downloadable model may still require more memory than most people have. Looking at recent releases from Liquid AI, Meta, TII, and Google, the useful question is not simply which release came first. It is what a person can actually access, and what they need in order to use it.",
+      "visual": "Open on an illustrative set of four labeled doors: Download, Demo, API, Subscription. Follow with a simple comparison-card layout; label all illustrative elements as illustrative.",
+      "claim_ids": [
+        "01-c7"
+      ]
+    },
+    {
+      "narration": "Liquid AI says its LFM2.5-24B-A2B reasoning model and base version are open-weight and available on Hugging Face. Open-weight means the learned parameters are available to download. That establishes a route to the model files, not independent confirmation of the company’s capability claims, and it does not mean every part of the system is open source. Meta’s Muse Spark Open represents a very different scale. A Hugging Face article describes it as taking text, images, audio, and video as input, with text output. It reports about 816 billion total parameters and 42 billion active per token.",
+      "visual": "Show labeled cards for Liquid AI and Muse Spark Open. Identify the Muse figures as reported in the Hugging Face article; do not create a performance chart.",
+      "claim_ids": [
+        "01-c1",
+        "01-c2"
+      ]
+    },
+    {
+      "narration": "Muse uses a mixture-of-experts design. In everyday terms, the model routes each token through selected component networks, called experts, instead of using all of them for every calculation. The article says eight of 256 experts are selected per token. But all 256 still need to stay in memory, and its BF16 checkpoint is reported at about 1.5 terabytes. So fewer active parameters can reduce computation without making the complete model small to store. The article also describes quantized versions and a test on a Mac with 512 gigabytes of memory. That is evidence of possible deployment on specialized equipment, not ordinary-device convenience.",
+      "visual": "Use an illustrative diagram: one token routed to eight highlighted expert boxes among 256, then a separate memory card labeled “BF16 checkpoint: about 1.5 TB — article-reported.”",
+      "claim_ids": [
+        "01-c3"
+      ]
+    },
+    {
+      "narration": "TII’s Falcon-ASR offers a different door. Its Hugging Face demo lets people try speech transcription, but the company says API access and native applications are planned. Trying a demo is not the same as integrating a service into an app. Google describes Argon’s access routes differently: global availability for developers and enterprises through its API in AI Studio and the Gemini platform, plus specified access for paid Google AI Ultra or Pro subscribers in consumer products. That does not mean unrestricted access for every user. These are company statements about availability, not independent audits of access in every account or region.",
+      "visual": "Present a three-column access comparison: Falcon-ASR demo / API planned; Argon developer and enterprise API; Argon paid consumer routes. Attribute availability statements to TII or Google.",
+      "claim_ids": [
+        "01-c4",
+        "01-c5"
+      ]
+    },
+    {
+      "narration": "A creator’s early-access Argon video offers a small, mixed hands-on example. Matt Wolfe reports that he generated and printed a 3D bust, while two task workflows appeared to stall. One had produced a slide deck despite remaining stuck in the interface; another showed no plan. Wolfe suggested the preview version might have bugs. This is anecdotal, not a controlled evaluation, and it cannot tell us how consistently the model performs. Together, the cases show access as a spectrum: downloadable weights, hardware-dependent deployment, a hosted demo, or paid product access. Which route is useful depends on what you need—and the evidence does not settle that for everyone.",
+      "visual": "Use an illustrative split card: “Printed bust reported” and “Task workflows appeared stalled, early access.” Label the observations as one creator’s anecdotal report; no recreated product screenshots.",
+      "claim_ids": [
+        "01-c6",
+        "01-c7"
+      ]
+    }
+  ]
+}

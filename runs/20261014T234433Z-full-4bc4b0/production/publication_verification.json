@@ -1,0 +1,55 @@
+{
+  "verified_on": "2026-10-15",
+  "anonymous_articles": [
+    {
+      "piece_id": "02",
+      "title": "The Right Test Depends on the Job - Tong Zhou",
+      "video_link_present": true,
+      "sign_in_offered": true
+    },
+    {
+      "piece_id": "01",
+      "title": "A Release Is Only as Useful as Its Route to Users",
+      "video_link_present": true,
+      "sign_in_offered": true
+    },
+    {
+      "piece_id": "03",
+      "title": "The Hard Part Starts After the Model Works",
+      "video_link_present": true,
+      "sign_in_offered": true
+    }
+  ],
+  "article_cache_check": "Fresh public requests using publication_check=20261015 showed updated companion links; canonical URLs initially showed stale versions.",
+  "anonymous_playback": [
+    {
+      "piece_id": "01",
+      "url": "https://www.youtube.com/watch?v=sBxcOquNgms",
+      "article_url_visible": false,
+      "current_time": 18.2195,
+      "duration": 200.001,
+      "paused": false,
+      "ready_state": 4
+    },
+    {
+      "piece_id": "02",
+      "url": "https://www.youtube.com/watch?v=8kLHG2qRHPQ",
+      "article_url_visible": false,
+      "current_time": 11.305208,
+      "duration": 218.441,
+      "paused": false,
+      "ready_state": 4
+    },
+    {
+      "piece_id": "03",
+      "url": "https://www.youtube.com/watch?v=NURPMsMGosY",
+      "article_url_visible": false,
+      "current_time": 6.917249,
+      "duration": 215.321,
+      "paused": false,
+      "ready_state": 4
+    }
+  ],
+  "external_hyperlinks": "Not active: channel verification required; Studio retained the full URLs.",
+  "scope": "Opening playback segments only; no full listening review or final rendered-video student approval claimed."
+}

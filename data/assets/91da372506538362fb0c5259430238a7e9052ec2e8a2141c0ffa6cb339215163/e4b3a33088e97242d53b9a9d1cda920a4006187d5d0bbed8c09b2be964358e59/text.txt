@@ -1,0 +1,56 @@
+Zenzap raises $44M for its AI chat app that aims to replace WhatsApp in the workplace | TechCrunch
+–:–:–:–
+Last two days at Disrupt are half off. Don’t miss any more moments. REGISTER NOW
+Disrupt doors open Oct. 13. Get your pass and bring someone with you at 50% off. REGISTER NOW.
+Image Credits:Zenzap
+AI
+Zenzap raises $44M for its AI chat app that aims to replace WhatsApp in the workplace
+Ivan Mehta
+8:08 AM PDT · October 14, 2026
+Many businesses around the world use consumer-facing chat apps like WhatsApp, Telegram, Discord, or iMessage to talk and coordinate with staff, and exchange documents or data.
+Guy Weiss is building Zenzap, a private messenger with AI that wants to help companies communicate with their staff and arm them with their organization’s context while staying in line with IT and security rules.
+The company has raised $44 million in funding from investors including Bessemer, Lightspeed, and The Garage, as well as individual investors Wix president Nir Zohar and former GM of EY, Yoram Tietz.
+The fundraise is interesting because Weiss is raising money for the first time in his career. In 2012, he bootstrapped e-commerce marketing platform StuccoMedia, and sold it to Market Group in 2015. After that, he became an investor for a few years. In 2022, he founded Zenzap after meeting Bessemer partner Adam Fisher and noodling on different ideas along with his current co-founders Noam Neumann and Jonatan Bien.
+ZenZap co-founders Guy Weiss, Noam Neumann, and Jonatan BienImage Credits:Zenzap
+Weiss said he initially bootstrapped the app and worked out of Bessemer’s office.
+“I didn’t want to raise capital. The only thing I had to lose was my name, and I was super afraid to do a second round as a founder and become a failure, because my first round was very successful. I didn’t need to work for money. So, when I met Adam, I actually started my idea with my own capital,” he told TechCrunch.
+Weiss said Fisher convinced him that Zenzap should be a venture-backed business, as the company would need capital to scale.
+He said that the idea was to build a messaging app for a wide range of businesses, ranging from hospitality and construction, to healthcare and fast food.
+“You can’t use WhatsApp or iMessage within a workplace with the AI agent on top of it because it doesn’t comply with IT. So that’s off the table. You can’t implement Slack and Microsoft Teams because they were not built for this day-to-day use case for mobile-first that is meant for average users,” Weiss said.
+Zenzap offers usual chat features on its free tier, including group chats and direct messages, task management, calendar integration, and schedule management, as well as AI-powered voice chat and search. Organizations can pay for plans starting from $51 per month for up to 20 users to unlock voice and video calls, smart task sorting, task templates, and higher limits on file storage. The paid tier also lets you use the AI search across the workspace and turn messages into tasks.
+Image Credits:Zenzap
+The company also offers AI agents for workflow automation as well as AI-aided voice note and call transcriptions. For these features, it has a credit-based pricing system.
+At the moment, Zenzap lists organizations like FedEx, Dollar General, Taco Bell, Starbucks, Casey’s, and Regal as clients. Weiss added that branches of fast food chains like IHOP and McDonald’s often coordinate shifts and talk about supply on its platform.
+“Each vertical has its own use case and workflows, which they self-serve with AI, but they all share something in common,” he said.
+The startup has 50 staff in the U.S., Tel Aviv, and Europe. In the near future, the company wants to hire in its product and R&D departments.
+Bessemer’s Fisher said Zenzap’s focus on catering to a broad range of people could work in its favor. He said that even the venture firm is using the messenger within its investment team to discuss and manage deal flows, showing that it can cater to different kinds of audiences.
+“The only work platform with any allegiance is Slack, and that’s almost entirely among the developer community. Zenzap is not focused on developers, but on the other 99% of employees using personal messaging apps and waiting for an agent of their own. People desperately want a clear separation of work from their personal lives, and the adoption of personal and work agents makes it imperative that separation happen now,” he told TechCrunch in an emailed statement.
+Topics
+AI, ai chat, bessemer, WhatsApp, workplace communication
+When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.
+Ivan Mehta
+Ivan covers global consumer tech developments at TechCrunch. He is based out of India and has previously worked at publications including Huffington Post and The Next Web.
+You can contact or verify outreach from Ivan by emailing [email protected] or via encrypted message at ivan.42 on Signal.
+View Bio
+October 13 – 15
+San Francisco
+Get 50% off a second pass
+The Disrupt experience is meant to be shared. Get your pass and bring a colleague, partner, or peer at 50% off. Cover more ground by making connections, building momentum, and discovering what’s next in the startup ecosystem.
+BOOK NOW
+Most Popular
+This AI startup says it can generate permit-ready blueprints in minutes
+Kirsten Korosec
+Elon Musk intensifies attack on Ambani over Starlink India launch delay
+Jagmeet Singh
+Remember Orkut? Its founder wants to bring it back
+Jagmeet Singh
+US bars Microsoft, Adobe, and major IT firms from green card program for skilled foreign workers
+Aisha Malik
+Elon Musk questions Ambani’s influence as Starlink India launch stalls
+Jagmeet Singh
+Cal AI’s 19-year-old founder just raised $10M for his new AI startup
+Julie Bort
+Google releases a new local-first Granola competitor
+Ivan Mehta
+Loading the next article
+Error loading the next article

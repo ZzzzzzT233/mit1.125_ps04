@@ -1,0 +1,56 @@
+{
+  "piece_id": "03",
+  "scenes": [
+    {
+      "narration": "A model can work and still leave the hardest problem unsolved. A software team may need a better way to review changes. A scientist may need different data or expertise. A robot has to act through real hardware. Recent reports and interviews suggest a useful question: once a model is part of the picture, what else is limiting the work? These examples connect around practical constraints, not because they independently verify one another, and they do not establish a universal rule about the whole AI field.",
+      "visual": "Opening title: “The hard part starts after the model works.” Show an illustrative model connected to three labeled surroundings: software workflow, scientific work, physical system.",
+      "claim_ids": [
+        "03-c7"
+      ]
+    },
+    {
+      "narration": "Simon Willison reports Anthropic’s figure of about 2,500 code changes merged per day in May 2026, rising to more than 30,000 per day by September. He explicitly calls his proposed explanation—that a new class of models was a key factor—a guess. Those figures are reported from the company’s account; they do not establish what caused the increase. Willison also reports that Anthropic built Scion for source control and Antique for code review, and that a seven-person team completed a migration from Git in five months. The account suggests infrastructure can become a design problem as workflows change.",
+      "visual": "Use a text-only timeline with “May 2026: about 2,500” and “September: over 30,000” labeled “Anthropic figures reported by Willison.” Add a separate label: “Cause: Willison’s guess.”",
+      "claim_ids": [
+        "03-c1",
+        "03-c2"
+      ]
+    },
+    {
+      "narration": "Source control tracks software changes so teams can collaborate and return to earlier versions; code review is the checking of changes before they are accepted. A separate Hugging Face post describes a smaller-scale discipline for model experiments. Its author says the ML Intern workflow asks for a budget before paid jobs, recommends a baseline before training and runs a small test before a larger job. A baseline gives you a starting point for comparison; a smoke test checks that a process works at all. These are useful practices to consider, but the project results and costs are self-reported, not independent validation.",
+      "visual": "Illustrative workflow: “Set budget → record baseline → run small test → consider larger run.” Beside it, label Scion and Antique as systems Anthropic reportedly built, not as general recommendations.",
+      "claim_ids": [
+        "03-c2",
+        "03-c3"
+      ]
+    },
+    {
+      "narration": "In a Latent Space interview, DeepMind’s Pushmeet Kohli argues that scientific problems should determine whether a team prioritizes modeling, data collection or expertise. His point is not that one ingredient always matters most. It is that researchers should understand the problem before committing to a preferred approach. The interview discusses examples from biological research, but this is a practitioner’s perspective, not new experimental evidence. It connects with the baseline-and-test advice in the ML Intern post only at a broad level: both encourage checking what is needed before investing more effort.",
+      "visual": "Illustrative decision diagram: “Understand the problem” branches to “modeling,” “data,” or “expertise.” Caption: “Kohli’s view in interview; not an experimental finding.”",
+      "claim_ids": [
+        "03-c4",
+        "03-c3"
+      ]
+    },
+    {
+      "narration": "Physical robotics adds another set of constraints. Dyna Robotics co-founder Jason Ma says progress depends on data and hardware as well as models, and that competing strategies for gathering data and building systems are still too early to call. That is a company interview, not independent verification of deployment claims or a survey of robotics. A separate TechCrunch report describes a discrepancy: Flock’s CEO said its microphones detect only gunshots, while the company says the system can also detect events such as fireworks, sideshows and potential car crashes. Without a technical audit, the dispute does not establish what the system detects.",
+      "visual": "Use an illustrative robot outline beside labels “data” and “hardware.” Then show a neutral “Public statements differ” card attributed to TechCrunch; do not depict surveillance footage or assert a technical conclusion.",
+      "claim_ids": [
+        "03-c5",
+        "03-c6"
+      ]
+    },
+    {
+      "narration": "Taken together, these sources suggest—without proving a general trend—that practical AI work can shift its bottleneck from model performance to infrastructure, evaluation, domain knowledge or hardware. The examples come from selected company accounts and interviews, not a representative survey. The proposed cause of Anthropic’s reported increase is a guess; the ML Intern results are self-reported; the science discussion is an interview; and Dyna’s comments come from its co-founder. The Flock report describes conflicting statements, not an audit. So the careful question is not just, “How capable is the model?” It is: what surrounding constraint is limiting this system, and what independent evidence would show it has actually been addressed?",
+      "visual": "Return to the illustrative model-and-surroundings diagram. Highlight infrastructure, evaluation, expertise and hardware as possible constraints, labeled “Examples suggest; not a field-wide finding.” End on the spoken question.",
+      "claim_ids": [
+        "03-c7",
+        "03-c1",
+        "03-c3",
+        "03-c4",
+        "03-c5",
+        "03-c6"
+      ]
+    }
+  ]
+}

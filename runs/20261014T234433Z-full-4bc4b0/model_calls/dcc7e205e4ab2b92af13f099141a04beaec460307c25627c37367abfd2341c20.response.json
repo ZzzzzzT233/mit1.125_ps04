@@ -1,0 +1,183 @@
+{
+  "id": "resp_0946946deffe56e9016ad01668600c87d2b0b779bb79bbcdef",
+  "object": "response",
+  "created_at": 1792022120,
+  "status": "completed",
+  "access_programs": null,
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1792022151,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": 16000,
+  "max_tool_calls": null,
+  "model": "gpt-6-luna",
+  "moderation": null,
+  "output": [
+    {
+      "id": "rs_0946946deffe56e9016ad0166936e087d2bee2791e0c313b1c",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABq0BaHw0LQCSsG1GcVfDfeq3hop9Sk-PgirGdXZy1obnneFhNhO6iy_4vbWkc_-CeKd8jWQYBcGpgR20TJjUWlZXJxwSobAQUNiIC5KbgC8mlmXq38g3MloBpdJZpu0EIhX8hYHgzpDG-xz3CsCHEClhAlpHF0sLTHDZUDq9IcTO3nSCLS4RGQSfMkx64Yntwq8XE72Oa0Pq3pu08OHBmLHezWpJt6qHsRgIfEpftgMsAeG0FUOKO5SLrOLUrMuJ2gzIXmwuz7cA63yKic3hYtI1QlMLUzNvFzGhHIeqlvHQLpnAoTsqQC8a-iGXTfk-qTtHCf3hGxd44V-xIjdEOkmyebmrJoxnU4pbB-SytLc5LarpqXTmPnuQpp0-0zSAPB4tg0PQ8rFIqj0kfgTzFEbRFkz9G1661NR3Qzlj9XtJ7WpwPPg_MDhsZhDL33A2AwJF9HlcK1WZ4fALKV5f313F5x60R88i-1zFFfWT7GQr3wMTNf6XRX4WdRwy4VhjW0OxAArX6pqzaDx-fkz0a5W6xteVkg3rPadtT0SDOwMvF10HvKouS3LCW44SRJtjeStHdU-GmKe6K-hQfZJ56HCqt_A-ew4oMeJ9uTmKkiomQ2jmpULcg-exWUj9Lrqei9_vOe4v_6ebQ8VSO4kyM999wMgA2k100sb-SmqlJwzbjgKtDNMxEfNRhK5n-iTIfeHBIdeEf08qL0SH74O3knCmMfLbE_3lnappkTQzXVPCoq_ulPJKz-ujC8sUjxA5A_Psx_aUcrFMtEHgmExdxmaDUCkJGLLappyBjXUIR82YUwyIz2nQ7NuGoom1tc02Txy1vOITnzQ49PuVpyaYb6gezikd6q07_KNtuJ_63wPHZRjYNwbuPw6tC5-JyrCt32Fj5rfgyZCh6HIer7cIKDTy0VTYToaazCSBWx5-1wRjob9ONvvcaeLULEuxMk4Tznr4ohMYMHiP7yqLCcJvICJVYJrXvnEmfQsUtVDJmnci9c9gA6POwXOlyYQ6sy9TjPJ22aK2H_haAvlYhDsrt8pfuUSwfEMQVUKvLD8QHwwnGw2KksAiV6rEUpmx3QBw23d1H10D_MIjwDbB7yykta09S2l92Hw4dpgwPHhU9xviXRwEgN2WDMXtd3hmUPufeXWyPd0w7xXRxXf24DPuuh3x5L1P0GwKgMZPULjhXC7NBCRW8_0TkPrzYhcTJ69BWLZEeQHvQENN1DfRmXOGJgb1aCyUC2OG-KliurUpqZwGS044TACGhYtLGz8elDEv1gpPaMBVzU1BOMpCTHPK1t3D2Z1vvkS3loRNPfZscY7gh6EyG7manhz2mi__P3sJU-9uQ0zxKSom8gVpCDoj6eWnPKvN1gl7tZbIQK7iJEjLzR3_zYX3JqgAluOW-7lv6SwCogAbSjIvTqe_mUg_vtmTrVVmUese6-Xu66F4lVvsNTFIXRV57rXaW6YjzFzW-Gu2SCYB_nEzGDcuHsnXcGvcSSU7jhy3geseaFM7lPGn5_4Dj7HRGxyi4xzuSvBrHCtvVdxAiKr_Y_XSXEMzAXrUgstgdU1W7f6y9eLNj0a-DObJxeDiwuUIFfEbJFMy655Du4zC_pC1o3xp9_XNFhtB1ZHTjowc-izvTmCzz8hkoMOUg9eE9I-l8pZLlU7KJmLo2XIA-mS10poE6dwR1lRmZ95ASEIgtj6idbx_ukxLd14qeI5aLVJPeORwTW6Zc7PIHm_CTV-H0oMvONg6AV6lv5-nC_nQ9k2vsTsPoFaVrtpsjBCSN0lRQ5FYtTVeqVhGiimqToMad7JvC-ZlWLT1pQsPEu9GoahzktRO6s73Q6XSk0Nx-OYJ-9La7OkF54hS8jc3BreBg6Jo2Vtr30L_5XaTCLts5fXS0U-xw-eS_at17filv3Q4OlrnW-792fQjas1gwzIYhuC4KN8aPxW7_ZZmvux52TwDRT9BLcJNW0GcVoHggJjHBVcP70q6Gjy7FexmmyAp639TYdrGnlF072Tw4-AOziEV5Eg_kKjxJEKThQz-NXbCqI1gyOOy5ADKVdtYZ_l8F8Ckjo-bDuwRTTdEI1PQ1pkUZGQspZ6VSxrN34n_qX4FkMdzrMBiS0gDSjES7mMtXn1Fce17SjoD-h7nvPLnmxl5I1i7Rq5qbu6iQ9nM90KaQxhOmo3qKhCooWVdB3qM4A1nwVyg96NMy18KdrIrhiO7o9qJfh7zZYXkP3Ma6UzGoj5PMIu-6w5Dnkg7jN05UhOh28mEav_f5ZGIjhqk1E_GrqfQlP1XWPMo3b47Ly0EgtwPHXRC79toumULyPir6XX4IpTfyqLlznNhZAXIoGGiLucb2_ck8Xb34v_4J0tmlK21A4a8TfposAe59dodCPgxDTqcgY98oYUAnZlBygy0VR24hTzspJs2i-GO6b_cVRr_QTQGshk6SRanzMRKtjX5R8nlk5fVd6i-JYWBtfhCuugH5OsrLu1tTM6b726CYAUI5_Gqr99gTOvSp09KTixMAinoEGbms9ssgDH-HlEJphidZ8NiZSngC8LQ5PXSM9snKzbY3F0ICtxdcnjs5AHtjYcisUUrlXM39zUZXe3lBSu2R1QGYJPRx_Kj4JipJWuPTmW9PL46BuXQEnBMhuEiwT355nZ_knPLWF1XkcvT_QvjwTM6AgkrfiXmzLGpG7s_leI9KHc4UD2ZHj7b5b6OnYP1szw8IydSxyTu2l2LgAKTrxYbHX0VMRBuH40ZUywjpw6OtsAqGI_WfE-3JfiBNPoQkrj9_1KfIF8uWnHIap3BJ_-LUefUDTguea9asgF3XlR70ao1r_ONhBGfUeX6SCyerX-LO5BfG27eMHqCJ_zOnY6a75gJVrTsM83RwNPGKJv2WlzcKx86VY-9oKB8vLLHvC1I8MHDWoA5j5GG5Kb3-x-JnN_abdsK_eiXssAqKqBDLbL1Z-iM-gHQFJ2KAiwJzlCxVymN49pP4rhfyQraZ2KBVV-bY3HAK9EjFy8-TNtlWAlyKSsW9c1nuwogjShkVyhUTCJDVj9fHgMFS-yGS9WiaNTgKezmrnzMU6QDLTQya27Pp1lkQ9QS9WzV0E--QSYtAt2wgSDPdvXJFthoLp9Q6lnKECMx2_pA3gwqgw-CKdHexN5M3ZJmwOHLmtckereIvohZHR8mk_OCTXVDVdh6eTXhKHqe5p7LuqN7RtfJAeKZu7UYFgoTKYaWEg4gheeVmACuDHS44C9ddSN_aWdia7qacXCeNweLFfVPfHqsI3RQOhHBv5mba-ImL_spLw-y3Y6o6NaSCbOowy9kGq06VHWrXVUbTBfAl0Y7Ywdk5g34KzotCyfW7vm2bgeD9JGpgM0q7TgBJg1PeSBOkGB4eAyuh6BMSWfwgLSrE2pDSb5kEHNsYEG8u8zOaVWr_gP62xNW63ECcEEkw-kOEoR4diejQQ0msnNOchtG6meKMOfOMBLNkX1w9wPbaaxK--XOWPJHZPrkDopL-s7CihjZubo3g1MSwjK58gMZO_IKXPk_RrWurAu2Ljbm7LbNg3SzV9MXfMHiq6pBoAQA9QFbpQJ84nmLGc5QsCpOzKZsSAGUL_sfHRzxv4Jy72GJk8_5Dp-iHgr6bPpK-06OyU5LU-WrL3cmb7Ip2hyqVd1UaBTQE5jTMPXA--Z7naikZMYq5paHhMebv6ojljI0ceMoOEHjEb_2gc6RWlIksCFY0Cg3S0d8srHSCgpgAnag-qe8pMdWpMN16ZjJ4Tc5NuOp6jxUhXKgdYa3T2imntdYcPweEcNWnggChvnGzk7Xf_PAlbRNYVOL0DnTp_cJyL-dmv6uEQZbl-MHJmWLCXZZ_N27CfLSEwVrY_ULWeD6iPu5NDTbb49RMiwXZ4CaASgt042KID__VzSEqxLUEYzk62cQk5olwAI_dDLuzzOOSfpreeG0Py2VjGxP---OKVuy1vjs0k7iPr20z-rFi4z-WgfIDePsNlsQ31Cysg0q98zIDAz1xe0QIdlaxgPCswGzug-xuCC7w0TnGf221Wkd1y_e6wy_j4uufVTEC61a8R2X7x_asgbI3LKngIzY2I8u83kb8utDw0R7DRd7Wrm-jqwWQnC3pkQVT18ZxxEFnQbDEekYzsxsrmDrmLGul3ZwHp92ayrDKLCLkFh1iunBH0aqFtmQCoeViVt2IIuBbzWrfcEQYb3raKnVX8nYaRPLU4eanP0g5bpHwCoXhgnGEntWxEq7b0JAKJiR_x9xRHi0Z2pVBaENiOm3_C0SuxjY05Afar519mDjTRvEcM5QMXIOcpAAbGoGZaRqy3-GfY4mRVzIp4wwjwJS22r8SRUQpErV8pP2bkkeYK-ww9xDIWK08op5D5dG9yB8dSheg3RvlyS0o0qICOmlCQOu8A2qTuqioLi4IPvTYeU24-Rj8_Nygih59ZTZyHBFzOKNMrLFUin8ERhIFOUMUqaL9XQaiVHwTxavmBjQuBgbEMHumcdd-3TvBx4G3DXrNk2o-Tpi2Us7YRjQpfD29vkWwQHQQrZwZPCQzUP1J1UnokXiZgjCM8N_BlfSV7adNrZ4miKQIrUjZMUSohCEpBSeuF-6nJnIMMDKdTEcRVbW7xT0MrLbPl2PtjHhk7Sc3aL1WcgdyEybq0pSsuRzHxk5ArBGgHb9Ly7q2NFpKH96p32BQ_7ViM2VQwlruqcedsSWqeEOv6u5mGd-UQp1uIcmCDhkNYecpt1NeNC776MDgRZ7upSgRTyih2HYUTzrFBWAOgNzkSQYXTl9uzSD3XrzUJKjoDhzF7S8uFf5Vzx0Jd-ThdT1cNHqQghjv3jwvH16TB7KiMeiI06F3OwM3qnBTImHCx1ThtzMHagy_CcKsEfKsT0I72IO63wY8r_nhlEFRTT9mL-b9QBx9MTnFRkHM8U9vYbOli7GhYEE0mx-uOB605l58WbtdwJ-Bvxl_hSwKZsLu_Jr1MX9osFitXyEPKsrP8NSxUFrKxoQAbfeHvmpGvYYx5lO8uVRtZPW3dhO_jl7cf1iukgePKSx51D-Bx_u1GEc1qPonFzs4gBYyLcuOhtUv4103TOgeVLpfNerT7yvaWPKHrhZCVGnn6go6sHkp5mIl15ao99yhBWxFmZpIMnXoTlb3tCgPWkKdL9NEQEW_ibBTrYXOQWJ46si1ejiQCh-VrznKtH6gwFVRprv2GNEifrLPaiZYWCvYKEgFsuFExurKmFh55jrwcTjyuqK8w-_ny1cA45Qzu7HNAx-kCVR80__f9LChfRVoX5jECxZ2Imf9Yy7J0Bj8tTF9bfREQVTKsUTpXn5hzaW_qGGvoqs1gWRKc1Sh1Y_T_DUi059EcNa5SksB62ob6IxpjqxH-zD_pYH3wvX2ja9y53cKHFwUW3dyacomGQj8kBKqi9gh3l37k8Fa88Ul4bxN8pmGpMMwdEzxnTbwyseGuhJk8DIHaHRoVlKPklhl3sRgeaOx7iuBghV9_tc7pvs3n3X2ZF1hZ_6hN8YuAvWkrMuDMJRon-y8Ucz_hFZPmTguF8LSDQQ6CN25k8JPXDBe0Dds8u5QVcq-nTLRG9bmiyx6dktC3vfKEva4GFuNSLXkbEDpilTjM39Gv0WArtYq4v1d1uTv5G3TInlRlSAyqeuMHIU41eMGAUsT2OFaF07b5XSN7NnnNTlj4WYn5v-hUvTgl352RKs7_yxuwJQ3Jg62HvA_xw3apChC00z0STA1dX4iETZCz1OljfZDXL0gmEbwKt2fzAwBpK9EZEQJZTXh8ArDVXaICuGHFz9Z588NEM3OZ5jq8mQe3XUtUMt8pzZ5h0BiitKbBPETpRhnvnbwhJ7MUvOuLM1jm_8pDJAmAb2wQrqR8NT8sjdbBdr--m0VqrBcYOOSYvkodh-ubjpD7gSkI_2WTwKh9af-yCi0p6u6W2FOm1YIJr4Ec32TRCz7CxyWlVLL53nDqL6hLYxkwPJmOezap6K067Oj85nj80b5QlZFXNm5VUOtdTcjaTv_NCgBLVKC7u0x7y43QglcKlmCZyH96SQSpJiX4L9F_F_8Kaw==",
+      "summary": []
+    },
+    {
+      "id": "msg_0946946deffe56e9016ad0166d3de087d2a0a97041cf97c3da",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\"drafts\":[{\"piece_id\":\"01\",\"scenes\":[{\"narration\":\"When a new AI release is announced, the headline rarely answers the most practical question: can you actually use it? Access might mean a paid hosted service, a model you download and run yourself, or a demo that lets you experiment but not build a production application. One new creative platform adds another set of conditions: location, age and subscription tier. These are different routes, not interchangeable meanings of “launched.” Let’s look at what each route offers—and what the announcements do not establish.\",\"visual\":\"Opening title card: “What does available mean?” Show four illustrative route labels—Hosted, Downloadable, Demo, Restricted experiment. Mark the diagram illustrative, not a product interface.\",\"claim_ids\":[\"01-c6\"]},{\"narration\":\"Google says Gemini 4 Argon is globally available to developers and enterprises through APIs, and through selected paid consumer channels. The company also states that its API supports a unified input-and-output limit of one million tokens. Tokens are the small units of text a model processes or generates; a large limit can accommodate substantial material in one exchange. But access still depends on the channel and account. Google’s announcement documents what the company says is available, not independent confirmation of the model’s performance or every user’s experience.\",\"visual\":\"A labeled access card: “Google’s stated Argon access” with developer and enterprise API, and selected paid consumer channels. Add “1 million-token unified API limit — company announcement.” Do not imply free or universal consumer access.\",\"claim_ids\":[\"01-c1\"]},{\"narration\":\"Liquid AI describes a different option for its LFM2.5-24B-A2B model and base version: both are open-weight and available on Hugging Face. Open weights are downloadable learned parameters, which can let users run or adapt a model themselves. Liquid AI says the model has 24 billion parameters in total, with two billion active for each token it processes. That description does not tell us how easy it is to run on a particular computer, and open weights alone do not mean every part of a system is fully open-source.\",\"visual\":\"Illustrative split card: “Hosted service” versus “Downloadable weights.” Label the model figures “Liquid AI claims: 24B total; 2B active per token.” Avoid depicting a download or running model as completed.\",\"claim_ids\":[\"01-c2\"]},{\"narration\":\"TII’s Falcon-ASR offers a third route. Its Hugging Face demo lets people try the speech-transcription model, while TII says API access and native applications are planned. That distinction matters for anyone who wants to integrate a model into software: a demo can support exploration without providing a production interface. Google’s Playground is a product example with its own limits. Google describes it as an experimental browser game platform, initially for U.S. users aged 18 or older, with game-creation access rolling out by subscription tier. The announcement does not establish game quality or lasting demand.\",\"visual\":\"Two restrained labeled cards: “Falcon-ASR: demo now; API and native apps planned, per TII” and “Playground: experimental; initial U.S. audience, 18+; creation access by subscription tier, per Google.”\",\"claim_ids\":[\"01-c3\",\"01-c4\"]},{\"narration\":\"A creator’s early-access account adds a small practical check. Matt Wolfe disclosed that he had early access and a Google briefing. He reports making and printing a three-dimensional bust with Argon, but says its task feature stalled during two tests. A successful artifact and a frustrating workflow can coexist. Still, this is one creator’s limited, non-standardized account—not a controlled evaluation. Two attempts cannot tell us how often the feature works, and the transcript would need to be checked against the recording before relying on fine detail.\",\"visual\":\"Illustrative sequence: a generic 3D object outline beside a simple “task stalled” status card. Label the account “Creator report; early access and Google briefing disclosed; two tests.” Do not show fabricated screenshots or claim the assets are the creator’s.\",\"claim_ids\":[\"01-c5\"]},{\"narration\":\"Together, these examples show why a release label is not enough. Hosted access may depend on paid channels; downloadable weights offer control but require users to run the model; a demo is not the same as an available API; and an experimental product can have geographic, age and subscription restrictions. The evidence is mostly company descriptions, plus one early-access account. It cannot rank these systems or establish comprehensive availability, and vendor capability claims remain unverified here. Before choosing what to try, ask the practical question: which access route and deployment option can you use now?\",\"visual\":\"Return to the four illustrative route labels. Add a closing question card: “Which route can you use now?” Keep any displayed conditions attributed to the relevant company.\",\"claim_ids\":[\"01-c6\",\"01-c1\",\"01-c2\",\"01-c3\",\"01-c4\",\"01-c5\"]}]},{\"piece_id\":\"02\",\"scenes\":[{\"narration\":\"A benchmark score can sound like a verdict. More often, it answers a narrower question: how did a system perform on a particular task, using a particular test and setup? This month’s examples make that distinction clear. Liquid AI evaluates a language model on tool use, instruction following, knowledge and coding. TII tests speech transcription. Ai2 works on high-resolution weather simulation. Their results may each matter for their intended use, but they are not entries in one shared competition.\",\"visual\":\"Opening graphic with three separate labeled lanes: language-model tasks, speech transcription, and weather simulation. Add “Different tasks, different measures,” without a ranking or score chart.\",\"claim_ids\":[\"02-c7\"]},{\"narration\":\"Liquid AI says its LFM2.5-24B-A2B model uses a mixture-of-experts design. In plain language, that means it contains multiple expert components, while a routing mechanism selects only some for each token. The company describes 40 layers and 64 experts in each block, with four selected at a time. It also says the context window—the amount of material the model can consider in a session—grew from 32,000 to 131,000 tokens. These design details explain the system’s structure; by themselves, they do not show how well it will serve a particular user.\",\"visual\":\"Illustrative diagram: several expert boxes feeding a router that highlights four. Label “Liquid AI description: 40 layers; 64 experts per block; top-four routing; context 32K to 131K tokens.”\",\"claim_ids\":[\"02-c1\"]},{\"narration\":\"The company’s own benchmark table tells a mixed story. Liquid AI reports competitive results on several tool-use and instruction-following tests, while its table shows larger rivals ahead on several knowledge-heavy and coding benchmarks. It says the models were evaluated with vLLM, a tool for running language models, using each benchmark’s recommended generation settings. That supplies some shared context, but the results remain company-produced and specific to those tests. The useful takeaway is not that one model wins at everything; it is that a model’s strengths can depend on the job.\",\"visual\":\"A labeled comparison card with two columns, “Reported strengths” and “Reported areas where rivals lead.” Avoid score bars or a winner badge; attribute the summary to Liquid AI.\",\"claim_ids\":[\"02-c2\"]},{\"narration\":\"Falcon-ASR addresses a different task: converting speech into text, with a particular focus on Arabic and the Emirati dialect. TII reports a mean word error rate, or WER, of 20.92 percent across six public Arabic test sets. WER is the share of words transcribed incorrectly, so lower is better. TII compares that result with 23.17 percent for the best published result in its September 30, 2026 leaderboard snapshot. This is a developer-reported comparison under that protocol, not an independent replication or a guarantee for every recording.\",\"visual\":\"A simple, attributed text card: “TII reports mean Arabic WER across six public test sets: 20.92%; comparator in its Sept. 30, 2026 snapshot: 23.17%.” Explain “lower WER is better.”\",\"claim_ids\":[\"02-c3\"]},{\"narration\":\"TII also reports a separate internal Emirati evaluation using held-out recordings and transcripts checked by people. For that test, it reports 22.73 percent WER and 10.19 percent character error rate. But the account here does not specify the sample size or how representative those recordings are. That makes the result relevant to the material tested while leaving an important question open: would performance transfer to other speakers, recording conditions or mixtures of dialects? A metric is only as informative as the test material and the scope of the claim.\",\"visual\":\"Two labeled metric tiles for the internal evaluation: “WER 22.73%” and “CER 10.19%,” both marked “TII-reported.” Add “Sample size and representativeness not specified here.”\",\"claim_ids\":[\"02-c4\"]},{\"narration\":\"Ai2’s HiRO-ACEv2 is different again: it sharpens coarse climate-model output into higher-resolution weather detail. Ai2 says its updated model predicts several fields, not just rainfall, and improves performance on extreme events. But it currently works only with the ACE version tuned to match X-SHiELD, the reference simulation it learned from. This is evidence about agreement under those conditions, not proof of forecasting skill across every climate. A separate Hugging Face post describes asking for a baseline, a small smoke test and a spending cap before larger training jobs. Those author-reported practices illustrate evaluation discipline, not independent validation. Across these examples, what does a test measure—and does that match the decision you need to make?\",\"visual\":\"Show a restrained diagram from coarse to finer simulated weather, labeled “Ai2-reported; ACE tuned to X-SHiELD.” Beside it, show illustrative checklist labels: Baseline, Smoke test, Cost cap. End with the spoken closing question on screen.\",\"claim_ids\":[\"02-c5\",\"02-c6\",\"02-c7\"]}]},{\"piece_id\":\"03\",\"scenes\":[{\"narration\":\"A model can work and still leave the hardest problem unsolved. A software team may need a better way to review changes. A scientist may need different data or expertise. A robot has to act through real hardware. Recent reports and interviews suggest a useful question: once a model is part of the picture, what else is limiting the work? These examples connect around practical constraints, not because they independently verify one another, and they do not establish a universal rule about the whole AI field.\",\"visual\":\"Opening title: “The hard part starts after the model works.” Show an illustrative model connected to three labeled surroundings: software workflow, scientific work, physical system.\",\"claim_ids\":[\"03-c7\"]},{\"narration\":\"Simon Willison reports Anthropic’s figure of about 2,500 code changes merged per day in May 2026, rising to more than 30,000 per day by September. He explicitly calls his proposed explanation—that a new class of models was a key factor—a guess. Those figures are reported from the company’s account; they do not establish what caused the increase. Willison also reports that Anthropic built Scion for source control and Antique for code review, and that a seven-person team completed a migration from Git in five months. The account suggests infrastructure can become a design problem as workflows change.\",\"visual\":\"Use a text-only timeline with “May 2026: about 2,500” and “September: over 30,000” labeled “Anthropic figures reported by Willison.” Add a separate label: “Cause: Willison’s guess.”\",\"claim_ids\":[\"03-c1\",\"03-c2\"]},{\"narration\":\"Source control tracks software changes so teams can collaborate and return to earlier versions; code review is the checking of changes before they are accepted. A separate Hugging Face post describes a smaller-scale discipline for model experiments. Its author says the ML Intern workflow asks for a budget before paid jobs, recommends a baseline before training and runs a small test before a larger job. A baseline gives you a starting point for comparison; a smoke test checks that a process works at all. These are useful practices to consider, but the project results and costs are self-reported, not independent validation.\",\"visual\":\"Illustrative workflow: “Set budget → record baseline → run small test → consider larger run.” Beside it, label Scion and Antique as systems Anthropic reportedly built, not as general recommendations.\",\"claim_ids\":[\"03-c2\",\"03-c3\"]},{\"narration\":\"In a Latent Space interview, DeepMind’s Pushmeet Kohli argues that scientific problems should determine whether a team prioritizes modeling, data collection or expertise. His point is not that one ingredient always matters most. It is that researchers should understand the problem before committing to a preferred approach. The interview discusses examples from biological research, but this is a practitioner’s perspective, not new experimental evidence. It connects with the baseline-and-test advice in the ML Intern post only at a broad level: both encourage checking what is needed before investing more effort.\",\"visual\":\"Illustrative decision diagram: “Understand the problem” branches to “modeling,” “data,” or “expertise.” Caption: “Kohli’s view in interview; not an experimental finding.”\",\"claim_ids\":[\"03-c4\",\"03-c3\"]},{\"narration\":\"Physical robotics adds another set of constraints. Dyna Robotics co-founder Jason Ma says progress depends on data and hardware as well as models, and that competing strategies for gathering data and building systems are still too early to call. That is a company interview, not independent verification of deployment claims or a survey of robotics. A separate TechCrunch report describes a discrepancy: Flock’s CEO said its microphones detect only gunshots, while the company says the system can also detect events such as fireworks, sideshows and potential car crashes. Without a technical audit, the dispute does not establish what the system detects.\",\"visual\":\"Use an illustrative robot outline beside labels “data” and “hardware.” Then show a neutral “Public statements differ” card attributed to TechCrunch; do not depict surveillance footage or assert a technical conclusion.\",\"claim_ids\":[\"03-c5\",\"03-c6\"]},{\"narration\":\"Taken together, these sources suggest—without proving a general trend—that practical AI work can shift its bottleneck from model performance to infrastructure, evaluation, domain knowledge or hardware. The examples come from selected company accounts and interviews, not a representative survey. The proposed cause of Anthropic’s reported increase is a guess; the ML Intern results are self-reported; the science discussion is an interview; and Dyna’s comments come from its co-founder. The Flock report describes conflicting statements, not an audit. So the careful question is not just, “How capable is the model?” It is: what surrounding constraint is limiting this system, and what independent evidence would show it has actually been addressed?\",\"visual\":\"Return to the illustrative model-and-surroundings diagram. Highlight infrastructure, evaluation, expertise and hardware as possible constraints, labeled “Examples suggest; not a field-wide finding.” End on the spoken question.\",\"claim_ids\":[\"03-c7\",\"03-c1\",\"03-c3\",\"03-c4\",\"03-c5\",\"03-c6\"]}]}]}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "all_turns",
+    "effort": "medium",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": false,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "json_schema",
+      "description": null,
+      "name": "video_scripts_drafts",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "drafts": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "piece_id": {
+                  "type": "string",
+                  "enum": [
+                    "01",
+                    "02",
+                    "03"
+                  ]
+                },
+                "scenes": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "narration": {
+                        "type": "string"
+                      },
+                      "visual": {
+                        "type": "string"
+                      },
+                      "claim_ids": {
+                        "type": "array",
+                        "items": {
+                          "type": "string",
+                          "enum": [
+                            "01-c1",
+                            "01-c2",
+                            "01-c3",
+                            "01-c4",
+                            "01-c5",
+                            "01-c6",
+                            "02-c1",
+                            "02-c2",
+                            "02-c3",
+                            "02-c4",
+                            "02-c5",
+                            "02-c6",
+                            "02-c7",
+                            "03-c1",
+                            "03-c2",
+                            "03-c3",
+                            "03-c4",
+                            "03-c5",
+                            "03-c6",
+                            "03-c7"
+                          ]
+                        }
+                      }
+                    },
+                    "required": [
+                      "narration",
+                      "visual",
+                      "claim_ids"
+                    ],
+                    "additionalProperties": false
+                  }
+                }
+              },
+              "required": [
+                "piece_id",
+                "scenes"
+              ],
+              "additionalProperties": false
+            }
+          }
+        },
+        "required": [
+          "drafts"
+        ],
+        "additionalProperties": false
+      },
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 81831,
+    "input_tokens_details": {
+      "cache_write_tokens": 81828,
+      "cached_tokens": 0
+    },
+    "output_tokens": 3595,
+    "output_tokens_details": {
+      "reasoning_tokens": 395
+    },
+    "total_tokens": 85426
+  },
+  "user": null,
+  "metadata": {}
+}

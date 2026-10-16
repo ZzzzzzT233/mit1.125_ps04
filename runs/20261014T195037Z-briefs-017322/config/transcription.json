@@ -1,0 +1,8 @@
+{
+  "provider": "openai",
+  "model": "whisper-1",
+  "language": "en",
+  "chunk_seconds": 1200,
+  "estimated_usd_per_minute": 0.006,
+  "price_checked_on": "2026-10-14"
+}

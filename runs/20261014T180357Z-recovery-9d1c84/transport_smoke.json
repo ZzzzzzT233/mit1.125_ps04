@@ -1,0 +1,13 @@
+{
+  "purpose": "Live five-second excerpt to verify the IPv4 curl transport. Not an additional substantive evidence item.",
+  "source_media_path": "data/media/304343998893baf7eac99ed72e94584a9c6ae32cad38ea65200fda04a7f6cfe8.m4a",
+  "excerpt_duration_seconds": 5,
+  "segments": [
+    {
+      "segment_id": "a-0001",
+      "start_seconds": 0.0,
+      "end_seconds": 4.960000038146973,
+      "text": "So Google's newest model Gemini 4 Argon is here and it's pretty big"
+    }
+  ]
+}

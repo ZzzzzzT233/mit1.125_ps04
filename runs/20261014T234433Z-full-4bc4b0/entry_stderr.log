@@ -1,0 +1,17 @@
+Run artifacts: runs/20261014T234433Z-full-4bc4b0
+Extracting feed: Gemini 4 Argon: Built to solve your hardest problems
+Extracting feed: Introducing Playground: Create and play custom games
+Extracting feed: HiRO-ACEv2: Simulating extreme weather at 3 km resolution for a fraction of the cost
+Extracting feed: Run fast, private agents on-device with LFM2.5-24B-A2B
+Extracting feed: AI is mass decompiling games. That's both awesome and scary.
+Extracting feed: Redesigning source control at Anthropic
+Extracting feed: Flock CEO says its microphones detect ‘just gunshots’ — its website says different
+Extracting feed: YouTube Music launches new labels as AI-generated music floods streaming platforms
+Extracting feed: Apate sends AI agents undercover to get scammed so they can gather fraud intelligence
+Extracting youtube: AI Labs Warn Race Makes Breach ‘Inevitable’
+Extracting youtube: Google Just Caught Up (Gemini-4 Argon)
+Extracting youtube: AI News: Haiku-5.5, Visual ChatGPT, Grok's New Trick, and more!
+Extracting podcast: Dyna-2: General Purpose Physical Agents with Hour-Long Autonomy — Jason Ma, Dyna Robotics
+Extracting podcast: Why AlphaFold Didn't Solve Protein Folding — Pushmeet Kohli, Google DeepMind & Sal Candido, Biohub
+create_briefs: Model brief validation failed: Written quote is absent, empty, or longer than 25 words
+Series stopped at editorial/create_briefs; partial stream retained at runs/20261014T234433Z-full-4bc4b0/briefs.jsonl.pending-67830

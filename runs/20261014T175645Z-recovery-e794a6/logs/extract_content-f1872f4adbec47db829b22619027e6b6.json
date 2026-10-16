@@ -1,0 +1,63 @@
+{
+  "stage": "extract_content",
+  "status": "incomplete",
+  "input_count": 9,
+  "output_count": 7,
+  "started_at": "2026-10-14T17:57:23.291183Z",
+  "tools": [
+    "Python stdlib",
+    "curl",
+    "ffprobe",
+    "yt-dlp"
+  ],
+  "models": [],
+  "cost_usd": null,
+  "cost_note": "No model API used; local compute and transfer costs are not measured.",
+  "errors": [
+    "youtube:C4Sq3Rot8FU: Command '['/Users/zhoutong/.cache/mit1.125_ps04/venv-20261014/bin/python', '-m', 'yt_dlp', '--ignore-config', '--no-playlist', '--no-progress', '--js-runtimes', 'node', '--socket-timeout', '20', '--retries', '1', '--format', 'bestaudio[ext=m4a]/bestaudio', '--output', '/Users/zhoutong/Desktop/Harvard/2026 Fall/MIT 1.125/mit1.125_ps04/data/media/tmpjk8_2lof/source.%(ext)s', 'https://www.youtube.com/watch?v=C4Sq3Rot8FU']' timed out after 240 seconds",
+    "youtube:NUizyuGj-kE: Command '['/Users/zhoutong/.cache/mit1.125_ps04/venv-20261014/bin/python', '-m', 'yt_dlp', '--ignore-config', '--no-playlist', '--no-progress', '--js-runtimes', 'node', '--socket-timeout', '20', '--retries', '1', '--format', 'bestaudio[ext=m4a]/bestaudio', '--output', '/Users/zhoutong/Desktop/Harvard/2026 Fall/MIT 1.125/mit1.125_ps04/data/media/tmppsvoj5ev/source.%(ext)s', 'https://www.youtube.com/watch?v=NUizyuGj-kE']' timed out after 240 seconds"
+  ],
+  "reused_count": 1,
+  "item_results": [
+    {
+      "item_id": "feed:890d9b1abb1aee38ddaf66fc51c1b22e40dbf1502357c1561af5a99a67ec4252",
+      "status": "completed"
+    },
+    {
+      "item_id": "feed:74f7c639767e5ff1cb437b2bfcedd7b9e9b9aadebbe208b61dad37317a2a8eff",
+      "status": "completed"
+    },
+    {
+      "item_id": "feed:1d28b948019906af44beedd1d629604c92976362f43d35af7df3595d7756a95c",
+      "status": "completed"
+    },
+    {
+      "item_id": "feed:7a6c716455f6be1bfda0beca6dfbc9cf90cf96199fa7d648b2b2f127c50b6b39",
+      "status": "completed"
+    },
+    {
+      "item_id": "youtube:C4Sq3Rot8FU",
+      "status": "incomplete",
+      "error": "Command '['/Users/zhoutong/.cache/mit1.125_ps04/venv-20261014/bin/python', '-m', 'yt_dlp', '--ignore-config', '--no-playlist', '--no-progress', '--js-runtimes', 'node', '--socket-timeout', '20', '--retries', '1', '--format', 'bestaudio[ext=m4a]/bestaudio', '--output', '/Users/zhoutong/Desktop/Harvard/2026 Fall/MIT 1.125/mit1.125_ps04/data/media/tmpjk8_2lof/source.%(ext)s', 'https://www.youtube.com/watch?v=C4Sq3Rot8FU']' timed out after 240 seconds"
+    },
+    {
+      "item_id": "youtube:eBszYxzE2dk",
+      "status": "completed"
+    },
+    {
+      "item_id": "youtube:NUizyuGj-kE",
+      "status": "incomplete",
+      "error": "Command '['/Users/zhoutong/.cache/mit1.125_ps04/venv-20261014/bin/python', '-m', 'yt_dlp', '--ignore-config', '--no-playlist', '--no-progress', '--js-runtimes', 'node', '--socket-timeout', '20', '--retries', '1', '--format', 'bestaudio[ext=m4a]/bestaudio', '--output', '/Users/zhoutong/Desktop/Harvard/2026 Fall/MIT 1.125/mit1.125_ps04/data/media/tmppsvoj5ev/source.%(ext)s', 'https://www.youtube.com/watch?v=NUizyuGj-kE']' timed out after 240 seconds"
+    },
+    {
+      "item_id": "podcast:a5722550a3b286ab7f03971ecfd02300b82428497f446ada3c8328f7918d698c",
+      "status": "completed"
+    },
+    {
+      "item_id": "podcast:1bd3dabb637d0dd2fadd3382acf4046bd254c3557fceff4ff2b5486a71ece8e1",
+      "status": "completed"
+    }
+  ],
+  "finished_at": "2026-10-14T18:05:42.393881Z",
+  "exit_code": 1
+}

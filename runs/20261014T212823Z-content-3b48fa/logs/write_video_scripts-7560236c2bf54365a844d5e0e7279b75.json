@@ -1,0 +1,33 @@
+{
+  "stage": "write_video_scripts",
+  "status": "completed",
+  "input_count": 3,
+  "output_count": 3,
+  "started_at": "2026-10-14T21:40:03.012276Z",
+  "tools": [
+    "Python stdlib"
+  ],
+  "models": [],
+  "cost_usd": null,
+  "cost_note": "No model API used; local compute and transfer costs are not measured.",
+  "errors": [],
+  "request_fingerprint": "b832733be1fa7a3dd84028987df231a117053bf1f8b81b7c42babcb14cb61b2e",
+  "request_bytes": 303856,
+  "request_fee_upper_bound_usd": 0.088464,
+  "model_requests": [
+    {
+      "status": "cached",
+      "estimated_cost_usd": 0
+    }
+  ],
+  "resolved_model": "gpt-6-luna",
+  "assistant_corrections": {
+    "file": "/Users/zhoutong/Desktop/Harvard/2026 Fall/MIT 1.125/mit1.125_ps04/runs/20261014T212823Z-content-3b48fa/video_scripts_corrections.json",
+    "source_output_digest": "31bc7515f46cf2daf8d72e047e95d9cb3664b09e01c0055c1e6cc25c4f08dab5",
+    "corrected_output_digest": "9675698f57aadb8e83c17126dde913dda689ddbb9ea4f30b0b8ef9fe7229a327",
+    "notes": "Assistant comparison with articles and source passages named Matt Wolfe and his Google briefing, explained token, clarified per-block expert routing, removed unnecessary jargon and an extra visual resolution figure, distinguished the two ASR test sets, clarified source-control wording, and attributed the research view to a participant rather than the whole panel. These production refinements preserve the same material claims; no student approval or rendered assets are asserted.",
+    "human_approval": false
+  },
+  "finished_at": "2026-10-14T21:40:03.039379Z",
+  "exit_code": 0
+}

@@ -1,0 +1,9 @@
+{
+  "run_id": "20261014T175645Z-recovery-e794a6",
+  "started_at": "2026-10-14T17:56:45.473735Z",
+  "as_of_date": "2026-10-14",
+  "mode": "live",
+  "previous_run_id": "20261014T173931Z-recovery-b48346",
+  "scope": "collection_recovery",
+  "note": "Live focused recovery after moving cloud-placeholder dependencies to local cache and installing matching EJS. Retained source subset is explicit. OpenAI HTTP 403 and the timed-out long podcast remain recorded in the prior broad collection; neither is counted as recovered. Collection only."
+}

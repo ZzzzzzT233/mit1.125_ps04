@@ -1,0 +1,12 @@
+Run artifacts: runs/20261014T233206Z-full-1f5ae6
+fetch_feeds: openai-news: curl: (6) Could not resolve host: openai.com
+fetch_feeds: google-ai: curl: (6) Could not resolve host: blog.google
+fetch_feeds: huggingface-blog: curl: (6) Could not resolve host: huggingface.co
+fetch_feeds: simon-willison: curl: (6) Could not resolve host: simonwillison.net
+fetch_feeds: techcrunch-ai: curl: (6) Could not resolve host: techcrunch.com
+fetch_youtube: ai-explained-youtube: curl: (6) Could not resolve host: www.youtube.com
+fetch_youtube: matt-wolfe-youtube: curl: (6) Could not resolve host: www.youtube.com
+fetch_podcasts: latent-space-podcast: curl: (6) Could not resolve host: www.latent.space
+fetch_podcasts: last-week-in-ai-podcast: curl: (6) Could not resolve host: lastweekin.ai
+select_items: Editorial transport failed (curl exit 6); cost is unconfirmed
+Series stopped at editorial/select_items; partial stream retained at runs/20261014T233206Z-full-1f5ae6/decisions.jsonl.pending-66142

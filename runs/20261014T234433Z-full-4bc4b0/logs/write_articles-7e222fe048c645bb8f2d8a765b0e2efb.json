@@ -1,0 +1,45 @@
+{
+  "stage": "write_articles",
+  "status": "failed",
+  "input_count": 3,
+  "output_count": 0,
+  "started_at": "2026-10-14T23:50:36.320503Z",
+  "tools": [
+    "Python stdlib",
+    "curl"
+  ],
+  "models": [
+    "gpt-6-luna"
+  ],
+  "cost_usd": 0.011764,
+  "cost_note": "Conservative token-fee estimate at cache-write input rates, without cached-input discounts; local costs unmeasured. Prices checked 2026-10-14",
+  "errors": [
+    "Model draft validation failed: Article 02 has 909 words; expected 600–900"
+  ],
+  "request_fingerprint": "d96ff99bd1456247d7f23869e377d479508ffd1d10d663fa579cbf87339baa70",
+  "request_bytes": 298415,
+  "request_fee_upper_bound_usd": 0.087104,
+  "model_requests": [
+    {
+      "status": "completed",
+      "estimated_cost_usd": 0.011764
+    }
+  ],
+  "cost_is_estimate": true,
+  "usage": {
+    "input_tokens": 76668,
+    "input_tokens_details": {
+      "cache_write_tokens": 76665,
+      "cached_tokens": 0
+    },
+    "output_tokens": 4361,
+    "output_tokens_details": {
+      "reasoning_tokens": 674
+    },
+    "total_tokens": 81029
+  },
+  "resolved_model": "gpt-6-luna",
+  "citation_number_normalizations": [],
+  "finished_at": "2026-10-14T23:51:17.312945Z",
+  "exit_code": 1
+}

@@ -1,0 +1,245 @@
+{
+  "piece_id": "03",
+  "as_of_date": "2026-10-14",
+  "claims": [
+    {
+      "claim_id": "03-c1",
+      "statement": "Willison reports Anthropic’s figure of about 2,500 code changes merged per day in May 2026 and more than 30,000 per day by September, while labeling his proposed explanation as a guess.",
+      "type": "source_claim",
+      "evidence": [
+        {
+          "item_id": "feed:3e807c680553afa8e7a7fab0c86367379ffe15326fd7fb88ab84c99f58a26838",
+          "version_id": "df0982905fe0f592da0c250b6940e7e9e328c7d20491a91173091b9e1940769b",
+          "locator": {
+            "type": "text",
+            "quote": "In May 2026, Anthropic averaged around 2,500 code changes merged per day; as of September, we merged over 30,000 per day."
+          },
+          "title": "Redesigning source control at Anthropic",
+          "url": "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/",
+          "publisher_id": "simon-willison",
+          "published_at": "2026-10-13T23:00:06Z"
+        },
+        {
+          "item_id": "feed:3e807c680553afa8e7a7fab0c86367379ffe15326fd7fb88ab84c99f58a26838",
+          "version_id": "df0982905fe0f592da0c250b6940e7e9e328c7d20491a91173091b9e1940769b",
+          "locator": {
+            "type": "text",
+            "quote": "My guess is that the introduction of Fable/Mythos class models is a key factor in the increased coding velocity."
+          },
+          "title": "Redesigning source control at Anthropic",
+          "url": "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/",
+          "publisher_id": "simon-willison",
+          "published_at": "2026-10-13T23:00:06Z"
+        }
+      ]
+    },
+    {
+      "claim_id": "03-c2",
+      "statement": "Willison reports that Anthropic built Scion for source control and Antique for code review, and that a seven-person team completed the Git migration in five months.",
+      "type": "reported_fact",
+      "evidence": [
+        {
+          "item_id": "feed:3e807c680553afa8e7a7fab0c86367379ffe15326fd7fb88ab84c99f58a26838",
+          "version_id": "df0982905fe0f592da0c250b6940e7e9e328c7d20491a91173091b9e1940769b",
+          "locator": {
+            "type": "text",
+            "quote": "\"Antique\" is their new code review system. The source control system is called Scion"
+          },
+          "title": "Redesigning source control at Anthropic",
+          "url": "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/",
+          "publisher_id": "simon-willison",
+          "published_at": "2026-10-13T23:00:06Z"
+        },
+        {
+          "item_id": "feed:3e807c680553afa8e7a7fab0c86367379ffe15326fd7fb88ab84c99f58a26838",
+          "version_id": "df0982905fe0f592da0c250b6940e7e9e328c7d20491a91173091b9e1940769b",
+          "locator": {
+            "type": "text",
+            "quote": "The new system was built by a team of seven people, and the migration from Git was completed in five months."
+          },
+          "title": "Redesigning source control at Anthropic",
+          "url": "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/",
+          "publisher_id": "simon-willison",
+          "published_at": "2026-10-13T23:00:06Z"
+        }
+      ]
+    },
+    {
+      "claim_id": "03-c3",
+      "statement": "The ML Intern post describes an agent workflow that requires a budget before paid jobs and recommends baselines and small smoke tests before larger training runs.",
+      "type": "source_claim",
+      "evidence": [
+        {
+          "item_id": "feed:1d28b948019906af44beedd1d629604c92976362f43d35af7df3595d7756a95c",
+          "version_id": "93466c416d1045376c0182c260bea53b1beb9029bb325b7aa1f08232fc048c94",
+          "locator": {
+            "type": "text",
+            "quote": "ML-intern plans the work, asks me for a budget before it spends anything, runs a small test before the real job"
+          },
+          "title": "The model that didn't exist, so you made it yourself",
+          "url": "https://huggingface.co/blog/building-with-ml-intern",
+          "publisher_id": "huggingface",
+          "published_at": "2026-10-08T00:00:00Z"
+        },
+        {
+          "item_id": "feed:1d28b948019906af44beedd1d629604c92976362f43d35af7df3595d7756a95c",
+          "version_id": "93466c416d1045376c0182c260bea53b1beb9029bb325b7aa1f08232fc048c94",
+          "locator": {
+            "type": "text",
+            "quote": "The first asks for a baseline before any training."
+          },
+          "title": "The model that didn't exist, so you made it yourself",
+          "url": "https://huggingface.co/blog/building-with-ml-intern",
+          "publisher_id": "huggingface",
+          "published_at": "2026-10-08T00:00:00Z"
+        }
+      ]
+    },
+    {
+      "claim_id": "03-c4",
+      "statement": "In the Latent Space interview, DeepMind’s Pushmeet Kohli argues that the problem should determine whether researchers prioritize modeling, data collection or expertise, rather than committing to one approach in advance.",
+      "type": "source_claim",
+      "evidence": [
+        {
+          "item_id": "podcast:1bd3dabb637d0dd2fadd3382acf4046bd254c3557fceff4ff2b5486a71ece8e1",
+          "version_id": "5259e67e25b483e81d2665f323cf8954ce22e841727d3df19089dd9ead614f73",
+          "locator": {
+            "type": "segment",
+            "segment_id": "p-0006"
+          },
+          "title": "Why AlphaFold Didn't Solve Protein Folding — Pushmeet Kohli, Google DeepMind & Sal Candido, Biohub",
+          "url": "https://www.latent.space/p/biohub-deepmind",
+          "publisher_id": "latent-space",
+          "published_at": "2026-10-10T00:31:26Z",
+          "start_seconds": 294.0,
+          "end_seconds": 503.0
+        }
+      ]
+    },
+    {
+      "claim_id": "03-c5",
+      "statement": "Dyna’s co-founder says robotics progress depends on data and hardware as well as models, and that competing data and system strategies are still too early to call.",
+      "type": "source_claim",
+      "evidence": [
+        {
+          "item_id": "podcast:a5722550a3b286ab7f03971ecfd02300b82428497f446ada3c8328f7918d698c",
+          "version_id": "f64a606580eb9edf5dd23191b9292737d4e0411a2640395aaedede16ce22520c",
+          "locator": {
+            "type": "segment",
+            "segment_id": "p-0109"
+          },
+          "title": "Dyna-2: General Purpose Physical Agents with Hour-Long Autonomy — Jason Ma, Dyna Robotics",
+          "url": "https://www.latent.space/p/dyna",
+          "publisher_id": "latent-space",
+          "published_at": "2026-10-13T22:25:55Z",
+          "start_seconds": 2106.0,
+          "end_seconds": 2166.0
+        },
+        {
+          "item_id": "podcast:a5722550a3b286ab7f03971ecfd02300b82428497f446ada3c8328f7918d698c",
+          "version_id": "f64a606580eb9edf5dd23191b9292737d4e0411a2640395aaedede16ce22520c",
+          "locator": {
+            "type": "segment",
+            "segment_id": "p-0179"
+          },
+          "title": "Dyna-2: General Purpose Physical Agents with Hour-Long Autonomy — Jason Ma, Dyna Robotics",
+          "url": "https://www.latent.space/p/dyna",
+          "publisher_id": "latent-space",
+          "published_at": "2026-10-13T22:25:55Z",
+          "start_seconds": 3145.0,
+          "end_seconds": 3247.0
+        }
+      ]
+    },
+    {
+      "claim_id": "03-c6",
+      "statement": "TechCrunch reports a discrepancy between Flock’s CEO saying microphones detect only gunshots and the company describing additional event detection; without a technical audit, the dispute illustrates why deployment claims need scrutiny, not proof of what the system detects.",
+      "type": "reported_fact",
+      "evidence": [
+        {
+          "item_id": "feed:0d26c42f4dbee4d81bb457a0f7e7507cf6b9c7eb8875a14e845577dc5d01132b",
+          "version_id": "527cdd48f2160597bfb0a076eeca70aba8b7fa2c619d58098966856ea3c8ecd8",
+          "locator": {
+            "type": "text",
+            "quote": "primarily used to detect gunfire but is also capable of detecting fireworks, sideshows, and potential car crashes."
+          },
+          "title": "Flock CEO says its microphones detect ‘just gunshots’ — its website says different",
+          "url": "https://techcrunch.com/2026/10/14/flock-ceo-says-its-microphones-detect-just-gunshots-its-website-says-different/",
+          "publisher_id": "techcrunch",
+          "published_at": "2026-10-14T21:30:33Z"
+        },
+        {
+          "item_id": "feed:0d26c42f4dbee4d81bb457a0f7e7507cf6b9c7eb8875a14e845577dc5d01132b",
+          "version_id": "527cdd48f2160597bfb0a076eeca70aba8b7fa2c619d58098966856ea3c8ecd8",
+          "locator": {
+            "type": "text",
+            "quote": "It’s just gunshots."
+          },
+          "title": "Flock CEO says its microphones detect ‘just gunshots’ — its website says different",
+          "url": "https://techcrunch.com/2026/10/14/flock-ceo-says-its-microphones-detect-just-gunshots-its-website-says-different/",
+          "publisher_id": "techcrunch",
+          "published_at": "2026-10-14T21:30:33Z"
+        }
+      ]
+    },
+    {
+      "claim_id": "03-c7",
+      "statement": "These reports and interviews suggest—without establishing a general trend—that practical AI work can shift bottlenecks from model performance to infrastructure, evaluation, domain knowledge or hardware, because each example describes a different surrounding constraint.",
+      "type": "inference",
+      "evidence": [
+        {
+          "item_id": "feed:3e807c680553afa8e7a7fab0c86367379ffe15326fd7fb88ab84c99f58a26838",
+          "version_id": "df0982905fe0f592da0c250b6940e7e9e328c7d20491a91173091b9e1940769b",
+          "locator": {
+            "type": "text",
+            "quote": "Interesting piece from Anthropic describing why and how they built their own custom alternative to Git"
+          },
+          "title": "Redesigning source control at Anthropic",
+          "url": "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/",
+          "publisher_id": "simon-willison",
+          "published_at": "2026-10-13T23:00:06Z"
+        },
+        {
+          "item_id": "feed:1d28b948019906af44beedd1d629604c92976362f43d35af7df3595d7756a95c",
+          "version_id": "93466c416d1045376c0182c260bea53b1beb9029bb325b7aa1f08232fc048c94",
+          "locator": {
+            "type": "text",
+            "quote": "The first asks for a baseline before any training."
+          },
+          "title": "The model that didn't exist, so you made it yourself",
+          "url": "https://huggingface.co/blog/building-with-ml-intern",
+          "publisher_id": "huggingface",
+          "published_at": "2026-10-08T00:00:00Z"
+        },
+        {
+          "item_id": "podcast:1bd3dabb637d0dd2fadd3382acf4046bd254c3557fceff4ff2b5486a71ece8e1",
+          "version_id": "5259e67e25b483e81d2665f323cf8954ce22e841727d3df19089dd9ead614f73",
+          "locator": {
+            "type": "segment",
+            "segment_id": "p-0006"
+          },
+          "title": "Why AlphaFold Didn't Solve Protein Folding — Pushmeet Kohli, Google DeepMind & Sal Candido, Biohub",
+          "url": "https://www.latent.space/p/biohub-deepmind",
+          "publisher_id": "latent-space",
+          "published_at": "2026-10-10T00:31:26Z",
+          "start_seconds": 294.0,
+          "end_seconds": 503.0
+        },
+        {
+          "item_id": "podcast:a5722550a3b286ab7f03971ecfd02300b82428497f446ada3c8328f7918d698c",
+          "version_id": "f64a606580eb9edf5dd23191b9292737d4e0411a2640395aaedede16ce22520c",
+          "locator": {
+            "type": "segment",
+            "segment_id": "p-0109"
+          },
+          "title": "Dyna-2: General Purpose Physical Agents with Hour-Long Autonomy — Jason Ma, Dyna Robotics",
+          "url": "https://www.latent.space/p/dyna",
+          "publisher_id": "latent-space",
+          "published_at": "2026-10-13T22:25:55Z",
+          "start_seconds": 2106.0,
+          "end_seconds": 2166.0
+        }
+      ]
+    }
+  ]
+}

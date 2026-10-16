@@ -1,0 +1,210 @@
+{
+  "piece_id": "03",
+  "as_of_date": "2026-10-15",
+  "claims": [
+    {
+      "claim_id": "03-c1",
+      "statement": "The Hugging Face article says ML Intern plans work, requests a budget, tests, trains, evaluates, and publishes; its author reports roughly $103 in compute across six projects.",
+      "type": "source_claim",
+      "evidence": [
+        {
+          "item_id": "feed:1d28b948019906af44beedd1d629604c92976362f43d35af7df3595d7756a95c",
+          "version_id": "93466c416d1045376c0182c260bea53b1beb9029bb325b7aa1f08232fc048c94",
+          "locator": {
+            "type": "text",
+            "quote": "ML-intern plans the work, asks me for a budget before it spends anything"
+          },
+          "title": "The model that didn't exist, so you made it yourself",
+          "url": "https://huggingface.co/blog/building-with-ml-intern",
+          "publisher_id": "huggingface",
+          "published_at": "2026-10-08T00:00:00Z"
+        },
+        {
+          "item_id": "feed:1d28b948019906af44beedd1d629604c92976362f43d35af7df3595d7756a95c",
+          "version_id": "93466c416d1045376c0182c260bea53b1beb9029bb325b7aa1f08232fc048c94",
+          "locator": {
+            "type": "text",
+            "quote": "Total\nabout USD 103"
+          },
+          "title": "The model that didn't exist, so you made it yourself",
+          "url": "https://huggingface.co/blog/building-with-ml-intern",
+          "publisher_id": "huggingface",
+          "published_at": "2026-10-08T00:00:00Z"
+        }
+      ]
+    },
+    {
+      "claim_id": "03-c2",
+      "statement": "Willison relays Anthropic’s report that daily merged code changes rose from about 2,500 in May to more than 30,000 in September, alongside its new Scion source-control system and Antique review tool.",
+      "type": "reported_fact",
+      "evidence": [
+        {
+          "item_id": "feed:3e807c680553afa8e7a7fab0c86367379ffe15326fd7fb88ab84c99f58a26838",
+          "version_id": "df0982905fe0f592da0c250b6940e7e9e328c7d20491a91173091b9e1940769b",
+          "locator": {
+            "type": "text",
+            "quote": "In May 2026, Anthropic averaged around 2,500 code changes merged per day; as of September, we merged over 30,000 per day."
+          },
+          "title": "Redesigning source control at Anthropic",
+          "url": "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/",
+          "publisher_id": "simon-willison",
+          "published_at": "2026-10-13T23:00:06Z"
+        },
+        {
+          "item_id": "feed:3e807c680553afa8e7a7fab0c86367379ffe15326fd7fb88ab84c99f58a26838",
+          "version_id": "df0982905fe0f592da0c250b6940e7e9e328c7d20491a91173091b9e1940769b",
+          "locator": {
+            "type": "text",
+            "quote": "\"Antique\" is their new code review system. The source control system is called Scion"
+          },
+          "title": "Redesigning source control at Anthropic",
+          "url": "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/",
+          "publisher_id": "simon-willison",
+          "published_at": "2026-10-13T23:00:06Z"
+        }
+      ]
+    },
+    {
+      "claim_id": "03-c3",
+      "statement": "In the Dyna Robotics interview, the co-founder says human demonstrations provide broad physical examples but require adaptation with robot data, and identifies data and hardware as bottlenecks to more general-purpose robots.",
+      "type": "source_claim",
+      "evidence": [
+        {
+          "item_id": "podcast:a5722550a3b286ab7f03971ecfd02300b82428497f446ada3c8328f7918d698c",
+          "version_id": "f64a606580eb9edf5dd23191b9292737d4e0411a2640395aaedede16ce22520c",
+          "locator": {
+            "type": "segment",
+            "segment_id": "p-0019"
+          },
+          "title": "Dyna-2: General Purpose Physical Agents with Hour-Long Autonomy — Jason Ma, Dyna Robotics",
+          "url": "https://www.latent.space/p/dyna",
+          "publisher_id": "latent-space",
+          "published_at": "2026-10-13T22:25:55Z",
+          "start_seconds": 544.0,
+          "end_seconds": 685.0
+        },
+        {
+          "item_id": "podcast:a5722550a3b286ab7f03971ecfd02300b82428497f446ada3c8328f7918d698c",
+          "version_id": "f64a606580eb9edf5dd23191b9292737d4e0411a2640395aaedede16ce22520c",
+          "locator": {
+            "type": "segment",
+            "segment_id": "p-0109"
+          },
+          "title": "Dyna-2: General Purpose Physical Agents with Hour-Long Autonomy — Jason Ma, Dyna Robotics",
+          "url": "https://www.latent.space/p/dyna",
+          "publisher_id": "latent-space",
+          "published_at": "2026-10-13T22:25:55Z",
+          "start_seconds": 2106.0,
+          "end_seconds": 2166.0
+        }
+      ]
+    },
+    {
+      "claim_id": "03-c4",
+      "statement": "TechCrunch reports that YouTube Music’s new labels disclose AI’s role without making AI involvement alone disqualifying for monetization; a separate report says Deezer is working on an AI-music filter expected before the end of the year, rather than already available.",
+      "type": "reported_fact",
+      "evidence": [
+        {
+          "item_id": "feed:21e7f3f15b3e9c2e170ab98ea75f451bd4ed9d6ef08b70a13748c6ecc1972231",
+          "version_id": "ee14c06b1dca3197fbe9e4f644aa2d6533a103f2035cf73f11a9a7f5692098ab",
+          "locator": {
+            "type": "text",
+            "quote": "AI involvement alone doesn’t make a track ineligible for monetization."
+          },
+          "title": "YouTube Music launches new labels as AI-generated music floods streaming platforms",
+          "url": "https://techcrunch.com/2026/10/14/youtube-music-launches-new-labels-as-ai-generated-music-floods-streaming-platforms/",
+          "publisher_id": "techcrunch",
+          "published_at": "2026-10-14T18:23:46Z"
+        },
+        {
+          "item_id": "feed:855ef2ce6c6083db9cb9f7eaaab38698c38de14ab18bfeb0ea4645cef1b80384",
+          "version_id": "4dd7b2344172cc3eb98001578b12c74c5bb1aab4ba14a5149a593795ba375010",
+          "locator": {
+            "type": "text",
+            "quote": "The feature is expected to be available before the end of the year."
+          },
+          "title": "Deezer will soon let you filter out AI-generated music",
+          "url": "https://techcrunch.com/2026/10/14/deezer-will-soon-let-you-filter-out-ai-generated-music/",
+          "publisher_id": "techcrunch",
+          "published_at": "2026-10-14T15:16:04Z"
+        }
+      ]
+    },
+    {
+      "claim_id": "03-c5",
+      "statement": "TechCrunch reports that Flock’s CEO said its microphones detect “just gunshots,” while a company spokesperson described other event detection but denied that the system is designed to monitor conversations or analyze speech; the report supplies no independent technical test.",
+      "type": "reported_fact",
+      "evidence": [
+        {
+          "item_id": "feed:0d26c42f4dbee4d81bb457a0f7e7507cf6b9c7eb8875a14e845577dc5d01132b",
+          "version_id": "527cdd48f2160597bfb0a076eeca70aba8b7fa2c619d58098966856ea3c8ecd8",
+          "locator": {
+            "type": "text",
+            "quote": "primarily used to detect gunfire but is also capable of detecting fireworks, sideshows, and potential car crashes."
+          },
+          "title": "Flock CEO says its microphones detect ‘just gunshots’ — its website says different",
+          "url": "https://techcrunch.com/2026/10/14/flock-ceo-says-its-microphones-detect-just-gunshots-its-website-says-different/",
+          "publisher_id": "techcrunch",
+          "published_at": "2026-10-14T21:30:33Z"
+        },
+        {
+          "item_id": "feed:0d26c42f4dbee4d81bb457a0f7e7507cf6b9c7eb8875a14e845577dc5d01132b",
+          "version_id": "527cdd48f2160597bfb0a076eeca70aba8b7fa2c619d58098966856ea3c8ecd8",
+          "locator": {
+            "type": "text",
+            "quote": "Audio Detection technology is not designed to monitor conversations or analyze speech"
+          },
+          "title": "Flock CEO says its microphones detect ‘just gunshots’ — its website says different",
+          "url": "https://techcrunch.com/2026/10/14/flock-ceo-says-its-microphones-detect-just-gunshots-its-website-says-different/",
+          "publisher_id": "techcrunch",
+          "published_at": "2026-10-14T21:30:33Z"
+        }
+      ]
+    },
+    {
+      "claim_id": "03-c6",
+      "statement": "Together, the ML Intern workflow, Anthropic’s reported engineering-system changes, and Dyna’s account suggest that AI progress increasingly depends on integrating models into workflows and infrastructure; this is an uncertain pattern inference, not evidence that AI caused Anthropic’s increase or that it is widespread.",
+      "type": "inference",
+      "evidence": [
+        {
+          "item_id": "feed:1d28b948019906af44beedd1d629604c92976362f43d35af7df3595d7756a95c",
+          "version_id": "93466c416d1045376c0182c260bea53b1beb9029bb325b7aa1f08232fc048c94",
+          "locator": {
+            "type": "text",
+            "quote": "ML-intern plans the work, asks me for a budget before it spends anything"
+          },
+          "title": "The model that didn't exist, so you made it yourself",
+          "url": "https://huggingface.co/blog/building-with-ml-intern",
+          "publisher_id": "huggingface",
+          "published_at": "2026-10-08T00:00:00Z"
+        },
+        {
+          "item_id": "feed:3e807c680553afa8e7a7fab0c86367379ffe15326fd7fb88ab84c99f58a26838",
+          "version_id": "df0982905fe0f592da0c250b6940e7e9e328c7d20491a91173091b9e1940769b",
+          "locator": {
+            "type": "text",
+            "quote": "The source control system is called Scion, and sounds to me like a reinvention of centralized source control along the lines of Subversion."
+          },
+          "title": "Redesigning source control at Anthropic",
+          "url": "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/",
+          "publisher_id": "simon-willison",
+          "published_at": "2026-10-13T23:00:06Z"
+        },
+        {
+          "item_id": "podcast:a5722550a3b286ab7f03971ecfd02300b82428497f446ada3c8328f7918d698c",
+          "version_id": "f64a606580eb9edf5dd23191b9292737d4e0411a2640395aaedede16ce22520c",
+          "locator": {
+            "type": "segment",
+            "segment_id": "p-0109"
+          },
+          "title": "Dyna-2: General Purpose Physical Agents with Hour-Long Autonomy — Jason Ma, Dyna Robotics",
+          "url": "https://www.latent.space/p/dyna",
+          "publisher_id": "latent-space",
+          "published_at": "2026-10-13T22:25:55Z",
+          "start_seconds": 2106.0,
+          "end_seconds": 2166.0
+        }
+      ]
+    }
+  ]
+}

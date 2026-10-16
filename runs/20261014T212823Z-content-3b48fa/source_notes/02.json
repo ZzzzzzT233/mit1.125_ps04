@@ -1,0 +1,218 @@
+{
+  "piece_id": "02",
+  "as_of_date": "2026-10-14",
+  "claims": [
+    {
+      "claim_id": "02-c1",
+      "statement": "Liquid AI says the model retains a 40-layer mixture-of-experts design with 64 experts per block and top-four routing; in plain terms, only selected experts handle each token.",
+      "type": "source_claim",
+      "evidence": [
+        {
+          "item_id": "feed:74f7c639767e5ff1cb437b2bfcedd7b9e9b9aadebbe208b61dad37317a2a8eff",
+          "version_id": "1ac3f1cf2a149fc1be6b8ee3807f82dc93b1e752754ad5ffc67091e7de97160d",
+          "locator": {
+            "type": "text",
+            "quote": "40 layers, 64 experts per MoE block with top-4 routing"
+          },
+          "title": "Run fast, private agents on-device with LFM2.5-24B-A2B",
+          "url": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
+          "publisher_id": "liquidai",
+          "published_at": "2026-10-13T17:05:48Z"
+        }
+      ]
+    },
+    {
+      "claim_id": "02-c2",
+      "statement": "Liquid AI’s benchmark table reports LFM2.5 ahead of the listed competitors on LiveClaw but behind Qwen3.6 on GPQA Diamond and SWE-Bench Verified; these comparisons are limited to the vendor’s stated test conditions.",
+      "type": "source_claim",
+      "evidence": [
+        {
+          "item_id": "feed:74f7c639767e5ff1cb437b2bfcedd7b9e9b9aadebbe208b61dad37317a2a8eff",
+          "version_id": "1ac3f1cf2a149fc1be6b8ee3807f82dc93b1e752754ad5ffc67091e7de97160d",
+          "locator": {
+            "type": "text",
+            "quote": "Benchmark\nLFM2.5-24B-A2B\nQwen3.6-35B-A3B\nGemma-4-26B-A4B-it\nNemotron-3.5-Lightning (30B-A3B)"
+          },
+          "title": "Run fast, private agents on-device with LFM2.5-24B-A2B",
+          "url": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
+          "publisher_id": "liquidai",
+          "published_at": "2026-10-13T17:05:48Z"
+        },
+        {
+          "item_id": "feed:74f7c639767e5ff1cb437b2bfcedd7b9e9b9aadebbe208b61dad37317a2a8eff",
+          "version_id": "1ac3f1cf2a149fc1be6b8ee3807f82dc93b1e752754ad5ffc67091e7de97160d",
+          "locator": {
+            "type": "text",
+            "quote": "GPQA Diamond\n74.42\n83.69\n74.90\n72.42"
+          },
+          "title": "Run fast, private agents on-device with LFM2.5-24B-A2B",
+          "url": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
+          "publisher_id": "liquidai",
+          "published_at": "2026-10-13T17:05:48Z"
+        },
+        {
+          "item_id": "feed:74f7c639767e5ff1cb437b2bfcedd7b9e9b9aadebbe208b61dad37317a2a8eff",
+          "version_id": "1ac3f1cf2a149fc1be6b8ee3807f82dc93b1e752754ad5ffc67091e7de97160d",
+          "locator": {
+            "type": "text",
+            "quote": "SWE-Bench Verified (OpenCode)\n51.00\n66.20\n25.80\n53.40"
+          },
+          "title": "Run fast, private agents on-device with LFM2.5-24B-A2B",
+          "url": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
+          "publisher_id": "liquidai",
+          "published_at": "2026-10-13T17:05:48Z"
+        },
+        {
+          "item_id": "feed:74f7c639767e5ff1cb437b2bfcedd7b9e9b9aadebbe208b61dad37317a2a8eff",
+          "version_id": "1ac3f1cf2a149fc1be6b8ee3807f82dc93b1e752754ad5ffc67091e7de97160d",
+          "locator": {
+            "type": "text",
+            "quote": "LiveClaw\n48.09\n38.19\n41.25\n37.72"
+          },
+          "title": "Run fast, private agents on-device with LFM2.5-24B-A2B",
+          "url": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
+          "publisher_id": "liquidai",
+          "published_at": "2026-10-13T17:05:48Z"
+        }
+      ]
+    },
+    {
+      "claim_id": "02-c3",
+      "statement": "TII reports a 20.92% average word error rate on six public Arabic test sets and a 22.73% word error rate on its separate internal Emirati evaluation; both are producer-reported results.",
+      "type": "source_claim",
+      "evidence": [
+        {
+          "item_id": "feed:7a6c716455f6be1bfda0beca6dfbc9cf90cf96199fa7d648b2b2f127c50b6b39",
+          "version_id": "72f1079c2ffa7b4666d21915b0558d5f46fdeee282da019f33bb1e8898b1ba6e",
+          "locator": {
+            "type": "text",
+            "quote": "Falcon-ASR achieved an average word error rate of 20.92% across six Arabic test sets"
+          },
+          "title": "Introducing Falcon ASR",
+          "url": "https://huggingface.co/blog/tiiuae/falcon-asr",
+          "publisher_id": "tiiuae",
+          "published_at": "2026-10-07T13:21:03Z"
+        },
+        {
+          "item_id": "feed:7a6c716455f6be1bfda0beca6dfbc9cf90cf96199fa7d648b2b2f127c50b6b39",
+          "version_id": "72f1079c2ffa7b4666d21915b0558d5f46fdeee282da019f33bb1e8898b1ba6e",
+          "locator": {
+            "type": "text",
+            "quote": "In our internal Emirati evaluation, Falcon-ASR achieved 22.73% WER and 10.19% CER:"
+          },
+          "title": "Introducing Falcon ASR",
+          "url": "https://huggingface.co/blog/tiiuae/falcon-asr",
+          "publisher_id": "tiiuae",
+          "published_at": "2026-10-07T13:21:03Z"
+        }
+      ]
+    },
+    {
+      "claim_id": "02-c4",
+      "statement": "Ai2 says HiROv2 downscales several climate fields and matches high-resolution X-SHiELD statistics within 3% even for very rare events; these are Ai2-reported results.",
+      "type": "source_claim",
+      "evidence": [
+        {
+          "item_id": "feed:890d9b1abb1aee38ddaf66fc51c1b22e40dbf1502357c1561af5a99a67ec4252",
+          "version_id": "347feda09f10a36f91fcebf27f2cb941254596fb8682d717b46e8f806db78699",
+          "locator": {
+            "type": "text",
+            "quote": "it matches the target simulation's high-resolution statistics to within 3%, even for events so rare they occur only once in a million data points."
+          },
+          "title": "HiRO-ACEv2: Simulating extreme weather at 3 km resolution for a fraction of the cost",
+          "url": "https://huggingface.co/blog/allenai/hiro-acev2",
+          "publisher_id": "allenai",
+          "published_at": "2026-10-14T16:12:42Z"
+        },
+        {
+          "item_id": "feed:890d9b1abb1aee38ddaf66fc51c1b22e40dbf1502357c1561af5a99a67ec4252",
+          "version_id": "347feda09f10a36f91fcebf27f2cb941254596fb8682d717b46e8f806db78699",
+          "locator": {
+            "type": "text",
+            "quote": "predict several high-resolution fields at once instead of just rainfall"
+          },
+          "title": "HiRO-ACEv2: Simulating extreme weather at 3 km resolution for a fraction of the cost",
+          "url": "https://huggingface.co/blog/allenai/hiro-acev2",
+          "publisher_id": "allenai",
+          "published_at": "2026-10-14T16:12:42Z"
+        },
+        {
+          "item_id": "feed:890d9b1abb1aee38ddaf66fc51c1b22e40dbf1502357c1561af5a99a67ec4252",
+          "version_id": "347feda09f10a36f91fcebf27f2cb941254596fb8682d717b46e8f806db78699",
+          "locator": {
+            "type": "text",
+            "quote": "HiRO, a model that sharpens those coarse outputs into fine 3 km detail."
+          },
+          "title": "HiRO-ACEv2: Simulating extreme weather at 3 km resolution for a fraction of the cost",
+          "url": "https://huggingface.co/blog/allenai/hiro-acev2",
+          "publisher_id": "allenai",
+          "published_at": "2026-10-14T16:12:42Z"
+        }
+      ]
+    },
+    {
+      "claim_id": "02-c5",
+      "statement": "Dyna Robotics’ co-founder describes Dyna-2 as taking video, robot joint information, and language instructions as inputs, then producing actions and predicted future video; this interview explains the design but does not verify performance.",
+      "type": "source_claim",
+      "evidence": [
+        {
+          "item_id": "podcast:a5722550a3b286ab7f03971ecfd02300b82428497f446ada3c8328f7918d698c",
+          "version_id": "f64a606580eb9edf5dd23191b9292737d4e0411a2640395aaedede16ce22520c",
+          "locator": {
+            "type": "segment",
+            "segment_id": "p-0006"
+          },
+          "title": "Dyna-2: General Purpose Physical Agents with Hour-Long Autonomy — Jason Ma, Dyna Robotics",
+          "url": "https://www.latent.space/p/dyna",
+          "publisher_id": "latent-space",
+          "published_at": "2026-10-13T22:25:55Z",
+          "start_seconds": 99.0,
+          "end_seconds": 188.0
+        }
+      ]
+    },
+    {
+      "claim_id": "02-c6",
+      "statement": "Because the evaluations cover different tasks and reference data, their results support bounded comparisons within each test—not a common ranking of these systems; that conclusion is uncertain beyond the supplied tests.",
+      "type": "inference",
+      "evidence": [
+        {
+          "item_id": "feed:74f7c639767e5ff1cb437b2bfcedd7b9e9b9aadebbe208b61dad37317a2a8eff",
+          "version_id": "1ac3f1cf2a149fc1be6b8ee3807f82dc93b1e752754ad5ffc67091e7de97160d",
+          "locator": {
+            "type": "text",
+            "quote": "16 benchmarks covering tool use and agentic workflows, knowledge, instruction following, math, and coding."
+          },
+          "title": "Run fast, private agents on-device with LFM2.5-24B-A2B",
+          "url": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
+          "publisher_id": "liquidai",
+          "published_at": "2026-10-13T17:05:48Z"
+        },
+        {
+          "item_id": "feed:7a6c716455f6be1bfda0beca6dfbc9cf90cf96199fa7d648b2b2f127c50b6b39",
+          "version_id": "72f1079c2ffa7b4666d21915b0558d5f46fdeee282da019f33bb1e8898b1ba6e",
+          "locator": {
+            "type": "text",
+            "quote": "The Open Universal Arabic ASR Leaderboard, maintained by the ELM Research Center, ranks systems by the equal-weight average WER across six test sets."
+          },
+          "title": "Introducing Falcon ASR",
+          "url": "https://huggingface.co/blog/tiiuae/falcon-asr",
+          "publisher_id": "tiiuae",
+          "published_at": "2026-10-07T13:21:03Z"
+        },
+        {
+          "item_id": "feed:890d9b1abb1aee38ddaf66fc51c1b22e40dbf1502357c1561af5a99a67ec4252",
+          "version_id": "347feda09f10a36f91fcebf27f2cb941254596fb8682d717b46e8f806db78699",
+          "locator": {
+            "type": "text",
+            "quote": "because HiRO learned from X-SHiELD, it only works with the version of ACE tuned to match X-SHiELD."
+          },
+          "title": "HiRO-ACEv2: Simulating extreme weather at 3 km resolution for a fraction of the cost",
+          "url": "https://huggingface.co/blog/allenai/hiro-acev2",
+          "publisher_id": "allenai",
+          "published_at": "2026-10-14T16:12:42Z"
+        }
+      ]
+    }
+  ]
+}

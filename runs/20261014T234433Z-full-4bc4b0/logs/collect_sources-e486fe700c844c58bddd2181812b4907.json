@@ -1,0 +1,15 @@
+{
+  "stage": "collect_sources",
+  "status": "completed",
+  "exit_code": 0,
+  "started_at": "2026-10-14T23:44:53Z",
+  "finished_at": "2026-10-14T23:45:42.880936Z",
+  "input_count": 14,
+  "output_count": 19,
+  "tools": [
+    "Bash"
+  ],
+  "models": [],
+  "cost_usd": null,
+  "errors": []
+}

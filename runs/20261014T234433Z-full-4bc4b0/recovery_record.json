@@ -1,0 +1,11 @@
+{
+  "entry_command": "bash run.sh",
+  "entry_exit_code": 1,
+  "recovery_command": "bash workflows/create_series.sh runs/20261014T234433Z-full-4bc4b0",
+  "recovery_exit_code": 0,
+  "recovered_at": "2026-10-14T23:56:50.344297Z",
+  "reason": "Exact-quotation correction and missing disclosure locators were recorded; the first article length failure remains preserved. Cached selection/brief responses were reused. Fresh revised articles and scripts passed final content checks.",
+  "complete_live_run": true,
+  "approval_created": false,
+  "publication_performed": false
+}

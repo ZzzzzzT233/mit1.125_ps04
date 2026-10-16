@@ -1,0 +1,15 @@
+{
+  "run_id": "20261014T212823Z-content-3b48fa",
+  "started_at": "2026-10-14T21:28:23.185911Z",
+  "as_of_date": "2026-10-14",
+  "mode": "live",
+  "scope": "content_only",
+  "source_selection_run": "20261014T193533Z-selection-9581af",
+  "source_briefs_run": "20261014T195037Z-briefs-017322",
+  "retained_input_fingerprints": {
+    "eligible": "f81cc34bbb1817f8f917fba6470333216269fbdada70557e673883c9d3fd15be",
+    "decisions": "f69da2a5cf0373b821185efc54e5758cc4a59b6e6c96a26a940e448361f0a6be",
+    "briefs": "b608043308c321c88ded499f9f3ec60249eff39aef6afec0101b94949d5fd788"
+  },
+  "note": "Live generation of three English article drafts and matching video scripts from exact retained brief and evidence versions, followed by mechanical content checks. No collection, transcription, student approval, video rendering, or publication; not a complete publication-pipeline run."
+}

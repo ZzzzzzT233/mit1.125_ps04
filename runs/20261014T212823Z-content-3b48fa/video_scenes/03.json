@@ -1,0 +1,47 @@
+{
+  "piece_id": "03",
+  "scenes": [
+    {
+      "narration": "A stronger model is only one part of an AI system. Recent examples in software engineering, robotics, climate research, and biology raise a practical question: what data, tools, hardware, and expertise have to surround a model before it can do useful work? These examples do not prove that the whole AI field is moving in one direction. But they show why a capability claim can leave important operating conditions out of view.",
+      "visual": "Open with an illustrative system diagram: model at center, surrounded by data, tools, hardware, and expertise. Mark it “Illustrative.”",
+      "claim_ids": [
+        "03-c6"
+      ]
+    },
+    {
+      "narration": "Simon Willison reports figures from Anthropic’s account of its engineering work: about 2,500 code changes merged per day in May 2026, compared with more than 30,000 per day in September. Those are company figures, not independently verified here. Willison guesses that newer Fable or Mythos-class models may have contributed, but calls that explanation his guess. He also notes that public release dates do not reveal when models became available internally. Anthropic’s move to custom source-control tools—the systems used to manage code changes—shows infrastructure changing alongside the reported workload, but the evidence does not isolate what caused the increase.",
+      "visual": "Use a restrained card with the two dates and figures, explicitly labeled “Anthropic figures, reported by Simon Willison.” Add “Model explanation: Willison’s guess.” No performance chart.",
+      "claim_ids": [
+        "03-c1",
+        "03-c2",
+        "03-c6"
+      ]
+    },
+    {
+      "narration": "Robotics makes the surrounding system especially visible. Dyna Robotics co-founder Jason Ma says the company combines diverse human video with robot-specific data. Human recordings can show many kinds of physical activity, but human movements do not directly match the company’s robot hardware, so the approach also needs robot data. Ma says hardware stability and data constrain broader deployment. For example, a model must be evaluated on real equipment, and unstable hardware can limit that testing. These are the co-founder’s descriptions and views, not independent findings—but they show how a robot’s body and data shape what its model can do.",
+      "visual": "Illustrative two-stream diagram: human video and robot-specific data feed a model connected to hardware. Attribute the approach and constraints to Dyna’s co-founder.",
+      "claim_ids": [
+        "03-c3",
+        "03-c4"
+      ]
+    },
+    {
+      "narration": "Ai2’s climate emulator offers a parallel. Ai2 reports that HiROv2 produces high-resolution climate detail that closely matches the X-SHiELD simulation. But the organization also says the system currently depends on an ACE version tuned to X-SHiELD, and cannot yet generate high-resolution data for other climates, including a warmer future. The result and the boundary belong together: agreement with a particular reference does not establish that the system can answer questions outside that scope. This example is developer-reported, not an independent replication.",
+      "visual": "Illustrative diagram of a reference simulation feeding a climate emulator. Label “X-SHiELD-tuned scope” and “Other climates not yet supported, per Ai2.”",
+      "claim_ids": [
+        "03-c5"
+      ]
+    },
+    {
+      "narration": "A participant in a biology discussion featuring Google DeepMind and Biohub offers a useful principle: begin with the scientific problem, then decide whether progress calls for modeling, more data, or expertise. That is an expert perspective, not a new biological result. Read alongside the other examples, it suggests a practical lesson: inspect the whole workflow, not just the model. But the cases come from very different fields, and several claims come from companies or their representatives. They do not establish a field-wide rule. A useful next question is: what independent evidence shows that the data, tools, and hardware around a model are keeping pace with its claimed capability?",
+      "visual": "Close with an illustrative problem-first flow: define problem, identify needed data/tools/expertise, evaluate the whole system. Add “Synthesis, not a field-wide finding.”",
+      "claim_ids": [
+        "03-c6",
+        "03-c1",
+        "03-c3",
+        "03-c4",
+        "03-c5"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "stage": "run_pipeline",
+  "status": "incomplete",
+  "exit_code": 1,
+  "started_at": "2026-10-14T23:44:21Z",
+  "finished_at": "2026-10-14T23:47:40.232399Z",
+  "input_count": 19,
+  "output_count": 0,
+  "tools": [
+    "Bash"
+  ],
+  "models": [],
+  "cost_usd": null,
+  "cost_note": "Coordination only; component costs are counted in their own receipts.",
+  "errors": [
+    "Workflow did not complete; inspect component receipts and review issues."
+  ]
+}

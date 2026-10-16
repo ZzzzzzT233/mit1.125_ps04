@@ -1,0 +1,37 @@
+{
+  "stage": "extract_content",
+  "status": "incomplete",
+  "input_count": 3,
+  "output_count": 2,
+  "started_at": "2026-10-14T17:04:15.163276Z",
+  "tools": [
+    "Python stdlib",
+    "curl",
+    "ffprobe",
+    "yt-dlp"
+  ],
+  "models": [],
+  "cost_usd": null,
+  "cost_note": "No model API used; local compute and transfer costs are not measured.",
+  "errors": [
+    "youtube:eBszYxzE2dk: yt-dlp could not retrieve public media/captions: WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one\nWARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies\nERROR: Unable to download video subtitles for 'en': HTTP Error 429: Too Many Requests"
+  ],
+  "reused_count": 0,
+  "item_results": [
+    {
+      "item_id": "feed:2417547fbcd4a08ff39cb3a84b7d6eede16d0808f385137d06219c2a3818e01d",
+      "status": "completed"
+    },
+    {
+      "item_id": "youtube:eBszYxzE2dk",
+      "status": "incomplete",
+      "error": "yt-dlp could not retrieve public media/captions: WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one\nWARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies\nERROR: Unable to download video subtitles for 'en': HTTP Error 429: Too Many Requests"
+    },
+    {
+      "item_id": "podcast:a5722550a3b286ab7f03971ecfd02300b82428497f446ada3c8328f7918d698c",
+      "status": "completed"
+    }
+  ],
+  "finished_at": "2026-10-14T17:04:35.712247Z",
+  "exit_code": 1
+}

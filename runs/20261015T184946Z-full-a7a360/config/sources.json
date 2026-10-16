@@ -1,0 +1,79 @@
+[
+  {
+    "source_id": "google-ai",
+    "publisher_id": "google",
+    "kind": "feed",
+    "url": "https://blog.google/innovation-and-ai/technology/ai/rss/",
+    "name": "Google AI",
+    "homepage": "https://blog.google/innovation-and-ai/",
+    "notes": "Primary model and product announcements. Google and Google DeepMind share one producer group for source counting.",
+    "limit": 2
+  },
+  {
+    "source_id": "huggingface-blog",
+    "publisher_id": "huggingface",
+    "kind": "feed",
+    "url": "https://huggingface.co/blog/feed.xml",
+    "name": "Hugging Face Blog",
+    "homepage": "https://huggingface.co/blog",
+    "notes": "Technical and open-model discovery. Resolve each candidate's publisher_id to the originating author organization when different from Hugging Face; hosting does not establish independence.",
+    "limit": 2
+  },
+  {
+    "source_id": "simon-willison",
+    "publisher_id": "simon-willison",
+    "kind": "feed",
+    "url": "https://simonwillison.net/atom/everything/",
+    "name": "Simon Willison's Weblog",
+    "homepage": "https://simonwillison.net/",
+    "notes": "Practitioner testing and technical commentary. This is an Atom feed. Exclude unrelated posts and quote-only entries without substantive original analysis.",
+    "limit": 2
+  },
+  {
+    "source_id": "techcrunch-ai",
+    "publisher_id": "techcrunch",
+    "kind": "feed",
+    "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+    "name": "TechCrunch AI",
+    "homepage": "https://techcrunch.com/category/artificial-intelligence/",
+    "notes": "Industry reporting. Filter event promotions and distinguish original reporting from repeated vendor announcements.",
+    "limit": 3
+  },
+  {
+    "source_id": "ai-explained-youtube",
+    "publisher_id": "ai-explained",
+    "kind": "youtube",
+    "url": "https://www.youtube.com/channel/UCNJ1Ymd5yFuUPtn21xtRbbw",
+    "name": "AI Explained",
+    "homepage": "https://www.youtube.com/@aiexplained-official",
+    "channel_id": "UCNJ1Ymd5yFuUPtn21xtRbbw",
+    "discovery_feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCNJ1Ymd5yFuUPtn21xtRbbw",
+    "notes": "Candidate video analysis of AI developments. Verify substantive content, original contribution, transcript availability, and exact timestamps before accepting evidence.",
+    "limit": 1
+  },
+  {
+    "source_id": "matt-wolfe-youtube",
+    "publisher_id": "matt-wolfe",
+    "kind": "youtube",
+    "url": "https://www.youtube.com/channel/UChpleBmo18P08aKCIgti38g",
+    "name": "Matt Wolfe",
+    "homepage": "https://www.youtube.com/@mreflow",
+    "channel_id": "UChpleBmo18P08aKCIgti38g",
+    "discovery_feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UChpleBmo18P08aKCIgti38g",
+    "notes": "Candidate release roundups and demonstrations. Prefer substantive full-length videos; inspect sponsorships and separate demonstrations from repeated promotional claims.",
+    "limit": 2
+  },
+  {
+    "source_id": "latent-space-podcast",
+    "publisher_id": "latent-space",
+    "kind": "podcast",
+    "url": "https://www.latent.space/feed",
+    "name": "Latent Space",
+    "homepage": "https://www.latent.space/about",
+    "notes": "Mixed newsletter and podcast RSS. Collect only entries with audio enclosures for this input type. Interviews may contain vendor claims; reconcile YouTube copies as the same underlying item. Current run profile defers the Lab-in-the-Loop episode after incomplete paid transcription; select the next available complete episodes. This exclusion is logged, not evidence acceptance.",
+    "limit": 2,
+    "exclude_item_ids": [
+      "podcast:8ddeacd8202375dcb627807364fa86ebbf721d5d9481f5eda6dcfca243729511"
+    ]
+  }
+]

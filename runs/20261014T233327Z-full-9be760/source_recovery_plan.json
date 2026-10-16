@@ -1,0 +1,20 @@
+{
+  "reason": "Bounded complete-run source profile after recorded live access failures. No failed item is counted as recovered.",
+  "original_configuration": "runs/20261014T233327Z-full-9be760/config/sources.json",
+  "omitted_endpoints": {
+    "openai-news": "Discovered article pages returned HTTP 403.",
+    "last-week-in-ai-podcast": "Episode transcription remains incomplete after curl transport failure; paid request cost is unconfirmed."
+  },
+  "deferred_item_ids": [
+    "podcast:8ddeacd8202375dcb627807364fa86ebbf721d5d9481f5eda6dcfca243729511"
+  ],
+  "transcription_probe": "A 60-second probe succeeded; this does not recover the incomplete long recordings.",
+  "youtube_recovery": "RSS 404 is handled by live yt-dlp channel-page discovery with upload timestamps and retained diagnostics.",
+  "source_count": 7,
+  "maximum_candidates": 14,
+  "input_kinds": [
+    "feed",
+    "podcast",
+    "youtube"
+  ]
+}

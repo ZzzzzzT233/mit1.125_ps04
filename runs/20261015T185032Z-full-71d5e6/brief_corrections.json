@@ -1,0 +1,531 @@
+{
+  "source_output_digest": "31c8580fc5f72409dc8adb86ff7721b7a4d2e8028117726d24539745ee0fe718",
+  "corrected_output": {
+    "briefs": [
+      {
+        "piece_id": "01",
+        "title": "Open weights, different doors: what you can actually use now",
+        "question": "Which recent AI releases can readers access today, and what does “available” mean in practice?",
+        "argument": "Recent releases show that access is not a simple choice between closed and open. Liquid AI says its reasoning model’s weights are downloadable now; Meta’s large multimodal model also has downloadable weights, but its memory demands put practical deployment far beyond ordinary devices. Falcon-ASR has a try-it demo while its API remains planned. Google says Argon is globally available through specified developer, enterprise, and paid consumer routes. The useful comparison is therefore between access channels and hardware requirements—not just release dates.",
+        "synthesis": "These launches expose several distinct meanings of access: downloading model weights, trying a hosted demo, using a paid API, or reaching a model inside a subscription product. “Open-weight” means the model’s learned parameters are released; it does not guarantee that typical users have the equipment to run them, or that all parts of a system are open source. The Hugging Face article’s deployment instructions make that distinction concrete: only some experts are used for each token, but all experts still need to fit in memory. A third-party early-access video adds a practical, but anecdotal, view of Argon: one generated object made it to a 3D printer, while a longer task appeared to stall. Together, the evidence suggests that release and access conditions are as consequential as model design, though it does not establish which model is most useful overall.",
+        "limitations": "Access statements mostly come from vendors or platform operators, not independent audits of availability. The video is one creator’s early-access experience, not a controlled test, and its failures may reflect a preview build. The evidence does not establish performance parity between models or the cost of operating them in typical settings.",
+        "claims": [
+          {
+            "claim_id": "01-c1",
+            "statement": "Liquid AI says its LFM2.5-24B-A2B and base version are open-weight and available on Hugging Face; this establishes download access, not independent validation of its capabilities.",
+            "type": "source_claim",
+            "evidence": [
+              {
+                "item_id": "feed:74f7c639767e5ff1cb437b2bfcedd7b9e9b9aadebbe208b61dad37317a2a8eff",
+                "version_id": "98deddc295f7211cab36c0e98ae0ee53ebf704379ee6e4e1ae8d8f9de6a94f6c",
+                "locator": {
+                  "type": "text",
+                  "quote": "Both LFM2.5-24B-A2B and LFM2.5-24B-A2B-Base are open-weight and available on Hugging Face today:"
+                }
+              }
+            ]
+          },
+          {
+            "claim_id": "01-c2",
+            "statement": "The Muse Spark Open article describes a multimodal model accepting text, images, audio, and video, with about 816 billion total parameters and 42 billion active per token.",
+            "type": "source_claim",
+            "evidence": [
+              {
+                "item_id": "feed:227fcb0d624bcb1af08f2a503e5e63ae07741e6a1d5cbda81125e8eac82c391b",
+                "version_id": "a24e7cab0d00c1b3cf9d0e9e0973f95c72a997b8add865eb9a752157052601ab",
+                "locator": {
+                  "type": "text",
+                  "quote": "The mixture of experts model brings text, images, audio, and video into a model"
+                }
+              },
+              {
+                "item_id": "feed:227fcb0d624bcb1af08f2a503e5e63ae07741e6a1d5cbda81125e8eac82c391b",
+                "version_id": "a24e7cab0d00c1b3cf9d0e9e0973f95c72a997b8add865eb9a752157052601ab",
+                "locator": {
+                  "type": "text",
+                  "quote": "approximately 816 billion parameters, around 42 billion active per token"
+                }
+              }
+            ]
+          },
+          {
+            "claim_id": "01-c3",
+            "statement": "Despite using only eight experts per token, Muse Spark Open requires all experts to stay in memory; its article says the BF16 checkpoint is about 1.5 TB.",
+            "type": "source_claim",
+            "evidence": [
+              {
+                "item_id": "feed:227fcb0d624bcb1af08f2a503e5e63ae07741e6a1d5cbda81125e8eac82c391b",
+                "version_id": "a24e7cab0d00c1b3cf9d0e9e0973f95c72a997b8add865eb9a752157052601ab",
+                "locator": {
+                  "type": "text",
+                  "quote": "All 256 experts stay in memory, so deployment needs the memory of an 816B-parameter model"
+                }
+              },
+              {
+                "item_id": "feed:227fcb0d624bcb1af08f2a503e5e63ae07741e6a1d5cbda81125e8eac82c391b",
+                "version_id": "a24e7cab0d00c1b3cf9d0e9e0973f95c72a997b8add865eb9a752157052601ab",
+                "locator": {
+                  "type": "text",
+                  "quote": "The BF16 checkpoint is about 1.5 TB in safetensors format."
+                }
+              }
+            ]
+          },
+          {
+            "claim_id": "01-c4",
+            "statement": "TII says Falcon-ASR can be tried in a Hugging Face demo, while API access and native applications are planned rather than presented as already launched.",
+            "type": "source_claim",
+            "evidence": [
+              {
+                "item_id": "feed:7a6c716455f6be1bfda0beca6dfbc9cf90cf96199fa7d648b2b2f127c50b6b39",
+                "version_id": "72f1079c2ffa7b4666d21915b0558d5f46fdeee282da019f33bb1e8898b1ba6e",
+                "locator": {
+                  "type": "text",
+                  "quote": "Our Hugging Face Demo Space lets you try Falcon-ASR"
+                }
+              },
+              {
+                "item_id": "feed:7a6c716455f6be1bfda0beca6dfbc9cf90cf96199fa7d648b2b2f127c50b6b39",
+                "version_id": "72f1079c2ffa7b4666d21915b0558d5f46fdeee282da019f33bb1e8898b1ba6e",
+                "locator": {
+                  "type": "text",
+                  "quote": "API access and native applications are planned."
+                }
+              }
+            ]
+          },
+          {
+            "claim_id": "01-c5",
+            "statement": "Google announced Argon as globally available to developers and enterprises through its API in AI Studio and the Gemini platform; that route does not mean unrestricted consumer access.",
+            "type": "source_claim",
+            "evidence": [
+              {
+                "item_id": "feed:2417547fbcd4a08ff39cb3a84b7d6eede16d0808f385137d06219c2a3818e01d",
+                "version_id": "98ffa90a9d6392d846d700952fc48b34eb27c2d05af620c21b2d4ca69b171bd1",
+                "locator": {
+                  "type": "text",
+                  "quote": "Gemini 4 Argon is now globally available today for developers and enterprises via the API in AI Studio and Gemini platform"
+                }
+              }
+            ]
+          },
+          {
+            "claim_id": "01-c6",
+            "statement": "A Matt Wolfe early-access video reports mixed hands-on results: an Argon-generated 3D bust was printed, but two task workflows appeared stalled; these are anecdotal observations, not a controlled evaluation.",
+            "type": "reported_fact",
+            "evidence": [
+              {
+                "item_id": "youtube:eBszYxzE2dk",
+                "version_id": "2ab79cd72c9bad8e6f1f1f046f190e6a3d38704ab441a8a2d8aa2b48d6c2fc49",
+                "locator": {
+                  "type": "segment",
+                  "segment_id": "a-0248"
+                }
+              },
+              {
+                "item_id": "youtube:eBszYxzE2dk",
+                "version_id": "2ab79cd72c9bad8e6f1f1f046f190e6a3d38704ab441a8a2d8aa2b48d6c2fc49",
+                "locator": {
+                  "type": "segment",
+                  "segment_id": "a-0258"
+                }
+              },
+              {
+                "item_id": "youtube:eBszYxzE2dk",
+                "version_id": "2ab79cd72c9bad8e6f1f1f046f190e6a3d38704ab441a8a2d8aa2b48d6c2fc49",
+                "locator": {
+                  "type": "segment",
+                  "segment_id": "a-0265"
+                }
+              },
+              {
+                "item_id": "youtube:eBszYxzE2dk",
+                "version_id": "2ab79cd72c9bad8e6f1f1f046f190e6a3d38704ab441a8a2d8aa2b48d6c2fc49",
+                "locator": {
+                  "type": "segment",
+                  "segment_id": "a-0089"
+                }
+              },
+              {
+                "item_id": "youtube:eBszYxzE2dk",
+                "version_id": "2ab79cd72c9bad8e6f1f1f046f190e6a3d38704ab441a8a2d8aa2b48d6c2fc49",
+                "locator": {
+                  "type": "segment",
+                  "segment_id": "a-0230"
+                }
+              },
+              {
+                "item_id": "youtube:eBszYxzE2dk",
+                "version_id": "2ab79cd72c9bad8e6f1f1f046f190e6a3d38704ab441a8a2d8aa2b48d6c2fc49",
+                "locator": {
+                  "type": "segment",
+                  "segment_id": "a-0235"
+                }
+              }
+            ]
+          },
+          {
+            "claim_id": "01-c7",
+            "statement": "Taken together, Liquid AI’s downloadable release, Muse’s hardware requirements, and Falcon-ASR’s demo/API split suggest that practical access is a spectrum, not a binary open-versus-closed label; the evidence does not show which route users will find most useful.",
+            "type": "inference",
+            "evidence": [
+              {
+                "item_id": "feed:74f7c639767e5ff1cb437b2bfcedd7b9e9b9aadebbe208b61dad37317a2a8eff",
+                "version_id": "98deddc295f7211cab36c0e98ae0ee53ebf704379ee6e4e1ae8d8f9de6a94f6c",
+                "locator": {
+                  "type": "text",
+                  "quote": "Both LFM2.5-24B-A2B and LFM2.5-24B-A2B-Base are open-weight and available on Hugging Face today:"
+                }
+              },
+              {
+                "item_id": "feed:227fcb0d624bcb1af08f2a503e5e63ae07741e6a1d5cbda81125e8eac82c391b",
+                "version_id": "a24e7cab0d00c1b3cf9d0e9e0973f95c72a997b8add865eb9a752157052601ab",
+                "locator": {
+                  "type": "text",
+                  "quote": "All 256 experts stay in memory, so deployment needs the memory of an 816B-parameter model"
+                }
+              },
+              {
+                "item_id": "feed:7a6c716455f6be1bfda0beca6dfbc9cf90cf96199fa7d648b2b2f127c50b6b39",
+                "version_id": "72f1079c2ffa7b4666d21915b0558d5f46fdeee282da019f33bb1e8898b1ba6e",
+                "locator": {
+                  "type": "text",
+                  "quote": "API access and native applications are planned."
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "piece_id": "02",
+        "title": "Model scores need a map: what these evaluations actually test",
+        "question": "How do recent technical releases differ, and what can their evaluation evidence—and its limits—really tell us?",
+        "argument": "Recent technical reports span very different targets: a multimodal language model, Arabic speech recognition, and a climate simulator that sharpens coarse forecasts. Their scores cannot be treated as one leaderboard. The more useful comparison is how clearly each team describes its test data, baselines, and boundaries. Apertus 1.5 documents an evaluation and training pipeline; TII reports public Arabic results alongside an internal Emirati test; Ai2 compares simulated weather to a particular high-resolution model. Each offers evidence about a defined task, not a general measure of AI ability.",
+        "synthesis": "Apertus 1.5 uses early fusion: image and audio tokens are placed in the same sequence as text, while the model’s reported output remains text. Its technical report also describes Evaluation Cards that record how tests were run and accessed, an important step toward reproducing scores. TII’s Falcon-ASR comparison is more narrowly linguistic: its reported Arabic word-error rate is compared with a dated public leaderboard snapshot, while its Emirati result comes from an internal held-out evaluation. Ai2’s HiRO-ACEv2 measures how well a downscaling system reproduces statistics from X-SHiELD simulations, including rare events. A Dyna Robotics founder, in a recent interview, describes a different design problem—predicting future video to guide robot action—and says hardware and data remain bottlenecks. Combining these sources suggests that the value of a result depends on whether the evaluation matches the real task and makes the comparison reproducible. That is an analytical lesson, not proof that one team’s evaluation is superior.",
+        "limitations": "The reported Falcon, climate, and Apertus results are developer- or project-reported; they are not independent replications here. HiRO-ACEv2 is tied to X-SHiELD and the project says it cannot yet model other climates. The robotics evidence is an interview with a company co-founder, not a controlled test. These domains and metrics should not be ranked against one another.",
+        "claims": [
+          {
+            "claim_id": "02-c1",
+            "statement": "The Apertus 1.5 report says images and audio enter the model as discrete tokens in the same sequence as text, and that the model understands those inputs but generates text only.",
+            "type": "source_claim",
+            "evidence": [
+              {
+                "item_id": "feed:e0c4cbb1514f53cea2127ff828cf01663429588c0c77de65f35d35817e1d0a58",
+                "version_id": "912df8a94f8bca7ce00e5785f6673eb6409b9bdf32d16f44714f883d9f86db51",
+                "locator": {
+                  "type": "text",
+                  "quote": "images and audio enter Apertus as discrete tokens in the same sequence with text tokens"
+                }
+              },
+              {
+                "item_id": "feed:e0c4cbb1514f53cea2127ff828cf01663429588c0c77de65f35d35817e1d0a58",
+                "version_id": "912df8a94f8bca7ce00e5785f6673eb6409b9bdf32d16f44714f883d9f86db51",
+                "locator": {
+                  "type": "text",
+                  "quote": "The models understand images and audio but generate only text."
+                }
+              }
+            ]
+          },
+          {
+            "claim_id": "02-c2",
+            "statement": "Apertus says its Evaluation Cards record the evaluator, model access, generation settings, and metric interpretation, so readers can inspect more than the score alone.",
+            "type": "source_claim",
+            "evidence": [
+              {
+                "item_id": "feed:e0c4cbb1514f53cea2127ff828cf01663429588c0c77de65f35d35817e1d0a58",
+                "version_id": "912df8a94f8bca7ce00e5785f6673eb6409b9bdf32d16f44714f883d9f86db51",
+                "locator": {
+                  "type": "text",
+                  "quote": "records not only scores, but also who ran the evaluation, how the model was accessed, the generation settings, and how each metric should be interpreted"
+                }
+              }
+            ]
+          },
+          {
+            "claim_id": "02-c3",
+            "statement": "TII reports Falcon-ASR’s average Arabic word-error rate as 20.92% across six test sets, compared with 23.17% for the best published result in the leaderboard snapshot it used.",
+            "type": "source_claim",
+            "evidence": [
+              {
+                "item_id": "feed:7a6c716455f6be1bfda0beca6dfbc9cf90cf96199fa7d648b2b2f127c50b6b39",
+                "version_id": "72f1079c2ffa7b4666d21915b0558d5f46fdeee282da019f33bb1e8898b1ba6e",
+                "locator": {
+                  "type": "text",
+                  "quote": "Falcon-ASR achieved an average word error rate of 20.92% across six Arabic test sets, compared with the best published result of 23.17%"
+                }
+              }
+            ]
+          },
+          {
+            "claim_id": "02-c4",
+            "statement": "TII separately reports an internal Emirati evaluation, with 22.73% word error rate and the lowest word and character error rates among the systems it compared; this is not the public leaderboard result.",
+            "type": "source_claim",
+            "evidence": [
+              {
+                "item_id": "feed:7a6c716455f6be1bfda0beca6dfbc9cf90cf96199fa7d648b2b2f127c50b6b39",
+                "version_id": "72f1079c2ffa7b4666d21915b0558d5f46fdeee282da019f33bb1e8898b1ba6e",
+                "locator": {
+                  "type": "text",
+                  "quote": "In our internal Emirati evaluation, Falcon-ASR achieved 22.73% WER and 10.19% CER:"
+                }
+              },
+              {
+                "item_id": "feed:7a6c716455f6be1bfda0beca6dfbc9cf90cf96199fa7d648b2b2f127c50b6b39",
+                "version_id": "72f1079c2ffa7b4666d21915b0558d5f46fdeee282da019f33bb1e8898b1ba6e",
+                "locator": {
+                  "type": "text",
+                  "quote": "Falcon-ASR has the lowest WER and CER among the systems compared here."
+                }
+              }
+            ]
+          },
+          {
+            "claim_id": "02-c5",
+            "statement": "Ai2 reports that HiROv2 matches X-SHiELD high-resolution statistics within 3%, even for events occurring once in a million data points; the comparison is against that specific simulation.",
+            "type": "source_claim",
+            "evidence": [
+              {
+                "item_id": "feed:890d9b1abb1aee38ddaf66fc51c1b22e40dbf1502357c1561af5a99a67ec4252",
+                "version_id": "4f7dcd14b763ecb67aa491dfb63692c36cb9b0224d5e00fa54b67452f05e1e64",
+                "locator": {
+                  "type": "text",
+                  "quote": "it matches the target simulation's high-resolution statistics to within 3%, even for events so rare they occur only once in a million data points."
+                }
+              },
+              {
+                "item_id": "feed:890d9b1abb1aee38ddaf66fc51c1b22e40dbf1502357c1561af5a99a67ec4252",
+                "version_id": "4f7dcd14b763ecb67aa491dfb63692c36cb9b0224d5e00fa54b67452f05e1e64",
+                "locator": {
+                  "type": "text",
+                  "quote": "because HiRO learned from X-SHiELD, it only works with the version of ACE tuned to match X-SHiELD."
+                }
+              }
+            ]
+          },
+          {
+            "claim_id": "02-c6",
+            "statement": "Dyna Robotics’ co-founder describes Dyna-2 as predicting future video as well as executable robot actions; he also says human data needs adaptation to robot data and identifies hardware and data as constraints.",
+            "type": "source_claim",
+            "evidence": [
+              {
+                "item_id": "podcast:a5722550a3b286ab7f03971ecfd02300b82428497f446ada3c8328f7918d698c",
+                "version_id": "f64a606580eb9edf5dd23191b9292737d4e0411a2640395aaedede16ce22520c",
+                "locator": {
+                  "type": "segment",
+                  "segment_id": "p-0006"
+                }
+              },
+              {
+                "item_id": "podcast:a5722550a3b286ab7f03971ecfd02300b82428497f446ada3c8328f7918d698c",
+                "version_id": "f64a606580eb9edf5dd23191b9292737d4e0411a2640395aaedede16ce22520c",
+                "locator": {
+                  "type": "segment",
+                  "segment_id": "p-0019"
+                }
+              },
+              {
+                "item_id": "podcast:a5722550a3b286ab7f03971ecfd02300b82428497f446ada3c8328f7918d698c",
+                "version_id": "f64a606580eb9edf5dd23191b9292737d4e0411a2640395aaedede16ce22520c",
+                "locator": {
+                  "type": "segment",
+                  "segment_id": "p-0109"
+                }
+              }
+            ]
+          },
+          {
+            "claim_id": "02-c7",
+            "statement": "Across Apertus, Falcon-ASR, and HiRO-ACEv2, evaluation detail makes each result interpretable only within its task, data, and comparison conditions; this suggests careful task matching matters more than comparing headline scores, but does not independently validate the reported results.",
+            "type": "inference",
+            "evidence": [
+              {
+                "item_id": "feed:e0c4cbb1514f53cea2127ff828cf01663429588c0c77de65f35d35817e1d0a58",
+                "version_id": "912df8a94f8bca7ce00e5785f6673eb6409b9bdf32d16f44714f883d9f86db51",
+                "locator": {
+                  "type": "text",
+                  "quote": "records not only scores, but also who ran the evaluation, how the model was accessed, the generation settings, and how each metric should be interpreted"
+                }
+              },
+              {
+                "item_id": "feed:7a6c716455f6be1bfda0beca6dfbc9cf90cf96199fa7d648b2b2f127c50b6b39",
+                "version_id": "72f1079c2ffa7b4666d21915b0558d5f46fdeee282da019f33bb1e8898b1ba6e",
+                "locator": {
+                  "type": "text",
+                  "quote": "In our internal Emirati evaluation, Falcon-ASR achieved 22.73% WER and 10.19% CER:"
+                }
+              },
+              {
+                "item_id": "feed:890d9b1abb1aee38ddaf66fc51c1b22e40dbf1502357c1561af5a99a67ec4252",
+                "version_id": "4f7dcd14b763ecb67aa491dfb63692c36cb9b0224d5e00fa54b67452f05e1e64",
+                "locator": {
+                  "type": "text",
+                  "quote": "because HiRO learned from X-SHiELD, it only works with the version of ACE tuned to match X-SHiELD."
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "piece_id": "03",
+        "title": "Beyond the model demo: agents are changing work, and shifting the bottlenecks",
+        "question": "What broader direction emerges when recent model-building tools, AI-assisted engineering, robotics, and platform policies are considered together?",
+        "argument": "The strongest cross-sector signal is not simply that AI can produce more outputs. It is that model use is being embedded in workflows and infrastructure: an agent can help build and publish small models, a company reports redesigning source control as coding activity rises, and a robotics founder describes combining models with data and hardware to deploy physical tasks. These examples point toward AI systems becoming operational components, not just chat interfaces. But the same shift makes access, evaluation, and oversight more important—and the evidence does not establish that agents caused the reported organizational changes.",
+        "synthesis": "The Hugging Face article describes ML Intern as planning, testing, training, evaluating, and publishing models, with a human setting budgets and project instructions. Simon Willison’s account of Anthropic’s Scion and Antique suggests an organization adapting source control and review to a reported increase in code changes. In a separate podcast interview, Dyna Robotics’ co-founder says that useful robot autonomy depends on data and hardware as well as models, and acknowledges that human demonstrations do not map directly onto a robot. These are different settings, but together they suggest a shift in what counts as AI progress: not only model capability, but the surrounding workflow, tools, and physical or organizational system. Meanwhile, recent music-platform reporting shows that AI policy can mean disclosure or filtering, and TechCrunch’s Flock report illustrates a gap between public claims about audio detection and assurances about what is not monitored. This combination suggests that operational integration increases the need to scrutinize controls and claims. It does not prove a single industry-wide trajectory, and the sources are not independent audits of product performance.",
+        "limitations": "The model-building costs and results are reported by the builders; Anthropic’s internal change figures are relayed through Willison and are not audited here. Dyna’s statements come from a company interview, while the Flock article reports a dispute without an independent technical test. Music-policy coverage is secondary reporting, and announced features or policies do not establish detection accuracy or user outcomes. The examples span unlike sectors and cannot establish causation or prevalence.",
+        "claims": [
+          {
+            "claim_id": "03-c1",
+            "statement": "The Hugging Face article says ML Intern plans work, requests a budget, tests, trains, evaluates, and publishes; its author reports roughly $103 in compute across six projects.",
+            "type": "source_claim",
+            "evidence": [
+              {
+                "item_id": "feed:1d28b948019906af44beedd1d629604c92976362f43d35af7df3595d7756a95c",
+                "version_id": "93466c416d1045376c0182c260bea53b1beb9029bb325b7aa1f08232fc048c94",
+                "locator": {
+                  "type": "text",
+                  "quote": "ML-intern plans the work, asks me for a budget before it spends anything"
+                }
+              },
+              {
+                "item_id": "feed:1d28b948019906af44beedd1d629604c92976362f43d35af7df3595d7756a95c",
+                "version_id": "93466c416d1045376c0182c260bea53b1beb9029bb325b7aa1f08232fc048c94",
+                "locator": {
+                  "type": "text",
+                  "quote": "Total\nabout USD 103"
+                }
+              }
+            ]
+          },
+          {
+            "claim_id": "03-c2",
+            "statement": "Willison relays Anthropic’s report that daily merged code changes rose from about 2,500 in May to more than 30,000 in September, alongside its new Scion source-control system and Antique review tool.",
+            "type": "reported_fact",
+            "evidence": [
+              {
+                "item_id": "feed:3e807c680553afa8e7a7fab0c86367379ffe15326fd7fb88ab84c99f58a26838",
+                "version_id": "df0982905fe0f592da0c250b6940e7e9e328c7d20491a91173091b9e1940769b",
+                "locator": {
+                  "type": "text",
+                  "quote": "In May 2026, Anthropic averaged around 2,500 code changes merged per day; as of September, we merged over 30,000 per day."
+                }
+              },
+              {
+                "item_id": "feed:3e807c680553afa8e7a7fab0c86367379ffe15326fd7fb88ab84c99f58a26838",
+                "version_id": "df0982905fe0f592da0c250b6940e7e9e328c7d20491a91173091b9e1940769b",
+                "locator": {
+                  "type": "text",
+                  "quote": "\"Antique\" is their new code review system. The source control system is called Scion"
+                }
+              }
+            ]
+          },
+          {
+            "claim_id": "03-c3",
+            "statement": "In the Dyna Robotics interview, the co-founder says human demonstrations provide broad physical examples but require adaptation with robot data, and identifies data and hardware as bottlenecks to more general-purpose robots.",
+            "type": "source_claim",
+            "evidence": [
+              {
+                "item_id": "podcast:a5722550a3b286ab7f03971ecfd02300b82428497f446ada3c8328f7918d698c",
+                "version_id": "f64a606580eb9edf5dd23191b9292737d4e0411a2640395aaedede16ce22520c",
+                "locator": {
+                  "type": "segment",
+                  "segment_id": "p-0019"
+                }
+              },
+              {
+                "item_id": "podcast:a5722550a3b286ab7f03971ecfd02300b82428497f446ada3c8328f7918d698c",
+                "version_id": "f64a606580eb9edf5dd23191b9292737d4e0411a2640395aaedede16ce22520c",
+                "locator": {
+                  "type": "segment",
+                  "segment_id": "p-0109"
+                }
+              }
+            ]
+          },
+          {
+            "claim_id": "03-c4",
+            "statement": "TechCrunch reports that YouTube Music’s new labels disclose AI’s role without making AI involvement alone disqualifying for monetization; a separate report says Deezer is working on an AI-music filter expected before the end of the year, rather than already available.",
+            "type": "reported_fact",
+            "evidence": [
+              {
+                "item_id": "feed:21e7f3f15b3e9c2e170ab98ea75f451bd4ed9d6ef08b70a13748c6ecc1972231",
+                "version_id": "ee14c06b1dca3197fbe9e4f644aa2d6533a103f2035cf73f11a9a7f5692098ab",
+                "locator": {
+                  "type": "text",
+                  "quote": "AI involvement alone doesn’t make a track ineligible for monetization."
+                }
+              },
+              {
+                "item_id": "feed:855ef2ce6c6083db9cb9f7eaaab38698c38de14ab18bfeb0ea4645cef1b80384",
+                "version_id": "4dd7b2344172cc3eb98001578b12c74c5bb1aab4ba14a5149a593795ba375010",
+                "locator": {
+                  "type": "text",
+                  "quote": "The feature is expected to be available before the end of the year."
+                }
+              }
+            ]
+          },
+          {
+            "claim_id": "03-c5",
+            "statement": "TechCrunch reports that Flock’s CEO said its microphones detect “just gunshots,” while a company spokesperson described other event detection but denied that the system is designed to monitor conversations or analyze speech; the report supplies no independent technical test.",
+            "type": "reported_fact",
+            "evidence": [
+              {
+                "item_id": "feed:0d26c42f4dbee4d81bb457a0f7e7507cf6b9c7eb8875a14e845577dc5d01132b",
+                "version_id": "527cdd48f2160597bfb0a076eeca70aba8b7fa2c619d58098966856ea3c8ecd8",
+                "locator": {
+                  "type": "text",
+                  "quote": "primarily used to detect gunfire but is also capable of detecting fireworks, sideshows, and potential car crashes."
+                }
+              },
+              {
+                "item_id": "feed:0d26c42f4dbee4d81bb457a0f7e7507cf6b9c7eb8875a14e845577dc5d01132b",
+                "version_id": "527cdd48f2160597bfb0a076eeca70aba8b7fa2c619d58098966856ea3c8ecd8",
+                "locator": {
+                  "type": "text",
+                  "quote": "Audio Detection technology is not designed to monitor conversations or analyze speech"
+                }
+              }
+            ]
+          },
+          {
+            "claim_id": "03-c6",
+            "statement": "Together, the ML Intern workflow, Anthropic’s reported engineering-system changes, and Dyna’s account suggest that AI progress increasingly depends on integrating models into workflows and infrastructure; this is an uncertain pattern inference, not evidence that AI caused Anthropic’s increase or that it is widespread.",
+            "type": "inference",
+            "evidence": [
+              {
+                "item_id": "feed:1d28b948019906af44beedd1d629604c92976362f43d35af7df3595d7756a95c",
+                "version_id": "93466c416d1045376c0182c260bea53b1beb9029bb325b7aa1f08232fc048c94",
+                "locator": {
+                  "type": "text",
+                  "quote": "ML-intern plans the work, asks me for a budget before it spends anything"
+                }
+              },
+              {
+                "item_id": "feed:3e807c680553afa8e7a7fab0c86367379ffe15326fd7fb88ab84c99f58a26838",
+                "version_id": "df0982905fe0f592da0c250b6940e7e9e328c7d20491a91173091b9e1940769b",
+                "locator": {
+                  "type": "text",
+                  "quote": "The source control system is called Scion, and sounds to me like a reinvention of centralized source control along the lines of Subversion."
+                }
+              },
+              {
+                "item_id": "podcast:a5722550a3b286ab7f03971ecfd02300b82428497f446ada3c8328f7918d698c",
+                "version_id": "f64a606580eb9edf5dd23191b9292737d4e0411a2640395aaedede16ce22520c",
+                "locator": {
+                  "type": "segment",
+                  "segment_id": "p-0109"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "blocking_reasons": []
+  },
+  "notes": "Shortened three over-limit locators to exact source excerpts and corrected one capitalization mismatch. Added early-access, briefing, and 3D-prompt transcript context for 01-c6. Attributed Muse deployment guidance to the Hugging Face article, not Meta. Replaced the interpretive stricter-alternative wording in 03-c4 with the directly reported planned Deezer filter and its availability limitation. Original responses remain preserved. These are evidence corrections, not student review or approval."
+}

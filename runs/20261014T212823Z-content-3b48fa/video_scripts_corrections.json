@@ -1,0 +1,143 @@
+{
+  "source_output_digest": "31bc7515f46cf2daf8d72e047e95d9cb3664b09e01c0055c1e6cc25c4f08dab5",
+  "corrected_output": {
+    "drafts": [
+      {
+        "piece_id": "01",
+        "scenes": [
+          {
+            "narration": "When a new AI model is announced, “available” can mean several different things. You might need a paid subscription, download model files to run them yourself, or settle for a web demo while fuller access is still planned. Those differences affect who can try a release and how. Here are four recent examples—and what their announcements and demonstrations can, and cannot, tell us.",
+            "visual": "Open on an illustrative three-way comparison card: paid hosted access, downloadable weights, demo. Label the graphic illustrative; do not show invented product interfaces.",
+            "claim_ids": [
+              "01-c6"
+            ]
+          },
+          {
+            "narration": "Google says Gemini 4 Argon is available to developers and enterprises through its API, and to consumers through Google AI Pro and Ultra subscriptions in the Gemini app and AI Mode in Search. That describes routes to use, not proof of quality. Matt Wolfe, who disclosed early access and a Google briefing, offers a small, more personal glimpse: a task stalled for about an hour, while another produced a six-slide deck explaining prompt injection, a kind of attack that tries to manipulate an AI using hidden or misleading instructions. Both outcomes came from one demonstration. They are not a controlled test of what users should generally expect.",
+            "visual": "Use a labeled comparison card for Google’s announced API and subscription routes. Add a separate text card, attributed to Matt Wolfe, with early access and a Google briefing disclosed: “One task stalled; a six-slide deck was produced.” No fabricated screenshots.",
+            "claim_ids": [
+              "01-c1",
+              "01-c2"
+            ]
+          },
+          {
+            "narration": "Liquid AI offers a different route. The company says its LFM2.5-24B-A2B reasoning model is open-weight and downloadable now. Open-weight means the model’s learned numerical settings can be obtained; it does not, by itself, mean every part of a project is open source. Liquid AI describes 24 billion total parameters, with two billion active per token. A token is a small unit of text, such as a word fragment. Parameters are internal values a model uses to process information; here, the active count indicates that only part of the model is used for each token. Downloading may suit people who want to run a model locally, but that depends on their hardware and setup.",
+            "visual": "Illustrative diagram: a full network with a smaller selected portion highlighted per token. Label figures as Liquid AI claims and label diagram illustrative.",
+            "claim_ids": [
+              "01-c3"
+            ]
+          },
+          {
+            "narration": "TII’s Falcon-ASR is a speech-recognition model with a more limited access offer: TII says people can try it in a Hugging Face demo, while API access and native applications are planned. Planned is not the same as available now. A separate Hugging Face article describes ML Intern, an agent-assisted workflow for building task-specific models. Its author reports that the workflow helped train, evaluate, and publish models, including a 0.8-billion-parameter prompt rewriter that runs on a CPU—the computer’s general-purpose processor. That is an author-reported project, not independent confirmation that other users will get the same result.",
+            "visual": "Show a labeled access card for Falcon-ASR: “Demo available; API and native apps planned,” attributed to TII. Follow with an illustrative workflow diagram: train, evaluate, publish; attribute CPU-model example to the author.",
+            "claim_ids": [
+              "01-c4",
+              "01-c5"
+            ]
+          },
+          {
+            "narration": "Together, the releases offer distinct choices: paid hosted access, downloadable weights, a demo with fuller access still pending, and a workflow for making a specialized model. They do not tell us which option users prefer, or which model performs best. The product descriptions and project results largely come from the companies or authors involved, and access conditions can change. So before trying one, ask: what can I use today, what does it require, and what evidence supports the result I care about?",
+            "visual": "Return to the illustrative comparison card and add a final checklist: “Available now?”, “What does it require?”, “Who reports the result?”",
+            "claim_ids": [
+              "01-c1",
+              "01-c3",
+              "01-c4",
+              "01-c5",
+              "01-c6"
+            ]
+          }
+        ]
+      },
+      {
+        "piece_id": "02",
+        "scenes": [
+          {
+            "narration": "A benchmark score can sound like a universal verdict. It is not. A benchmark is a defined task, dataset, and scoring method; it tells us how a system did under those conditions. Recent reports cover language-model agents, speech recognition, climate simulation, and robotics. They ask different questions, so their results cannot be lined up as if they were one contest. The useful habit is to ask what was measured, against what reference, and how closely that resembles the intended use.",
+            "visual": "Open with four labeled, illustrative tiles: language tasks, speech, climate simulation, robotics. Add: “Different tasks; not one shared ranking.”",
+            "claim_ids": [
+              "02-c6"
+            ]
+          },
+          {
+            "narration": "Liquid AI describes LFM2.5-24B-A2B as a mixture-of-experts model. Think of it as a network with specialized sections: its stated design has 40 layers and 64 experts in each mixture-of-experts block, with top-four routing. In plain language, each block selects four experts for a token rather than using every expert at once. Its published table reports a mixed picture: the model scores ahead of the listed competitors on LiveClaw, but trails Qwen3.6 on GPQA Diamond and SWE-Bench Verified. Those are company-reported comparisons using the company’s stated evaluation setup and each benchmark’s recommended generation settings—not a universal assessment of model quality.",
+            "visual": "Illustrative network diagram with four highlighted experts. Then show a restrained comparison card with benchmark names only; attribute results to Liquid AI and note its stated evaluation conditions.",
+            "claim_ids": [
+              "02-c1",
+              "02-c2"
+            ]
+          },
+          {
+            "narration": "TII’s Falcon-ASR tackles a different problem: turning speech into text, with particular attention to Arabic and Emirati speech. TII reports a 20.92 percent average word error rate across six public Arabic test sets, and 22.73 percent on a separate internal Emirati evaluation. Word error rate counts transcription errors against reference words; lower is better. The public tests and the internal dialect evaluation are not the same comparison. These are producer-reported figures, and neither number guarantees the same result for every speaker, dialect, or recording condition.",
+            "visual": "Create two separate, clearly labeled cards: “Six public Arabic test sets” and “Separate internal Emirati evaluation.” Show WER units as percentages, note “lower is better,” and attribute both figures to TII. Add “Different test sets; not a direct head-to-head comparison.”",
+            "claim_ids": [
+              "02-c3"
+            ]
+          },
+          {
+            "narration": "Ai2’s HiRO-ACEv2 addresses climate simulation. Its system takes coarse outputs and generates finer detail; Ai2 says HiROv2 can predict several high-resolution fields, including rain, wind, and pressure, at three-kilometer detail. Against the X-SHiELD target simulation, Ai2 reports matching high-resolution statistics within three percent, even for events it describes as occurring once in a million data points. That is a result against a particular simulation, not a guarantee about every real-world climate. Ai2 also says the system currently depends on an ACE version tuned to X-SHiELD.",
+            "visual": "Use an illustrative coarse-to-fine grid diagram labeled “Coarse ACE outputs” and “3 km HiRO detail,” with rain, wind, and pressure labels. Attribute the within-3% result to Ai2 and identify X-SHiELD as the reference simulation.",
+            "claim_ids": [
+              "02-c4"
+            ]
+          },
+          {
+            "narration": "Robotics adds another kind of evidence. In a podcast interview, Dyna Robotics co-founder Jason Ma describes Dyna-2 as taking video, robot-joint information, and language instructions, then producing actions and predicted future video. Joint information means readings about the robot’s body and movement. The predicted video represents what the system expects may happen; the actions are intended to control the robot. This explains the company’s design, but an interview is not an independent performance test. Across all four cases, the conclusion is bounded: each report can inform us about its own task and conditions, but none establishes a common winner. What independent testing would show whether these results hold in everyday use remains an open question.",
+            "visual": "Show an illustrative input-output diagram for the Dyna-2 description, labeled “Company co-founder’s account; not an independent test.” End on a card: “What was measured—and under what conditions?”",
+            "claim_ids": [
+              "02-c5",
+              "02-c6"
+            ]
+          }
+        ]
+      },
+      {
+        "piece_id": "03",
+        "scenes": [
+          {
+            "narration": "A stronger model is only one part of an AI system. Recent examples in software engineering, robotics, climate research, and biology raise a practical question: what data, tools, hardware, and expertise have to surround a model before it can do useful work? These examples do not prove that the whole AI field is moving in one direction. But they show why a capability claim can leave important operating conditions out of view.",
+            "visual": "Open with an illustrative system diagram: model at center, surrounded by data, tools, hardware, and expertise. Mark it “Illustrative.”",
+            "claim_ids": [
+              "03-c6"
+            ]
+          },
+          {
+            "narration": "Simon Willison reports figures from Anthropic’s account of its engineering work: about 2,500 code changes merged per day in May 2026, compared with more than 30,000 per day in September. Those are company figures, not independently verified here. Willison guesses that newer Fable or Mythos-class models may have contributed, but calls that explanation his guess. He also notes that public release dates do not reveal when models became available internally. Anthropic’s move to custom source-control tools—the systems used to manage code changes—shows infrastructure changing alongside the reported workload, but the evidence does not isolate what caused the increase.",
+            "visual": "Use a restrained card with the two dates and figures, explicitly labeled “Anthropic figures, reported by Simon Willison.” Add “Model explanation: Willison’s guess.” No performance chart.",
+            "claim_ids": [
+              "03-c1",
+              "03-c2",
+              "03-c6"
+            ]
+          },
+          {
+            "narration": "Robotics makes the surrounding system especially visible. Dyna Robotics co-founder Jason Ma says the company combines diverse human video with robot-specific data. Human recordings can show many kinds of physical activity, but human movements do not directly match the company’s robot hardware, so the approach also needs robot data. Ma says hardware stability and data constrain broader deployment. For example, a model must be evaluated on real equipment, and unstable hardware can limit that testing. These are the co-founder’s descriptions and views, not independent findings—but they show how a robot’s body and data shape what its model can do.",
+            "visual": "Illustrative two-stream diagram: human video and robot-specific data feed a model connected to hardware. Attribute the approach and constraints to Dyna’s co-founder.",
+            "claim_ids": [
+              "03-c3",
+              "03-c4"
+            ]
+          },
+          {
+            "narration": "Ai2’s climate emulator offers a parallel. Ai2 reports that HiROv2 produces high-resolution climate detail that closely matches the X-SHiELD simulation. But the organization also says the system currently depends on an ACE version tuned to X-SHiELD, and cannot yet generate high-resolution data for other climates, including a warmer future. The result and the boundary belong together: agreement with a particular reference does not establish that the system can answer questions outside that scope. This example is developer-reported, not an independent replication.",
+            "visual": "Illustrative diagram of a reference simulation feeding a climate emulator. Label “X-SHiELD-tuned scope” and “Other climates not yet supported, per Ai2.”",
+            "claim_ids": [
+              "03-c5"
+            ]
+          },
+          {
+            "narration": "A participant in a biology discussion featuring Google DeepMind and Biohub offers a useful principle: begin with the scientific problem, then decide whether progress calls for modeling, more data, or expertise. That is an expert perspective, not a new biological result. Read alongside the other examples, it suggests a practical lesson: inspect the whole workflow, not just the model. But the cases come from very different fields, and several claims come from companies or their representatives. They do not establish a field-wide rule. A useful next question is: what independent evidence shows that the data, tools, and hardware around a model are keeping pace with its claimed capability?",
+            "visual": "Close with an illustrative problem-first flow: define problem, identify needed data/tools/expertise, evaluate the whole system. Add “Synthesis, not a field-wide finding.”",
+            "claim_ids": [
+              "03-c6",
+              "03-c1",
+              "03-c3",
+              "03-c4",
+              "03-c5"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "notes": "Assistant comparison with articles and source passages named Matt Wolfe and his Google briefing, explained token, clarified per-block expert routing, removed unnecessary jargon and an extra visual resolution figure, distinguished the two ASR test sets, clarified source-control wording, and attributed the research view to a participant rather than the whole panel. These production refinements preserve the same material claims; no student approval or rendered assets are asserted."
+}

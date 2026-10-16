@@ -1,0 +1,12 @@
+{
+  "checked_at": "2026-10-16T03:13:58.881186Z",
+  "candidate_file_count": 1029,
+  "logical_candidate_bytes": 75266764,
+  "text_files_scanned": 985,
+  "credential_pattern_matches": [],
+  "files_at_or_above_100mb": [],
+  "missing_root_document_links": [],
+  "absolute_root_document_links": [],
+  "temporary_recording_files_removed": true,
+  "note": "Ignored .env and environment directories were excluded. An initial broad sk- substring scan flagged public URL slugs containing risk/Musk/SK Hynix and substrings inside opaque provider response data. Redacted-context inspection resolved those false positives; this scan uses token boundaries and credential-shape checks with self-checks. Credential values are never output."
+}

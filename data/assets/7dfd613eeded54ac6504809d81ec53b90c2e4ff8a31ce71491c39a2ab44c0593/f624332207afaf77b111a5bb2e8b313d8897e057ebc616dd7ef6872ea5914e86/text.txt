@@ -1,0 +1,771 @@
+So Anthropic announced a new model this week.
+OpenAI has been on a spree of multiple new announcements a day.
+We got some new stuff out of Grok, some new stuff out of Google,
+lots of stuff to cover today.
+So let's get straight into it.
+I'll start here, but we won't go too deep into this.
+Anthropic released a new model in Cloud Haiku 5.5.
+This model is meant to be fast and cheap, but not really like
+the smartest model in the world.
+We can see right here, they describe it as designed for high
+volume, cost sensitive tasks.
+It reliably handles quick and repetitive workloads like
+summaries, compactions, database queries, and classification requests.
+They also recommend using it as a sub-agent on coding work.
+They did post up some benchmarks, but as we can quickly see, it is
+definitely not state of the art on anything, really.
+So knowledge work, you can see it's 1620 compared to Sonnet's 1840.
+Obviously Opus is even higher than that.
+Knowledge work here, 1578 versus 1824, computer use 72 to Sonnet's 83.9.
+And just across the board, there's pretty much nothing that this is
+going to out benchmark its Sonnet or Opus models on.
+The main selling point, once again, of Haiku is it is inexpensive.
+Haiku here on extra high, for instance, is about as smart
+as Sonnet 5.5 on medium.
+But as we can see, Sonnet 5.5 is roughly 93 cents where Haiku
+5.5 extra high is 28 cents.
+But if you're using Sonnet on one of its higher thinking levels than medium,
+well, then it quickly becomes much smarter, but also a bit more expensive.
+And you're going to see pretty much the same kind of things
+across all of these benchmarks here.
+Haiku 5.5 costs about 10 cents per million output tokens up to the
+first hundred thousand tokens, then 50 cents per million.
+And then output, you've got 50 cents up to the first hundred
+thousand, then two 50 beyond that.
+You compare that to the previous version of Haiku.
+It's cheaper than the previous version of Haiku by quite a bit.
+And also, you know, a fourth of the price of using Sonnet.
+So if you need fast and cheap, but not necessarily the most
+intelligent model ever, well, Claude Haiku 5.5 sort of falls in
+line with, you know, like a Luna model.
+If we look over at artificial analysis, which takes into
+account a whole bunch of benchmarks to try to find like a sort of
+objectively smartest model here, we can see that Anthropic owns the
+top three models in terms of intelligence here, but Haiku 5.5
+files all the way down here below Kimi K3, below GLM 5.3, below Grok 4.7.
+So, you know, it's not the smartest model, but when we come look at cost
+per task down here, the previous Anthropic models, Sonnet, Opus,
+and Fable are way up here is like the most expensive per task models.
+Haiku 5.5 falls way down here at roughly 21 cents average cost per task.
+So very, very, very inexpensive to run while still being a decently smart model.
+However, just like other Anthropic models, it does use a lot of tokens.
+So we can see here, Cloud Haiku 5.5 is way up here using the second most
+amount of tokens per task only behind Sonnet 5.5, but because the tokens
+are so cheap, it doesn't seem to matter.
+Cause we're still seeing that cost per task of about 21 cents.
+Oh, and if you're curious how Haiku 5.5 performed on Busey bench, here's what we
+got, it did cost us less than half a cent generate in 42 seconds and use
+less than 10,000 tokens, but not very Busey.
+If you have a cloud plan, you could jump into your cloud account and
+set up Haiku 5.5 right now.
+Set up your effort level.
+Medium is the recommended effort level, but if you're on one of the
+paid cloud accounts, like a $20 a month or up plan, you're probably not
+going to be using Haiku for most things.
+You're probably going to use one of the smarter models where people are
+really going to be thinking about using something like Haiku is via the API.
+So if you're building a tool that runs a model, or if you're using
+cloud code and you're doing some real basic stuff in cloud code, using
+the API, you'll probably select Haiku 5.5 to get those speed and cost efficiency
+gains, but if you're just chatting with cloud and you want a decently
+smart model, you'll probably pick one of these larger models anyway,
+since you're paying a monthly fee.
+And you're not really worried about API costs, but in my opinion, there
+was actually something even more interesting released by Anthropic
+this week, and that's the ability to build live dashboards and
+to animate explainers with Claude.
+Now, most of us can actually build live dashboards right now.
+The animate explainers with Claude is probably not available to most
+of us just yet, which is very unfortunate and kind of annoying.
+We can see here that Claude can turn your data into a dashboard that
+stays current and your ideas into animated explainers.
+So for the dashboard, it connects to data platforms like BigQuery,
+Databricks or Snowflake or a CRM tool like Salesforce, and you can use
+it pretty much on any paid plan.
+However, Claude motion, which is the thing that I think is even cooler
+is only on team or enterprise plans.
+So this dashboard thing here that connects to your CRM is pretty cool,
+but I feel like we've already been able to do that, right?
+Like they just made it easier to do.
+They made it sort of less steps in between, but we've sort of
+always been able to make dashboards.
+It's just sort of more built in now.
+And I guess you can argue we've been able to do these motion animations as well.
+You can have it code in JavaScript and make these animations for you.
+Like what you're seeing on the screen right now, hyper frames and a
+re motion, we're able to do stuff like that.
+You connect it to Claude and it would build stuff out like that.
+But again, they're just making this built in.
+So I don't believe you actually need to use any of those extra add-ons
+to get the animations to work.
+But again, the Claude motion is in beta in team and enterprise, and I don't
+have a team or enterprise plan personally.
+I find this a bit annoying because I do have a max plan.
+I'm actually on a $200 a month max plan.
+And one of the things they sell you on the max plan is early
+access to advanced Claude features.
+So I'm paying extra cause I want to get early access when this stuff comes out.
+And when something like the new Claude motion comes out for whatever reason,
+they didn't give it to the people paying a hundred dollars a month plus that
+signed up for early access to advanced features, but they are giving it to
+people on a team plan that might be paying as low as $20 a month,
+like kind of frustrating.
+But I guess at the end of the day, we can still accomplish this stuff.
+You can tell it to go and create an animation using, you know,
+JavaScript and it will.
+You can use things like hyper frames and re motion, install those skills,
+and it will also do these kinds of animations.
+It's just nice to have it sort of built in without those extra plug ins.
+So in terms of whether or not we're able to do something
+that we couldn't used to do, well, we still can do that,
+but I am looking forward to like cutting out some steps and making it even
+quicker and easier and just like native to Claude.
+Before we get back into the video,
+I want to take a second to show you guys something really cool that I built
+recently.
+You might've seen my other videos where I bring creators onto my channel to break
+down the like interesting things that they're building with AI and believe it
+or not,
+there's a surprising amount of prep that goes into those conversations because I
+really need to understand like what they built and then make sure we touch upon
+like all of the coolest parts of what they built.
+So I'm using hyper agent to build a little like guest prep team that my
+actual team can use whenever we're planning for an interview.
+Now I created three agents with three different jobs.
+I've got scout echo and Vox.
+So first is scout my researcher.
+All I have to do is give it the name of the guest and it'll find their website,
+social channels and anything else I need for the prep.
+Here's the prompt that I use to build scout,
+build me an agent named scout that acts as a guest researcher for my YouTube
+series where I feature other creators and what they've built using AI.
+Next is echo my interviewer.
+He takes that research and comes up with questions.
+Here's the prompt that I use to create echo,
+build me an agent named echo that acts as my interview strategist.
+And then we had our echo agent.
+I'm also adding an example of a previous interview.
+So it has reference for the kind of conversation that I want.
+Then the third agent is Vox, my producer,
+build me an agent named Vox that acts as my interview editor and producer.
+Its job is to turn that material into a video rundown.
+Each of these agents has a specific role and boundaries.
+And for this case,
+they didn't need access to my email or calendar or any of those sorts of tools.
+So I'm leaving those disconnected is because as you build more agents,
+you can give each one only the tools and access that its job actually requires.
+Let's go ahead and create a new thread.
+Prepare an interview for Riley Brown,
+research the guests develop eight questions and create a 30 minute rundown with
+three suggested demos.
+Let's go ahead and tag our three agents at scout at echo and at Vox.
+And we can see it's going to do it in that order.
+It created a plan that I can review here and now I can switch it to execute mode.
+All right. And now I can review the background,
+review the rundown,
+check out the suggested demos.
+And again,
+we've got all of the sources down here as well.
+And here's the part that makes this useful beyond just me.
+Everyone on my team can use the same agents and with their new rooms feature,
+I can put my teammates and all three agents into the same workspace so that
+agents can work together and hand things off without me constantly playing
+middleman.
+We're all working with the same agents and the same instructions instead of
+everybody maintaining their own separate setup in like clod or chat GPT that's
+hyper agents, whole idea, many agents, many humans,
+a team of specialized agents that your entire human team could then work with.
+If you want to build something like this,
+check out the link in the description and sign up for a paid plan to get a
+hundred dollars in bonus credits.
+And thank you so much to hyper agent for sponsoring this portion of today's
+video. All right, let's get back to the rest of the video.
+Open AI made a ton of announcements this week,
+and they even told us they were going to make a ton of announcements this week.
+Tebow took to X early in the week to say over the next 28 days,
+each day we'll either ship one thing that is a clear improvement and relevant
+for most codex slash work users or ship a full reset.
+So this was on October 4th. I'm actually recording on October 8th.
+So we've had like four days of updates and they've actually rolled out more than
+like one updated day.
+I'd say the most significant update was this one for GPT six and intelligent UI
+for everyone. This is sort of two announcements in one.
+One of them being that GPT six is now available inside of chat GPT,
+but the other one being that the UI is getting a lot of improvements.
+It's actually much more visual. You can see in their video here,
+they're showing people looking at instruction manuals that are just text and
+looking at color guides that are just text and trying to prove the point that
+that's not very helpful. It's just text.
+It then goes on to show that the chat GPT responses are going to be much more
+visual. So when you prompt something in chat GPT,
+you're going to actually get a lot more to look at. Here's one example,
+break down the design of a seven speed bike. The chat starts to respond,
+but then it shows an image of a bike and then gives you a sort of exploding
+version of it that you can take apart.
+You can highlight certain areas and it just gets much more visual and easy to
+use as opposed to just like a pure text description.
+We've trained GPT six to compose responses using text visuals and interactive
+elements,
+choosing how they fit together based on your questions with intelligent UI
+responses can include graphics,
+tappable buttons forms charts and interactive experiences you could use
+directly in your conversation.
+And then we've got some other side by side examples down here.
+The one on the left using GPT 5.6 instant and the one on the right using GPT six
+instant. And we can see on the left,
+we just get sort of cooking instructions on the right.
+We've got images and bullets and very, very visual version of it.
+Here's another one building a wardrobe text on the left with some images.
+GPT six instant on the right, a lot more visual,
+a lot more of like a guided experience with checklists and stuff like that.
+And it'll build things like little calculators for you and stuff like that.
+When you ask it questions,
+it's just trying to be more proactive as opposed to just purely giving you text.
+Most of the time, you also are getting this smarter,
+faster GPT six model.
+We can see here on this little graph here left being sort of the intelligence
+level, right? Being the speed,
+you're getting pretty much the smartest model at these fastest speeds now.
+So an intelligence level that used to take 215 seconds,
+you're getting even smarter up here at 109 seconds.
+So basically when you're in chat GPT,
+you'll notice that if you're on GPT six,
+you could set it on instant for thinking effort.
+And I can say something like explain how an internal combustion engine works.
+And we can see that not only does it explain to me,
+it actually gives me images along with it gives me sort of like step by step
+images. And it's just a much more visual experience.
+And that was almost an instant response.
+Even if my editing might've chopped it up a little bit,
+it was near instant with how quickly this populated here. But again,
+the features kept rolling out.
+I'd argue that the majority of the features they announced after that have been a
+little less significant and a little more focused towards coders,
+but I am going to continue to break down everything else they announced in the
+last, you know, four days of this rollout blitz thing they got going on.
+So on October 5th,
+Tebow announced we've optimized the default speed to be 50% faster across GPT
+six Astra and at GPT 6.1 soul through the subscription across all of our
+products and partners using sign in with chat GPT. So yeah,
+exactly what it sounds like. Everything kind of got faster.
+They just made a big optimization improvement on their best available models
+right now. Day two, October 6th,
+they made the auto review free for all users signed in through a chat GPT
+account.
+So what this is referring to is if you go to your chat GPT app and you're either
+in work mode or you're in codex, you can see down here,
+there's this permissions dropdown by default, it's going to ask for approval.
+So whenever it's going to edit something on your computer,
+it will ask for that approval first, pretty much every single time.
+And your options before were pretty much asked for approval approved for me or
+full access.
+Full access was pretty much the only way to make it so that it just never
+bothered you at all. It would just kind of do the things for you. Well,
+now there's approve for me mode,
+I guess is a lot better at approving for you where it's going to ask you a lot
+less often. So that's essentially what it did is it made this approved for me
+mode, basically bug you less,
+unless it had a really big concern about what it was about to do.
+So that's what this update was for day 2.1.
+We also got a new chat GPT plugin called the meetings plugin,
+which if you ask me pretty much looks exactly like what granola already does,
+but they just baked it into chat GPT.
+So the meetings plugin takes notes for you and saves a personalized summary and
+next steps in chat GPT space.
+Based on what chat GPT knows about you and the work you've done together,
+you can keep notes private or share them with your team.
+Then ask chat GPT to update a project plan or draft a followup.
+So from my understanding,
+it's essentially listening to your microphone audio and your computer audio.
+Whenever you're on a zoom meeting or a Google meeting or a slack meeting or
+whatever you do your meetings in, it will listen to the audio on both sides,
+record, transcribe them,
+keep notes on it and then save that into the memory and context and chat GPT.
+So you can ask questions about meetings that you'd previously been on,
+which is exactly the selling point of what granola is.
+But granola is purpose built for that.
+But now you've got a plugin where chat GPT will also do that.
+And then we also got the decisions API this week.
+So decisions API was something they announced during their dev day last week,
+which is essentially Jeff. This is open eyes version of Jeff.
+Instead of responding with a ton of output text for you,
+it's going to respond with a predefined decision.
+So you can get it to output three different kinds of output,
+predicates, choices, and scores.
+Predicates estimate the probability that a statement is true choices select from
+predefined options with a confidence score and scores evaluates an input against
+a numeric range. These are designed to be ultra fast, ultra cheap,
+and to just give quick decisions as opposed to responding with a giant,
+you know, text output.
+As far as I know there's no real way to use this inside of like a chat GPT,
+but if you're a developer, this is available in API now,
+and it uses GPT six Luna, which is their cheapest, fastest model.
+So it's going to cost next to nothing to use.
+Also kind of like how Jeff works while we're talking about APIs,
+they've changed the pricing a little bit around the APIs.
+Instead of five different pricing tiers, there's three, there's a build,
+launch and grow. As you can see,
+these various tiers have different rate limits.
+So the higher the tier you're on, the less you're going to get rate limited.
+They also rolled out ultra fast mode in GPT 6.1.
+Soul inside the API codex and chat GPT work. Now this one,
+I believe you have to be on their $500 a month plan to use.
+And it's also quite a bit more expensive.
+If you're using GPT 6.1 soul standard,
+it's only a $2 per million input tokens and $10 per million output tokens.
+If you bump it to fast, that price doubles. But if you bump it to ultra fast,
+well, it's six times the price as using it standard.
+So it's the same level of intelligence as you get out of GPT 6.1 soul,
+but it's eight times faster and six times more expensive.
+But if speed is a huge priority to you, well then maybe this one is worth it.
+Personally, I'm thinking about trying it out again.
+You have to be on their pro 500 plan,
+but I want to test it for like video editing because theoretically I can give it
+computer use and it'll just jump around my screen and do the edit like ultra
+fast. So I do want to try it for that. I just haven't, you know,
+bit the bullet and jumped to that price tier yet in order to try it.
+Maybe that's something I'll play around with next week.
+And the last update that we got at the time of this recording that came out on
+day four is they improve steering to be instant.
+So if I'm in chat GPT work and I say, make me an image of a dog.
+And then I changed my mind and go, no, make it a wolf. And I hit enter.
+You can see this queues it up to be the next prompt,
+but I can press this steer button. And if I press steer,
+then it sort of interrupts it and steers it in a new direction. Well,
+they made that faster.
+They didn't make the image generation that we're looking at faster.
+They made the ability to make it change directions faster.
+They also claim that if you use 6.1 sole ultra fast,
+they work together very well.
+You just got to be fast at steering it before the output gets to you.
+And there's probably a new update today as you're watching this video,
+if you're watching it on Friday, because well,
+I recorded this on Thursday and I don't know Friday's update yet.
+We also got some updates out of a model.
+I don't talk about very often and that's grok,
+which they're grok bot like AI agent assistant thing is honestly
+pretty good. You know,
+it's interesting because whenever I talk about like grok or SpaceX AI or
+literally anything that Elon is involved with the majority of the comment
+section is people just saying how much they hate Elon.
+And I'm not going to debate whether or not Elon has said or done some dumb
+things.
+I just think so many people are willing to throw the baby out with the bath
+water and not actually use tools that could be very beneficial and very
+like useful to them because of their feelings towards one person,
+despite the fact that these are giant companies with like, you know,
+thousands of people whose livelihoods are actually like on the line working
+in these companies. But all that to say grok bot is actually really good.
+And I do recommend trying it.
+I understand not liking Elon,
+but also a lot of these companies and a lot of these.
+products are about more than just like the one person
+at the top of a pyramid.
+There's like thousands of people at these companies
+that are all trying to do good work and build cool things,
+despite the public image of the person at the top.
+Anyway, I'm done ranting about this.
+Let's take a look at what GrokBot just updated.
+We can see here that they announced this week
+that going forward, GrokBot's going to use
+the best backend model for any given task.
+So it will actually use models like Opus 5.5,
+Midjourney, Suno, and other leading APIs.
+It's not going to always default to just a Grok model.
+It's going to use whatever model is likely
+to give you the best outcome.
+Now, given Elon's ongoing beef with Sam Altman,
+I don't know if OpenAI models are included.
+If OpenAI is the best possible model,
+will that also be used in Grok?
+Still to be determined, because right now,
+the best available models are coming out of Anthropic.
+And so like, who knows?
+When OpenAI like inevitably jumps over them again,
+I'm really curious to see if Elon will make
+OpenAI models available inside the bot too.
+Who knows?
+Probably not.
+But we also got this update for GrokBot,
+in that GrokBot can now search, read, and monitor X,
+which is pretty cool.
+Because X has a lot of data, a lot of information,
+a lot of real-time stuff being fed into it.
+And now you can have GrokBot
+sort of keep an eye on that for you.
+You can have it watch for trends.
+You can have it alert you when maybe something you posted
+is starting to go viral.
+It can suggest post ideas based on what's trending
+in your own niche right now.
+Things like that could be really, really helpful in GrokBot.
+Now, if you've never used GrokBot
+and you're wondering how it's different from like Muse
+and Dots and things like that,
+you have different bots that are sort of designed
+for different focuses.
+Like for example, I have an email triage bot,
+which is connected to my Gmail,
+that's constantly looking for emails
+that it can help me reply to automatically.
+I have a research bot, which is constantly pulling in news
+and researching things that I could make content about.
+But you can also build like a chief of staff,
+which could be your single primary bot.
+So if you like what Dot or Muse does,
+you just use your chief of staff
+and your chief of staff will then go and delegate
+to these other bots for you.
+So you can tell it,
+hey, I need research about something on X
+and I need you to go do some email triage for me.
+And your chief of staff will then go and direct your X bot
+and your email triage bot to go do those things.
+So that gives you a lot of options
+that maybe you wouldn't get
+with something like Muse or Dots.
+You have the option to just chat with your one bot
+that will then direct things on your behalf,
+or you can go directly to the bots
+and have them go and do their specific tasks.
+And over time, you could build out more and more bots
+that are good at different things
+and then tell your chief of staff what they're good at
+and then that chief of staff
+becomes that orchestrator for you.
+I think it's a really, really cool way of doing things
+where Muse and Dots have more taken the approach
+of one single chat that you focus inside of.
+And now that Grokbot can access X directly
+without us needing to like connect via APIs or anything,
+I can have this bot like my X bot here,
+which you can see went through my last 75 posts,
+found my best AI posts, my worst AI posts,
+noticed that my posts performed the best
+between 10 a.m. and 1 p.m. Pacific,
+and then it even suggested the strongest ideas right now
+for things that I can post about.
+Gemini 4 Argon, hands-on, GPT-6 is now free for everyone,
+OpenAI 722 AI written math papers, Codex usage resets,
+humanoid robots fight night in Singapore,
+OpenAI revenue sell-off.
+These are all things that people are talking about
+on Twitter right now.
+And I'm just finding out that this thinks Gemini 4 Argon
+is supposed to roll out today.
+Let's see where that comes from.
+Yeah, it looks like this was pretty much speculation.
+This was actually yesterday on the 7th.
+I'm recording this on the 8th.
+People are saying happy Gemini 4 Argon day,
+Gemini 4 Argon coming today.
+People were saying Gemini 4 Argon
+is now showing up in Google Cloud.
+It's supposed to be a good model.
+I talked about it last week,
+but I don't think it's actually available to most people yet.
+I think it's still available only to like early testers.
+Anyway, all that being said,
+check out Grokbot if you haven't already.
+It's actually pretty good.
+Now, those are the biggest stories of the week.
+We did actually get a handful of new large language models
+that were rolled out this week
+and a bunch of other smaller updates
+that I wanna break down for you,
+but I'm not gonna go too deep into any of these.
+So let's just jump into a rapid fire.
+Pew, pew, pew, pew, pew, pew, pew.
+Let's start with the newest model out of Mistral.
+This new model is called Mistral Large 4
+and is nicknamed LeChunk.
+Now, this model is actually an open weight model.
+At 1 trillion parameters,
+you're probably not gonna be running it
+on any of your like local systems,
+but it is a really solid model.
+And all the various benchmarks,
+they're comparing it with the other, you know,
+Chinese open weight models that have been really good,
+models like Kimi K3, GLM 5.3, DeepSeek V4, et cetera.
+So think of it as a model that's not from China,
+but roughly on par with all of those Chinese models
+and also open weight like a lot of these Chinese models.
+And because I know you're curious,
+this is what it looks like on Busey Bench here.
+It took about two and a half minutes to generate
+and use 9,675 tokens and scored sort of middle of the pack
+on the AI judging.
+We got another open weight model,
+this time out of a U.S. based company called Reflection.
+And this model is called Beam,
+which is a 501 billion parameter open weight model.
+When looking at the benchmarks,
+this one they're also comparing to similar models
+like Kimi K3, GLM 5.3, DeepSeek V4.1, Nemotron 3 Ultra.
+And while it kind of falls in line with a lot of those,
+if not sort of underperforming them a little bit
+on agentic coding on reasoning,
+falls in line with a lot of those same kinds of models.
+So another open weight model that is kind of on par
+and close to what we're getting out of the Chinese models
+that everybody thinks are really, really good.
+Now, this one is not publicly available yet.
+It was more like announced
+and I believe only access to like early testers.
+So I don't even have it UC benched yet,
+but we do have another open weight model
+from a country that's not China,
+but also is gonna be so big that most personal computers
+still aren't gonna like be able to run it.
+But if you're like an enterprise company
+that wants to build out your own servers,
+run open weight and keep everything on-prem,
+that's what a lot of these models
+I think are being designed for.
+Google rolled out a new game builder this week
+called Playground,
+where you can create and play custom games.
+You pretty much describe your game into a prompt box.
+The builder goes off to work
+and just sort of designs the game.
+It looks like it'll work on both desktop games
+and mobile games.
+So yeah, I mean,
+you could already kind of do this sort of stuff
+with all the existing AI coding apps,
+but this one is purposely designed to build games.
+It's available right now if you're in the US
+and over 18,
+and you should be able to try it over
+at playground.google.
+There's also games already available in here
+that other creators have made.
+If you don't feel like making your own game,
+you can jump in and try other people's games
+that they've already built.
+For example, Skyfall Defender,
+which is actually strangely addicting.
+But I'll get out of this now.
+While we're talking about Google,
+and since I mentioned Granola
+and how OpenAI made like their own version of Granola,
+apparently Google made their own version of Granola also.
+So Google now has an AI note-taking app,
+which transcribes your meetings completely offline.
+So unlike the OpenAI version,
+unlike Granola,
+it will actually record your meetings and take notes,
+but it'll do it all on your computer.
+So nothing is going to another cloud
+where your meeting notes can be trained on
+or potentially broken into or anything like that.
+The new app is called Google AI Edge Foresight.
+Doesn't totally roll off the tongue,
+so don't be surprised if that gets rebranded
+sometime in the near future.
+And it's currently available on Mac OS.
+But as we can see,
+it will listen on your computer while you're in meetings
+and take those notes for you,
+build out task lists,
+learns what you know.
+Again, another sort of competitor to what Granola does,
+but all locally on your computer.
+Staying on the topic of Google,
+they're also rolling out a new agent themselves,
+which seems very similar to OpenAI's Dots,
+to Meta's Muse,
+to Grokbot,
+but this one is, you know,
+built around the Google ecosystem and infrastructure.
+So it looks like they're just calling this one
+the Gemini Agent.
+It could answer your questions with Gemini,
+but it can also be accessed from any device,
+web, iOS, Android, Windows, Mac,
+and be accessed through places like Google Workspace,
+Microsoft 365, and even Slack.
+It runs in the cloud,
+has multi-agent orchestration,
+and pretty much everything we're seeing
+out of these other agents.
+Now, the reason this wasn't one of my, like,
+front of video news items,
+and this one fell in the rapid fire,
+is because this one seems to be focused on enterprise
+and not necessarily consumers.
+Now, at Google IO,
+they did talk about their new Gemini Spark,
+but we really haven't heard about Spark a whole lot
+since the launch of Muse and Dots and Grokbot.
+So I have a feeling that probably sometime around
+the time we get access to the new Gemini for Argon,
+we might start hearing more about the new, like,
+agentic product that Google's gonna be rolling out.
+So we'll see how that plays out.
+Google also rolled out a new AI content identifier.
+It's called the SynthID Detector.
+You can upload a file here,
+and it'll tell you whether or not it was generated with AI,
+but only if it was generated by one of the NVIDIA products,
+an OpenAI product, a Google product, or a Cacao product.
+We got an announcement of another agent this week
+called Hark Pro.
+This is Brett Adcock here.
+If you're not familiar with him,
+he actually created Figure Robotics as well,
+but now he's getting into the agent game
+with his Hark product.
+And here's a quick demo video of him sort of using it.
+Hark, go to Target and reorder my laundry pods,
+sunscreen, and toothpaste.
+For the Hark Pro private beta we've been testing with Figure,
+make me a presentation.
+I wanna see total messages and total handoffs
+of the last two months.
+Submit any of the new receipts in the ramp.
+Find the best candidates we discussed today on LinkedIn,
+friend them, and ask them to meet with me.
+I have dinner tonight,
+so please call me an Uber.
+Print a return label for the kids' shoes
+I just bought on Amazon.
+Order me pad through DoorDash and deliver it to work.
+Search my investor tracker in Google Drive,
+find everyone who invested in the Hark Series A,
+and then ask them to subscribe to Hark Pro.
+We need to drive some revenue.
+That's a task, so we need one more.
+Hark, unsubscribe from chat GPT.
+Look how gracefully our cursor glides across their page,
+taps on my settings, digs down into billing,
+and then zeros in on that red cancel button.
+So you get the idea.
+It's another agent that can do computer use
+and go handle a whole bunch of tasks on your behalf.
+We're getting a lot of these these days
+between Muse and Dots and Grokbot and Instinct
+and, you know, Google's agents.
+And I feel like they're all gonna kind of converge
+on all doing the exact same thing,
+and you're just gonna sort of pick
+which company you're most loyal to.
+I don't know how it's all gonna play out
+once they're all pretty much equal to each other.
+Moving along to Meta, they open-sourced their code
+to let you make Muse AI gadgets.
+So during Meta's keynote,
+he held up a little like Tamagotchi-looking thing
+that he had his Muse agent on.
+Well, you're able to actually make your own versions of that
+with like a Raspberry Pi if you want now.
+All right, this one's fascinating.
+So Anthropic just updated their usage policy,
+and we can see here the highlighted text.
+This is from Andrew Curran here, who noted this on X.
+Do not engage in cruel, abusive,
+or psychologically harmful conduct.
+And the very last note here is engaged in sustained
+and needless abusive or cruel behavior towards our models.
+So you're not allowed to like be mean
+to the models anymore with Anthropic?
+I don't know, I just thought that was really interesting.
+Now they did go on to clarify,
+we've added a prohibition on sustained
+and needless abusive or cruel behavior towards our models.
+The policy update is meant to apply only in extreme cases
+where users repeatedly act cruelly towards our models
+with no discernible purpose.
+It does not apply to common versions of users' frustration,
+pushback, dark creative themes,
+or model testing and research.
+So if you just mean to Claude for no reason,
+they could potentially ban you
+from using Claude in the future.
+And finally, I'll end on this one.
+This is something that Mustafa Suleyman
+over at Microsoft AI shared.
+Nobel Laureate Darren Acemoglu,
+I'm sure I'm butchering that name,
+mentioned in his Humanist Review
+that he believes that in 10 years,
+only 5% of what humans do will be replaced by AI,
+which goes against the narrative we've been hearing a lot of
+where AI is gonna replace like all jobs.
+Well, this Nobel Laureate here believes
+that only about 5% of the work that humans do now
+will be replaced in 10 years.
+Whether or not you believe that or I believe that,
+I'll save that for another video,
+but that's what their current belief is.
+Anyway, that's what I got for you today.
+A lot of little things this week,
+Anthropic and OpenAI and Google and Grok
+and all of these companies have been rolling out
+like little small updates,
+and we're just getting agents like crazy
+that are all sort of converging
+on all being able to do the exact same things.
+And you're probably just gonna end up picking like the one
+that you like the company behind the most or something.
+One thing Muse has going for it
+is you can use it for free right now.
+You can't say that about Dots or Grok
+or some of these others.
+I think you can use Instinct for free,
+but I think it's invite only or something.
+I don't know how that one works.
+It's actually one that I haven't played with yet.
+Personally, I still find like Codex
+does most of what I want it to do.
+And I've been using Grokbot
+a little bit more lately as well.
+And that's been kind of enough
+to accomplish everything I want.
+Who knows how people are gonna pick their loyalties
+to their agent of choice in the future.
+It'll be interesting to see how that plays out.
+Again, that's what I got for you this week.
+I've got lots of cool new demos
+and showing off ways other people are using AI
+like I did with my Belaval video recently.
+More of those videos are in the works and coming soon.
+My video slowed down a little bit because of travel,
+but now my travel's done
+and I've got a lot of exciting videos of them
+ready to publish and share with you
+and show all sorts of cool use cases of AI
+that I think you'll find really helpful and valuable.
+So if you wanna make sure you catch those,
+like this video and subscribe to that channel.
+Also, I drink from the fire hose all week
+and keep up with AI and just take in all the overwhelm
+and learn everything and keep up to date.
+And I keep my finger completely on the pulse
+of everything that's going on in this world.
+And I post a video every Friday
+that breaks down all the news from the week.
+I do record them on Thursdays.
+So if any new news came out on Friday,
+that'll end up in next week's video.
+But again, I'll be overwhelmed and keep up with all of it
+so that you can just tune into one video a week
+and know everything you need to know
+about what happened in the world of AI.
+Again, if that's something that interests you,
+make sure you like this one, subscribe to this channel.
+I'll make sure this stuff shows up in your YouTube feed.
+Thanks so much for hanging out with me
+and nerding out with me this week.
+I think the next couple of weeks
+are still gonna be pretty interesting
+with a lot of rollouts coming from companies
+like OpenAI, Google, and Anthropic.
+There's more in the works that I kind of know what's coming.
+So I'm excited for that stuff for you.
+And I can't wait to make more videos sharing it all.
+Once again, really, really appreciate you.
+Thanks for nerding out.
+Hopefully, I'll see you in the next one.
+Bye bye.

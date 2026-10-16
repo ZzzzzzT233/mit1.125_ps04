@@ -1,0 +1,238 @@
+{
+  "piece_id": "01",
+  "as_of_date": "2026-10-14",
+  "claims": [
+    {
+      "claim_id": "01-c1",
+      "statement": "Google announced Argon as globally available through developer and enterprise APIs and selected paid consumer channels, with a 1M-token unified input-output limit through its API.",
+      "type": "reported_fact",
+      "evidence": [
+        {
+          "item_id": "feed:2417547fbcd4a08ff39cb3a84b7d6eede16d0808f385137d06219c2a3818e01d",
+          "version_id": "98ffa90a9d6392d846d700952fc48b34eb27c2d05af620c21b2d4ca69b171bd1",
+          "locator": {
+            "type": "text",
+            "quote": "Gemini 4 Argon is now globally available today for developers and enterprises via the API in AI Studio and Gemini platform"
+          },
+          "title": "Gemini 4 Argon: Built to solve your hardest problems",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+          "publisher_id": "google",
+          "published_at": "2026-10-13T16:00:00Z"
+        },
+        {
+          "item_id": "feed:2417547fbcd4a08ff39cb3a84b7d6eede16d0808f385137d06219c2a3818e01d",
+          "version_id": "98ffa90a9d6392d846d700952fc48b34eb27c2d05af620c21b2d4ca69b171bd1",
+          "locator": {
+            "type": "text",
+            "quote": "industry-leading 1M unified input-output token limit via the Gemini API."
+          },
+          "title": "Gemini 4 Argon: Built to solve your hardest problems",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+          "publisher_id": "google",
+          "published_at": "2026-10-13T16:00:00Z"
+        }
+      ]
+    },
+    {
+      "claim_id": "01-c2",
+      "statement": "Liquid AI says LFM2.5-24B-A2B and its base version are open-weight and available on Hugging Face; its design has 24B total parameters but 2B active per token.",
+      "type": "source_claim",
+      "evidence": [
+        {
+          "item_id": "feed:74f7c639767e5ff1cb437b2bfcedd7b9e9b9aadebbe208b61dad37317a2a8eff",
+          "version_id": "98deddc295f7211cab36c0e98ae0ee53ebf704379ee6e4e1ae8d8f9de6a94f6c",
+          "locator": {
+            "type": "text",
+            "quote": "Both LFM2.5-24B-A2B and LFM2.5-24B-A2B-Base are open-weight and available on Hugging Face today:"
+          },
+          "title": "Run fast, private agents on-device with LFM2.5-24B-A2B",
+          "url": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
+          "publisher_id": "liquidai",
+          "published_at": "2026-10-13T17:05:48Z"
+        },
+        {
+          "item_id": "feed:74f7c639767e5ff1cb437b2bfcedd7b9e9b9aadebbe208b61dad37317a2a8eff",
+          "version_id": "98deddc295f7211cab36c0e98ae0ee53ebf704379ee6e4e1ae8d8f9de6a94f6c",
+          "locator": {
+            "type": "text",
+            "quote": "LFM2.5-24B-A2B is a 24B-parameter reasoning model with just 2B active parameters"
+          },
+          "title": "Run fast, private agents on-device with LFM2.5-24B-A2B",
+          "url": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
+          "publisher_id": "liquidai",
+          "published_at": "2026-10-13T17:05:48Z"
+        }
+      ]
+    },
+    {
+      "claim_id": "01-c3",
+      "statement": "TII presents Falcon-ASR through a Hugging Face demo; it says API access and native applications are planned rather than currently available.",
+      "type": "reported_fact",
+      "evidence": [
+        {
+          "item_id": "feed:7a6c716455f6be1bfda0beca6dfbc9cf90cf96199fa7d648b2b2f127c50b6b39",
+          "version_id": "72f1079c2ffa7b4666d21915b0558d5f46fdeee282da019f33bb1e8898b1ba6e",
+          "locator": {
+            "type": "text",
+            "quote": "Our Hugging Face Demo Space lets you try Falcon-ASR and explore its transcription capabilities. API access and native applications are planned."
+          },
+          "title": "Introducing Falcon ASR",
+          "url": "https://huggingface.co/blog/tiiuae/falcon-asr",
+          "publisher_id": "tiiuae",
+          "published_at": "2026-10-07T13:21:03Z"
+        }
+      ]
+    },
+    {
+      "claim_id": "01-c4",
+      "statement": "Google describes Playground as an experimental browser game platform, initially available to U.S. users aged 18 or older, with creation access rolling out by subscription tier.",
+      "type": "reported_fact",
+      "evidence": [
+        {
+          "item_id": "feed:650b1a40a921dc2f281493121ff171444b307775d255cfead9769244d805999d",
+          "version_id": "80d6950914e4e17b6f10d52ef8abff7a535068ab00265505f198f31982915d43",
+          "locator": {
+            "type": "text",
+            "quote": "Playground launches today for users in the U.S. (18+) at playground.google, with tiered creation access rolling out based on your Google AI subscription."
+          },
+          "title": "Introducing Playground: Create and play custom games",
+          "url": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/",
+          "publisher_id": "google",
+          "published_at": "2026-10-07T12:00:00Z"
+        }
+      ]
+    },
+    {
+      "claim_id": "01-c5",
+      "statement": "In a video, Matt Wolfe, who disclosed early access and a Google briefing, reports producing a printable 3D bust with Argon but says the task feature stalled during two tests; this is a limited hands-on account, not a standardized evaluation.",
+      "type": "source_claim",
+      "evidence": [
+        {
+          "item_id": "youtube:eBszYxzE2dk",
+          "version_id": "2ab79cd72c9bad8e6f1f1f046f190e6a3d38704ab441a8a2d8aa2b48d6c2fc49",
+          "locator": {
+            "type": "segment",
+            "segment_id": "a-0248"
+          },
+          "title": "Google Just Caught Up (Gemini-4 Argon)",
+          "url": "https://www.youtube.com/watch?v=eBszYxzE2dk",
+          "publisher_id": "matt-wolfe",
+          "published_at": "2026-10-13T16:47:07Z",
+          "start_seconds": 884.8400268554688,
+          "end_seconds": 888.719970703125
+        },
+        {
+          "item_id": "youtube:eBszYxzE2dk",
+          "version_id": "2ab79cd72c9bad8e6f1f1f046f190e6a3d38704ab441a8a2d8aa2b48d6c2fc49",
+          "locator": {
+            "type": "segment",
+            "segment_id": "a-0258"
+          },
+          "title": "Google Just Caught Up (Gemini-4 Argon)",
+          "url": "https://www.youtube.com/watch?v=eBszYxzE2dk",
+          "publisher_id": "matt-wolfe",
+          "published_at": "2026-10-13T16:47:07Z",
+          "start_seconds": 919.239990234375,
+          "end_seconds": 922.1199951171875
+        },
+        {
+          "item_id": "youtube:eBszYxzE2dk",
+          "version_id": "2ab79cd72c9bad8e6f1f1f046f190e6a3d38704ab441a8a2d8aa2b48d6c2fc49",
+          "locator": {
+            "type": "segment",
+            "segment_id": "a-0265"
+          },
+          "title": "Google Just Caught Up (Gemini-4 Argon)",
+          "url": "https://www.youtube.com/watch?v=eBszYxzE2dk",
+          "publisher_id": "matt-wolfe",
+          "published_at": "2026-10-13T16:47:07Z",
+          "start_seconds": 946.7999877929688,
+          "end_seconds": 950.7999877929688
+        },
+        {
+          "item_id": "youtube:eBszYxzE2dk",
+          "version_id": "2ab79cd72c9bad8e6f1f1f046f190e6a3d38704ab441a8a2d8aa2b48d6c2fc49",
+          "locator": {
+            "type": "segment",
+            "segment_id": "a-0089"
+          },
+          "title": "Google Just Caught Up (Gemini-4 Argon)",
+          "url": "https://www.youtube.com/watch?v=eBszYxzE2dk",
+          "publisher_id": "matt-wolfe",
+          "published_at": "2026-10-13T16:47:07Z",
+          "start_seconds": 302.9599914550781,
+          "end_seconds": 306.9200134277344
+        },
+        {
+          "item_id": "youtube:eBszYxzE2dk",
+          "version_id": "2ab79cd72c9bad8e6f1f1f046f190e6a3d38704ab441a8a2d8aa2b48d6c2fc49",
+          "locator": {
+            "type": "segment",
+            "segment_id": "a-0230"
+          },
+          "title": "Google Just Caught Up (Gemini-4 Argon)",
+          "url": "https://www.youtube.com/watch?v=eBszYxzE2dk",
+          "publisher_id": "matt-wolfe",
+          "published_at": "2026-10-13T16:47:07Z",
+          "start_seconds": 814.8400268554688,
+          "end_seconds": 819.2000122070312
+        }
+      ]
+    },
+    {
+      "claim_id": "01-c6",
+      "statement": "Across these releases, access ranges from paid hosted channels to downloadable weights, a demo with planned API access, and a geographically limited experiment; therefore, a release announcement alone does not tell readers whether or how they can use a system.",
+      "type": "inference",
+      "evidence": [
+        {
+          "item_id": "feed:2417547fbcd4a08ff39cb3a84b7d6eede16d0808f385137d06219c2a3818e01d",
+          "version_id": "98ffa90a9d6392d846d700952fc48b34eb27c2d05af620c21b2d4ca69b171bd1",
+          "locator": {
+            "type": "text",
+            "quote": "For everyday users: Try it starting today in the Gemini app and AI Mode in Search if you’re a Google AI Ultra or Pro subscriber."
+          },
+          "title": "Gemini 4 Argon: Built to solve your hardest problems",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+          "publisher_id": "google",
+          "published_at": "2026-10-13T16:00:00Z"
+        },
+        {
+          "item_id": "feed:74f7c639767e5ff1cb437b2bfcedd7b9e9b9aadebbe208b61dad37317a2a8eff",
+          "version_id": "98deddc295f7211cab36c0e98ae0ee53ebf704379ee6e4e1ae8d8f9de6a94f6c",
+          "locator": {
+            "type": "text",
+            "quote": "Both LFM2.5-24B-A2B and LFM2.5-24B-A2B-Base are open-weight and available on Hugging Face today:"
+          },
+          "title": "Run fast, private agents on-device with LFM2.5-24B-A2B",
+          "url": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
+          "publisher_id": "liquidai",
+          "published_at": "2026-10-13T17:05:48Z"
+        },
+        {
+          "item_id": "feed:7a6c716455f6be1bfda0beca6dfbc9cf90cf96199fa7d648b2b2f127c50b6b39",
+          "version_id": "72f1079c2ffa7b4666d21915b0558d5f46fdeee282da019f33bb1e8898b1ba6e",
+          "locator": {
+            "type": "text",
+            "quote": "API access and native applications are planned."
+          },
+          "title": "Introducing Falcon ASR",
+          "url": "https://huggingface.co/blog/tiiuae/falcon-asr",
+          "publisher_id": "tiiuae",
+          "published_at": "2026-10-07T13:21:03Z"
+        },
+        {
+          "item_id": "feed:650b1a40a921dc2f281493121ff171444b307775d255cfead9769244d805999d",
+          "version_id": "80d6950914e4e17b6f10d52ef8abff7a535068ab00265505f198f31982915d43",
+          "locator": {
+            "type": "text",
+            "quote": "Playground launches today for users in the U.S. (18+) at playground.google, with tiered creation access rolling out based on your Google AI subscription."
+          },
+          "title": "Introducing Playground: Create and play custom games",
+          "url": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/",
+          "publisher_id": "google",
+          "published_at": "2026-10-07T12:00:00Z"
+        }
+      ]
+    }
+  ]
+}

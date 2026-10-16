@@ -1,0 +1,555 @@
+{
+  "source_output_digest": "e80af9a035eafa73511c9a12e5bc9464049aebf2100fe0cf7c2ad57733bce9f9",
+  "corrected_output": {
+    "briefs": [
+      {
+        "piece_id": "01",
+        "title": "A Release Is Only as Useful as Its Route to Users",
+        "question": "Which recent AI releases are genuinely usable now, and who can actually reach them?",
+        "argument": "The meaningful distinction among this month’s launches is not simply which model is newest. It is how each release can be accessed, and under what limits. Google says Gemini 4 Argon is globally available through specified developer, enterprise and paid-consumer channels; Liquid AI says its new model and base model are downloadable as open weights; TII’s Falcon-ASR is presented through a demo while API access remains planned. Google’s Playground adds a product example: it is an experimental game-creation service, but its initial audience is geographically and age restricted, with creation access tied to subscription tiers. These differences matter to readers deciding whether they can try, build on, or deploy a release.",
+        "synthesis": "Together, the announcements show why “launched” is not a single access condition. A high-capability hosted model may be available broadly but only through paid products; open weights allow users to download and run a model, though that does not by itself establish that it is easy to run or fully open-source; a demo can allow experimentation without offering a production API. The creator’s hands-on Argon video supplies a small, practical check alongside official product claims: it reports successful creative outputs, but also a task feature that stalled. That combination suggests readers should track both the model or product’s stated capability and the experience of using it, without treating a limited demo as a systematic evaluation.",
+        "limitations": "Google’s capabilities, performance, safety and access descriptions are vendor statements, not independent verification. Liquid AI and TII likewise provide their own model details and evaluations; TII says API access is planned, not available. Playground’s announcement does not establish game quality or lasting user demand. The Argon video is an early-access creator’s small, non-standardized test, and its transcript requires checking against the recording. This selection cannot establish comprehensive market availability or rank the releases.",
+        "claims": [
+          {
+            "claim_id": "01-c1",
+            "statement": "Google announced Argon as globally available through developer and enterprise APIs and selected paid consumer channels, with a 1M-token unified input-output limit through its API.",
+            "type": "reported_fact",
+            "evidence": [
+              {
+                "item_id": "feed:2417547fbcd4a08ff39cb3a84b7d6eede16d0808f385137d06219c2a3818e01d",
+                "version_id": "98ffa90a9d6392d846d700952fc48b34eb27c2d05af620c21b2d4ca69b171bd1",
+                "locator": {
+                  "type": "text",
+                  "quote": "Gemini 4 Argon is now globally available today for developers and enterprises via the API in AI Studio and Gemini platform"
+                }
+              },
+              {
+                "item_id": "feed:2417547fbcd4a08ff39cb3a84b7d6eede16d0808f385137d06219c2a3818e01d",
+                "version_id": "98ffa90a9d6392d846d700952fc48b34eb27c2d05af620c21b2d4ca69b171bd1",
+                "locator": {
+                  "type": "text",
+                  "quote": "industry-leading 1M unified input-output token limit via the Gemini API."
+                }
+              }
+            ]
+          },
+          {
+            "claim_id": "01-c2",
+            "statement": "Liquid AI says LFM2.5-24B-A2B and its base version are open-weight and available on Hugging Face; its design has 24B total parameters but 2B active per token.",
+            "type": "source_claim",
+            "evidence": [
+              {
+                "item_id": "feed:74f7c639767e5ff1cb437b2bfcedd7b9e9b9aadebbe208b61dad37317a2a8eff",
+                "version_id": "98deddc295f7211cab36c0e98ae0ee53ebf704379ee6e4e1ae8d8f9de6a94f6c",
+                "locator": {
+                  "type": "text",
+                  "quote": "Both LFM2.5-24B-A2B and LFM2.5-24B-A2B-Base are open-weight and available on Hugging Face today:"
+                }
+              },
+              {
+                "item_id": "feed:74f7c639767e5ff1cb437b2bfcedd7b9e9b9aadebbe208b61dad37317a2a8eff",
+                "version_id": "98deddc295f7211cab36c0e98ae0ee53ebf704379ee6e4e1ae8d8f9de6a94f6c",
+                "locator": {
+                  "type": "text",
+                  "quote": "LFM2.5-24B-A2B is a 24B-parameter reasoning model with just 2B active parameters"
+                }
+              }
+            ]
+          },
+          {
+            "claim_id": "01-c3",
+            "statement": "TII presents Falcon-ASR through a Hugging Face demo; it says API access and native applications are planned rather than currently available.",
+            "type": "reported_fact",
+            "evidence": [
+              {
+                "item_id": "feed:7a6c716455f6be1bfda0beca6dfbc9cf90cf96199fa7d648b2b2f127c50b6b39",
+                "version_id": "72f1079c2ffa7b4666d21915b0558d5f46fdeee282da019f33bb1e8898b1ba6e",
+                "locator": {
+                  "type": "text",
+                  "quote": "Our Hugging Face Demo Space lets you try Falcon-ASR and explore its transcription capabilities. API access and native applications are planned."
+                }
+              }
+            ]
+          },
+          {
+            "claim_id": "01-c4",
+            "statement": "Google describes Playground as an experimental browser game platform, initially available to U.S. users aged 18 or older, with creation access rolling out by subscription tier.",
+            "type": "reported_fact",
+            "evidence": [
+              {
+                "item_id": "feed:650b1a40a921dc2f281493121ff171444b307775d255cfead9769244d805999d",
+                "version_id": "80d6950914e4e17b6f10d52ef8abff7a535068ab00265505f198f31982915d43",
+                "locator": {
+                  "type": "text",
+                  "quote": "Playground launches today for users in the U.S. (18+) at playground.google, with tiered creation access rolling out based on your Google AI subscription."
+                }
+              }
+            ]
+          },
+          {
+            "claim_id": "01-c5",
+            "statement": "In a video, Matt Wolfe, who disclosed early access and a Google briefing, reports producing a printable 3D bust with Argon but says the task feature stalled during two tests; this is a limited hands-on account, not a standardized evaluation.",
+            "type": "source_claim",
+            "evidence": [
+              {
+                "item_id": "youtube:eBszYxzE2dk",
+                "version_id": "2ab79cd72c9bad8e6f1f1f046f190e6a3d38704ab441a8a2d8aa2b48d6c2fc49",
+                "locator": {
+                  "type": "segment",
+                  "segment_id": "a-0248"
+                }
+              },
+              {
+                "item_id": "youtube:eBszYxzE2dk",
+                "version_id": "2ab79cd72c9bad8e6f1f1f046f190e6a3d38704ab441a8a2d8aa2b48d6c2fc49",
+                "locator": {
+                  "type": "segment",
+                  "segment_id": "a-0258"
+                }
+              },
+              {
+                "item_id": "youtube:eBszYxzE2dk",
+                "version_id": "2ab79cd72c9bad8e6f1f1f046f190e6a3d38704ab441a8a2d8aa2b48d6c2fc49",
+                "locator": {
+                  "type": "segment",
+                  "segment_id": "a-0265"
+                }
+              },
+              {
+                "item_id": "youtube:eBszYxzE2dk",
+                "version_id": "2ab79cd72c9bad8e6f1f1f046f190e6a3d38704ab441a8a2d8aa2b48d6c2fc49",
+                "locator": {
+                  "type": "segment",
+                  "segment_id": "a-0089"
+                }
+              },
+              {
+                "item_id": "youtube:eBszYxzE2dk",
+                "version_id": "2ab79cd72c9bad8e6f1f1f046f190e6a3d38704ab441a8a2d8aa2b48d6c2fc49",
+                "locator": {
+                  "type": "segment",
+                  "segment_id": "a-0230"
+                }
+              }
+            ]
+          },
+          {
+            "claim_id": "01-c6",
+            "statement": "Across these releases, access ranges from paid hosted channels to downloadable weights, a demo with planned API access, and a geographically limited experiment; therefore, a release announcement alone does not tell readers whether or how they can use a system.",
+            "type": "inference",
+            "evidence": [
+              {
+                "item_id": "feed:2417547fbcd4a08ff39cb3a84b7d6eede16d0808f385137d06219c2a3818e01d",
+                "version_id": "98ffa90a9d6392d846d700952fc48b34eb27c2d05af620c21b2d4ca69b171bd1",
+                "locator": {
+                  "type": "text",
+                  "quote": "For everyday users: Try it starting today in the Gemini app and AI Mode in Search if you’re a Google AI Ultra or Pro subscriber."
+                }
+              },
+              {
+                "item_id": "feed:74f7c639767e5ff1cb437b2bfcedd7b9e9b9aadebbe208b61dad37317a2a8eff",
+                "version_id": "98deddc295f7211cab36c0e98ae0ee53ebf704379ee6e4e1ae8d8f9de6a94f6c",
+                "locator": {
+                  "type": "text",
+                  "quote": "Both LFM2.5-24B-A2B and LFM2.5-24B-A2B-Base are open-weight and available on Hugging Face today:"
+                }
+              },
+              {
+                "item_id": "feed:7a6c716455f6be1bfda0beca6dfbc9cf90cf96199fa7d648b2b2f127c50b6b39",
+                "version_id": "72f1079c2ffa7b4666d21915b0558d5f46fdeee282da019f33bb1e8898b1ba6e",
+                "locator": {
+                  "type": "text",
+                  "quote": "API access and native applications are planned."
+                }
+              },
+              {
+                "item_id": "feed:650b1a40a921dc2f281493121ff171444b307775d255cfead9769244d805999d",
+                "version_id": "80d6950914e4e17b6f10d52ef8abff7a535068ab00265505f198f31982915d43",
+                "locator": {
+                  "type": "text",
+                  "quote": "Playground launches today for users in the U.S. (18+) at playground.google, with tiered creation access rolling out based on your Google AI subscription."
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "piece_id": "02",
+        "title": "The Right Test Depends on the Job",
+        "question": "What do recent model evaluations actually tell us about capability, and what do they leave out?",
+        "argument": "Recent technical releases make a case for specialization, but their evaluation results are not interchangeable. Liquid AI describes a mixture-of-experts model: a model with many expert components that activates only a subset for each token. Its published table shows strong results on some tool-use and instruction-following tests, while larger rivals lead on several knowledge and coding tests. TII’s Falcon-ASR instead targets speech transcription, reporting word error rate (WER)—the share of words transcribed incorrectly—on public Arabic test sets and a separate internal Emirati evaluation. Ai2’s HiRO-ACEv2 addresses a third task: generating fine-detail weather simulations from coarser model output, with particular attention to rare extremes. These are different problems, data, and measures; a single overall “best model” conclusion would not follow.",
+        "synthesis": "The useful comparison is between evaluation design and intended use, not a league table across unrelated systems. Liquid AI’s benchmark suite covers agent actions, knowledge, instruction following and coding; its own account acknowledges that its strengths vary by category. TII reports a defined six-set Arabic protocol and supplements it with an internal dialect evaluation, but the developer conducted the comparison and the internal sample’s size and representativeness are not specified here. Ai2 reports statistical agreement with X-SHiELD, a particular high-resolution weather simulation, while explicitly limiting the current system to an ACE model tuned to that reference. Separately, a Hugging Face author’s ML Intern projects illustrate why baselines, held-out tests and smoke tests matter: a model result is more interpretable when compared with a starting point and checked on data withheld from training. Taken together, these cases show evaluation is a design choice: it can measure a task-relevant gain, but it cannot automatically establish general capability or performance in a new setting.",
+        "limitations": "Liquid AI, TII, Ai2 and the ML Intern authors present developer or author-produced results; the supplied evidence does not provide independent replications. Benchmark names alone do not reveal all implementation choices or real-world variability. TII’s internal evaluation lacks stated sample size here. HiRO-ACEv2’s claims are bounded by X-SHiELD conditions, and weather-simulation statistics are not the same as forecasting skill in every climate. The ML Intern post describes a series of self-reported projects, not a controlled study of the agent workflow.",
+        "claims": [
+          {
+            "claim_id": "02-c1",
+            "statement": "Liquid AI says LFM2.5-24B-A2B retains a mixture-of-experts architecture with 40 layers and 64 experts per block, using top-four routing, and expands context from 32K to 131K tokens.",
+            "type": "source_claim",
+            "evidence": [
+              {
+                "item_id": "feed:74f7c639767e5ff1cb437b2bfcedd7b9e9b9aadebbe208b61dad37317a2a8eff",
+                "version_id": "98deddc295f7211cab36c0e98ae0ee53ebf704379ee6e4e1ae8d8f9de6a94f6c",
+                "locator": {
+                  "type": "text",
+                  "quote": "40 layers, 64 experts per MoE block with top-4 routing"
+                }
+              },
+              {
+                "item_id": "feed:74f7c639767e5ff1cb437b2bfcedd7b9e9b9aadebbe208b61dad37317a2a8eff",
+                "version_id": "98deddc295f7211cab36c0e98ae0ee53ebf704379ee6e4e1ae8d8f9de6a94f6c",
+                "locator": {
+                  "type": "text",
+                  "quote": "The context window grows from 32K to 131K tokens"
+                }
+              }
+            ]
+          },
+          {
+            "claim_id": "02-c2",
+            "statement": "Liquid AI reports competitive scores on several tool-use and instruction-following benchmarks, but its table also shows competitors ahead on knowledge-heavy and coding benchmarks.",
+            "type": "source_claim",
+            "evidence": [
+              {
+                "item_id": "feed:74f7c639767e5ff1cb437b2bfcedd7b9e9b9aadebbe208b61dad37317a2a8eff",
+                "version_id": "98deddc295f7211cab36c0e98ae0ee53ebf704379ee6e4e1ae8d8f9de6a94f6c",
+                "locator": {
+                  "type": "text",
+                  "quote": "Larger models keep an edge on knowledge-heavy benchmarks like GPQA Diamond, HLE, and AA-Omniscience, and on coding benchmarks like SWE-Bench Verified (OpenCode) and SciCode"
+                }
+              },
+              {
+                "item_id": "feed:74f7c639767e5ff1cb437b2bfcedd7b9e9b9aadebbe208b61dad37317a2a8eff",
+                "version_id": "98deddc295f7211cab36c0e98ae0ee53ebf704379ee6e4e1ae8d8f9de6a94f6c",
+                "locator": {
+                  "type": "text",
+                  "quote": "All the models were evaluated with vLLM, using each benchmark's recommended generation parameters."
+                }
+              }
+            ]
+          },
+          {
+            "claim_id": "02-c3",
+            "statement": "TII reports Falcon-ASR’s mean Arabic WER as 20.92% across six public test sets, against 23.17% for the best published result in its September 30, 2026 leaderboard snapshot.",
+            "type": "source_claim",
+            "evidence": [
+              {
+                "item_id": "feed:7a6c716455f6be1bfda0beca6dfbc9cf90cf96199fa7d648b2b2f127c50b6b39",
+                "version_id": "72f1079c2ffa7b4666d21915b0558d5f46fdeee282da019f33bb1e8898b1ba6e",
+                "locator": {
+                  "type": "text",
+                  "quote": "Falcon-ASR achieved an average word error rate of 20.92% across six Arabic test sets, compared with the best published result of 23.17%"
+                }
+              },
+              {
+                "item_id": "feed:7a6c716455f6be1bfda0beca6dfbc9cf90cf96199fa7d648b2b2f127c50b6b39",
+                "version_id": "72f1079c2ffa7b4666d21915b0558d5f46fdeee282da019f33bb1e8898b1ba6e",
+                "locator": {
+                  "type": "text",
+                  "quote": "Competitor figures are the published leaderboard averages checked on 30 September 2026."
+                }
+              }
+            ]
+          },
+          {
+            "claim_id": "02-c4",
+            "statement": "TII also reports a separate internal Emirati evaluation, but the supplied account does not specify its sample size or representativeness.",
+            "type": "source_claim",
+            "evidence": [
+              {
+                "item_id": "feed:7a6c716455f6be1bfda0beca6dfbc9cf90cf96199fa7d648b2b2f127c50b6b39",
+                "version_id": "72f1079c2ffa7b4666d21915b0558d5f46fdeee282da019f33bb1e8898b1ba6e",
+                "locator": {
+                  "type": "text",
+                  "quote": "We complement that coverage with an internal evaluation of additional Emirati and Gulf speech, using held-out recordings and human-validated transcripts"
+                }
+              },
+              {
+                "item_id": "feed:7a6c716455f6be1bfda0beca6dfbc9cf90cf96199fa7d648b2b2f127c50b6b39",
+                "version_id": "72f1079c2ffa7b4666d21915b0558d5f46fdeee282da019f33bb1e8898b1ba6e",
+                "locator": {
+                  "type": "text",
+                  "quote": "In our internal Emirati evaluation, Falcon-ASR achieved 22.73% WER and 10.19% CER:"
+                }
+              }
+            ]
+          },
+          {
+            "claim_id": "02-c5",
+            "statement": "Ai2 says HiROv2 predicts multiple high-resolution weather fields and improves extreme-event performance, but the current system only works with the ACE version tuned to X-SHiELD.",
+            "type": "source_claim",
+            "evidence": [
+              {
+                "item_id": "feed:890d9b1abb1aee38ddaf66fc51c1b22e40dbf1502357c1561af5a99a67ec4252",
+                "version_id": "4f7dcd14b763ecb67aa491dfb63692c36cb9b0224d5e00fa54b67452f05e1e64",
+                "locator": {
+                  "type": "text",
+                  "quote": "predict several high-resolution fields at once instead of just rainfall"
+                }
+              },
+              {
+                "item_id": "feed:890d9b1abb1aee38ddaf66fc51c1b22e40dbf1502357c1561af5a99a67ec4252",
+                "version_id": "4f7dcd14b763ecb67aa491dfb63692c36cb9b0224d5e00fa54b67452f05e1e64",
+                "locator": {
+                  "type": "text",
+                  "quote": "because HiRO learned from X-SHiELD, it only works with the version of ACE tuned to match X-SHiELD."
+                }
+              }
+            ]
+          },
+          {
+            "claim_id": "02-c6",
+            "statement": "The ML Intern post describes a workflow using baselines, small smoke tests and cost caps; its reported projects illustrate evaluation practice but are author-reported, not independent validation.",
+            "type": "source_claim",
+            "evidence": [
+              {
+                "item_id": "feed:1d28b948019906af44beedd1d629604c92976362f43d35af7df3595d7756a95c",
+                "version_id": "93466c416d1045376c0182c260bea53b1beb9029bb325b7aa1f08232fc048c94",
+                "locator": {
+                  "type": "text",
+                  "quote": "The first asks for a baseline before any training."
+                }
+              },
+              {
+                "item_id": "feed:1d28b948019906af44beedd1d629604c92976362f43d35af7df3595d7756a95c",
+                "version_id": "93466c416d1045376c0182c260bea53b1beb9029bb325b7aa1f08232fc048c94",
+                "locator": {
+                  "type": "text",
+                  "quote": "The second is a smoke test with a check attached."
+                }
+              },
+              {
+                "item_id": "feed:1d28b948019906af44beedd1d629604c92976362f43d35af7df3595d7756a95c",
+                "version_id": "93466c416d1045376c0182c260bea53b1beb9029bb325b7aa1f08232fc048c94",
+                "locator": {
+                  "type": "text",
+                  "quote": "Cap total spend at USD 12 and ask me before exceeding it."
+                }
+              }
+            ]
+          },
+          {
+            "claim_id": "02-c7",
+            "statement": "Because Liquid AI, TII and Ai2 evaluate different tasks with different measures and reference conditions, their results cannot establish one cross-domain model ranking; that conclusion is useful but uncertain beyond these examples.",
+            "type": "inference",
+            "evidence": [
+              {
+                "item_id": "feed:74f7c639767e5ff1cb437b2bfcedd7b9e9b9aadebbe208b61dad37317a2a8eff",
+                "version_id": "98deddc295f7211cab36c0e98ae0ee53ebf704379ee6e4e1ae8d8f9de6a94f6c",
+                "locator": {
+                  "type": "text",
+                  "quote": "16 benchmarks covering tool use and agentic workflows, knowledge, instruction following, math, and coding."
+                }
+              },
+              {
+                "item_id": "feed:7a6c716455f6be1bfda0beca6dfbc9cf90cf96199fa7d648b2b2f127c50b6b39",
+                "version_id": "72f1079c2ffa7b4666d21915b0558d5f46fdeee282da019f33bb1e8898b1ba6e",
+                "locator": {
+                  "type": "text",
+                  "quote": "The Open Universal Arabic ASR Leaderboard, maintained by the ELM Research Center, ranks systems by the equal-weight average WER across six test sets."
+                }
+              },
+              {
+                "item_id": "feed:890d9b1abb1aee38ddaf66fc51c1b22e40dbf1502357c1561af5a99a67ec4252",
+                "version_id": "4f7dcd14b763ecb67aa491dfb63692c36cb9b0224d5e00fa54b67452f05e1e64",
+                "locator": {
+                  "type": "text",
+                  "quote": "When given coarsened X-SHiELD data, it matches the target simulation's high-resolution statistics to within 3%"
+                }
+              },
+              {
+                "item_id": "feed:890d9b1abb1aee38ddaf66fc51c1b22e40dbf1502357c1561af5a99a67ec4252",
+                "version_id": "4f7dcd14b763ecb67aa491dfb63692c36cb9b0224d5e00fa54b67452f05e1e64",
+                "locator": {
+                  "type": "text",
+                  "quote": "it only works with the version of ACE tuned to match X-SHiELD."
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "piece_id": "03",
+        "title": "The Hard Part Starts After the Model Works",
+        "question": "What do recent industry and research developments suggest about where AI progress meets its practical limits?",
+        "argument": "Across coding infrastructure, scientific research and physical robotics, these sources point to a less glamorous but consequential direction: progress depends on systems around models—data, tools, hardware, expertise and oversight—not model capability alone. Simon Willison’s report on Anthropic describes new source-control and code-review systems after a sharp rise in merged code changes. A Hugging Face post describes a hands-on workflow for producing small task-specific models, including baselines and spending limits. In a separate interview, Biohub and DeepMind participants argue that scientific problems should determine whether a team invests in models, data or expertise. Dyna Robotics’ co-founder similarly presents physical deployment as a combination of model, data and hardware challenges. These accounts do not prove a universal law, but together they suggest that the limiting factor changes with the work being attempted.",
+        "synthesis": "The examples connect at the level of operational fit, not by independently verifying each other’s numbers. In software, Anthropic’s reported tooling response suggests that high rates of AI-assisted changes can create pressure on review and version-control infrastructure; Willison explicitly labels his explanation of the productivity increase as a guess. In model-making, the ML Intern author’s baseline-and-smoke-test approach is a practical way to avoid spending on training without a comparison or basic check. In science, the interviewees caution against assuming that more compute or data is always the answer: the problem and available expertise should guide the choice. Dyna’s co-founder argues that robotics adds constraints such as sensor choice, latency and hardware, and says the industry’s competing approaches remain unsettled. Read together, these cases reveal a useful editorial distinction: “AI progress” can mean a new model, but it can also mean adapting infrastructure and evaluation to make a system useful and governable. The inference is provisional because these are selected company accounts and interviews, not a representative survey.",
+        "limitations": "Anthropic’s code-change figures and explanation are reported by Willison from the company’s account; his proposed causal link to model capability is explicitly speculation. The ML Intern post is promotional and its costs and results are self-reported. The scientific discussion is an interview, not new experimental evidence; the Dyna transcript records a co-founder’s claims, not independent deployment verification. TechCrunch’s account of Flock reports conflicting company statements about audio detection, but does not provide a technical audit. These examples suggest questions and possible directions, not sector-wide proof.",
+        "claims": [
+          {
+            "claim_id": "03-c1",
+            "statement": "Willison reports Anthropic’s figure of about 2,500 code changes merged per day in May 2026 and more than 30,000 per day by September, while labeling his proposed explanation as a guess.",
+            "type": "source_claim",
+            "evidence": [
+              {
+                "item_id": "feed:3e807c680553afa8e7a7fab0c86367379ffe15326fd7fb88ab84c99f58a26838",
+                "version_id": "df0982905fe0f592da0c250b6940e7e9e328c7d20491a91173091b9e1940769b",
+                "locator": {
+                  "type": "text",
+                  "quote": "In May 2026, Anthropic averaged around 2,500 code changes merged per day; as of September, we merged over 30,000 per day."
+                }
+              },
+              {
+                "item_id": "feed:3e807c680553afa8e7a7fab0c86367379ffe15326fd7fb88ab84c99f58a26838",
+                "version_id": "df0982905fe0f592da0c250b6940e7e9e328c7d20491a91173091b9e1940769b",
+                "locator": {
+                  "type": "text",
+                  "quote": "My guess is that the introduction of Fable/Mythos class models is a key factor in the increased coding velocity."
+                }
+              }
+            ]
+          },
+          {
+            "claim_id": "03-c2",
+            "statement": "Willison reports that Anthropic built Scion for source control and Antique for code review, and that a seven-person team completed the Git migration in five months.",
+            "type": "reported_fact",
+            "evidence": [
+              {
+                "item_id": "feed:3e807c680553afa8e7a7fab0c86367379ffe15326fd7fb88ab84c99f58a26838",
+                "version_id": "df0982905fe0f592da0c250b6940e7e9e328c7d20491a91173091b9e1940769b",
+                "locator": {
+                  "type": "text",
+                  "quote": "\"Antique\" is their new code review system. The source control system is called Scion"
+                }
+              },
+              {
+                "item_id": "feed:3e807c680553afa8e7a7fab0c86367379ffe15326fd7fb88ab84c99f58a26838",
+                "version_id": "df0982905fe0f592da0c250b6940e7e9e328c7d20491a91173091b9e1940769b",
+                "locator": {
+                  "type": "text",
+                  "quote": "The new system was built by a team of seven people, and the migration from Git was completed in five months."
+                }
+              }
+            ]
+          },
+          {
+            "claim_id": "03-c3",
+            "statement": "The ML Intern post describes an agent workflow that requires a budget before paid jobs and recommends baselines and small smoke tests before larger training runs.",
+            "type": "source_claim",
+            "evidence": [
+              {
+                "item_id": "feed:1d28b948019906af44beedd1d629604c92976362f43d35af7df3595d7756a95c",
+                "version_id": "93466c416d1045376c0182c260bea53b1beb9029bb325b7aa1f08232fc048c94",
+                "locator": {
+                  "type": "text",
+                  "quote": "ML-intern plans the work, asks me for a budget before it spends anything, runs a small test before the real job"
+                }
+              },
+              {
+                "item_id": "feed:1d28b948019906af44beedd1d629604c92976362f43d35af7df3595d7756a95c",
+                "version_id": "93466c416d1045376c0182c260bea53b1beb9029bb325b7aa1f08232fc048c94",
+                "locator": {
+                  "type": "text",
+                  "quote": "The first asks for a baseline before any training."
+                }
+              }
+            ]
+          },
+          {
+            "claim_id": "03-c4",
+            "statement": "In the Latent Space interview, DeepMind’s Pushmeet Kohli argues that the problem should determine whether researchers prioritize modeling, data collection or expertise, rather than committing to one approach in advance.",
+            "type": "source_claim",
+            "evidence": [
+              {
+                "item_id": "podcast:1bd3dabb637d0dd2fadd3382acf4046bd254c3557fceff4ff2b5486a71ece8e1",
+                "version_id": "5259e67e25b483e81d2665f323cf8954ce22e841727d3df19089dd9ead614f73",
+                "locator": {
+                  "type": "segment",
+                  "segment_id": "p-0006"
+                }
+              }
+            ]
+          },
+          {
+            "claim_id": "03-c5",
+            "statement": "Dyna’s co-founder says robotics progress depends on data and hardware as well as models, and that competing data and system strategies are still too early to call.",
+            "type": "source_claim",
+            "evidence": [
+              {
+                "item_id": "podcast:a5722550a3b286ab7f03971ecfd02300b82428497f446ada3c8328f7918d698c",
+                "version_id": "f64a606580eb9edf5dd23191b9292737d4e0411a2640395aaedede16ce22520c",
+                "locator": {
+                  "type": "segment",
+                  "segment_id": "p-0109"
+                }
+              },
+              {
+                "item_id": "podcast:a5722550a3b286ab7f03971ecfd02300b82428497f446ada3c8328f7918d698c",
+                "version_id": "f64a606580eb9edf5dd23191b9292737d4e0411a2640395aaedede16ce22520c",
+                "locator": {
+                  "type": "segment",
+                  "segment_id": "p-0179"
+                }
+              }
+            ]
+          },
+          {
+            "claim_id": "03-c6",
+            "statement": "TechCrunch reports a discrepancy between Flock’s CEO saying microphones detect only gunshots and the company describing additional event detection; without a technical audit, the dispute illustrates why deployment claims need scrutiny, not proof of what the system detects.",
+            "type": "reported_fact",
+            "evidence": [
+              {
+                "item_id": "feed:0d26c42f4dbee4d81bb457a0f7e7507cf6b9c7eb8875a14e845577dc5d01132b",
+                "version_id": "527cdd48f2160597bfb0a076eeca70aba8b7fa2c619d58098966856ea3c8ecd8",
+                "locator": {
+                  "type": "text",
+                  "quote": "primarily used to detect gunfire but is also capable of detecting fireworks, sideshows, and potential car crashes."
+                }
+              },
+              {
+                "item_id": "feed:0d26c42f4dbee4d81bb457a0f7e7507cf6b9c7eb8875a14e845577dc5d01132b",
+                "version_id": "527cdd48f2160597bfb0a076eeca70aba8b7fa2c619d58098966856ea3c8ecd8",
+                "locator": {
+                  "type": "text",
+                  "quote": "It’s just gunshots."
+                }
+              }
+            ]
+          },
+          {
+            "claim_id": "03-c7",
+            "statement": "These reports and interviews suggest—without establishing a general trend—that practical AI work can shift bottlenecks from model performance to infrastructure, evaluation, domain knowledge or hardware, because each example describes a different surrounding constraint.",
+            "type": "inference",
+            "evidence": [
+              {
+                "item_id": "feed:3e807c680553afa8e7a7fab0c86367379ffe15326fd7fb88ab84c99f58a26838",
+                "version_id": "df0982905fe0f592da0c250b6940e7e9e328c7d20491a91173091b9e1940769b",
+                "locator": {
+                  "type": "text",
+                  "quote": "Interesting piece from Anthropic describing why and how they built their own custom alternative to Git"
+                }
+              },
+              {
+                "item_id": "feed:1d28b948019906af44beedd1d629604c92976362f43d35af7df3595d7756a95c",
+                "version_id": "93466c416d1045376c0182c260bea53b1beb9029bb325b7aa1f08232fc048c94",
+                "locator": {
+                  "type": "text",
+                  "quote": "The first asks for a baseline before any training."
+                }
+              },
+              {
+                "item_id": "podcast:1bd3dabb637d0dd2fadd3382acf4046bd254c3557fceff4ff2b5486a71ece8e1",
+                "version_id": "5259e67e25b483e81d2665f323cf8954ce22e841727d3df19089dd9ead614f73",
+                "locator": {
+                  "type": "segment",
+                  "segment_id": "p-0006"
+                }
+              },
+              {
+                "item_id": "podcast:a5722550a3b286ab7f03971ecfd02300b82428497f446ada3c8328f7918d698c",
+                "version_id": "f64a606580eb9edf5dd23191b9292737d4e0411a2640395aaedede16ce22520c",
+                "locator": {
+                  "type": "segment",
+                  "segment_id": "p-0109"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "blocking_reasons": []
+  },
+  "notes": "Shortened two exact Flock quotation locators in claim 03-c6 to comply with the 25-word quotation limit. Retained the reporter attribution, contradiction, and lack-of-audit caveat. No claim statement, source version, policy, or human approval was changed. Added exact early-access and Google-briefing disclosure segments to claim 01-c5, and made that attribution explicit. The prior correction record is retained separately."
+}

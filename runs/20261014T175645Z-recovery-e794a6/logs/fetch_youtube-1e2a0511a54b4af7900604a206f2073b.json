@@ -1,0 +1,31 @@
+{
+  "stage": "fetch_youtube",
+  "status": "completed",
+  "input_count": 2,
+  "output_count": 3,
+  "started_at": "2026-10-14T17:57:14.867467Z",
+  "tools": [
+    "Python stdlib",
+    "curl"
+  ],
+  "models": [],
+  "cost_usd": null,
+  "cost_note": "No model API used; local compute and transfer costs are not measured.",
+  "errors": [],
+  "source_results": [
+    {
+      "source_id": "ai-explained-youtube",
+      "status": "completed",
+      "count": 1,
+      "limit": 1
+    },
+    {
+      "source_id": "matt-wolfe-youtube",
+      "status": "completed",
+      "count": 2,
+      "limit": 2
+    }
+  ],
+  "finished_at": "2026-10-14T17:57:15.460233Z",
+  "exit_code": 0
+}

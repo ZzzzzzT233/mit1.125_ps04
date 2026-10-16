@@ -1,0 +1,9 @@
+{
+  "run_id": "20261014T184854Z-selection-dfc589",
+  "started_at": "2026-10-14T18:48:54.547316Z",
+  "as_of_date": "2026-10-14",
+  "mode": "live",
+  "previous_run_id": "20261014T182059Z-recovery-62859a",
+  "scope": "selection_only",
+  "note": "Live editorial model execution on retained evidence exported through data/store.sh and re-filtered for this UTC date. Sources are not recollected. This is not a complete publication-pipeline run."
+}

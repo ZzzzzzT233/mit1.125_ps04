@@ -1,0 +1,6 @@
+*.sh text eol=lf
+*.py text eol=lf
+data/assets/** -text
+data/evidence/** binary
+runs/** -text
+submission/technical-demo/*.mp4 binary

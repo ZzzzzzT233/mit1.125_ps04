@@ -1,0 +1,9 @@
+{
+  "run_id": "20261014T182059Z-recovery-62859a",
+  "started_at": "2026-10-14T18:20:59.409623Z",
+  "as_of_date": "2026-10-14",
+  "mode": "live",
+  "previous_run_id": "20261014T180357Z-recovery-9d1c84",
+  "scope": "collection_media_recovery",
+  "note": "Live channel discovery and reuse of saved full video responses. A 0.537-second final-segment overshoot is clipped within a one-second tolerance; the original raw response and failed receipt remain preserved. No additional API request is expected for unchanged videos. Collection only."
+}

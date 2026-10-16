@@ -1,0 +1,46 @@
+[
+  {
+    "source_id": "huggingface-blog",
+    "publisher_id": "huggingface",
+    "kind": "feed",
+    "url": "https://huggingface.co/blog/feed.xml",
+    "name": "Hugging Face Blog",
+    "homepage": "https://huggingface.co/blog",
+    "notes": "Technical and open-model discovery. Resolve each candidate's publisher_id to the originating author organization when different from Hugging Face; hosting does not establish independence.",
+    "limit": 4
+  },
+  {
+    "source_id": "ai-explained-youtube",
+    "publisher_id": "ai-explained",
+    "kind": "youtube",
+    "url": "https://www.youtube.com/channel/UCNJ1Ymd5yFuUPtn21xtRbbw",
+    "name": "AI Explained",
+    "homepage": "https://www.youtube.com/@aiexplained-official",
+    "channel_id": "UCNJ1Ymd5yFuUPtn21xtRbbw",
+    "discovery_feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCNJ1Ymd5yFuUPtn21xtRbbw",
+    "notes": "Candidate video analysis of AI developments. Verify substantive content, original contribution, transcript availability, and exact timestamps before accepting evidence.",
+    "limit": 1
+  },
+  {
+    "source_id": "matt-wolfe-youtube",
+    "publisher_id": "matt-wolfe",
+    "kind": "youtube",
+    "url": "https://www.youtube.com/channel/UChpleBmo18P08aKCIgti38g",
+    "name": "Matt Wolfe",
+    "homepage": "https://www.youtube.com/@mreflow",
+    "channel_id": "UChpleBmo18P08aKCIgti38g",
+    "discovery_feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UChpleBmo18P08aKCIgti38g",
+    "notes": "Candidate release roundups and demonstrations. Prefer substantive full-length videos; inspect sponsorships and separate demonstrations from repeated promotional claims.",
+    "limit": 2
+  },
+  {
+    "source_id": "latent-space-podcast",
+    "publisher_id": "latent-space",
+    "kind": "podcast",
+    "url": "https://www.latent.space/feed",
+    "name": "Latent Space",
+    "homepage": "https://www.latent.space/about",
+    "notes": "Mixed newsletter and podcast RSS. Collect only entries with audio enclosures for this input type. Interviews may contain vendor claims; reconcile YouTube copies as the same underlying item.",
+    "limit": 2
+  }
+]

@@ -1,0 +1,24 @@
+The Hard Part Starts After the Model Works
+
+AI Frontier Watch — evidence edition: October 14, 2026 UTC.
+
+Read the matching article: https://tongzhou2.substack.com/p/the-hard-part-starts-after-the-model
+
+This video uses AI-generated English narration and illustrative graphics. Company-reported results and interview statements are attributed in the presentation; they are not independent replications.
+
+Sources and referenced passages:
+Evidence as of 2026-10-14 UTC. Access conditions may change after publication.
+
+[1] [Redesigning source control at Anthropic](https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/).
+
+[2] [Redesigning source control at Anthropic](https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/).
+
+[3] [The model that didn't exist, so you made it yourself](https://huggingface.co/blog/building-with-ml-intern).
+
+[4] [Why AlphaFold Didn't Solve Protein Folding — Pushmeet Kohli, Google DeepMind & Sal Candido, Biohub](https://www.latent.space/p/biohub-deepmind) (00:04:54–00:08:23).
+
+[5] [Dyna-2: General Purpose Physical Agents with Hour-Long Autonomy — Jason Ma, Dyna Robotics](https://www.latent.space/p/dyna) (00:35:06–00:36:06); [Dyna-2: General Purpose Physical Agents with Hour-Long Autonomy — Jason Ma, Dyna Robotics](https://www.latent.space/p/dyna) (00:52:25–00:54:07).
+
+[6] [Flock CEO says its microphones detect ‘just gunshots’ — its website says different](https://techcrunch.com/2026/10/14/flock-ceo-says-its-microphones-detect-just-gunshots-its-website-says-different/).
+
+[7] [Redesigning source control at Anthropic](https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/); [The model that didn't exist, so you made it yourself](https://huggingface.co/blog/building-with-ml-intern); [Why AlphaFold Didn't Solve Protein Folding — Pushmeet Kohli, Google DeepMind & Sal Candido, Biohub](https://www.latent.space/p/biohub-deepmind) (00:04:54–00:08:23); [Dyna-2: General Purpose Physical Agents with Hour-Long Autonomy — Jason Ma, Dyna Robotics](https://www.latent.space/p/dyna) (00:35:06–00:36:06).

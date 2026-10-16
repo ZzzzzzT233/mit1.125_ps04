@@ -1,0 +1,52 @@
+{
+  "stage": "extract_content",
+  "status": "completed",
+  "input_count": 3,
+  "output_count": 3,
+  "started_at": "2026-10-14T17:24:45.658228Z",
+  "tools": [
+    "Python stdlib",
+    "curl",
+    "ffmpeg",
+    "ffprobe",
+    "yt-dlp"
+  ],
+  "models": [
+    "whisper-1"
+  ],
+  "cost_usd": 0.124,
+  "cost_note": "Estimated API transcription fees only; local compute/transfer not measured. Rate checked 2026-10-14",
+  "errors": [],
+  "reused_count": 0,
+  "item_results": [
+    {
+      "item_id": "feed:2417547fbcd4a08ff39cb3a84b7d6eede16d0808f385137d06219c2a3818e01d",
+      "status": "completed"
+    },
+    {
+      "item_id": "youtube:eBszYxzE2dk",
+      "status": "completed"
+    },
+    {
+      "item_id": "podcast:a5722550a3b286ab7f03971ecfd02300b82428497f446ada3c8328f7918d698c",
+      "status": "completed"
+    }
+  ],
+  "transcription_requests": [
+    {
+      "offset_seconds": 0,
+      "status": "completed",
+      "estimated_cost_usd": 0.12,
+      "billed_or_estimated_seconds": 1200
+    },
+    {
+      "offset_seconds": 1200,
+      "status": "completed",
+      "estimated_cost_usd": 0.004,
+      "billed_or_estimated_seconds": 40
+    }
+  ],
+  "cost_is_estimate": true,
+  "finished_at": "2026-10-14T17:26:02.197907Z",
+  "exit_code": 0
+}

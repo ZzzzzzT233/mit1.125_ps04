@@ -1,0 +1,66 @@
+{
+  "stage": "extract_content",
+  "status": "incomplete",
+  "input_count": 3,
+  "output_count": 2,
+  "started_at": "2026-10-14T18:05:04.314207Z",
+  "tools": [
+    "Python stdlib",
+    "ffmpeg",
+    "ffprobe",
+    "yt-dlp"
+  ],
+  "models": [
+    "whisper-1"
+  ],
+  "cost_usd": 0.3989,
+  "cost_note": "Estimated API transcription fees only; local compute/transfer not measured. Rate checked 2026-10-14",
+  "errors": [
+    "youtube:NUizyuGj-kE: Transcript timestamps are unordered or outside the audio chunk"
+  ],
+  "reused_count": 1,
+  "item_results": [
+    {
+      "item_id": "youtube:C4Sq3Rot8FU",
+      "status": "completed"
+    },
+    {
+      "item_id": "youtube:eBszYxzE2dk",
+      "status": "completed"
+    },
+    {
+      "item_id": "youtube:NUizyuGj-kE",
+      "status": "incomplete",
+      "error": "Transcript timestamps are unordered or outside the audio chunk"
+    }
+  ],
+  "transcription_requests": [
+    {
+      "offset_seconds": 0,
+      "status": "completed",
+      "estimated_cost_usd": 0.12,
+      "billed_or_estimated_seconds": 1200
+    },
+    {
+      "offset_seconds": 1200,
+      "status": "completed",
+      "estimated_cost_usd": 0.0661,
+      "billed_or_estimated_seconds": 661
+    },
+    {
+      "offset_seconds": 0,
+      "status": "completed",
+      "estimated_cost_usd": 0.12,
+      "billed_or_estimated_seconds": 1200
+    },
+    {
+      "offset_seconds": 1200,
+      "status": "completed",
+      "estimated_cost_usd": 0.0928,
+      "billed_or_estimated_seconds": 928
+    }
+  ],
+  "cost_is_estimate": true,
+  "finished_at": "2026-10-14T18:19:08.614318Z",
+  "exit_code": 1
+}

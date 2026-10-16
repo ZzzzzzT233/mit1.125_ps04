@@ -1,0 +1,27 @@
+{
+  "stage": "transcription_transport_probe",
+  "status": "completed",
+  "input_count": 1,
+  "output_count": 1,
+  "started_at": "2026-10-14T23:41:59.709541Z",
+  "tools": [
+    "Python stdlib",
+    "ffmpeg",
+    "curl"
+  ],
+  "models": [
+    "whisper-1"
+  ],
+  "cost_usd": 0.006,
+  "cost_note": "60-second live connectivity probe; not a substantive collected item. Estimate only; local costs unmeasured.",
+  "errors": [],
+  "model_requests": [
+    {
+      "status": "completed",
+      "estimated_cost_usd": 0.006
+    }
+  ],
+  "cost_is_estimate": true,
+  "finished_at": "2026-10-14T23:42:15.116465Z",
+  "exit_code": 0
+}

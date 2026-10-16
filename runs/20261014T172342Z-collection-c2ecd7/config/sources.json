@@ -1,0 +1,34 @@
+[
+  {
+    "source_id": "google-ai",
+    "publisher_id": "google",
+    "kind": "feed",
+    "url": "https://blog.google/innovation-and-ai/technology/ai/rss/",
+    "name": "Google AI",
+    "homepage": "https://blog.google/innovation-and-ai/",
+    "notes": "Primary model and product announcements. Google and Google DeepMind share one producer group for source counting.",
+    "limit": 1
+  },
+  {
+    "source_id": "matt-wolfe-youtube",
+    "publisher_id": "matt-wolfe",
+    "kind": "youtube",
+    "url": "https://www.youtube.com/channel/UChpleBmo18P08aKCIgti38g",
+    "name": "Matt Wolfe",
+    "homepage": "https://www.youtube.com/@mreflow",
+    "channel_id": "UChpleBmo18P08aKCIgti38g",
+    "discovery_feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UChpleBmo18P08aKCIgti38g",
+    "notes": "Candidate release roundups and demonstrations. Prefer substantive full-length videos; inspect sponsorships and separate demonstrations from repeated promotional claims.",
+    "limit": 1
+  },
+  {
+    "source_id": "latent-space-podcast",
+    "publisher_id": "latent-space",
+    "kind": "podcast",
+    "url": "https://www.latent.space/feed",
+    "name": "Latent Space",
+    "homepage": "https://www.latent.space/about",
+    "notes": "Mixed newsletter and podcast RSS. Collect only entries with audio enclosures for this input type. Interviews may contain vendor claims; reconcile YouTube copies as the same underlying item.",
+    "limit": 1
+  }
+]

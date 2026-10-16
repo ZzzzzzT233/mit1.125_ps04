@@ -1,0 +1,30 @@
+{
+  "stage": "select_items",
+  "status": "failed",
+  "input_count": 19,
+  "output_count": 0,
+  "started_at": "2026-10-15T18:50:26.391465Z",
+  "tools": [
+    "Python stdlib",
+    "curl"
+  ],
+  "models": [
+    "gpt-6-luna"
+  ],
+  "cost_usd": null,
+  "cost_note": "The failed model request may have been billed; check provider usage.",
+  "errors": [
+    "Editorial transport failed (curl exit 6); cost is unconfirmed"
+  ],
+  "request_fingerprint": "7a202638f256a483edcb75a873bf9d3a66fbf8085aedf1d62994b8dcc7477d55",
+  "request_bytes": 511098,
+  "request_fee_upper_bound_usd": 0.140274,
+  "model_requests": [
+    {
+      "status": "failed_cost_unconfirmed",
+      "estimated_cost_usd": null
+    }
+  ],
+  "finished_at": "2026-10-15T18:51:42.087801Z",
+  "exit_code": 1
+}

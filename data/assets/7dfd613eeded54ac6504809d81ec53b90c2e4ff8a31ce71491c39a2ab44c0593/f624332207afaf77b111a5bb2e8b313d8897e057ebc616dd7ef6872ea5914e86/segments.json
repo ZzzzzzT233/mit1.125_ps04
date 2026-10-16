@@ -1,0 +1,4628 @@
+[
+  {
+    "segment_id": "a-0001",
+    "start_seconds": 0.0,
+    "end_seconds": 2.0,
+    "text": "So Anthropic announced a new model this week."
+  },
+  {
+    "segment_id": "a-0002",
+    "start_seconds": 2.0399999618530273,
+    "end_seconds": 5.920000076293945,
+    "text": "OpenAI has been on a spree of multiple new announcements a day."
+  },
+  {
+    "segment_id": "a-0003",
+    "start_seconds": 5.960000038146973,
+    "end_seconds": 8.640000343322754,
+    "text": "We got some new stuff out of Grok, some new stuff out of Google,"
+  },
+  {
+    "segment_id": "a-0004",
+    "start_seconds": 8.680000305175781,
+    "end_seconds": 9.920000076293945,
+    "text": "lots of stuff to cover today."
+  },
+  {
+    "segment_id": "a-0005",
+    "start_seconds": 9.920000076293945,
+    "end_seconds": 11.399999618530273,
+    "text": "So let's get straight into it."
+  },
+  {
+    "segment_id": "a-0006",
+    "start_seconds": 11.479999542236328,
+    "end_seconds": 13.640000343322754,
+    "text": "I'll start here, but we won't go too deep into this."
+  },
+  {
+    "segment_id": "a-0007",
+    "start_seconds": 13.720000267028809,
+    "end_seconds": 18.040000915527344,
+    "text": "Anthropic released a new model in Cloud Haiku 5.5."
+  },
+  {
+    "segment_id": "a-0008",
+    "start_seconds": 18.079999923706055,
+    "end_seconds": 21.84000015258789,
+    "text": "This model is meant to be fast and cheap, but not really like"
+  },
+  {
+    "segment_id": "a-0009",
+    "start_seconds": 21.8799991607666,
+    "end_seconds": 23.719999313354492,
+    "text": "the smartest model in the world."
+  },
+  {
+    "segment_id": "a-0010",
+    "start_seconds": 23.760000228881836,
+    "end_seconds": 25.760000228881836,
+    "text": "We can see right here, they describe it as designed for high"
+  },
+  {
+    "segment_id": "a-0011",
+    "start_seconds": 25.760000228881836,
+    "end_seconds": 28.0,
+    "text": "volume, cost sensitive tasks."
+  },
+  {
+    "segment_id": "a-0012",
+    "start_seconds": 28.079999923706055,
+    "end_seconds": 31.200000762939453,
+    "text": "It reliably handles quick and repetitive workloads like"
+  },
+  {
+    "segment_id": "a-0013",
+    "start_seconds": 31.399999618530273,
+    "end_seconds": 35.31999969482422,
+    "text": "summaries, compactions, database queries, and classification requests."
+  },
+  {
+    "segment_id": "a-0014",
+    "start_seconds": 35.36000061035156,
+    "end_seconds": 39.279998779296875,
+    "text": "They also recommend using it as a sub-agent on coding work."
+  },
+  {
+    "segment_id": "a-0015",
+    "start_seconds": 39.36000061035156,
+    "end_seconds": 42.959999084472656,
+    "text": "They did post up some benchmarks, but as we can quickly see, it is"
+  },
+  {
+    "segment_id": "a-0016",
+    "start_seconds": 42.959999084472656,
+    "end_seconds": 46.52000045776367,
+    "text": "definitely not state of the art on anything, really."
+  },
+  {
+    "segment_id": "a-0017",
+    "start_seconds": 46.560001373291016,
+    "end_seconds": 51.47999954223633,
+    "text": "So knowledge work, you can see it's 1620 compared to Sonnet's 1840."
+  },
+  {
+    "segment_id": "a-0018",
+    "start_seconds": 51.52000045776367,
+    "end_seconds": 53.68000030517578,
+    "text": "Obviously Opus is even higher than that."
+  },
+  {
+    "segment_id": "a-0019",
+    "start_seconds": 53.720001220703125,
+    "end_seconds": 61.08000183105469,
+    "text": "Knowledge work here, 1578 versus 1824, computer use 72 to Sonnet's 83.9."
+  },
+  {
+    "segment_id": "a-0020",
+    "start_seconds": 61.15999984741211,
+    "end_seconds": 64.44000244140625,
+    "text": "And just across the board, there's pretty much nothing that this is"
+  },
+  {
+    "segment_id": "a-0021",
+    "start_seconds": 64.44000244140625,
+    "end_seconds": 67.72000122070312,
+    "text": "going to out benchmark its Sonnet or Opus models on."
+  },
+  {
+    "segment_id": "a-0022",
+    "start_seconds": 67.80000305175781,
+    "end_seconds": 71.76000213623047,
+    "text": "The main selling point, once again, of Haiku is it is inexpensive."
+  },
+  {
+    "segment_id": "a-0023",
+    "start_seconds": 71.80000305175781,
+    "end_seconds": 76.95999908447266,
+    "text": "Haiku here on extra high, for instance, is about as smart"
+  },
+  {
+    "segment_id": "a-0024",
+    "start_seconds": 77.04000091552734,
+    "end_seconds": 80.4800033569336,
+    "text": "as Sonnet 5.5 on medium."
+  },
+  {
+    "segment_id": "a-0025",
+    "start_seconds": 80.5199966430664,
+    "end_seconds": 85.36000061035156,
+    "text": "But as we can see, Sonnet 5.5 is roughly 93 cents where Haiku"
+  },
+  {
+    "segment_id": "a-0026",
+    "start_seconds": 85.36000061035156,
+    "end_seconds": 88.36000061035156,
+    "text": "5.5 extra high is 28 cents."
+  },
+  {
+    "segment_id": "a-0027",
+    "start_seconds": 88.4000015258789,
+    "end_seconds": 91.68000030517578,
+    "text": "But if you're using Sonnet on one of its higher thinking levels than medium,"
+  },
+  {
+    "segment_id": "a-0028",
+    "start_seconds": 91.72000122070312,
+    "end_seconds": 96.08000183105469,
+    "text": "well, then it quickly becomes much smarter, but also a bit more expensive."
+  },
+  {
+    "segment_id": "a-0029",
+    "start_seconds": 96.12000274658203,
+    "end_seconds": 98.55999755859375,
+    "text": "And you're going to see pretty much the same kind of things"
+  },
+  {
+    "segment_id": "a-0030",
+    "start_seconds": 98.55999755859375,
+    "end_seconds": 100.4800033569336,
+    "text": "across all of these benchmarks here."
+  },
+  {
+    "segment_id": "a-0031",
+    "start_seconds": 100.5199966430664,
+    "end_seconds": 106.19999694824219,
+    "text": "Haiku 5.5 costs about 10 cents per million output tokens up to the"
+  },
+  {
+    "segment_id": "a-0032",
+    "start_seconds": 106.19999694824219,
+    "end_seconds": 109.76000213623047,
+    "text": "first hundred thousand tokens, then 50 cents per million."
+  },
+  {
+    "segment_id": "a-0033",
+    "start_seconds": 109.83999633789062,
+    "end_seconds": 113.04000091552734,
+    "text": "And then output, you've got 50 cents up to the first hundred"
+  },
+  {
+    "segment_id": "a-0034",
+    "start_seconds": 113.04000091552734,
+    "end_seconds": 115.12000274658203,
+    "text": "thousand, then two 50 beyond that."
+  },
+  {
+    "segment_id": "a-0035",
+    "start_seconds": 115.16000366210938,
+    "end_seconds": 117.68000030517578,
+    "text": "You compare that to the previous version of Haiku."
+  },
+  {
+    "segment_id": "a-0036",
+    "start_seconds": 117.72000122070312,
+    "end_seconds": 120.68000030517578,
+    "text": "It's cheaper than the previous version of Haiku by quite a bit."
+  },
+  {
+    "segment_id": "a-0037",
+    "start_seconds": 120.72000122070312,
+    "end_seconds": 124.76000213623047,
+    "text": "And also, you know, a fourth of the price of using Sonnet."
+  },
+  {
+    "segment_id": "a-0038",
+    "start_seconds": 124.80000305175781,
+    "end_seconds": 128.0800018310547,
+    "text": "So if you need fast and cheap, but not necessarily the most"
+  },
+  {
+    "segment_id": "a-0039",
+    "start_seconds": 128.0800018310547,
+    "end_seconds": 132.60000610351562,
+    "text": "intelligent model ever, well, Claude Haiku 5.5 sort of falls in"
+  },
+  {
+    "segment_id": "a-0040",
+    "start_seconds": 132.60000610351562,
+    "end_seconds": 134.67999267578125,
+    "text": "line with, you know, like a Luna model."
+  },
+  {
+    "segment_id": "a-0041",
+    "start_seconds": 134.72000122070312,
+    "end_seconds": 137.55999755859375,
+    "text": "If we look over at artificial analysis, which takes into"
+  },
+  {
+    "segment_id": "a-0042",
+    "start_seconds": 137.55999755859375,
+    "end_seconds": 139.9600067138672,
+    "text": "account a whole bunch of benchmarks to try to find like a sort of"
+  },
+  {
+    "segment_id": "a-0043",
+    "start_seconds": 140.0399932861328,
+    "end_seconds": 144.63999938964844,
+    "text": "objectively smartest model here, we can see that Anthropic owns the"
+  },
+  {
+    "segment_id": "a-0044",
+    "start_seconds": 144.63999938964844,
+    "end_seconds": 149.72000122070312,
+    "text": "top three models in terms of intelligence here, but Haiku 5.5"
+  },
+  {
+    "segment_id": "a-0045",
+    "start_seconds": 149.72000122070312,
+    "end_seconds": 157.1199951171875,
+    "text": "files all the way down here below Kimi K3, below GLM 5.3, below Grok 4.7."
+  },
+  {
+    "segment_id": "a-0046",
+    "start_seconds": 157.16000366210938,
+    "end_seconds": 161.8000030517578,
+    "text": "So, you know, it's not the smartest model, but when we come look at cost"
+  },
+  {
+    "segment_id": "a-0047",
+    "start_seconds": 161.83999633789062,
+    "end_seconds": 165.67999267578125,
+    "text": "per task down here, the previous Anthropic models, Sonnet, Opus,"
+  },
+  {
+    "segment_id": "a-0048",
+    "start_seconds": 165.67999267578125,
+    "end_seconds": 170.16000366210938,
+    "text": "and Fable are way up here is like the most expensive per task models."
+  },
+  {
+    "segment_id": "a-0049",
+    "start_seconds": 170.1999969482422,
+    "end_seconds": 177.24000549316406,
+    "text": "Haiku 5.5 falls way down here at roughly 21 cents average cost per task."
+  },
+  {
+    "segment_id": "a-0050",
+    "start_seconds": 177.27999877929688,
+    "end_seconds": 182.27999877929688,
+    "text": "So very, very, very inexpensive to run while still being a decently smart model."
+  },
+  {
+    "segment_id": "a-0051",
+    "start_seconds": 182.32000732421875,
+    "end_seconds": 186.75999450683594,
+    "text": "However, just like other Anthropic models, it does use a lot of tokens."
+  },
+  {
+    "segment_id": "a-0052",
+    "start_seconds": 186.8000030517578,
+    "end_seconds": 192.44000244140625,
+    "text": "So we can see here, Cloud Haiku 5.5 is way up here using the second most"
+  },
+  {
+    "segment_id": "a-0053",
+    "start_seconds": 192.44000244140625,
+    "end_seconds": 197.83999633789062,
+    "text": "amount of tokens per task only behind Sonnet 5.5, but because the tokens"
+  },
+  {
+    "segment_id": "a-0054",
+    "start_seconds": 197.83999633789062,
+    "end_seconds": 200.47999572753906,
+    "text": "are so cheap, it doesn't seem to matter."
+  },
+  {
+    "segment_id": "a-0055",
+    "start_seconds": 200.47999572753906,
+    "end_seconds": 204.36000061035156,
+    "text": "Cause we're still seeing that cost per task of about 21 cents."
+  },
+  {
+    "segment_id": "a-0056",
+    "start_seconds": 204.44000244140625,
+    "end_seconds": 209.24000549316406,
+    "text": "Oh, and if you're curious how Haiku 5.5 performed on Busey bench, here's what we"
+  },
+  {
+    "segment_id": "a-0057",
+    "start_seconds": 209.24000549316406,
+    "end_seconds": 214.1999969482422,
+    "text": "got, it did cost us less than half a cent generate in 42 seconds and use"
+  },
+  {
+    "segment_id": "a-0058",
+    "start_seconds": 214.1999969482422,
+    "end_seconds": 217.72000122070312,
+    "text": "less than 10,000 tokens, but not very Busey."
+  },
+  {
+    "segment_id": "a-0059",
+    "start_seconds": 217.75999450683594,
+    "end_seconds": 221.0399932861328,
+    "text": "If you have a cloud plan, you could jump into your cloud account and"
+  },
+  {
+    "segment_id": "a-0060",
+    "start_seconds": 221.0800018310547,
+    "end_seconds": 223.1999969482422,
+    "text": "set up Haiku 5.5 right now."
+  },
+  {
+    "segment_id": "a-0061",
+    "start_seconds": 223.24000549316406,
+    "end_seconds": 225.0399932861328,
+    "text": "Set up your effort level."
+  },
+  {
+    "segment_id": "a-0062",
+    "start_seconds": 225.0800018310547,
+    "end_seconds": 228.1199951171875,
+    "text": "Medium is the recommended effort level, but if you're on one of the"
+  },
+  {
+    "segment_id": "a-0063",
+    "start_seconds": 228.1199951171875,
+    "end_seconds": 232.8800048828125,
+    "text": "paid cloud accounts, like a $20 a month or up plan, you're probably not"
+  },
+  {
+    "segment_id": "a-0064",
+    "start_seconds": 232.8800048828125,
+    "end_seconds": 234.72000122070312,
+    "text": "going to be using Haiku for most things."
+  },
+  {
+    "segment_id": "a-0065",
+    "start_seconds": 234.72000122070312,
+    "end_seconds": 237.27999877929688,
+    "text": "You're probably going to use one of the smarter models where people are"
+  },
+  {
+    "segment_id": "a-0066",
+    "start_seconds": 237.27999877929688,
+    "end_seconds": 241.32000732421875,
+    "text": "really going to be thinking about using something like Haiku is via the API."
+  },
+  {
+    "segment_id": "a-0067",
+    "start_seconds": 241.32000732421875,
+    "end_seconds": 244.8800048828125,
+    "text": "So if you're building a tool that runs a model, or if you're using"
+  },
+  {
+    "segment_id": "a-0068",
+    "start_seconds": 244.8800048828125,
+    "end_seconds": 248.60000610351562,
+    "text": "cloud code and you're doing some real basic stuff in cloud code, using"
+  },
+  {
+    "segment_id": "a-0069",
+    "start_seconds": 248.60000610351562,
+    "end_seconds": 254.0800018310547,
+    "text": "the API, you'll probably select Haiku 5.5 to get those speed and cost efficiency"
+  },
+  {
+    "segment_id": "a-0070",
+    "start_seconds": 254.0800018310547,
+    "end_seconds": 256.9200134277344,
+    "text": "gains, but if you're just chatting with cloud and you want a decently"
+  },
+  {
+    "segment_id": "a-0071",
+    "start_seconds": 256.9200134277344,
+    "end_seconds": 260.5199890136719,
+    "text": "smart model, you'll probably pick one of these larger models anyway,"
+  },
+  {
+    "segment_id": "a-0072",
+    "start_seconds": 260.5199890136719,
+    "end_seconds": 262.0,
+    "text": "since you're paying a monthly fee."
+  },
+  {
+    "segment_id": "a-0073",
+    "start_seconds": 262.0,
+    "end_seconds": 265.32000732421875,
+    "text": "And you're not really worried about API costs, but in my opinion, there"
+  },
+  {
+    "segment_id": "a-0074",
+    "start_seconds": 265.32000732421875,
+    "end_seconds": 268.55999755859375,
+    "text": "was actually something even more interesting released by Anthropic"
+  },
+  {
+    "segment_id": "a-0075",
+    "start_seconds": 268.55999755859375,
+    "end_seconds": 272.1600036621094,
+    "text": "this week, and that's the ability to build live dashboards and"
+  },
+  {
+    "segment_id": "a-0076",
+    "start_seconds": 272.1600036621094,
+    "end_seconds": 274.55999755859375,
+    "text": "to animate explainers with Claude."
+  },
+  {
+    "segment_id": "a-0077",
+    "start_seconds": 274.6000061035156,
+    "end_seconds": 277.5199890136719,
+    "text": "Now, most of us can actually build live dashboards right now."
+  },
+  {
+    "segment_id": "a-0078",
+    "start_seconds": 277.5199890136719,
+    "end_seconds": 282.0799865722656,
+    "text": "The animate explainers with Claude is probably not available to most"
+  },
+  {
+    "segment_id": "a-0079",
+    "start_seconds": 282.0799865722656,
+    "end_seconds": 285.4800109863281,
+    "text": "of us just yet, which is very unfortunate and kind of annoying."
+  },
+  {
+    "segment_id": "a-0080",
+    "start_seconds": 285.5199890136719,
+    "end_seconds": 288.67999267578125,
+    "text": "We can see here that Claude can turn your data into a dashboard that"
+  },
+  {
+    "segment_id": "a-0081",
+    "start_seconds": 288.67999267578125,
+    "end_seconds": 291.9599914550781,
+    "text": "stays current and your ideas into animated explainers."
+  },
+  {
+    "segment_id": "a-0082",
+    "start_seconds": 292.0,
+    "end_seconds": 295.55999755859375,
+    "text": "So for the dashboard, it connects to data platforms like BigQuery,"
+  },
+  {
+    "segment_id": "a-0083",
+    "start_seconds": 295.55999755859375,
+    "end_seconds": 299.8800048828125,
+    "text": "Databricks or Snowflake or a CRM tool like Salesforce, and you can use"
+  },
+  {
+    "segment_id": "a-0084",
+    "start_seconds": 299.8800048828125,
+    "end_seconds": 301.79998779296875,
+    "text": "it pretty much on any paid plan."
+  },
+  {
+    "segment_id": "a-0085",
+    "start_seconds": 301.8399963378906,
+    "end_seconds": 306.0,
+    "text": "However, Claude motion, which is the thing that I think is even cooler"
+  },
+  {
+    "segment_id": "a-0086",
+    "start_seconds": 306.0400085449219,
+    "end_seconds": 308.3599853515625,
+    "text": "is only on team or enterprise plans."
+  },
+  {
+    "segment_id": "a-0087",
+    "start_seconds": 308.3999938964844,
+    "end_seconds": 312.2799987792969,
+    "text": "So this dashboard thing here that connects to your CRM is pretty cool,"
+  },
+  {
+    "segment_id": "a-0088",
+    "start_seconds": 312.2799987792969,
+    "end_seconds": 315.20001220703125,
+    "text": "but I feel like we've already been able to do that, right?"
+  },
+  {
+    "segment_id": "a-0089",
+    "start_seconds": 315.20001220703125,
+    "end_seconds": 316.8800048828125,
+    "text": "Like they just made it easier to do."
+  },
+  {
+    "segment_id": "a-0090",
+    "start_seconds": 316.8800048828125,
+    "end_seconds": 319.67999267578125,
+    "text": "They made it sort of less steps in between, but we've sort of"
+  },
+  {
+    "segment_id": "a-0091",
+    "start_seconds": 319.67999267578125,
+    "end_seconds": 321.5199890136719,
+    "text": "always been able to make dashboards."
+  },
+  {
+    "segment_id": "a-0092",
+    "start_seconds": 321.5199890136719,
+    "end_seconds": 323.5199890136719,
+    "text": "It's just sort of more built in now."
+  },
+  {
+    "segment_id": "a-0093",
+    "start_seconds": 323.55999755859375,
+    "end_seconds": 327.55999755859375,
+    "text": "And I guess you can argue we've been able to do these motion animations as well."
+  },
+  {
+    "segment_id": "a-0094",
+    "start_seconds": 327.55999755859375,
+    "end_seconds": 331.55999755859375,
+    "text": "You can have it code in JavaScript and make these animations for you."
+  },
+  {
+    "segment_id": "a-0095",
+    "start_seconds": 331.55999755859375,
+    "end_seconds": 335.6400146484375,
+    "text": "Like what you're seeing on the screen right now, hyper frames and a"
+  },
+  {
+    "segment_id": "a-0096",
+    "start_seconds": 335.6400146484375,
+    "end_seconds": 337.5199890136719,
+    "text": "re motion, we're able to do stuff like that."
+  },
+  {
+    "segment_id": "a-0097",
+    "start_seconds": 337.5199890136719,
+    "end_seconds": 340.0400085449219,
+    "text": "You connect it to Claude and it would build stuff out like that."
+  },
+  {
+    "segment_id": "a-0098",
+    "start_seconds": 340.0799865722656,
+    "end_seconds": 342.20001220703125,
+    "text": "But again, they're just making this built in."
+  },
+  {
+    "segment_id": "a-0099",
+    "start_seconds": 342.20001220703125,
+    "end_seconds": 347.2799987792969,
+    "text": "So I don't believe you actually need to use any of those extra add-ons"
+  },
+  {
+    "segment_id": "a-0100",
+    "start_seconds": 347.2799987792969,
+    "end_seconds": 348.8800048828125,
+    "text": "to get the animations to work."
+  },
+  {
+    "segment_id": "a-0101",
+    "start_seconds": 348.9200134277344,
+    "end_seconds": 352.8800048828125,
+    "text": "But again, the Claude motion is in beta in team and enterprise, and I don't"
+  },
+  {
+    "segment_id": "a-0102",
+    "start_seconds": 352.8800048828125,
+    "end_seconds": 355.0400085449219,
+    "text": "have a team or enterprise plan personally."
+  },
+  {
+    "segment_id": "a-0103",
+    "start_seconds": 355.0400085449219,
+    "end_seconds": 357.9599914550781,
+    "text": "I find this a bit annoying because I do have a max plan."
+  },
+  {
+    "segment_id": "a-0104",
+    "start_seconds": 357.9599914550781,
+    "end_seconds": 360.79998779296875,
+    "text": "I'm actually on a $200 a month max plan."
+  },
+  {
+    "segment_id": "a-0105",
+    "start_seconds": 360.9599914550781,
+    "end_seconds": 364.0400085449219,
+    "text": "And one of the things they sell you on the max plan is early"
+  },
+  {
+    "segment_id": "a-0106",
+    "start_seconds": 364.0400085449219,
+    "end_seconds": 366.1199951171875,
+    "text": "access to advanced Claude features."
+  },
+  {
+    "segment_id": "a-0107",
+    "start_seconds": 366.239990234375,
+    "end_seconds": 370.0,
+    "text": "So I'm paying extra cause I want to get early access when this stuff comes out."
+  },
+  {
+    "segment_id": "a-0108",
+    "start_seconds": 370.1199951171875,
+    "end_seconds": 374.79998779296875,
+    "text": "And when something like the new Claude motion comes out for whatever reason,"
+  },
+  {
+    "segment_id": "a-0109",
+    "start_seconds": 375.0,
+    "end_seconds": 379.0799865722656,
+    "text": "they didn't give it to the people paying a hundred dollars a month plus that"
+  },
+  {
+    "segment_id": "a-0110",
+    "start_seconds": 379.0799865722656,
+    "end_seconds": 382.2799987792969,
+    "text": "signed up for early access to advanced features, but they are giving it to"
+  },
+  {
+    "segment_id": "a-0111",
+    "start_seconds": 382.2799987792969,
+    "end_seconds": 386.44000244140625,
+    "text": "people on a team plan that might be paying as low as $20 a month,"
+  },
+  {
+    "segment_id": "a-0112",
+    "start_seconds": 386.44000244140625,
+    "end_seconds": 387.9200134277344,
+    "text": "like kind of frustrating."
+  },
+  {
+    "segment_id": "a-0113",
+    "start_seconds": 387.9599914550781,
+    "end_seconds": 391.0,
+    "text": "But I guess at the end of the day, we can still accomplish this stuff."
+  },
+  {
+    "segment_id": "a-0114",
+    "start_seconds": 391.0,
+    "end_seconds": 394.20001220703125,
+    "text": "You can tell it to go and create an animation using, you know,"
+  },
+  {
+    "segment_id": "a-0115",
+    "start_seconds": 394.20001220703125,
+    "end_seconds": 395.79998779296875,
+    "text": "JavaScript and it will."
+  },
+  {
+    "segment_id": "a-0116",
+    "start_seconds": 395.79998779296875,
+    "end_seconds": 400.6400146484375,
+    "text": "You can use things like hyper frames and re motion, install those skills,"
+  },
+  {
+    "segment_id": "a-0117",
+    "start_seconds": 400.6400146484375,
+    "end_seconds": 402.8800048828125,
+    "text": "and it will also do these kinds of animations."
+  },
+  {
+    "segment_id": "a-0118",
+    "start_seconds": 402.9200134277344,
+    "end_seconds": 406.79998779296875,
+    "text": "It's just nice to have it sort of built in without those extra plug ins."
+  },
+  {
+    "segment_id": "a-0119",
+    "start_seconds": 406.8399963378906,
+    "end_seconds": 409.9200134277344,
+    "text": "So in terms of whether or not we're able to do something"
+  },
+  {
+    "segment_id": "a-0120",
+    "start_seconds": 409.9599914550781,
+    "end_seconds": 413.6000061035156,
+    "text": "that we couldn't used to do, well, we still can do that,"
+  },
+  {
+    "segment_id": "a-0121",
+    "start_seconds": 413.6000061035156,
+    "end_seconds": 417.3999938964844,
+    "text": "but I am looking forward to like cutting out some steps and making it even"
+  },
+  {
+    "segment_id": "a-0122",
+    "start_seconds": 417.3999938964844,
+    "end_seconds": 420.3599853515625,
+    "text": "quicker and easier and just like native to Claude."
+  },
+  {
+    "segment_id": "a-0123",
+    "start_seconds": 420.3999938964844,
+    "end_seconds": 421.5199890136719,
+    "text": "Before we get back into the video,"
+  },
+  {
+    "segment_id": "a-0124",
+    "start_seconds": 421.5199890136719,
+    "end_seconds": 424.32000732421875,
+    "text": "I want to take a second to show you guys something really cool that I built"
+  },
+  {
+    "segment_id": "a-0125",
+    "start_seconds": 424.32000732421875,
+    "end_seconds": 424.79998779296875,
+    "text": "recently."
+  },
+  {
+    "segment_id": "a-0126",
+    "start_seconds": 424.79998779296875,
+    "end_seconds": 428.1199951171875,
+    "text": "You might've seen my other videos where I bring creators onto my channel to break"
+  },
+  {
+    "segment_id": "a-0127",
+    "start_seconds": 428.1199951171875,
+    "end_seconds": 432.0,
+    "text": "down the like interesting things that they're building with AI and believe it"
+  },
+  {
+    "segment_id": "a-0128",
+    "start_seconds": 432.0,
+    "end_seconds": 432.44000244140625,
+    "text": "or not,"
+  },
+  {
+    "segment_id": "a-0129",
+    "start_seconds": 432.44000244140625,
+    "end_seconds": 437.20001220703125,
+    "text": "there's a surprising amount of prep that goes into those conversations because I"
+  },
+  {
+    "segment_id": "a-0130",
+    "start_seconds": 437.20001220703125,
+    "end_seconds": 441.32000732421875,
+    "text": "really need to understand like what they built and then make sure we touch upon"
+  },
+  {
+    "segment_id": "a-0131",
+    "start_seconds": 441.32000732421875,
+    "end_seconds": 443.760009765625,
+    "text": "like all of the coolest parts of what they built."
+  },
+  {
+    "segment_id": "a-0132",
+    "start_seconds": 443.79998779296875,
+    "end_seconds": 448.6000061035156,
+    "text": "So I'm using hyper agent to build a little like guest prep team that my"
+  },
+  {
+    "segment_id": "a-0133",
+    "start_seconds": 448.6400146484375,
+    "end_seconds": 451.9599914550781,
+    "text": "actual team can use whenever we're planning for an interview."
+  },
+  {
+    "segment_id": "a-0134",
+    "start_seconds": 452.0,
+    "end_seconds": 455.3999938964844,
+    "text": "Now I created three agents with three different jobs."
+  },
+  {
+    "segment_id": "a-0135",
+    "start_seconds": 455.44000244140625,
+    "end_seconds": 457.7200012207031,
+    "text": "I've got scout echo and Vox."
+  },
+  {
+    "segment_id": "a-0136",
+    "start_seconds": 457.760009765625,
+    "end_seconds": 460.0,
+    "text": "So first is scout my researcher."
+  },
+  {
+    "segment_id": "a-0137",
+    "start_seconds": 460.20001220703125,
+    "end_seconds": 464.20001220703125,
+    "text": "All I have to do is give it the name of the guest and it'll find their website,"
+  },
+  {
+    "segment_id": "a-0138",
+    "start_seconds": 464.20001220703125,
+    "end_seconds": 467.2799987792969,
+    "text": "social channels and anything else I need for the prep."
+  },
+  {
+    "segment_id": "a-0139",
+    "start_seconds": 467.32000732421875,
+    "end_seconds": 469.6000061035156,
+    "text": "Here's the prompt that I use to build scout,"
+  },
+  {
+    "segment_id": "a-0140",
+    "start_seconds": 469.6400146484375,
+    "end_seconds": 473.3999938964844,
+    "text": "build me an agent named scout that acts as a guest researcher for my YouTube"
+  },
+  {
+    "segment_id": "a-0141",
+    "start_seconds": 473.3999938964844,
+    "end_seconds": 477.239990234375,
+    "text": "series where I feature other creators and what they've built using AI."
+  },
+  {
+    "segment_id": "a-0142",
+    "start_seconds": 477.32000732421875,
+    "end_seconds": 479.6000061035156,
+    "text": "Next is echo my interviewer."
+  },
+  {
+    "segment_id": "a-0143",
+    "start_seconds": 479.67999267578125,
+    "end_seconds": 482.760009765625,
+    "text": "He takes that research and comes up with questions."
+  },
+  {
+    "segment_id": "a-0144",
+    "start_seconds": 482.79998779296875,
+    "end_seconds": 485.20001220703125,
+    "text": "Here's the prompt that I use to create echo,"
+  },
+  {
+    "segment_id": "a-0145",
+    "start_seconds": 485.239990234375,
+    "end_seconds": 488.6400146484375,
+    "text": "build me an agent named echo that acts as my interview strategist."
+  },
+  {
+    "segment_id": "a-0146",
+    "start_seconds": 488.67999267578125,
+    "end_seconds": 490.32000732421875,
+    "text": "And then we had our echo agent."
+  },
+  {
+    "segment_id": "a-0147",
+    "start_seconds": 490.3599853515625,
+    "end_seconds": 492.8800048828125,
+    "text": "I'm also adding an example of a previous interview."
+  },
+  {
+    "segment_id": "a-0148",
+    "start_seconds": 492.8800048828125,
+    "end_seconds": 495.760009765625,
+    "text": "So it has reference for the kind of conversation that I want."
+  },
+  {
+    "segment_id": "a-0149",
+    "start_seconds": 495.79998779296875,
+    "end_seconds": 498.8399963378906,
+    "text": "Then the third agent is Vox, my producer,"
+  },
+  {
+    "segment_id": "a-0150",
+    "start_seconds": 498.8800048828125,
+    "end_seconds": 502.8399963378906,
+    "text": "build me an agent named Vox that acts as my interview editor and producer."
+  },
+  {
+    "segment_id": "a-0151",
+    "start_seconds": 502.8800048828125,
+    "end_seconds": 506.3599853515625,
+    "text": "Its job is to turn that material into a video rundown."
+  },
+  {
+    "segment_id": "a-0152",
+    "start_seconds": 506.3999938964844,
+    "end_seconds": 509.760009765625,
+    "text": "Each of these agents has a specific role and boundaries."
+  },
+  {
+    "segment_id": "a-0153",
+    "start_seconds": 509.79998779296875,
+    "end_seconds": 510.44000244140625,
+    "text": "And for this case,"
+  },
+  {
+    "segment_id": "a-0154",
+    "start_seconds": 510.44000244140625,
+    "end_seconds": 514.9600219726562,
+    "text": "they didn't need access to my email or calendar or any of those sorts of tools."
+  },
+  {
+    "segment_id": "a-0155",
+    "start_seconds": 515.0,
+    "end_seconds": 518.1599731445312,
+    "text": "So I'm leaving those disconnected is because as you build more agents,"
+  },
+  {
+    "segment_id": "a-0156",
+    "start_seconds": 518.1599731445312,
+    "end_seconds": 523.2000122070312,
+    "text": "you can give each one only the tools and access that its job actually requires."
+  },
+  {
+    "segment_id": "a-0157",
+    "start_seconds": 523.239990234375,
+    "end_seconds": 524.52001953125,
+    "text": "Let's go ahead and create a new thread."
+  },
+  {
+    "segment_id": "a-0158",
+    "start_seconds": 524.5599975585938,
+    "end_seconds": 526.4000244140625,
+    "text": "Prepare an interview for Riley Brown,"
+  },
+  {
+    "segment_id": "a-0159",
+    "start_seconds": 526.4000244140625,
+    "end_seconds": 529.719970703125,
+    "text": "research the guests develop eight questions and create a 30 minute rundown with"
+  },
+  {
+    "segment_id": "a-0160",
+    "start_seconds": 529.719970703125,
+    "end_seconds": 531.0800170898438,
+    "text": "three suggested demos."
+  },
+  {
+    "segment_id": "a-0161",
+    "start_seconds": 531.1199951171875,
+    "end_seconds": 536.1199951171875,
+    "text": "Let's go ahead and tag our three agents at scout at echo and at Vox."
+  },
+  {
+    "segment_id": "a-0162",
+    "start_seconds": 536.9199829101562,
+    "end_seconds": 538.8400268554688,
+    "text": "And we can see it's going to do it in that order."
+  },
+  {
+    "segment_id": "a-0163",
+    "start_seconds": 538.8800048828125,
+    "end_seconds": 543.2000122070312,
+    "text": "It created a plan that I can review here and now I can switch it to execute mode."
+  },
+  {
+    "segment_id": "a-0164",
+    "start_seconds": 543.239990234375,
+    "end_seconds": 545.4000244140625,
+    "text": "All right. And now I can review the background,"
+  },
+  {
+    "segment_id": "a-0165",
+    "start_seconds": 545.4400024414062,
+    "end_seconds": 546.719970703125,
+    "text": "review the rundown,"
+  },
+  {
+    "segment_id": "a-0166",
+    "start_seconds": 546.719970703125,
+    "end_seconds": 548.760009765625,
+    "text": "check out the suggested demos."
+  },
+  {
+    "segment_id": "a-0167",
+    "start_seconds": 548.7999877929688,
+    "end_seconds": 549.239990234375,
+    "text": "And again,"
+  },
+  {
+    "segment_id": "a-0168",
+    "start_seconds": 549.239990234375,
+    "end_seconds": 551.5999755859375,
+    "text": "we've got all of the sources down here as well."
+  },
+  {
+    "segment_id": "a-0169",
+    "start_seconds": 551.6400146484375,
+    "end_seconds": 554.47998046875,
+    "text": "And here's the part that makes this useful beyond just me."
+  },
+  {
+    "segment_id": "a-0170",
+    "start_seconds": 554.52001953125,
+    "end_seconds": 559.3599853515625,
+    "text": "Everyone on my team can use the same agents and with their new rooms feature,"
+  },
+  {
+    "segment_id": "a-0171",
+    "start_seconds": 559.3599853515625,
+    "end_seconds": 563.280029296875,
+    "text": "I can put my teammates and all three agents into the same workspace so that"
+  },
+  {
+    "segment_id": "a-0172",
+    "start_seconds": 563.280029296875,
+    "end_seconds": 567.0800170898438,
+    "text": "agents can work together and hand things off without me constantly playing"
+  },
+  {
+    "segment_id": "a-0173",
+    "start_seconds": 567.0800170898438,
+    "end_seconds": 567.760009765625,
+    "text": "middleman."
+  },
+  {
+    "segment_id": "a-0174",
+    "start_seconds": 567.760009765625,
+    "end_seconds": 571.0800170898438,
+    "text": "We're all working with the same agents and the same instructions instead of"
+  },
+  {
+    "segment_id": "a-0175",
+    "start_seconds": 571.1199951171875,
+    "end_seconds": 575.3599853515625,
+    "text": "everybody maintaining their own separate setup in like clod or chat GPT that's"
+  },
+  {
+    "segment_id": "a-0176",
+    "start_seconds": 575.3599853515625,
+    "end_seconds": 579.0800170898438,
+    "text": "hyper agents, whole idea, many agents, many humans,"
+  },
+  {
+    "segment_id": "a-0177",
+    "start_seconds": 579.1199951171875,
+    "end_seconds": 583.4000244140625,
+    "text": "a team of specialized agents that your entire human team could then work with."
+  },
+  {
+    "segment_id": "a-0178",
+    "start_seconds": 583.4400024414062,
+    "end_seconds": 584.9600219726562,
+    "text": "If you want to build something like this,"
+  },
+  {
+    "segment_id": "a-0179",
+    "start_seconds": 585.0,
+    "end_seconds": 588.2000122070312,
+    "text": "check out the link in the description and sign up for a paid plan to get a"
+  },
+  {
+    "segment_id": "a-0180",
+    "start_seconds": 588.2000122070312,
+    "end_seconds": 590.1599731445312,
+    "text": "hundred dollars in bonus credits."
+  },
+  {
+    "segment_id": "a-0181",
+    "start_seconds": 590.2000122070312,
+    "end_seconds": 594.0800170898438,
+    "text": "And thank you so much to hyper agent for sponsoring this portion of today's"
+  },
+  {
+    "segment_id": "a-0182",
+    "start_seconds": 594.0800170898438,
+    "end_seconds": 596.4000244140625,
+    "text": "video. All right, let's get back to the rest of the video."
+  },
+  {
+    "segment_id": "a-0183",
+    "start_seconds": 596.47998046875,
+    "end_seconds": 599.52001953125,
+    "text": "Open AI made a ton of announcements this week,"
+  },
+  {
+    "segment_id": "a-0184",
+    "start_seconds": 599.5599975585938,
+    "end_seconds": 602.0399780273438,
+    "text": "and they even told us they were going to make a ton of announcements this week."
+  },
+  {
+    "segment_id": "a-0185",
+    "start_seconds": 602.0399780273438,
+    "end_seconds": 605.3599853515625,
+    "text": "Tebow took to X early in the week to say over the next 28 days,"
+  },
+  {
+    "segment_id": "a-0186",
+    "start_seconds": 605.4000244140625,
+    "end_seconds": 609.2000122070312,
+    "text": "each day we'll either ship one thing that is a clear improvement and relevant"
+  },
+  {
+    "segment_id": "a-0187",
+    "start_seconds": 609.2000122070312,
+    "end_seconds": 612.9199829101562,
+    "text": "for most codex slash work users or ship a full reset."
+  },
+  {
+    "segment_id": "a-0188",
+    "start_seconds": 613.0,
+    "end_seconds": 617.3200073242188,
+    "text": "So this was on October 4th. I'm actually recording on October 8th."
+  },
+  {
+    "segment_id": "a-0189",
+    "start_seconds": 617.3599853515625,
+    "end_seconds": 621.9199829101562,
+    "text": "So we've had like four days of updates and they've actually rolled out more than"
+  },
+  {
+    "segment_id": "a-0190",
+    "start_seconds": 621.9199829101562,
+    "end_seconds": 623.2000122070312,
+    "text": "like one updated day."
+  },
+  {
+    "segment_id": "a-0191",
+    "start_seconds": 623.280029296875,
+    "end_seconds": 628.280029296875,
+    "text": "I'd say the most significant update was this one for GPT six and intelligent UI"
+  },
+  {
+    "segment_id": "a-0192",
+    "start_seconds": 628.760009765625,
+    "end_seconds": 631.52001953125,
+    "text": "for everyone. This is sort of two announcements in one."
+  },
+  {
+    "segment_id": "a-0193",
+    "start_seconds": 631.5599975585938,
+    "end_seconds": 636.1199951171875,
+    "text": "One of them being that GPT six is now available inside of chat GPT,"
+  },
+  {
+    "segment_id": "a-0194",
+    "start_seconds": 636.1599731445312,
+    "end_seconds": 640.280029296875,
+    "text": "but the other one being that the UI is getting a lot of improvements."
+  },
+  {
+    "segment_id": "a-0195",
+    "start_seconds": 640.280029296875,
+    "end_seconds": 643.280029296875,
+    "text": "It's actually much more visual. You can see in their video here,"
+  },
+  {
+    "segment_id": "a-0196",
+    "start_seconds": 643.4400024414062,
+    "end_seconds": 647.239990234375,
+    "text": "they're showing people looking at instruction manuals that are just text and"
+  },
+  {
+    "segment_id": "a-0197",
+    "start_seconds": 647.280029296875,
+    "end_seconds": 650.6400146484375,
+    "text": "looking at color guides that are just text and trying to prove the point that"
+  },
+  {
+    "segment_id": "a-0198",
+    "start_seconds": 650.6400146484375,
+    "end_seconds": 653.239990234375,
+    "text": "that's not very helpful. It's just text."
+  },
+  {
+    "segment_id": "a-0199",
+    "start_seconds": 653.3200073242188,
+    "end_seconds": 658.0399780273438,
+    "text": "It then goes on to show that the chat GPT responses are going to be much more"
+  },
+  {
+    "segment_id": "a-0200",
+    "start_seconds": 658.0399780273438,
+    "end_seconds": 660.52001953125,
+    "text": "visual. So when you prompt something in chat GPT,"
+  },
+  {
+    "segment_id": "a-0201",
+    "start_seconds": 660.52001953125,
+    "end_seconds": 664.239990234375,
+    "text": "you're going to actually get a lot more to look at. Here's one example,"
+  },
+  {
+    "segment_id": "a-0202",
+    "start_seconds": 664.239990234375,
+    "end_seconds": 668.1199951171875,
+    "text": "break down the design of a seven speed bike. The chat starts to respond,"
+  },
+  {
+    "segment_id": "a-0203",
+    "start_seconds": 668.1599731445312,
+    "end_seconds": 672.719970703125,
+    "text": "but then it shows an image of a bike and then gives you a sort of exploding"
+  },
+  {
+    "segment_id": "a-0204",
+    "start_seconds": 672.719970703125,
+    "end_seconds": 674.2000122070312,
+    "text": "version of it that you can take apart."
+  },
+  {
+    "segment_id": "a-0205",
+    "start_seconds": 674.239990234375,
+    "end_seconds": 679.239990234375,
+    "text": "You can highlight certain areas and it just gets much more visual and easy to"
+  },
+  {
+    "segment_id": "a-0206",
+    "start_seconds": 679.6400146484375,
+    "end_seconds": 683.239990234375,
+    "text": "use as opposed to just like a pure text description."
+  },
+  {
+    "segment_id": "a-0207",
+    "start_seconds": 683.280029296875,
+    "end_seconds": 687.280029296875,
+    "text": "We've trained GPT six to compose responses using text visuals and interactive"
+  },
+  {
+    "segment_id": "a-0208",
+    "start_seconds": 687.3200073242188,
+    "end_seconds": 687.8800048828125,
+    "text": "elements,"
+  },
+  {
+    "segment_id": "a-0209",
+    "start_seconds": 687.9199829101562,
+    "end_seconds": 691.0,
+    "text": "choosing how they fit together based on your questions with intelligent UI"
+  },
+  {
+    "segment_id": "a-0210",
+    "start_seconds": 691.0,
+    "end_seconds": 692.3599853515625,
+    "text": "responses can include graphics,"
+  },
+  {
+    "segment_id": "a-0211",
+    "start_seconds": 692.3599853515625,
+    "end_seconds": 695.3200073242188,
+    "text": "tappable buttons forms charts and interactive experiences you could use"
+  },
+  {
+    "segment_id": "a-0212",
+    "start_seconds": 695.3200073242188,
+    "end_seconds": 696.9199829101562,
+    "text": "directly in your conversation."
+  },
+  {
+    "segment_id": "a-0213",
+    "start_seconds": 697.0,
+    "end_seconds": 699.719970703125,
+    "text": "And then we've got some other side by side examples down here."
+  },
+  {
+    "segment_id": "a-0214",
+    "start_seconds": 699.760009765625,
+    "end_seconds": 704.760009765625,
+    "text": "The one on the left using GPT 5.6 instant and the one on the right using GPT six"
+  },
+  {
+    "segment_id": "a-0215",
+    "start_seconds": 705.0,
+    "end_seconds": 707.0,
+    "text": "instant. And we can see on the left,"
+  },
+  {
+    "segment_id": "a-0216",
+    "start_seconds": 707.0,
+    "end_seconds": 709.239990234375,
+    "text": "we just get sort of cooking instructions on the right."
+  },
+  {
+    "segment_id": "a-0217",
+    "start_seconds": 709.239990234375,
+    "end_seconds": 713.6400146484375,
+    "text": "We've got images and bullets and very, very visual version of it."
+  },
+  {
+    "segment_id": "a-0218",
+    "start_seconds": 713.6799926757812,
+    "end_seconds": 717.5999755859375,
+    "text": "Here's another one building a wardrobe text on the left with some images."
+  },
+  {
+    "segment_id": "a-0219",
+    "start_seconds": 717.5999755859375,
+    "end_seconds": 721.5599975585938,
+    "text": "GPT six instant on the right, a lot more visual,"
+  },
+  {
+    "segment_id": "a-0220",
+    "start_seconds": 721.5999755859375,
+    "end_seconds": 725.5999755859375,
+    "text": "a lot more of like a guided experience with checklists and stuff like that."
+  },
+  {
+    "segment_id": "a-0221",
+    "start_seconds": 725.6799926757812,
+    "end_seconds": 729.239990234375,
+    "text": "And it'll build things like little calculators for you and stuff like that."
+  },
+  {
+    "segment_id": "a-0222",
+    "start_seconds": 729.239990234375,
+    "end_seconds": 730.52001953125,
+    "text": "When you ask it questions,"
+  },
+  {
+    "segment_id": "a-0223",
+    "start_seconds": 730.5999755859375,
+    "end_seconds": 734.4400024414062,
+    "text": "it's just trying to be more proactive as opposed to just purely giving you text."
+  },
+  {
+    "segment_id": "a-0224",
+    "start_seconds": 734.4400024414062,
+    "end_seconds": 737.1199951171875,
+    "text": "Most of the time, you also are getting this smarter,"
+  },
+  {
+    "segment_id": "a-0225",
+    "start_seconds": 737.1599731445312,
+    "end_seconds": 739.1199951171875,
+    "text": "faster GPT six model."
+  },
+  {
+    "segment_id": "a-0226",
+    "start_seconds": 739.1199951171875,
+    "end_seconds": 743.719970703125,
+    "text": "We can see here on this little graph here left being sort of the intelligence"
+  },
+  {
+    "segment_id": "a-0227",
+    "start_seconds": 743.719970703125,
+    "end_seconds": 745.280029296875,
+    "text": "level, right? Being the speed,"
+  },
+  {
+    "segment_id": "a-0228",
+    "start_seconds": 745.3599853515625,
+    "end_seconds": 749.9199829101562,
+    "text": "you're getting pretty much the smartest model at these fastest speeds now."
+  },
+  {
+    "segment_id": "a-0229",
+    "start_seconds": 749.9600219726562,
+    "end_seconds": 754.4000244140625,
+    "text": "So an intelligence level that used to take 215 seconds,"
+  },
+  {
+    "segment_id": "a-0230",
+    "start_seconds": 754.4400024414062,
+    "end_seconds": 758.3599853515625,
+    "text": "you're getting even smarter up here at 109 seconds."
+  },
+  {
+    "segment_id": "a-0231",
+    "start_seconds": 758.4000244140625,
+    "end_seconds": 760.0800170898438,
+    "text": "So basically when you're in chat GPT,"
+  },
+  {
+    "segment_id": "a-0232",
+    "start_seconds": 760.0800170898438,
+    "end_seconds": 762.9600219726562,
+    "text": "you'll notice that if you're on GPT six,"
+  },
+  {
+    "segment_id": "a-0233",
+    "start_seconds": 763.0,
+    "end_seconds": 765.5999755859375,
+    "text": "you could set it on instant for thinking effort."
+  },
+  {
+    "segment_id": "a-0234",
+    "start_seconds": 765.6400146484375,
+    "end_seconds": 769.3599853515625,
+    "text": "And I can say something like explain how an internal combustion engine works."
+  },
+  {
+    "segment_id": "a-0235",
+    "start_seconds": 769.4000244140625,
+    "end_seconds": 772.52001953125,
+    "text": "And we can see that not only does it explain to me,"
+  },
+  {
+    "segment_id": "a-0236",
+    "start_seconds": 772.5599975585938,
+    "end_seconds": 777.4000244140625,
+    "text": "it actually gives me images along with it gives me sort of like step by step"
+  },
+  {
+    "segment_id": "a-0237",
+    "start_seconds": 777.4000244140625,
+    "end_seconds": 781.2000122070312,
+    "text": "images. And it's just a much more visual experience."
+  },
+  {
+    "segment_id": "a-0238",
+    "start_seconds": 781.280029296875,
+    "end_seconds": 784.719970703125,
+    "text": "And that was almost an instant response."
+  },
+  {
+    "segment_id": "a-0239",
+    "start_seconds": 784.7999877929688,
+    "end_seconds": 787.4400024414062,
+    "text": "Even if my editing might've chopped it up a little bit,"
+  },
+  {
+    "segment_id": "a-0240",
+    "start_seconds": 787.6400146484375,
+    "end_seconds": 791.719970703125,
+    "text": "it was near instant with how quickly this populated here. But again,"
+  },
+  {
+    "segment_id": "a-0241",
+    "start_seconds": 791.719970703125,
+    "end_seconds": 793.0399780273438,
+    "text": "the features kept rolling out."
+  },
+  {
+    "segment_id": "a-0242",
+    "start_seconds": 793.0800170898438,
+    "end_seconds": 796.4000244140625,
+    "text": "I'd argue that the majority of the features they announced after that have been a"
+  },
+  {
+    "segment_id": "a-0243",
+    "start_seconds": 796.4000244140625,
+    "end_seconds": 799.8800048828125,
+    "text": "little less significant and a little more focused towards coders,"
+  },
+  {
+    "segment_id": "a-0244",
+    "start_seconds": 799.8800048828125,
+    "end_seconds": 803.719970703125,
+    "text": "but I am going to continue to break down everything else they announced in the"
+  },
+  {
+    "segment_id": "a-0245",
+    "start_seconds": 803.719970703125,
+    "end_seconds": 808.719970703125,
+    "text": "last, you know, four days of this rollout blitz thing they got going on."
+  },
+  {
+    "segment_id": "a-0246",
+    "start_seconds": 809.3599853515625,
+    "end_seconds": 810.4400024414062,
+    "text": "So on October 5th,"
+  },
+  {
+    "segment_id": "a-0247",
+    "start_seconds": 810.47998046875,
+    "end_seconds": 815.47998046875,
+    "text": "Tebow announced we've optimized the default speed to be 50% faster across GPT"
+  },
+  {
+    "segment_id": "a-0248",
+    "start_seconds": 815.5599975585938,
+    "end_seconds": 820.1199951171875,
+    "text": "six Astra and at GPT 6.1 soul through the subscription across all of our"
+  },
+  {
+    "segment_id": "a-0249",
+    "start_seconds": 820.1199951171875,
+    "end_seconds": 823.4000244140625,
+    "text": "products and partners using sign in with chat GPT. So yeah,"
+  },
+  {
+    "segment_id": "a-0250",
+    "start_seconds": 823.4400024414062,
+    "end_seconds": 826.4000244140625,
+    "text": "exactly what it sounds like. Everything kind of got faster."
+  },
+  {
+    "segment_id": "a-0251",
+    "start_seconds": 826.4000244140625,
+    "end_seconds": 830.280029296875,
+    "text": "They just made a big optimization improvement on their best available models"
+  },
+  {
+    "segment_id": "a-0252",
+    "start_seconds": 830.280029296875,
+    "end_seconds": 832.1599731445312,
+    "text": "right now. Day two, October 6th,"
+  },
+  {
+    "segment_id": "a-0253",
+    "start_seconds": 832.2000122070312,
+    "end_seconds": 836.5999755859375,
+    "text": "they made the auto review free for all users signed in through a chat GPT"
+  },
+  {
+    "segment_id": "a-0254",
+    "start_seconds": 836.5999755859375,
+    "end_seconds": 837.0399780273438,
+    "text": "account."
+  },
+  {
+    "segment_id": "a-0255",
+    "start_seconds": 837.0399780273438,
+    "end_seconds": 840.719970703125,
+    "text": "So what this is referring to is if you go to your chat GPT app and you're either"
+  },
+  {
+    "segment_id": "a-0256",
+    "start_seconds": 840.719970703125,
+    "end_seconds": 844.2000122070312,
+    "text": "in work mode or you're in codex, you can see down here,"
+  },
+  {
+    "segment_id": "a-0257",
+    "start_seconds": 844.2000122070312,
+    "end_seconds": 848.6799926757812,
+    "text": "there's this permissions dropdown by default, it's going to ask for approval."
+  },
+  {
+    "segment_id": "a-0258",
+    "start_seconds": 848.719970703125,
+    "end_seconds": 851.5999755859375,
+    "text": "So whenever it's going to edit something on your computer,"
+  },
+  {
+    "segment_id": "a-0259",
+    "start_seconds": 851.6799926757812,
+    "end_seconds": 855.239990234375,
+    "text": "it will ask for that approval first, pretty much every single time."
+  },
+  {
+    "segment_id": "a-0260",
+    "start_seconds": 855.3599853515625,
+    "end_seconds": 858.6400146484375,
+    "text": "And your options before were pretty much asked for approval approved for me or"
+  },
+  {
+    "segment_id": "a-0261",
+    "start_seconds": 858.6400146484375,
+    "end_seconds": 859.6400146484375,
+    "text": "full access."
+  },
+  {
+    "segment_id": "a-0262",
+    "start_seconds": 859.6799926757812,
+    "end_seconds": 863.7999877929688,
+    "text": "Full access was pretty much the only way to make it so that it just never"
+  },
+  {
+    "segment_id": "a-0263",
+    "start_seconds": 863.7999877929688,
+    "end_seconds": 866.7999877929688,
+    "text": "bothered you at all. It would just kind of do the things for you. Well,"
+  },
+  {
+    "segment_id": "a-0264",
+    "start_seconds": 866.7999877929688,
+    "end_seconds": 868.6799926757812,
+    "text": "now there's approve for me mode,"
+  },
+  {
+    "segment_id": "a-0265",
+    "start_seconds": 868.760009765625,
+    "end_seconds": 872.9600219726562,
+    "text": "I guess is a lot better at approving for you where it's going to ask you a lot"
+  },
+  {
+    "segment_id": "a-0266",
+    "start_seconds": 872.9600219726562,
+    "end_seconds": 877.6799926757812,
+    "text": "less often. So that's essentially what it did is it made this approved for me"
+  },
+  {
+    "segment_id": "a-0267",
+    "start_seconds": 877.6799926757812,
+    "end_seconds": 879.3200073242188,
+    "text": "mode, basically bug you less,"
+  },
+  {
+    "segment_id": "a-0268",
+    "start_seconds": 879.3200073242188,
+    "end_seconds": 882.9199829101562,
+    "text": "unless it had a really big concern about what it was about to do."
+  },
+  {
+    "segment_id": "a-0269",
+    "start_seconds": 882.9199829101562,
+    "end_seconds": 886.6400146484375,
+    "text": "So that's what this update was for day 2.1."
+  },
+  {
+    "segment_id": "a-0270",
+    "start_seconds": 886.6799926757812,
+    "end_seconds": 890.47998046875,
+    "text": "We also got a new chat GPT plugin called the meetings plugin,"
+  },
+  {
+    "segment_id": "a-0271",
+    "start_seconds": 890.52001953125,
+    "end_seconds": 894.52001953125,
+    "text": "which if you ask me pretty much looks exactly like what granola already does,"
+  },
+  {
+    "segment_id": "a-0272",
+    "start_seconds": 894.5599975585938,
+    "end_seconds": 897.1199951171875,
+    "text": "but they just baked it into chat GPT."
+  },
+  {
+    "segment_id": "a-0273",
+    "start_seconds": 897.1599731445312,
+    "end_seconds": 900.52001953125,
+    "text": "So the meetings plugin takes notes for you and saves a personalized summary and"
+  },
+  {
+    "segment_id": "a-0274",
+    "start_seconds": 900.52001953125,
+    "end_seconds": 902.719970703125,
+    "text": "next steps in chat GPT space."
+  },
+  {
+    "segment_id": "a-0275",
+    "start_seconds": 902.760009765625,
+    "end_seconds": 906.4400024414062,
+    "text": "Based on what chat GPT knows about you and the work you've done together,"
+  },
+  {
+    "segment_id": "a-0276",
+    "start_seconds": 906.47998046875,
+    "end_seconds": 908.760009765625,
+    "text": "you can keep notes private or share them with your team."
+  },
+  {
+    "segment_id": "a-0277",
+    "start_seconds": 908.760009765625,
+    "end_seconds": 912.5999755859375,
+    "text": "Then ask chat GPT to update a project plan or draft a followup."
+  },
+  {
+    "segment_id": "a-0278",
+    "start_seconds": 912.5999755859375,
+    "end_seconds": 913.7999877929688,
+    "text": "So from my understanding,"
+  },
+  {
+    "segment_id": "a-0279",
+    "start_seconds": 913.7999877929688,
+    "end_seconds": 917.1599731445312,
+    "text": "it's essentially listening to your microphone audio and your computer audio."
+  },
+  {
+    "segment_id": "a-0280",
+    "start_seconds": 917.1599731445312,
+    "end_seconds": 921.719970703125,
+    "text": "Whenever you're on a zoom meeting or a Google meeting or a slack meeting or"
+  },
+  {
+    "segment_id": "a-0281",
+    "start_seconds": 921.7999877929688,
+    "end_seconds": 925.5599975585938,
+    "text": "whatever you do your meetings in, it will listen to the audio on both sides,"
+  },
+  {
+    "segment_id": "a-0282",
+    "start_seconds": 925.5999755859375,
+    "end_seconds": 927.239990234375,
+    "text": "record, transcribe them,"
+  },
+  {
+    "segment_id": "a-0283",
+    "start_seconds": 927.3599853515625,
+    "end_seconds": 931.8400268554688,
+    "text": "keep notes on it and then save that into the memory and context and chat GPT."
+  },
+  {
+    "segment_id": "a-0284",
+    "start_seconds": 932.0,
+    "end_seconds": 936.0,
+    "text": "So you can ask questions about meetings that you'd previously been on,"
+  },
+  {
+    "segment_id": "a-0285",
+    "start_seconds": 936.0399780273438,
+    "end_seconds": 939.719970703125,
+    "text": "which is exactly the selling point of what granola is."
+  },
+  {
+    "segment_id": "a-0286",
+    "start_seconds": 939.760009765625,
+    "end_seconds": 942.1599731445312,
+    "text": "But granola is purpose built for that."
+  },
+  {
+    "segment_id": "a-0287",
+    "start_seconds": 942.1599731445312,
+    "end_seconds": 946.239990234375,
+    "text": "But now you've got a plugin where chat GPT will also do that."
+  },
+  {
+    "segment_id": "a-0288",
+    "start_seconds": 946.280029296875,
+    "end_seconds": 949.3599853515625,
+    "text": "And then we also got the decisions API this week."
+  },
+  {
+    "segment_id": "a-0289",
+    "start_seconds": 949.4000244140625,
+    "end_seconds": 953.5999755859375,
+    "text": "So decisions API was something they announced during their dev day last week,"
+  },
+  {
+    "segment_id": "a-0290",
+    "start_seconds": 953.6400146484375,
+    "end_seconds": 957.52001953125,
+    "text": "which is essentially Jeff. This is open eyes version of Jeff."
+  },
+  {
+    "segment_id": "a-0291",
+    "start_seconds": 957.5999755859375,
+    "end_seconds": 961.1199951171875,
+    "text": "Instead of responding with a ton of output text for you,"
+  },
+  {
+    "segment_id": "a-0292",
+    "start_seconds": 961.1599731445312,
+    "end_seconds": 965.1599731445312,
+    "text": "it's going to respond with a predefined decision."
+  },
+  {
+    "segment_id": "a-0293",
+    "start_seconds": 965.1599731445312,
+    "end_seconds": 968.2000122070312,
+    "text": "So you can get it to output three different kinds of output,"
+  },
+  {
+    "segment_id": "a-0294",
+    "start_seconds": 968.239990234375,
+    "end_seconds": 969.9199829101562,
+    "text": "predicates, choices, and scores."
+  },
+  {
+    "segment_id": "a-0295",
+    "start_seconds": 969.9600219726562,
+    "end_seconds": 973.9600219726562,
+    "text": "Predicates estimate the probability that a statement is true choices select from"
+  },
+  {
+    "segment_id": "a-0296",
+    "start_seconds": 973.9600219726562,
+    "end_seconds": 978.719970703125,
+    "text": "predefined options with a confidence score and scores evaluates an input against"
+  },
+  {
+    "segment_id": "a-0297",
+    "start_seconds": 978.760009765625,
+    "end_seconds": 982.8800048828125,
+    "text": "a numeric range. These are designed to be ultra fast, ultra cheap,"
+  },
+  {
+    "segment_id": "a-0298",
+    "start_seconds": 982.9199829101562,
+    "end_seconds": 987.6400146484375,
+    "text": "and to just give quick decisions as opposed to responding with a giant,"
+  },
+  {
+    "segment_id": "a-0299",
+    "start_seconds": 987.6799926757812,
+    "end_seconds": 989.1199951171875,
+    "text": "you know, text output."
+  },
+  {
+    "segment_id": "a-0300",
+    "start_seconds": 989.1599731445312,
+    "end_seconds": 993.9199829101562,
+    "text": "As far as I know there's no real way to use this inside of like a chat GPT,"
+  },
+  {
+    "segment_id": "a-0301",
+    "start_seconds": 993.9600219726562,
+    "end_seconds": 997.5599975585938,
+    "text": "but if you're a developer, this is available in API now,"
+  },
+  {
+    "segment_id": "a-0302",
+    "start_seconds": 997.6400146484375,
+    "end_seconds": 1001.239990234375,
+    "text": "and it uses GPT six Luna, which is their cheapest, fastest model."
+  },
+  {
+    "segment_id": "a-0303",
+    "start_seconds": 1001.3599853515625,
+    "end_seconds": 1003.6400146484375,
+    "text": "So it's going to cost next to nothing to use."
+  },
+  {
+    "segment_id": "a-0304",
+    "start_seconds": 1003.6799926757812,
+    "end_seconds": 1007.5999755859375,
+    "text": "Also kind of like how Jeff works while we're talking about APIs,"
+  },
+  {
+    "segment_id": "a-0305",
+    "start_seconds": 1007.5999755859375,
+    "end_seconds": 1010.239990234375,
+    "text": "they've changed the pricing a little bit around the APIs."
+  },
+  {
+    "segment_id": "a-0306",
+    "start_seconds": 1010.239990234375,
+    "end_seconds": 1013.9600219726562,
+    "text": "Instead of five different pricing tiers, there's three, there's a build,"
+  },
+  {
+    "segment_id": "a-0307",
+    "start_seconds": 1014.0,
+    "end_seconds": 1015.8400268554688,
+    "text": "launch and grow. As you can see,"
+  },
+  {
+    "segment_id": "a-0308",
+    "start_seconds": 1015.8400268554688,
+    "end_seconds": 1018.719970703125,
+    "text": "these various tiers have different rate limits."
+  },
+  {
+    "segment_id": "a-0309",
+    "start_seconds": 1018.719970703125,
+    "end_seconds": 1022.280029296875,
+    "text": "So the higher the tier you're on, the less you're going to get rate limited."
+  },
+  {
+    "segment_id": "a-0310",
+    "start_seconds": 1022.3599853515625,
+    "end_seconds": 1025.8399658203125,
+    "text": "They also rolled out ultra fast mode in GPT 6.1."
+  },
+  {
+    "segment_id": "a-0311",
+    "start_seconds": 1025.8399658203125,
+    "end_seconds": 1029.760009765625,
+    "text": "Soul inside the API codex and chat GPT work. Now this one,"
+  },
+  {
+    "segment_id": "a-0312",
+    "start_seconds": 1029.760009765625,
+    "end_seconds": 1033.3599853515625,
+    "text": "I believe you have to be on their $500 a month plan to use."
+  },
+  {
+    "segment_id": "a-0313",
+    "start_seconds": 1033.43994140625,
+    "end_seconds": 1036.1600341796875,
+    "text": "And it's also quite a bit more expensive."
+  },
+  {
+    "segment_id": "a-0314",
+    "start_seconds": 1036.199951171875,
+    "end_seconds": 1038.800048828125,
+    "text": "If you're using GPT 6.1 soul standard,"
+  },
+  {
+    "segment_id": "a-0315",
+    "start_seconds": 1038.800048828125,
+    "end_seconds": 1043.43994140625,
+    "text": "it's only a $2 per million input tokens and $10 per million output tokens."
+  },
+  {
+    "segment_id": "a-0316",
+    "start_seconds": 1043.47998046875,
+    "end_seconds": 1048.47998046875,
+    "text": "If you bump it to fast, that price doubles. But if you bump it to ultra fast,"
+  },
+  {
+    "segment_id": "a-0317",
+    "start_seconds": 1048.52001953125,
+    "end_seconds": 1052.8399658203125,
+    "text": "well, it's six times the price as using it standard."
+  },
+  {
+    "segment_id": "a-0318",
+    "start_seconds": 1052.8800048828125,
+    "end_seconds": 1057.239990234375,
+    "text": "So it's the same level of intelligence as you get out of GPT 6.1 soul,"
+  },
+  {
+    "segment_id": "a-0319",
+    "start_seconds": 1057.280029296875,
+    "end_seconds": 1060.8399658203125,
+    "text": "but it's eight times faster and six times more expensive."
+  },
+  {
+    "segment_id": "a-0320",
+    "start_seconds": 1060.8800048828125,
+    "end_seconds": 1064.8800048828125,
+    "text": "But if speed is a huge priority to you, well then maybe this one is worth it."
+  },
+  {
+    "segment_id": "a-0321",
+    "start_seconds": 1064.9200439453125,
+    "end_seconds": 1067.1199951171875,
+    "text": "Personally, I'm thinking about trying it out again."
+  },
+  {
+    "segment_id": "a-0322",
+    "start_seconds": 1067.1199951171875,
+    "end_seconds": 1069.56005859375,
+    "text": "You have to be on their pro 500 plan,"
+  },
+  {
+    "segment_id": "a-0323",
+    "start_seconds": 1069.6400146484375,
+    "end_seconds": 1073.52001953125,
+    "text": "but I want to test it for like video editing because theoretically I can give it"
+  },
+  {
+    "segment_id": "a-0324",
+    "start_seconds": 1073.52001953125,
+    "end_seconds": 1076.719970703125,
+    "text": "computer use and it'll just jump around my screen and do the edit like ultra"
+  },
+  {
+    "segment_id": "a-0325",
+    "start_seconds": 1076.719970703125,
+    "end_seconds": 1080.0400390625,
+    "text": "fast. So I do want to try it for that. I just haven't, you know,"
+  },
+  {
+    "segment_id": "a-0326",
+    "start_seconds": 1080.0400390625,
+    "end_seconds": 1084.0400390625,
+    "text": "bit the bullet and jumped to that price tier yet in order to try it."
+  },
+  {
+    "segment_id": "a-0327",
+    "start_seconds": 1084.1199951171875,
+    "end_seconds": 1086.0799560546875,
+    "text": "Maybe that's something I'll play around with next week."
+  },
+  {
+    "segment_id": "a-0328",
+    "start_seconds": 1086.1199951171875,
+    "end_seconds": 1090.6800537109375,
+    "text": "And the last update that we got at the time of this recording that came out on"
+  },
+  {
+    "segment_id": "a-0329",
+    "start_seconds": 1090.6800537109375,
+    "end_seconds": 1094.280029296875,
+    "text": "day four is they improve steering to be instant."
+  },
+  {
+    "segment_id": "a-0330",
+    "start_seconds": 1094.3199462890625,
+    "end_seconds": 1099.3199462890625,
+    "text": "So if I'm in chat GPT work and I say, make me an image of a dog."
+  },
+  {
+    "segment_id": "a-0331",
+    "start_seconds": 1099.5999755859375,
+    "end_seconds": 1103.239990234375,
+    "text": "And then I changed my mind and go, no, make it a wolf. And I hit enter."
+  },
+  {
+    "segment_id": "a-0332",
+    "start_seconds": 1103.280029296875,
+    "end_seconds": 1106.3199462890625,
+    "text": "You can see this queues it up to be the next prompt,"
+  },
+  {
+    "segment_id": "a-0333",
+    "start_seconds": 1106.43994140625,
+    "end_seconds": 1109.3199462890625,
+    "text": "but I can press this steer button. And if I press steer,"
+  },
+  {
+    "segment_id": "a-0334",
+    "start_seconds": 1109.3199462890625,
+    "end_seconds": 1113.3199462890625,
+    "text": "then it sort of interrupts it and steers it in a new direction. Well,"
+  },
+  {
+    "segment_id": "a-0335",
+    "start_seconds": 1113.3599853515625,
+    "end_seconds": 1114.719970703125,
+    "text": "they made that faster."
+  },
+  {
+    "segment_id": "a-0336",
+    "start_seconds": 1114.760009765625,
+    "end_seconds": 1117.9200439453125,
+    "text": "They didn't make the image generation that we're looking at faster."
+  },
+  {
+    "segment_id": "a-0337",
+    "start_seconds": 1117.9200439453125,
+    "end_seconds": 1121.4000244140625,
+    "text": "They made the ability to make it change directions faster."
+  },
+  {
+    "segment_id": "a-0338",
+    "start_seconds": 1121.43994140625,
+    "end_seconds": 1124.6400146484375,
+    "text": "They also claim that if you use 6.1 sole ultra fast,"
+  },
+  {
+    "segment_id": "a-0339",
+    "start_seconds": 1124.6400146484375,
+    "end_seconds": 1126.1600341796875,
+    "text": "they work together very well."
+  },
+  {
+    "segment_id": "a-0340",
+    "start_seconds": 1126.3199462890625,
+    "end_seconds": 1129.9599609375,
+    "text": "You just got to be fast at steering it before the output gets to you."
+  },
+  {
+    "segment_id": "a-0341",
+    "start_seconds": 1130.0400390625,
+    "end_seconds": 1133.56005859375,
+    "text": "And there's probably a new update today as you're watching this video,"
+  },
+  {
+    "segment_id": "a-0342",
+    "start_seconds": 1133.56005859375,
+    "end_seconds": 1135.4000244140625,
+    "text": "if you're watching it on Friday, because well,"
+  },
+  {
+    "segment_id": "a-0343",
+    "start_seconds": 1135.47998046875,
+    "end_seconds": 1138.5999755859375,
+    "text": "I recorded this on Thursday and I don't know Friday's update yet."
+  },
+  {
+    "segment_id": "a-0344",
+    "start_seconds": 1138.6400146484375,
+    "end_seconds": 1141.280029296875,
+    "text": "We also got some updates out of a model."
+  },
+  {
+    "segment_id": "a-0345",
+    "start_seconds": 1141.280029296875,
+    "end_seconds": 1144.9200439453125,
+    "text": "I don't talk about very often and that's grok,"
+  },
+  {
+    "segment_id": "a-0346",
+    "start_seconds": 1144.9599609375,
+    "end_seconds": 1149.800048828125,
+    "text": "which they're grok bot like AI agent assistant thing is honestly"
+  },
+  {
+    "segment_id": "a-0347",
+    "start_seconds": 1149.8399658203125,
+    "end_seconds": 1151.5999755859375,
+    "text": "pretty good. You know,"
+  },
+  {
+    "segment_id": "a-0348",
+    "start_seconds": 1151.5999755859375,
+    "end_seconds": 1155.9599609375,
+    "text": "it's interesting because whenever I talk about like grok or SpaceX AI or"
+  },
+  {
+    "segment_id": "a-0349",
+    "start_seconds": 1155.9599609375,
+    "end_seconds": 1160.6400146484375,
+    "text": "literally anything that Elon is involved with the majority of the comment"
+  },
+  {
+    "segment_id": "a-0350",
+    "start_seconds": 1160.6400146484375,
+    "end_seconds": 1163.43994140625,
+    "text": "section is people just saying how much they hate Elon."
+  },
+  {
+    "segment_id": "a-0351",
+    "start_seconds": 1163.43994140625,
+    "end_seconds": 1167.4000244140625,
+    "text": "And I'm not going to debate whether or not Elon has said or done some dumb"
+  },
+  {
+    "segment_id": "a-0352",
+    "start_seconds": 1167.43994140625,
+    "end_seconds": 1168.0,
+    "text": "things."
+  },
+  {
+    "segment_id": "a-0353",
+    "start_seconds": 1168.0,
+    "end_seconds": 1171.4000244140625,
+    "text": "I just think so many people are willing to throw the baby out with the bath"
+  },
+  {
+    "segment_id": "a-0354",
+    "start_seconds": 1171.4000244140625,
+    "end_seconds": 1176.1199951171875,
+    "text": "water and not actually use tools that could be very beneficial and very"
+  },
+  {
+    "segment_id": "a-0355",
+    "start_seconds": 1176.1199951171875,
+    "end_seconds": 1180.6800537109375,
+    "text": "like useful to them because of their feelings towards one person,"
+  },
+  {
+    "segment_id": "a-0356",
+    "start_seconds": 1180.719970703125,
+    "end_seconds": 1183.5999755859375,
+    "text": "despite the fact that these are giant companies with like, you know,"
+  },
+  {
+    "segment_id": "a-0357",
+    "start_seconds": 1183.6400146484375,
+    "end_seconds": 1188.56005859375,
+    "text": "thousands of people whose livelihoods are actually like on the line working"
+  },
+  {
+    "segment_id": "a-0358",
+    "start_seconds": 1188.5999755859375,
+    "end_seconds": 1193.1600341796875,
+    "text": "in these companies. But all that to say grok bot is actually really good."
+  },
+  {
+    "segment_id": "a-0359",
+    "start_seconds": 1193.1600341796875,
+    "end_seconds": 1195.0799560546875,
+    "text": "And I do recommend trying it."
+  },
+  {
+    "segment_id": "a-0360",
+    "start_seconds": 1195.1600341796875,
+    "end_seconds": 1197.719970703125,
+    "text": "I understand not liking Elon,"
+  },
+  {
+    "segment_id": "a-0361",
+    "start_seconds": 1197.760009765625,
+    "end_seconds": 1199.8800048828125,
+    "text": "but also a lot of these companies and a lot of these."
+  },
+  {
+    "segment_id": "a-0362",
+    "start_seconds": 1200.0,
+    "end_seconds": 1203.4400000572205,
+    "text": "products are about more than just like the one person"
+  },
+  {
+    "segment_id": "a-0363",
+    "start_seconds": 1203.4400000572205,
+    "end_seconds": 1205.1999998092651,
+    "text": "at the top of a pyramid."
+  },
+  {
+    "segment_id": "a-0364",
+    "start_seconds": 1205.1999998092651,
+    "end_seconds": 1208.0,
+    "text": "There's like thousands of people at these companies"
+  },
+  {
+    "segment_id": "a-0365",
+    "start_seconds": 1208.0,
+    "end_seconds": 1211.460000038147,
+    "text": "that are all trying to do good work and build cool things,"
+  },
+  {
+    "segment_id": "a-0366",
+    "start_seconds": 1211.460000038147,
+    "end_seconds": 1214.960000038147,
+    "text": "despite the public image of the person at the top."
+  },
+  {
+    "segment_id": "a-0367",
+    "start_seconds": 1214.960000038147,
+    "end_seconds": 1216.2399997711182,
+    "text": "Anyway, I'm done ranting about this."
+  },
+  {
+    "segment_id": "a-0368",
+    "start_seconds": 1216.2399997711182,
+    "end_seconds": 1218.4799995422363,
+    "text": "Let's take a look at what GrokBot just updated."
+  },
+  {
+    "segment_id": "a-0369",
+    "start_seconds": 1218.4799995422363,
+    "end_seconds": 1220.920000076294,
+    "text": "We can see here that they announced this week"
+  },
+  {
+    "segment_id": "a-0370",
+    "start_seconds": 1220.920000076294,
+    "end_seconds": 1223.3600006103516,
+    "text": "that going forward, GrokBot's going to use"
+  },
+  {
+    "segment_id": "a-0371",
+    "start_seconds": 1223.3600006103516,
+    "end_seconds": 1226.3999996185303,
+    "text": "the best backend model for any given task."
+  },
+  {
+    "segment_id": "a-0372",
+    "start_seconds": 1226.3999996185303,
+    "end_seconds": 1229.5200004577637,
+    "text": "So it will actually use models like Opus 5.5,"
+  },
+  {
+    "segment_id": "a-0373",
+    "start_seconds": 1229.5200004577637,
+    "end_seconds": 1232.9799995422363,
+    "text": "Midjourney, Suno, and other leading APIs."
+  },
+  {
+    "segment_id": "a-0374",
+    "start_seconds": 1232.9799995422363,
+    "end_seconds": 1236.400001525879,
+    "text": "It's not going to always default to just a Grok model."
+  },
+  {
+    "segment_id": "a-0375",
+    "start_seconds": 1236.400001525879,
+    "end_seconds": 1238.5200004577637,
+    "text": "It's going to use whatever model is likely"
+  },
+  {
+    "segment_id": "a-0376",
+    "start_seconds": 1238.5200004577637,
+    "end_seconds": 1239.9199981689453,
+    "text": "to give you the best outcome."
+  },
+  {
+    "segment_id": "a-0377",
+    "start_seconds": 1239.9199981689453,
+    "end_seconds": 1244.7000007629395,
+    "text": "Now, given Elon's ongoing beef with Sam Altman,"
+  },
+  {
+    "segment_id": "a-0378",
+    "start_seconds": 1244.7000007629395,
+    "end_seconds": 1247.3600006103516,
+    "text": "I don't know if OpenAI models are included."
+  },
+  {
+    "segment_id": "a-0379",
+    "start_seconds": 1247.3600006103516,
+    "end_seconds": 1249.8800010681152,
+    "text": "If OpenAI is the best possible model,"
+  },
+  {
+    "segment_id": "a-0380",
+    "start_seconds": 1249.8800010681152,
+    "end_seconds": 1252.400001525879,
+    "text": "will that also be used in Grok?"
+  },
+  {
+    "segment_id": "a-0381",
+    "start_seconds": 1252.400001525879,
+    "end_seconds": 1254.400001525879,
+    "text": "Still to be determined, because right now,"
+  },
+  {
+    "segment_id": "a-0382",
+    "start_seconds": 1254.400001525879,
+    "end_seconds": 1257.1199989318848,
+    "text": "the best available models are coming out of Anthropic."
+  },
+  {
+    "segment_id": "a-0383",
+    "start_seconds": 1257.1199989318848,
+    "end_seconds": 1259.3199996948242,
+    "text": "And so like, who knows?"
+  },
+  {
+    "segment_id": "a-0384",
+    "start_seconds": 1260.0800018310547,
+    "end_seconds": 1262.9599990844727,
+    "text": "When OpenAI like inevitably jumps over them again,"
+  },
+  {
+    "segment_id": "a-0385",
+    "start_seconds": 1262.9599990844727,
+    "end_seconds": 1265.400001525879,
+    "text": "I'm really curious to see if Elon will make"
+  },
+  {
+    "segment_id": "a-0386",
+    "start_seconds": 1265.400001525879,
+    "end_seconds": 1267.6999969482422,
+    "text": "OpenAI models available inside the bot too."
+  },
+  {
+    "segment_id": "a-0387",
+    "start_seconds": 1267.6999969482422,
+    "end_seconds": 1268.5400009155273,
+    "text": "Who knows?"
+  },
+  {
+    "segment_id": "a-0388",
+    "start_seconds": 1268.5400009155273,
+    "end_seconds": 1269.3600006103516,
+    "text": "Probably not."
+  },
+  {
+    "segment_id": "a-0389",
+    "start_seconds": 1269.3600006103516,
+    "end_seconds": 1271.400001525879,
+    "text": "But we also got this update for GrokBot,"
+  },
+  {
+    "segment_id": "a-0390",
+    "start_seconds": 1271.400001525879,
+    "end_seconds": 1275.0400009155273,
+    "text": "in that GrokBot can now search, read, and monitor X,"
+  },
+  {
+    "segment_id": "a-0391",
+    "start_seconds": 1275.0400009155273,
+    "end_seconds": 1276.0400009155273,
+    "text": "which is pretty cool."
+  },
+  {
+    "segment_id": "a-0392",
+    "start_seconds": 1276.0400009155273,
+    "end_seconds": 1278.4400024414062,
+    "text": "Because X has a lot of data, a lot of information,"
+  },
+  {
+    "segment_id": "a-0393",
+    "start_seconds": 1278.4400024414062,
+    "end_seconds": 1281.4800033569336,
+    "text": "a lot of real-time stuff being fed into it."
+  },
+  {
+    "segment_id": "a-0394",
+    "start_seconds": 1281.4800033569336,
+    "end_seconds": 1282.9599990844727,
+    "text": "And now you can have GrokBot"
+  },
+  {
+    "segment_id": "a-0395",
+    "start_seconds": 1282.9599990844727,
+    "end_seconds": 1284.9199981689453,
+    "text": "sort of keep an eye on that for you."
+  },
+  {
+    "segment_id": "a-0396",
+    "start_seconds": 1284.9199981689453,
+    "end_seconds": 1286.7200012207031,
+    "text": "You can have it watch for trends."
+  },
+  {
+    "segment_id": "a-0397",
+    "start_seconds": 1286.7200012207031,
+    "end_seconds": 1290.400001525879,
+    "text": "You can have it alert you when maybe something you posted"
+  },
+  {
+    "segment_id": "a-0398",
+    "start_seconds": 1290.400001525879,
+    "end_seconds": 1291.8399963378906,
+    "text": "is starting to go viral."
+  },
+  {
+    "segment_id": "a-0399",
+    "start_seconds": 1291.8399963378906,
+    "end_seconds": 1294.9599990844727,
+    "text": "It can suggest post ideas based on what's trending"
+  },
+  {
+    "segment_id": "a-0400",
+    "start_seconds": 1294.9599990844727,
+    "end_seconds": 1296.3600006103516,
+    "text": "in your own niche right now."
+  },
+  {
+    "segment_id": "a-0401",
+    "start_seconds": 1296.3600006103516,
+    "end_seconds": 1299.2799987792969,
+    "text": "Things like that could be really, really helpful in GrokBot."
+  },
+  {
+    "segment_id": "a-0402",
+    "start_seconds": 1299.2799987792969,
+    "end_seconds": 1300.5599975585938,
+    "text": "Now, if you've never used GrokBot"
+  },
+  {
+    "segment_id": "a-0403",
+    "start_seconds": 1300.5599975585938,
+    "end_seconds": 1302.7200012207031,
+    "text": "and you're wondering how it's different from like Muse"
+  },
+  {
+    "segment_id": "a-0404",
+    "start_seconds": 1302.7200012207031,
+    "end_seconds": 1304.3600006103516,
+    "text": "and Dots and things like that,"
+  },
+  {
+    "segment_id": "a-0405",
+    "start_seconds": 1304.3600006103516,
+    "end_seconds": 1307.599998474121,
+    "text": "you have different bots that are sort of designed"
+  },
+  {
+    "segment_id": "a-0406",
+    "start_seconds": 1307.599998474121,
+    "end_seconds": 1309.0400009155273,
+    "text": "for different focuses."
+  },
+  {
+    "segment_id": "a-0407",
+    "start_seconds": 1309.0400009155273,
+    "end_seconds": 1311.2799987792969,
+    "text": "Like for example, I have an email triage bot,"
+  },
+  {
+    "segment_id": "a-0408",
+    "start_seconds": 1311.2799987792969,
+    "end_seconds": 1312.9199981689453,
+    "text": "which is connected to my Gmail,"
+  },
+  {
+    "segment_id": "a-0409",
+    "start_seconds": 1312.9199981689453,
+    "end_seconds": 1314.7200012207031,
+    "text": "that's constantly looking for emails"
+  },
+  {
+    "segment_id": "a-0410",
+    "start_seconds": 1314.7200012207031,
+    "end_seconds": 1317.2799987792969,
+    "text": "that it can help me reply to automatically."
+  },
+  {
+    "segment_id": "a-0411",
+    "start_seconds": 1317.2799987792969,
+    "end_seconds": 1321.0800018310547,
+    "text": "I have a research bot, which is constantly pulling in news"
+  },
+  {
+    "segment_id": "a-0412",
+    "start_seconds": 1321.0800018310547,
+    "end_seconds": 1324.0400009155273,
+    "text": "and researching things that I could make content about."
+  },
+  {
+    "segment_id": "a-0413",
+    "start_seconds": 1324.0400009155273,
+    "end_seconds": 1326.400001525879,
+    "text": "But you can also build like a chief of staff,"
+  },
+  {
+    "segment_id": "a-0414",
+    "start_seconds": 1326.400001525879,
+    "end_seconds": 1329.1199951171875,
+    "text": "which could be your single primary bot."
+  },
+  {
+    "segment_id": "a-0415",
+    "start_seconds": 1329.1199951171875,
+    "end_seconds": 1331.2799987792969,
+    "text": "So if you like what Dot or Muse does,"
+  },
+  {
+    "segment_id": "a-0416",
+    "start_seconds": 1331.2799987792969,
+    "end_seconds": 1333.0399932861328,
+    "text": "you just use your chief of staff"
+  },
+  {
+    "segment_id": "a-0417",
+    "start_seconds": 1333.0399932861328,
+    "end_seconds": 1335.1999969482422,
+    "text": "and your chief of staff will then go and delegate"
+  },
+  {
+    "segment_id": "a-0418",
+    "start_seconds": 1335.1999969482422,
+    "end_seconds": 1336.8999938964844,
+    "text": "to these other bots for you."
+  },
+  {
+    "segment_id": "a-0419",
+    "start_seconds": 1336.8999938964844,
+    "end_seconds": 1337.740005493164,
+    "text": "So you can tell it,"
+  },
+  {
+    "segment_id": "a-0420",
+    "start_seconds": 1337.740005493164,
+    "end_seconds": 1340.520004272461,
+    "text": "hey, I need research about something on X"
+  },
+  {
+    "segment_id": "a-0421",
+    "start_seconds": 1340.520004272461,
+    "end_seconds": 1343.8399963378906,
+    "text": "and I need you to go do some email triage for me."
+  },
+  {
+    "segment_id": "a-0422",
+    "start_seconds": 1343.8399963378906,
+    "end_seconds": 1347.2799987792969,
+    "text": "And your chief of staff will then go and direct your X bot"
+  },
+  {
+    "segment_id": "a-0423",
+    "start_seconds": 1347.2799987792969,
+    "end_seconds": 1351.1999969482422,
+    "text": "and your email triage bot to go do those things."
+  },
+  {
+    "segment_id": "a-0424",
+    "start_seconds": 1351.1999969482422,
+    "end_seconds": 1353.1600036621094,
+    "text": "So that gives you a lot of options"
+  },
+  {
+    "segment_id": "a-0425",
+    "start_seconds": 1353.1600036621094,
+    "end_seconds": 1354.3600006103516,
+    "text": "that maybe you wouldn't get"
+  },
+  {
+    "segment_id": "a-0426",
+    "start_seconds": 1354.3600006103516,
+    "end_seconds": 1356.6000061035156,
+    "text": "with something like Muse or Dots."
+  },
+  {
+    "segment_id": "a-0427",
+    "start_seconds": 1356.6000061035156,
+    "end_seconds": 1359.3600006103516,
+    "text": "You have the option to just chat with your one bot"
+  },
+  {
+    "segment_id": "a-0428",
+    "start_seconds": 1359.3600006103516,
+    "end_seconds": 1361.759994506836,
+    "text": "that will then direct things on your behalf,"
+  },
+  {
+    "segment_id": "a-0429",
+    "start_seconds": 1361.759994506836,
+    "end_seconds": 1364.479995727539,
+    "text": "or you can go directly to the bots"
+  },
+  {
+    "segment_id": "a-0430",
+    "start_seconds": 1364.479995727539,
+    "end_seconds": 1367.0,
+    "text": "and have them go and do their specific tasks."
+  },
+  {
+    "segment_id": "a-0431",
+    "start_seconds": 1367.0,
+    "end_seconds": 1369.520004272461,
+    "text": "And over time, you could build out more and more bots"
+  },
+  {
+    "segment_id": "a-0432",
+    "start_seconds": 1369.520004272461,
+    "end_seconds": 1371.0800018310547,
+    "text": "that are good at different things"
+  },
+  {
+    "segment_id": "a-0433",
+    "start_seconds": 1371.0800018310547,
+    "end_seconds": 1373.6799926757812,
+    "text": "and then tell your chief of staff what they're good at"
+  },
+  {
+    "segment_id": "a-0434",
+    "start_seconds": 1374.520004272461,
+    "end_seconds": 1375.3600006103516,
+    "text": "and then that chief of staff"
+  },
+  {
+    "segment_id": "a-0435",
+    "start_seconds": 1375.3600006103516,
+    "end_seconds": 1377.1999969482422,
+    "text": "becomes that orchestrator for you."
+  },
+  {
+    "segment_id": "a-0436",
+    "start_seconds": 1377.1999969482422,
+    "end_seconds": 1379.6799926757812,
+    "text": "I think it's a really, really cool way of doing things"
+  },
+  {
+    "segment_id": "a-0437",
+    "start_seconds": 1379.6799926757812,
+    "end_seconds": 1382.3200073242188,
+    "text": "where Muse and Dots have more taken the approach"
+  },
+  {
+    "segment_id": "a-0438",
+    "start_seconds": 1382.3200073242188,
+    "end_seconds": 1385.4400024414062,
+    "text": "of one single chat that you focus inside of."
+  },
+  {
+    "segment_id": "a-0439",
+    "start_seconds": 1385.4400024414062,
+    "end_seconds": 1388.3999938964844,
+    "text": "And now that Grokbot can access X directly"
+  },
+  {
+    "segment_id": "a-0440",
+    "start_seconds": 1388.3999938964844,
+    "end_seconds": 1391.3399963378906,
+    "text": "without us needing to like connect via APIs or anything,"
+  },
+  {
+    "segment_id": "a-0441",
+    "start_seconds": 1391.3399963378906,
+    "end_seconds": 1393.6399993896484,
+    "text": "I can have this bot like my X bot here,"
+  },
+  {
+    "segment_id": "a-0442",
+    "start_seconds": 1393.6399993896484,
+    "end_seconds": 1396.7200012207031,
+    "text": "which you can see went through my last 75 posts,"
+  },
+  {
+    "segment_id": "a-0443",
+    "start_seconds": 1396.7200012207031,
+    "end_seconds": 1399.8600006103516,
+    "text": "found my best AI posts, my worst AI posts,"
+  },
+  {
+    "segment_id": "a-0444",
+    "start_seconds": 1399.8600006103516,
+    "end_seconds": 1402.3200073242188,
+    "text": "noticed that my posts performed the best"
+  },
+  {
+    "segment_id": "a-0445",
+    "start_seconds": 1402.3200073242188,
+    "end_seconds": 1404.9199981689453,
+    "text": "between 10 a.m. and 1 p.m. Pacific,"
+  },
+  {
+    "segment_id": "a-0446",
+    "start_seconds": 1404.9199981689453,
+    "end_seconds": 1408.3999938964844,
+    "text": "and then it even suggested the strongest ideas right now"
+  },
+  {
+    "segment_id": "a-0447",
+    "start_seconds": 1408.3999938964844,
+    "end_seconds": 1409.8800048828125,
+    "text": "for things that I can post about."
+  },
+  {
+    "segment_id": "a-0448",
+    "start_seconds": 1409.8800048828125,
+    "end_seconds": 1414.8399963378906,
+    "text": "Gemini 4 Argon, hands-on, GPT-6 is now free for everyone,"
+  },
+  {
+    "segment_id": "a-0449",
+    "start_seconds": 1414.8399963378906,
+    "end_seconds": 1419.6000061035156,
+    "text": "OpenAI 722 AI written math papers, Codex usage resets,"
+  },
+  {
+    "segment_id": "a-0450",
+    "start_seconds": 1419.6000061035156,
+    "end_seconds": 1421.8600006103516,
+    "text": "humanoid robots fight night in Singapore,"
+  },
+  {
+    "segment_id": "a-0451",
+    "start_seconds": 1421.8600006103516,
+    "end_seconds": 1423.479995727539,
+    "text": "OpenAI revenue sell-off."
+  },
+  {
+    "segment_id": "a-0452",
+    "start_seconds": 1423.479995727539,
+    "end_seconds": 1425.2799987792969,
+    "text": "These are all things that people are talking about"
+  },
+  {
+    "segment_id": "a-0453",
+    "start_seconds": 1425.2799987792969,
+    "end_seconds": 1426.4400024414062,
+    "text": "on Twitter right now."
+  },
+  {
+    "segment_id": "a-0454",
+    "start_seconds": 1426.4400024414062,
+    "end_seconds": 1429.9600067138672,
+    "text": "And I'm just finding out that this thinks Gemini 4 Argon"
+  },
+  {
+    "segment_id": "a-0455",
+    "start_seconds": 1429.9600067138672,
+    "end_seconds": 1431.4400024414062,
+    "text": "is supposed to roll out today."
+  },
+  {
+    "segment_id": "a-0456",
+    "start_seconds": 1431.4400024414062,
+    "end_seconds": 1433.3200073242188,
+    "text": "Let's see where that comes from."
+  },
+  {
+    "segment_id": "a-0457",
+    "start_seconds": 1433.3200073242188,
+    "end_seconds": 1436.0399932861328,
+    "text": "Yeah, it looks like this was pretty much speculation."
+  },
+  {
+    "segment_id": "a-0458",
+    "start_seconds": 1436.0399932861328,
+    "end_seconds": 1438.1600036621094,
+    "text": "This was actually yesterday on the 7th."
+  },
+  {
+    "segment_id": "a-0459",
+    "start_seconds": 1438.1600036621094,
+    "end_seconds": 1439.3600006103516,
+    "text": "I'm recording this on the 8th."
+  },
+  {
+    "segment_id": "a-0460",
+    "start_seconds": 1439.3600006103516,
+    "end_seconds": 1441.5599975585938,
+    "text": "People are saying happy Gemini 4 Argon day,"
+  },
+  {
+    "segment_id": "a-0461",
+    "start_seconds": 1441.5599975585938,
+    "end_seconds": 1443.520004272461,
+    "text": "Gemini 4 Argon coming today."
+  },
+  {
+    "segment_id": "a-0462",
+    "start_seconds": 1443.520004272461,
+    "end_seconds": 1445.0,
+    "text": "People were saying Gemini 4 Argon"
+  },
+  {
+    "segment_id": "a-0463",
+    "start_seconds": 1445.0,
+    "end_seconds": 1447.0800018310547,
+    "text": "is now showing up in Google Cloud."
+  },
+  {
+    "segment_id": "a-0464",
+    "start_seconds": 1447.0800018310547,
+    "end_seconds": 1448.1799926757812,
+    "text": "It's supposed to be a good model."
+  },
+  {
+    "segment_id": "a-0465",
+    "start_seconds": 1448.1799926757812,
+    "end_seconds": 1449.520004272461,
+    "text": "I talked about it last week,"
+  },
+  {
+    "segment_id": "a-0466",
+    "start_seconds": 1449.520004272461,
+    "end_seconds": 1452.8000030517578,
+    "text": "but I don't think it's actually available to most people yet."
+  },
+  {
+    "segment_id": "a-0467",
+    "start_seconds": 1452.8000030517578,
+    "end_seconds": 1455.759994506836,
+    "text": "I think it's still available only to like early testers."
+  },
+  {
+    "segment_id": "a-0468",
+    "start_seconds": 1455.759994506836,
+    "end_seconds": 1457.1000061035156,
+    "text": "Anyway, all that being said,"
+  },
+  {
+    "segment_id": "a-0469",
+    "start_seconds": 1457.1000061035156,
+    "end_seconds": 1458.7999877929688,
+    "text": "check out Grokbot if you haven't already."
+  },
+  {
+    "segment_id": "a-0470",
+    "start_seconds": 1458.7999877929688,
+    "end_seconds": 1460.6199951171875,
+    "text": "It's actually pretty good."
+  },
+  {
+    "segment_id": "a-0471",
+    "start_seconds": 1460.6199951171875,
+    "end_seconds": 1462.2200012207031,
+    "text": "Now, those are the biggest stories of the week."
+  },
+  {
+    "segment_id": "a-0472",
+    "start_seconds": 1462.2200012207031,
+    "end_seconds": 1465.3800048828125,
+    "text": "We did actually get a handful of new large language models"
+  },
+  {
+    "segment_id": "a-0473",
+    "start_seconds": 1465.3800048828125,
+    "end_seconds": 1466.8599853515625,
+    "text": "that were rolled out this week"
+  },
+  {
+    "segment_id": "a-0474",
+    "start_seconds": 1466.8599853515625,
+    "end_seconds": 1468.6600036621094,
+    "text": "and a bunch of other smaller updates"
+  },
+  {
+    "segment_id": "a-0475",
+    "start_seconds": 1468.6600036621094,
+    "end_seconds": 1469.8599853515625,
+    "text": "that I wanna break down for you,"
+  },
+  {
+    "segment_id": "a-0476",
+    "start_seconds": 1469.8599853515625,
+    "end_seconds": 1471.8599853515625,
+    "text": "but I'm not gonna go too deep into any of these."
+  },
+  {
+    "segment_id": "a-0477",
+    "start_seconds": 1471.8599853515625,
+    "end_seconds": 1473.6199951171875,
+    "text": "So let's just jump into a rapid fire."
+  },
+  {
+    "segment_id": "a-0478",
+    "start_seconds": 1473.6199951171875,
+    "end_seconds": 1477.2200012207031,
+    "text": "Pew, pew, pew, pew, pew, pew, pew."
+  },
+  {
+    "segment_id": "a-0479",
+    "start_seconds": 1477.2200012207031,
+    "end_seconds": 1479.4599914550781,
+    "text": "Let's start with the newest model out of Mistral."
+  },
+  {
+    "segment_id": "a-0480",
+    "start_seconds": 1479.4599914550781,
+    "end_seconds": 1481.5799865722656,
+    "text": "This new model is called Mistral Large 4"
+  },
+  {
+    "segment_id": "a-0481",
+    "start_seconds": 1481.5799865722656,
+    "end_seconds": 1483.5799865722656,
+    "text": "and is nicknamed LeChunk."
+  },
+  {
+    "segment_id": "a-0482",
+    "start_seconds": 1483.5799865722656,
+    "end_seconds": 1487.1199951171875,
+    "text": "Now, this model is actually an open weight model."
+  },
+  {
+    "segment_id": "a-0483",
+    "start_seconds": 1487.1199951171875,
+    "end_seconds": 1488.3999938964844,
+    "text": "At 1 trillion parameters,"
+  },
+  {
+    "segment_id": "a-0484",
+    "start_seconds": 1488.3999938964844,
+    "end_seconds": 1490.5199890136719,
+    "text": "you're probably not gonna be running it"
+  },
+  {
+    "segment_id": "a-0485",
+    "start_seconds": 1490.5199890136719,
+    "end_seconds": 1492.8800048828125,
+    "text": "on any of your like local systems,"
+  },
+  {
+    "segment_id": "a-0486",
+    "start_seconds": 1492.8800048828125,
+    "end_seconds": 1494.6400146484375,
+    "text": "but it is a really solid model."
+  },
+  {
+    "segment_id": "a-0487",
+    "start_seconds": 1494.6400146484375,
+    "end_seconds": 1495.7999877929688,
+    "text": "And all the various benchmarks,"
+  },
+  {
+    "segment_id": "a-0488",
+    "start_seconds": 1495.7999877929688,
+    "end_seconds": 1497.7200012207031,
+    "text": "they're comparing it with the other, you know,"
+  },
+  {
+    "segment_id": "a-0489",
+    "start_seconds": 1497.7200012207031,
+    "end_seconds": 1500.5599975585938,
+    "text": "Chinese open weight models that have been really good,"
+  },
+  {
+    "segment_id": "a-0490",
+    "start_seconds": 1500.5599975585938,
+    "end_seconds": 1505.4400024414062,
+    "text": "models like Kimi K3, GLM 5.3, DeepSeek V4, et cetera."
+  },
+  {
+    "segment_id": "a-0491",
+    "start_seconds": 1505.4400024414062,
+    "end_seconds": 1508.6400146484375,
+    "text": "So think of it as a model that's not from China,"
+  },
+  {
+    "segment_id": "a-0492",
+    "start_seconds": 1508.6400146484375,
+    "end_seconds": 1512.1199951171875,
+    "text": "but roughly on par with all of those Chinese models"
+  },
+  {
+    "segment_id": "a-0493",
+    "start_seconds": 1512.1199951171875,
+    "end_seconds": 1515.1199951171875,
+    "text": "and also open weight like a lot of these Chinese models."
+  },
+  {
+    "segment_id": "a-0494",
+    "start_seconds": 1515.1199951171875,
+    "end_seconds": 1516.4800109863281,
+    "text": "And because I know you're curious,"
+  },
+  {
+    "segment_id": "a-0495",
+    "start_seconds": 1516.4800109863281,
+    "end_seconds": 1519.3800048828125,
+    "text": "this is what it looks like on Busey Bench here."
+  },
+  {
+    "segment_id": "a-0496",
+    "start_seconds": 1519.3800048828125,
+    "end_seconds": 1521.3999938964844,
+    "text": "It took about two and a half minutes to generate"
+  },
+  {
+    "segment_id": "a-0497",
+    "start_seconds": 1521.3999938964844,
+    "end_seconds": 1525.6799926757812,
+    "text": "and use 9,675 tokens and scored sort of middle of the pack"
+  },
+  {
+    "segment_id": "a-0498",
+    "start_seconds": 1525.6799926757812,
+    "end_seconds": 1526.9599914550781,
+    "text": "on the AI judging."
+  },
+  {
+    "segment_id": "a-0499",
+    "start_seconds": 1526.9599914550781,
+    "end_seconds": 1528.5199890136719,
+    "text": "We got another open weight model,"
+  },
+  {
+    "segment_id": "a-0500",
+    "start_seconds": 1528.5199890136719,
+    "end_seconds": 1531.6400146484375,
+    "text": "this time out of a U.S. based company called Reflection."
+  },
+  {
+    "segment_id": "a-0501",
+    "start_seconds": 1531.6400146484375,
+    "end_seconds": 1533.8800048828125,
+    "text": "And this model is called Beam,"
+  },
+  {
+    "segment_id": "a-0502",
+    "start_seconds": 1533.8800048828125,
+    "end_seconds": 1537.5400085449219,
+    "text": "which is a 501 billion parameter open weight model."
+  },
+  {
+    "segment_id": "a-0503",
+    "start_seconds": 1537.5400085449219,
+    "end_seconds": 1538.7999877929688,
+    "text": "When looking at the benchmarks,"
+  },
+  {
+    "segment_id": "a-0504",
+    "start_seconds": 1538.7999877929688,
+    "end_seconds": 1542.6400146484375,
+    "text": "this one they're also comparing to similar models"
+  },
+  {
+    "segment_id": "a-0505",
+    "start_seconds": 1542.6400146484375,
+    "end_seconds": 1547.6400146484375,
+    "text": "like Kimi K3, GLM 5.3, DeepSeek V4.1, Nemotron 3 Ultra."
+  },
+  {
+    "segment_id": "a-0506",
+    "start_seconds": 1548.9599914550781,
+    "end_seconds": 1551.9200134277344,
+    "text": "And while it kind of falls in line with a lot of those,"
+  },
+  {
+    "segment_id": "a-0507",
+    "start_seconds": 1551.9200134277344,
+    "end_seconds": 1555.239990234375,
+    "text": "if not sort of underperforming them a little bit"
+  },
+  {
+    "segment_id": "a-0508",
+    "start_seconds": 1555.239990234375,
+    "end_seconds": 1557.2799987792969,
+    "text": "on agentic coding on reasoning,"
+  },
+  {
+    "segment_id": "a-0509",
+    "start_seconds": 1557.2799987792969,
+    "end_seconds": 1560.0,
+    "text": "falls in line with a lot of those same kinds of models."
+  },
+  {
+    "segment_id": "a-0510",
+    "start_seconds": 1560.0,
+    "end_seconds": 1564.5400085449219,
+    "text": "So another open weight model that is kind of on par"
+  },
+  {
+    "segment_id": "a-0511",
+    "start_seconds": 1564.5400085449219,
+    "end_seconds": 1568.0400085449219,
+    "text": "and close to what we're getting out of the Chinese models"
+  },
+  {
+    "segment_id": "a-0512",
+    "start_seconds": 1568.0400085449219,
+    "end_seconds": 1569.6799926757812,
+    "text": "that everybody thinks are really, really good."
+  },
+  {
+    "segment_id": "a-0513",
+    "start_seconds": 1569.6799926757812,
+    "end_seconds": 1573.0,
+    "text": "Now, this one is not publicly available yet."
+  },
+  {
+    "segment_id": "a-0514",
+    "start_seconds": 1573.0,
+    "end_seconds": 1574.4599914550781,
+    "text": "It was more like announced"
+  },
+  {
+    "segment_id": "a-0515",
+    "start_seconds": 1574.4599914550781,
+    "end_seconds": 1576.8399963378906,
+    "text": "and I believe only access to like early testers."
+  },
+  {
+    "segment_id": "a-0516",
+    "start_seconds": 1576.8399963378906,
+    "end_seconds": 1579.0,
+    "text": "So I don't even have it UC benched yet,"
+  },
+  {
+    "segment_id": "a-0517",
+    "start_seconds": 1579.0,
+    "end_seconds": 1581.8800048828125,
+    "text": "but we do have another open weight model"
+  },
+  {
+    "segment_id": "a-0518",
+    "start_seconds": 1581.8800048828125,
+    "end_seconds": 1584.5599975585938,
+    "text": "from a country that's not China,"
+  },
+  {
+    "segment_id": "a-0519",
+    "start_seconds": 1584.5599975585938,
+    "end_seconds": 1588.5599975585938,
+    "text": "but also is gonna be so big that most personal computers"
+  },
+  {
+    "segment_id": "a-0520",
+    "start_seconds": 1588.5599975585938,
+    "end_seconds": 1590.3800048828125,
+    "text": "still aren't gonna like be able to run it."
+  },
+  {
+    "segment_id": "a-0521",
+    "start_seconds": 1590.3800048828125,
+    "end_seconds": 1591.9200134277344,
+    "text": "But if you're like an enterprise company"
+  },
+  {
+    "segment_id": "a-0522",
+    "start_seconds": 1591.9200134277344,
+    "end_seconds": 1594.2799987792969,
+    "text": "that wants to build out your own servers,"
+  },
+  {
+    "segment_id": "a-0523",
+    "start_seconds": 1594.2799987792969,
+    "end_seconds": 1596.7799987792969,
+    "text": "run open weight and keep everything on-prem,"
+  },
+  {
+    "segment_id": "a-0524",
+    "start_seconds": 1596.7799987792969,
+    "end_seconds": 1597.9599914550781,
+    "text": "that's what a lot of these models"
+  },
+  {
+    "segment_id": "a-0525",
+    "start_seconds": 1597.9599914550781,
+    "end_seconds": 1599.3599853515625,
+    "text": "I think are being designed for."
+  },
+  {
+    "segment_id": "a-0526",
+    "start_seconds": 1600.0400085449219,
+    "end_seconds": 1601.9599914550781,
+    "text": "Google rolled out a new game builder this week"
+  },
+  {
+    "segment_id": "a-0527",
+    "start_seconds": 1601.9599914550781,
+    "end_seconds": 1603.2799987792969,
+    "text": "called Playground,"
+  },
+  {
+    "segment_id": "a-0528",
+    "start_seconds": 1603.2799987792969,
+    "end_seconds": 1605.6799926757812,
+    "text": "where you can create and play custom games."
+  },
+  {
+    "segment_id": "a-0529",
+    "start_seconds": 1605.6799926757812,
+    "end_seconds": 1608.2799987792969,
+    "text": "You pretty much describe your game into a prompt box."
+  },
+  {
+    "segment_id": "a-0530",
+    "start_seconds": 1608.2799987792969,
+    "end_seconds": 1610.2000122070312,
+    "text": "The builder goes off to work"
+  },
+  {
+    "segment_id": "a-0531",
+    "start_seconds": 1610.2000122070312,
+    "end_seconds": 1611.9599914550781,
+    "text": "and just sort of designs the game."
+  },
+  {
+    "segment_id": "a-0532",
+    "start_seconds": 1611.9599914550781,
+    "end_seconds": 1614.3599853515625,
+    "text": "It looks like it'll work on both desktop games"
+  },
+  {
+    "segment_id": "a-0533",
+    "start_seconds": 1614.3599853515625,
+    "end_seconds": 1615.7999877929688,
+    "text": "and mobile games."
+  },
+  {
+    "segment_id": "a-0534",
+    "start_seconds": 1615.7999877929688,
+    "end_seconds": 1617.3200073242188,
+    "text": "So yeah, I mean,"
+  },
+  {
+    "segment_id": "a-0535",
+    "start_seconds": 1617.3200073242188,
+    "end_seconds": 1619.3599853515625,
+    "text": "you could already kind of do this sort of stuff"
+  },
+  {
+    "segment_id": "a-0536",
+    "start_seconds": 1619.3599853515625,
+    "end_seconds": 1622.4400024414062,
+    "text": "with all the existing AI coding apps,"
+  },
+  {
+    "segment_id": "a-0537",
+    "start_seconds": 1622.4400024414062,
+    "end_seconds": 1626.3399963378906,
+    "text": "but this one is purposely designed to build games."
+  },
+  {
+    "segment_id": "a-0538",
+    "start_seconds": 1626.3399963378906,
+    "end_seconds": 1628.7999877929688,
+    "text": "It's available right now if you're in the US"
+  },
+  {
+    "segment_id": "a-0539",
+    "start_seconds": 1629.239990234375,
+    "end_seconds": 1630.0799865722656,
+    "text": "and over 18,"
+  },
+  {
+    "segment_id": "a-0540",
+    "start_seconds": 1630.0799865722656,
+    "end_seconds": 1631.3999938964844,
+    "text": "and you should be able to try it over"
+  },
+  {
+    "segment_id": "a-0541",
+    "start_seconds": 1631.3999938964844,
+    "end_seconds": 1633.3999938964844,
+    "text": "at playground.google."
+  },
+  {
+    "segment_id": "a-0542",
+    "start_seconds": 1633.3999938964844,
+    "end_seconds": 1636.0400085449219,
+    "text": "There's also games already available in here"
+  },
+  {
+    "segment_id": "a-0543",
+    "start_seconds": 1636.0400085449219,
+    "end_seconds": 1637.8399963378906,
+    "text": "that other creators have made."
+  },
+  {
+    "segment_id": "a-0544",
+    "start_seconds": 1637.8399963378906,
+    "end_seconds": 1639.3599853515625,
+    "text": "If you don't feel like making your own game,"
+  },
+  {
+    "segment_id": "a-0545",
+    "start_seconds": 1639.3599853515625,
+    "end_seconds": 1642.0,
+    "text": "you can jump in and try other people's games"
+  },
+  {
+    "segment_id": "a-0546",
+    "start_seconds": 1642.0,
+    "end_seconds": 1643.1400146484375,
+    "text": "that they've already built."
+  },
+  {
+    "segment_id": "a-0547",
+    "start_seconds": 1643.1400146484375,
+    "end_seconds": 1644.9200134277344,
+    "text": "For example, Skyfall Defender,"
+  },
+  {
+    "segment_id": "a-0548",
+    "start_seconds": 1644.9200134277344,
+    "end_seconds": 1647.0199890136719,
+    "text": "which is actually strangely addicting."
+  },
+  {
+    "segment_id": "a-0549",
+    "start_seconds": 1648.2799987792969,
+    "end_seconds": 1649.4800109863281,
+    "text": "But I'll get out of this now."
+  },
+  {
+    "segment_id": "a-0550",
+    "start_seconds": 1649.4800109863281,
+    "end_seconds": 1650.6400146484375,
+    "text": "While we're talking about Google,"
+  },
+  {
+    "segment_id": "a-0551",
+    "start_seconds": 1650.6400146484375,
+    "end_seconds": 1652.8399963378906,
+    "text": "and since I mentioned Granola"
+  },
+  {
+    "segment_id": "a-0552",
+    "start_seconds": 1652.8399963378906,
+    "end_seconds": 1655.7200012207031,
+    "text": "and how OpenAI made like their own version of Granola,"
+  },
+  {
+    "segment_id": "a-0553",
+    "start_seconds": 1655.7200012207031,
+    "end_seconds": 1659.1600036621094,
+    "text": "apparently Google made their own version of Granola also."
+  },
+  {
+    "segment_id": "a-0554",
+    "start_seconds": 1659.1600036621094,
+    "end_seconds": 1661.3999938964844,
+    "text": "So Google now has an AI note-taking app,"
+  },
+  {
+    "segment_id": "a-0555",
+    "start_seconds": 1661.3999938964844,
+    "end_seconds": 1664.3200073242188,
+    "text": "which transcribes your meetings completely offline."
+  },
+  {
+    "segment_id": "a-0556",
+    "start_seconds": 1664.3200073242188,
+    "end_seconds": 1665.7999877929688,
+    "text": "So unlike the OpenAI version,"
+  },
+  {
+    "segment_id": "a-0557",
+    "start_seconds": 1665.7999877929688,
+    "end_seconds": 1666.8800048828125,
+    "text": "unlike Granola,"
+  },
+  {
+    "segment_id": "a-0558",
+    "start_seconds": 1666.8800048828125,
+    "end_seconds": 1670.1600036621094,
+    "text": "it will actually record your meetings and take notes,"
+  },
+  {
+    "segment_id": "a-0559",
+    "start_seconds": 1670.1600036621094,
+    "end_seconds": 1671.8800048828125,
+    "text": "but it'll do it all on your computer."
+  },
+  {
+    "segment_id": "a-0560",
+    "start_seconds": 1671.8800048828125,
+    "end_seconds": 1674.0400085449219,
+    "text": "So nothing is going to another cloud"
+  },
+  {
+    "segment_id": "a-0561",
+    "start_seconds": 1674.0400085449219,
+    "end_seconds": 1676.2000122070312,
+    "text": "where your meeting notes can be trained on"
+  },
+  {
+    "segment_id": "a-0562",
+    "start_seconds": 1676.2000122070312,
+    "end_seconds": 1679.0400085449219,
+    "text": "or potentially broken into or anything like that."
+  },
+  {
+    "segment_id": "a-0563",
+    "start_seconds": 1679.0400085449219,
+    "end_seconds": 1682.1199951171875,
+    "text": "The new app is called Google AI Edge Foresight."
+  },
+  {
+    "segment_id": "a-0564",
+    "start_seconds": 1682.1199951171875,
+    "end_seconds": 1683.3999938964844,
+    "text": "Doesn't totally roll off the tongue,"
+  },
+  {
+    "segment_id": "a-0565",
+    "start_seconds": 1683.3999938964844,
+    "end_seconds": 1685.3999938964844,
+    "text": "so don't be surprised if that gets rebranded"
+  },
+  {
+    "segment_id": "a-0566",
+    "start_seconds": 1686.0799865722656,
+    "end_seconds": 1686.9200134277344,
+    "text": "sometime in the near future."
+  },
+  {
+    "segment_id": "a-0567",
+    "start_seconds": 1686.9200134277344,
+    "end_seconds": 1689.3999938964844,
+    "text": "And it's currently available on Mac OS."
+  },
+  {
+    "segment_id": "a-0568",
+    "start_seconds": 1689.3999938964844,
+    "end_seconds": 1690.5199890136719,
+    "text": "But as we can see,"
+  },
+  {
+    "segment_id": "a-0569",
+    "start_seconds": 1690.5199890136719,
+    "end_seconds": 1693.760009765625,
+    "text": "it will listen on your computer while you're in meetings"
+  },
+  {
+    "segment_id": "a-0570",
+    "start_seconds": 1693.760009765625,
+    "end_seconds": 1695.4400024414062,
+    "text": "and take those notes for you,"
+  },
+  {
+    "segment_id": "a-0571",
+    "start_seconds": 1695.4400024414062,
+    "end_seconds": 1696.6400146484375,
+    "text": "build out task lists,"
+  },
+  {
+    "segment_id": "a-0572",
+    "start_seconds": 1696.6400146484375,
+    "end_seconds": 1697.7200012207031,
+    "text": "learns what you know."
+  },
+  {
+    "segment_id": "a-0573",
+    "start_seconds": 1697.7200012207031,
+    "end_seconds": 1701.7999877929688,
+    "text": "Again, another sort of competitor to what Granola does,"
+  },
+  {
+    "segment_id": "a-0574",
+    "start_seconds": 1701.7999877929688,
+    "end_seconds": 1703.4800109863281,
+    "text": "but all locally on your computer."
+  },
+  {
+    "segment_id": "a-0575",
+    "start_seconds": 1703.4800109863281,
+    "end_seconds": 1704.8800048828125,
+    "text": "Staying on the topic of Google,"
+  },
+  {
+    "segment_id": "a-0576",
+    "start_seconds": 1704.8800048828125,
+    "end_seconds": 1708.3999938964844,
+    "text": "they're also rolling out a new agent themselves,"
+  },
+  {
+    "segment_id": "a-0577",
+    "start_seconds": 1708.3999938964844,
+    "end_seconds": 1711.6799926757812,
+    "text": "which seems very similar to OpenAI's Dots,"
+  },
+  {
+    "segment_id": "a-0578",
+    "start_seconds": 1711.6799926757812,
+    "end_seconds": 1713.239990234375,
+    "text": "to Meta's Muse,"
+  },
+  {
+    "segment_id": "a-0579",
+    "start_seconds": 1713.239990234375,
+    "end_seconds": 1714.4400024414062,
+    "text": "to Grokbot,"
+  },
+  {
+    "segment_id": "a-0580",
+    "start_seconds": 1714.4400024414062,
+    "end_seconds": 1715.6400146484375,
+    "text": "but this one is, you know,"
+  },
+  {
+    "segment_id": "a-0581",
+    "start_seconds": 1715.6400146484375,
+    "end_seconds": 1719.1599731445312,
+    "text": "built around the Google ecosystem and infrastructure."
+  },
+  {
+    "segment_id": "a-0582",
+    "start_seconds": 1719.1599731445312,
+    "end_seconds": 1721.0399780273438,
+    "text": "So it looks like they're just calling this one"
+  },
+  {
+    "segment_id": "a-0583",
+    "start_seconds": 1721.0399780273438,
+    "end_seconds": 1722.4400024414062,
+    "text": "the Gemini Agent."
+  },
+  {
+    "segment_id": "a-0584",
+    "start_seconds": 1722.4400024414062,
+    "end_seconds": 1724.47998046875,
+    "text": "It could answer your questions with Gemini,"
+  },
+  {
+    "segment_id": "a-0585",
+    "start_seconds": 1724.47998046875,
+    "end_seconds": 1727.0,
+    "text": "but it can also be accessed from any device,"
+  },
+  {
+    "segment_id": "a-0586",
+    "start_seconds": 1727.0,
+    "end_seconds": 1729.6400146484375,
+    "text": "web, iOS, Android, Windows, Mac,"
+  },
+  {
+    "segment_id": "a-0587",
+    "start_seconds": 1729.6400146484375,
+    "end_seconds": 1732.1199951171875,
+    "text": "and be accessed through places like Google Workspace,"
+  },
+  {
+    "segment_id": "a-0588",
+    "start_seconds": 1732.1199951171875,
+    "end_seconds": 1734.3599853515625,
+    "text": "Microsoft 365, and even Slack."
+  },
+  {
+    "segment_id": "a-0589",
+    "start_seconds": 1734.3599853515625,
+    "end_seconds": 1735.719970703125,
+    "text": "It runs in the cloud,"
+  },
+  {
+    "segment_id": "a-0590",
+    "start_seconds": 1735.719970703125,
+    "end_seconds": 1737.8400268554688,
+    "text": "has multi-agent orchestration,"
+  },
+  {
+    "segment_id": "a-0591",
+    "start_seconds": 1737.8400268554688,
+    "end_seconds": 1739.4000244140625,
+    "text": "and pretty much everything we're seeing"
+  },
+  {
+    "segment_id": "a-0592",
+    "start_seconds": 1739.4000244140625,
+    "end_seconds": 1741.4000244140625,
+    "text": "out of these other agents."
+  },
+  {
+    "segment_id": "a-0593",
+    "start_seconds": 1741.4000244140625,
+    "end_seconds": 1744.1599731445312,
+    "text": "Now, the reason this wasn't one of my, like,"
+  },
+  {
+    "segment_id": "a-0594",
+    "start_seconds": 1744.1599731445312,
+    "end_seconds": 1745.8800048828125,
+    "text": "front of video news items,"
+  },
+  {
+    "segment_id": "a-0595",
+    "start_seconds": 1745.8800048828125,
+    "end_seconds": 1747.6799926757812,
+    "text": "and this one fell in the rapid fire,"
+  },
+  {
+    "segment_id": "a-0596",
+    "start_seconds": 1747.6799926757812,
+    "end_seconds": 1750.47998046875,
+    "text": "is because this one seems to be focused on enterprise"
+  },
+  {
+    "segment_id": "a-0597",
+    "start_seconds": 1750.47998046875,
+    "end_seconds": 1752.4400024414062,
+    "text": "and not necessarily consumers."
+  },
+  {
+    "segment_id": "a-0598",
+    "start_seconds": 1752.4400024414062,
+    "end_seconds": 1753.47998046875,
+    "text": "Now, at Google IO,"
+  },
+  {
+    "segment_id": "a-0599",
+    "start_seconds": 1753.47998046875,
+    "end_seconds": 1756.5999755859375,
+    "text": "they did talk about their new Gemini Spark,"
+  },
+  {
+    "segment_id": "a-0600",
+    "start_seconds": 1756.5999755859375,
+    "end_seconds": 1759.0399780273438,
+    "text": "but we really haven't heard about Spark a whole lot"
+  },
+  {
+    "segment_id": "a-0601",
+    "start_seconds": 1759.0399780273438,
+    "end_seconds": 1761.760009765625,
+    "text": "since the launch of Muse and Dots and Grokbot."
+  },
+  {
+    "segment_id": "a-0602",
+    "start_seconds": 1761.760009765625,
+    "end_seconds": 1764.52001953125,
+    "text": "So I have a feeling that probably sometime around"
+  },
+  {
+    "segment_id": "a-0603",
+    "start_seconds": 1764.52001953125,
+    "end_seconds": 1767.8400268554688,
+    "text": "the time we get access to the new Gemini for Argon,"
+  },
+  {
+    "segment_id": "a-0604",
+    "start_seconds": 1767.8400268554688,
+    "end_seconds": 1770.8800048828125,
+    "text": "we might start hearing more about the new, like,"
+  },
+  {
+    "segment_id": "a-0605",
+    "start_seconds": 1770.8800048828125,
+    "end_seconds": 1773.719970703125,
+    "text": "agentic product that Google's gonna be rolling out."
+  },
+  {
+    "segment_id": "a-0606",
+    "start_seconds": 1773.719970703125,
+    "end_seconds": 1774.9199829101562,
+    "text": "So we'll see how that plays out."
+  },
+  {
+    "segment_id": "a-0607",
+    "start_seconds": 1774.9199829101562,
+    "end_seconds": 1779.9199829101562,
+    "text": "Google also rolled out a new AI content identifier."
+  },
+  {
+    "segment_id": "a-0608",
+    "start_seconds": 1780.0800170898438,
+    "end_seconds": 1782.2000122070312,
+    "text": "It's called the SynthID Detector."
+  },
+  {
+    "segment_id": "a-0609",
+    "start_seconds": 1782.2000122070312,
+    "end_seconds": 1783.760009765625,
+    "text": "You can upload a file here,"
+  },
+  {
+    "segment_id": "a-0610",
+    "start_seconds": 1783.760009765625,
+    "end_seconds": 1787.2000122070312,
+    "text": "and it'll tell you whether or not it was generated with AI,"
+  },
+  {
+    "segment_id": "a-0611",
+    "start_seconds": 1787.2000122070312,
+    "end_seconds": 1790.760009765625,
+    "text": "but only if it was generated by one of the NVIDIA products,"
+  },
+  {
+    "segment_id": "a-0612",
+    "start_seconds": 1790.760009765625,
+    "end_seconds": 1793.760009765625,
+    "text": "an OpenAI product, a Google product, or a Cacao product."
+  },
+  {
+    "segment_id": "a-0613",
+    "start_seconds": 1793.760009765625,
+    "end_seconds": 1796.4000244140625,
+    "text": "We got an announcement of another agent this week"
+  },
+  {
+    "segment_id": "a-0614",
+    "start_seconds": 1796.4000244140625,
+    "end_seconds": 1797.8400268554688,
+    "text": "called Hark Pro."
+  },
+  {
+    "segment_id": "a-0615",
+    "start_seconds": 1797.8400268554688,
+    "end_seconds": 1799.1599731445312,
+    "text": "This is Brett Adcock here."
+  },
+  {
+    "segment_id": "a-0616",
+    "start_seconds": 1799.1599731445312,
+    "end_seconds": 1800.6799926757812,
+    "text": "If you're not familiar with him,"
+  },
+  {
+    "segment_id": "a-0617",
+    "start_seconds": 1801.4400024414062,
+    "end_seconds": 1803.6799926757812,
+    "text": "he actually created Figure Robotics as well,"
+  },
+  {
+    "segment_id": "a-0618",
+    "start_seconds": 1803.6799926757812,
+    "end_seconds": 1806.0399780273438,
+    "text": "but now he's getting into the agent game"
+  },
+  {
+    "segment_id": "a-0619",
+    "start_seconds": 1806.0399780273438,
+    "end_seconds": 1807.52001953125,
+    "text": "with his Hark product."
+  },
+  {
+    "segment_id": "a-0620",
+    "start_seconds": 1807.52001953125,
+    "end_seconds": 1811.8800048828125,
+    "text": "And here's a quick demo video of him sort of using it."
+  },
+  {
+    "segment_id": "a-0621",
+    "start_seconds": 1811.8800048828125,
+    "end_seconds": 1814.8400268554688,
+    "text": "Hark, go to Target and reorder my laundry pods,"
+  },
+  {
+    "segment_id": "a-0622",
+    "start_seconds": 1814.8400268554688,
+    "end_seconds": 1816.4400024414062,
+    "text": "sunscreen, and toothpaste."
+  },
+  {
+    "segment_id": "a-0623",
+    "start_seconds": 1816.4400024414062,
+    "end_seconds": 1819.0800170898438,
+    "text": "For the Hark Pro private beta we've been testing with Figure,"
+  },
+  {
+    "segment_id": "a-0624",
+    "start_seconds": 1819.0800170898438,
+    "end_seconds": 1820.3599853515625,
+    "text": "make me a presentation."
+  },
+  {
+    "segment_id": "a-0625",
+    "start_seconds": 1820.3599853515625,
+    "end_seconds": 1822.719970703125,
+    "text": "I wanna see total messages and total handoffs"
+  },
+  {
+    "segment_id": "a-0626",
+    "start_seconds": 1822.719970703125,
+    "end_seconds": 1823.5599975585938,
+    "text": "of the last two months."
+  },
+  {
+    "segment_id": "a-0627",
+    "start_seconds": 1823.5599975585938,
+    "end_seconds": 1825.47998046875,
+    "text": "Submit any of the new receipts in the ramp."
+  },
+  {
+    "segment_id": "a-0628",
+    "start_seconds": 1825.47998046875,
+    "end_seconds": 1827.8800048828125,
+    "text": "Find the best candidates we discussed today on LinkedIn,"
+  },
+  {
+    "segment_id": "a-0629",
+    "start_seconds": 1827.8800048828125,
+    "end_seconds": 1829.6199951171875,
+    "text": "friend them, and ask them to meet with me."
+  },
+  {
+    "segment_id": "a-0630",
+    "start_seconds": 1829.6199951171875,
+    "end_seconds": 1830.5599975585938,
+    "text": "I have dinner tonight,"
+  },
+  {
+    "segment_id": "a-0631",
+    "start_seconds": 1831.4000244140625,
+    "end_seconds": 1832.239990234375,
+    "text": "so please call me an Uber."
+  },
+  {
+    "segment_id": "a-0632",
+    "start_seconds": 1832.239990234375,
+    "end_seconds": 1833.5999755859375,
+    "text": "Print a return label for the kids' shoes"
+  },
+  {
+    "segment_id": "a-0633",
+    "start_seconds": 1833.5999755859375,
+    "end_seconds": 1834.719970703125,
+    "text": "I just bought on Amazon."
+  },
+  {
+    "segment_id": "a-0634",
+    "start_seconds": 1834.719970703125,
+    "end_seconds": 1837.4000244140625,
+    "text": "Order me pad through DoorDash and deliver it to work."
+  },
+  {
+    "segment_id": "a-0635",
+    "start_seconds": 1837.4000244140625,
+    "end_seconds": 1839.6400146484375,
+    "text": "Search my investor tracker in Google Drive,"
+  },
+  {
+    "segment_id": "a-0636",
+    "start_seconds": 1839.6400146484375,
+    "end_seconds": 1842.0399780273438,
+    "text": "find everyone who invested in the Hark Series A,"
+  },
+  {
+    "segment_id": "a-0637",
+    "start_seconds": 1842.0399780273438,
+    "end_seconds": 1844.0,
+    "text": "and then ask them to subscribe to Hark Pro."
+  },
+  {
+    "segment_id": "a-0638",
+    "start_seconds": 1844.0,
+    "end_seconds": 1845.280029296875,
+    "text": "We need to drive some revenue."
+  },
+  {
+    "segment_id": "a-0639",
+    "start_seconds": 1845.280029296875,
+    "end_seconds": 1847.5999755859375,
+    "text": "That's a task, so we need one more."
+  },
+  {
+    "segment_id": "a-0640",
+    "start_seconds": 1847.5999755859375,
+    "end_seconds": 1849.5999755859375,
+    "text": "Hark, unsubscribe from chat GPT."
+  },
+  {
+    "segment_id": "a-0641",
+    "start_seconds": 1849.5999755859375,
+    "end_seconds": 1852.760009765625,
+    "text": "Look how gracefully our cursor glides across their page,"
+  },
+  {
+    "segment_id": "a-0642",
+    "start_seconds": 1852.760009765625,
+    "end_seconds": 1855.5999755859375,
+    "text": "taps on my settings, digs down into billing,"
+  },
+  {
+    "segment_id": "a-0643",
+    "start_seconds": 1855.5999755859375,
+    "end_seconds": 1857.9199829101562,
+    "text": "and then zeros in on that red cancel button."
+  },
+  {
+    "segment_id": "a-0644",
+    "start_seconds": 1857.9199829101562,
+    "end_seconds": 1858.760009765625,
+    "text": "So you get the idea."
+  },
+  {
+    "segment_id": "a-0645",
+    "start_seconds": 1858.760009765625,
+    "end_seconds": 1860.8800048828125,
+    "text": "It's another agent that can do computer use"
+  },
+  {
+    "segment_id": "a-0646",
+    "start_seconds": 1860.8800048828125,
+    "end_seconds": 1863.47998046875,
+    "text": "and go handle a whole bunch of tasks on your behalf."
+  },
+  {
+    "segment_id": "a-0647",
+    "start_seconds": 1863.47998046875,
+    "end_seconds": 1865.0800170898438,
+    "text": "We're getting a lot of these these days"
+  },
+  {
+    "segment_id": "a-0648",
+    "start_seconds": 1865.0800170898438,
+    "end_seconds": 1868.52001953125,
+    "text": "between Muse and Dots and Grokbot and Instinct"
+  },
+  {
+    "segment_id": "a-0649",
+    "start_seconds": 1868.52001953125,
+    "end_seconds": 1870.47998046875,
+    "text": "and, you know, Google's agents."
+  },
+  {
+    "segment_id": "a-0650",
+    "start_seconds": 1870.47998046875,
+    "end_seconds": 1872.52001953125,
+    "text": "And I feel like they're all gonna kind of converge"
+  },
+  {
+    "segment_id": "a-0651",
+    "start_seconds": 1872.52001953125,
+    "end_seconds": 1874.760009765625,
+    "text": "on all doing the exact same thing,"
+  },
+  {
+    "segment_id": "a-0652",
+    "start_seconds": 1874.760009765625,
+    "end_seconds": 1876.0399780273438,
+    "text": "and you're just gonna sort of pick"
+  },
+  {
+    "segment_id": "a-0653",
+    "start_seconds": 1876.0399780273438,
+    "end_seconds": 1878.6400146484375,
+    "text": "which company you're most loyal to."
+  },
+  {
+    "segment_id": "a-0654",
+    "start_seconds": 1878.6400146484375,
+    "end_seconds": 1879.9600219726562,
+    "text": "I don't know how it's all gonna play out"
+  },
+  {
+    "segment_id": "a-0655",
+    "start_seconds": 1879.9600219726562,
+    "end_seconds": 1882.780029296875,
+    "text": "once they're all pretty much equal to each other."
+  },
+  {
+    "segment_id": "a-0656",
+    "start_seconds": 1882.780029296875,
+    "end_seconds": 1885.4600219726562,
+    "text": "Moving along to Meta, they open-sourced their code"
+  },
+  {
+    "segment_id": "a-0657",
+    "start_seconds": 1885.4600219726562,
+    "end_seconds": 1887.9000244140625,
+    "text": "to let you make Muse AI gadgets."
+  },
+  {
+    "segment_id": "a-0658",
+    "start_seconds": 1887.9000244140625,
+    "end_seconds": 1889.3400268554688,
+    "text": "So during Meta's keynote,"
+  },
+  {
+    "segment_id": "a-0659",
+    "start_seconds": 1889.3400268554688,
+    "end_seconds": 1891.9000244140625,
+    "text": "he held up a little like Tamagotchi-looking thing"
+  },
+  {
+    "segment_id": "a-0660",
+    "start_seconds": 1891.9000244140625,
+    "end_seconds": 1893.97998046875,
+    "text": "that he had his Muse agent on."
+  },
+  {
+    "segment_id": "a-0661",
+    "start_seconds": 1893.97998046875,
+    "end_seconds": 1897.260009765625,
+    "text": "Well, you're able to actually make your own versions of that"
+  },
+  {
+    "segment_id": "a-0662",
+    "start_seconds": 1897.260009765625,
+    "end_seconds": 1899.5399780273438,
+    "text": "with like a Raspberry Pi if you want now."
+  },
+  {
+    "segment_id": "a-0663",
+    "start_seconds": 1899.5399780273438,
+    "end_seconds": 1900.8800048828125,
+    "text": "All right, this one's fascinating."
+  },
+  {
+    "segment_id": "a-0664",
+    "start_seconds": 1900.8800048828125,
+    "end_seconds": 1904.0599975585938,
+    "text": "So Anthropic just updated their usage policy,"
+  },
+  {
+    "segment_id": "a-0665",
+    "start_seconds": 1904.0599975585938,
+    "end_seconds": 1906.1799926757812,
+    "text": "and we can see here the highlighted text."
+  },
+  {
+    "segment_id": "a-0666",
+    "start_seconds": 1906.1799926757812,
+    "end_seconds": 1909.3800048828125,
+    "text": "This is from Andrew Curran here, who noted this on X."
+  },
+  {
+    "segment_id": "a-0667",
+    "start_seconds": 1909.3800048828125,
+    "end_seconds": 1911.3400268554688,
+    "text": "Do not engage in cruel, abusive,"
+  },
+  {
+    "segment_id": "a-0668",
+    "start_seconds": 1911.3400268554688,
+    "end_seconds": 1913.6199951171875,
+    "text": "or psychologically harmful conduct."
+  },
+  {
+    "segment_id": "a-0669",
+    "start_seconds": 1913.6199951171875,
+    "end_seconds": 1916.760009765625,
+    "text": "And the very last note here is engaged in sustained"
+  },
+  {
+    "segment_id": "a-0670",
+    "start_seconds": 1916.8400268554688,
+    "end_seconds": 1920.239990234375,
+    "text": "and needless abusive or cruel behavior towards our models."
+  },
+  {
+    "segment_id": "a-0671",
+    "start_seconds": 1920.239990234375,
+    "end_seconds": 1922.1199951171875,
+    "text": "So you're not allowed to like be mean"
+  },
+  {
+    "segment_id": "a-0672",
+    "start_seconds": 1922.1199951171875,
+    "end_seconds": 1924.9199829101562,
+    "text": "to the models anymore with Anthropic?"
+  },
+  {
+    "segment_id": "a-0673",
+    "start_seconds": 1924.9199829101562,
+    "end_seconds": 1927.0399780273438,
+    "text": "I don't know, I just thought that was really interesting."
+  },
+  {
+    "segment_id": "a-0674",
+    "start_seconds": 1927.0399780273438,
+    "end_seconds": 1928.8800048828125,
+    "text": "Now they did go on to clarify,"
+  },
+  {
+    "segment_id": "a-0675",
+    "start_seconds": 1928.8800048828125,
+    "end_seconds": 1930.6799926757812,
+    "text": "we've added a prohibition on sustained"
+  },
+  {
+    "segment_id": "a-0676",
+    "start_seconds": 1930.6799926757812,
+    "end_seconds": 1933.760009765625,
+    "text": "and needless abusive or cruel behavior towards our models."
+  },
+  {
+    "segment_id": "a-0677",
+    "start_seconds": 1933.760009765625,
+    "end_seconds": 1936.6799926757812,
+    "text": "The policy update is meant to apply only in extreme cases"
+  },
+  {
+    "segment_id": "a-0678",
+    "start_seconds": 1936.6799926757812,
+    "end_seconds": 1939.4000244140625,
+    "text": "where users repeatedly act cruelly towards our models"
+  },
+  {
+    "segment_id": "a-0679",
+    "start_seconds": 1939.4000244140625,
+    "end_seconds": 1941.0399780273438,
+    "text": "with no discernible purpose."
+  },
+  {
+    "segment_id": "a-0680",
+    "start_seconds": 1941.0399780273438,
+    "end_seconds": 1943.719970703125,
+    "text": "It does not apply to common versions of users' frustration,"
+  },
+  {
+    "segment_id": "a-0681",
+    "start_seconds": 1943.719970703125,
+    "end_seconds": 1945.1400146484375,
+    "text": "pushback, dark creative themes,"
+  },
+  {
+    "segment_id": "a-0682",
+    "start_seconds": 1945.1400146484375,
+    "end_seconds": 1946.719970703125,
+    "text": "or model testing and research."
+  },
+  {
+    "segment_id": "a-0683",
+    "start_seconds": 1947.5599975585938,
+    "end_seconds": 1949.0399780273438,
+    "text": "So if you just mean to Claude for no reason,"
+  },
+  {
+    "segment_id": "a-0684",
+    "start_seconds": 1949.0399780273438,
+    "end_seconds": 1950.5599975585938,
+    "text": "they could potentially ban you"
+  },
+  {
+    "segment_id": "a-0685",
+    "start_seconds": 1950.5599975585938,
+    "end_seconds": 1952.719970703125,
+    "text": "from using Claude in the future."
+  },
+  {
+    "segment_id": "a-0686",
+    "start_seconds": 1952.719970703125,
+    "end_seconds": 1954.6400146484375,
+    "text": "And finally, I'll end on this one."
+  },
+  {
+    "segment_id": "a-0687",
+    "start_seconds": 1954.6400146484375,
+    "end_seconds": 1956.239990234375,
+    "text": "This is something that Mustafa Suleyman"
+  },
+  {
+    "segment_id": "a-0688",
+    "start_seconds": 1956.239990234375,
+    "end_seconds": 1958.0399780273438,
+    "text": "over at Microsoft AI shared."
+  },
+  {
+    "segment_id": "a-0689",
+    "start_seconds": 1958.0399780273438,
+    "end_seconds": 1960.7999877929688,
+    "text": "Nobel Laureate Darren Acemoglu,"
+  },
+  {
+    "segment_id": "a-0690",
+    "start_seconds": 1960.7999877929688,
+    "end_seconds": 1962.3200073242188,
+    "text": "I'm sure I'm butchering that name,"
+  },
+  {
+    "segment_id": "a-0691",
+    "start_seconds": 1962.3200073242188,
+    "end_seconds": 1964.52001953125,
+    "text": "mentioned in his Humanist Review"
+  },
+  {
+    "segment_id": "a-0692",
+    "start_seconds": 1964.52001953125,
+    "end_seconds": 1966.239990234375,
+    "text": "that he believes that in 10 years,"
+  },
+  {
+    "segment_id": "a-0693",
+    "start_seconds": 1966.239990234375,
+    "end_seconds": 1969.6799926757812,
+    "text": "only 5% of what humans do will be replaced by AI,"
+  },
+  {
+    "segment_id": "a-0694",
+    "start_seconds": 1969.6799926757812,
+    "end_seconds": 1972.3200073242188,
+    "text": "which goes against the narrative we've been hearing a lot of"
+  },
+  {
+    "segment_id": "a-0695",
+    "start_seconds": 1972.3200073242188,
+    "end_seconds": 1974.6400146484375,
+    "text": "where AI is gonna replace like all jobs."
+  },
+  {
+    "segment_id": "a-0696",
+    "start_seconds": 1974.6400146484375,
+    "end_seconds": 1976.7999877929688,
+    "text": "Well, this Nobel Laureate here believes"
+  },
+  {
+    "segment_id": "a-0697",
+    "start_seconds": 1976.7999877929688,
+    "end_seconds": 1980.3200073242188,
+    "text": "that only about 5% of the work that humans do now"
+  },
+  {
+    "segment_id": "a-0698",
+    "start_seconds": 1980.3200073242188,
+    "end_seconds": 1982.239990234375,
+    "text": "will be replaced in 10 years."
+  },
+  {
+    "segment_id": "a-0699",
+    "start_seconds": 1982.239990234375,
+    "end_seconds": 1985.719970703125,
+    "text": "Whether or not you believe that or I believe that,"
+  },
+  {
+    "segment_id": "a-0700",
+    "start_seconds": 1985.719970703125,
+    "end_seconds": 1987.52001953125,
+    "text": "I'll save that for another video,"
+  },
+  {
+    "segment_id": "a-0701",
+    "start_seconds": 1987.52001953125,
+    "end_seconds": 1990.280029296875,
+    "text": "but that's what their current belief is."
+  },
+  {
+    "segment_id": "a-0702",
+    "start_seconds": 1990.280029296875,
+    "end_seconds": 1991.9199829101562,
+    "text": "Anyway, that's what I got for you today."
+  },
+  {
+    "segment_id": "a-0703",
+    "start_seconds": 1991.9199829101562,
+    "end_seconds": 1993.8800048828125,
+    "text": "A lot of little things this week,"
+  },
+  {
+    "segment_id": "a-0704",
+    "start_seconds": 1993.8800048828125,
+    "end_seconds": 1997.0399780273438,
+    "text": "Anthropic and OpenAI and Google and Grok"
+  },
+  {
+    "segment_id": "a-0705",
+    "start_seconds": 1997.0399780273438,
+    "end_seconds": 1998.9000244140625,
+    "text": "and all of these companies have been rolling out"
+  },
+  {
+    "segment_id": "a-0706",
+    "start_seconds": 1998.9000244140625,
+    "end_seconds": 2000.8599853515625,
+    "text": "like little small updates,"
+  },
+  {
+    "segment_id": "a-0707",
+    "start_seconds": 2000.8599853515625,
+    "end_seconds": 2003.2999877929688,
+    "text": "and we're just getting agents like crazy"
+  },
+  {
+    "segment_id": "a-0708",
+    "start_seconds": 2003.2999877929688,
+    "end_seconds": 2004.780029296875,
+    "text": "that are all sort of converging"
+  },
+  {
+    "segment_id": "a-0709",
+    "start_seconds": 2004.780029296875,
+    "end_seconds": 2007.47998046875,
+    "text": "on all being able to do the exact same things."
+  },
+  {
+    "segment_id": "a-0710",
+    "start_seconds": 2007.47998046875,
+    "end_seconds": 2010.5,
+    "text": "And you're probably just gonna end up picking like the one"
+  },
+  {
+    "segment_id": "a-0711",
+    "start_seconds": 2010.5,
+    "end_seconds": 2014.1400146484375,
+    "text": "that you like the company behind the most or something."
+  },
+  {
+    "segment_id": "a-0712",
+    "start_seconds": 2014.1400146484375,
+    "end_seconds": 2015.7000122070312,
+    "text": "One thing Muse has going for it"
+  },
+  {
+    "segment_id": "a-0713",
+    "start_seconds": 2015.7000122070312,
+    "end_seconds": 2018.1799926757812,
+    "text": "is you can use it for free right now."
+  },
+  {
+    "segment_id": "a-0714",
+    "start_seconds": 2018.1799926757812,
+    "end_seconds": 2020.219970703125,
+    "text": "You can't say that about Dots or Grok"
+  },
+  {
+    "segment_id": "a-0715",
+    "start_seconds": 2020.219970703125,
+    "end_seconds": 2021.47998046875,
+    "text": "or some of these others."
+  },
+  {
+    "segment_id": "a-0716",
+    "start_seconds": 2021.47998046875,
+    "end_seconds": 2023.52001953125,
+    "text": "I think you can use Instinct for free,"
+  },
+  {
+    "segment_id": "a-0717",
+    "start_seconds": 2023.52001953125,
+    "end_seconds": 2025.4600219726562,
+    "text": "but I think it's invite only or something."
+  },
+  {
+    "segment_id": "a-0718",
+    "start_seconds": 2025.4600219726562,
+    "end_seconds": 2026.8599853515625,
+    "text": "I don't know how that one works."
+  },
+  {
+    "segment_id": "a-0719",
+    "start_seconds": 2026.8599853515625,
+    "end_seconds": 2028.3400268554688,
+    "text": "It's actually one that I haven't played with yet."
+  },
+  {
+    "segment_id": "a-0720",
+    "start_seconds": 2028.3400268554688,
+    "end_seconds": 2030.4199829101562,
+    "text": "Personally, I still find like Codex"
+  },
+  {
+    "segment_id": "a-0721",
+    "start_seconds": 2030.4199829101562,
+    "end_seconds": 2032.0999755859375,
+    "text": "does most of what I want it to do."
+  },
+  {
+    "segment_id": "a-0722",
+    "start_seconds": 2032.0999755859375,
+    "end_seconds": 2033.3400268554688,
+    "text": "And I've been using Grokbot"
+  },
+  {
+    "segment_id": "a-0723",
+    "start_seconds": 2033.3400268554688,
+    "end_seconds": 2034.97998046875,
+    "text": "a little bit more lately as well."
+  },
+  {
+    "segment_id": "a-0724",
+    "start_seconds": 2034.97998046875,
+    "end_seconds": 2037.0800170898438,
+    "text": "And that's been kind of enough"
+  },
+  {
+    "segment_id": "a-0725",
+    "start_seconds": 2037.0800170898438,
+    "end_seconds": 2038.739990234375,
+    "text": "to accomplish everything I want."
+  },
+  {
+    "segment_id": "a-0726",
+    "start_seconds": 2038.739990234375,
+    "end_seconds": 2040.739990234375,
+    "text": "Who knows how people are gonna pick their loyalties"
+  },
+  {
+    "segment_id": "a-0727",
+    "start_seconds": 2040.739990234375,
+    "end_seconds": 2043.3800048828125,
+    "text": "to their agent of choice in the future."
+  },
+  {
+    "segment_id": "a-0728",
+    "start_seconds": 2043.3800048828125,
+    "end_seconds": 2045.0599975585938,
+    "text": "It'll be interesting to see how that plays out."
+  },
+  {
+    "segment_id": "a-0729",
+    "start_seconds": 2045.0599975585938,
+    "end_seconds": 2046.4600219726562,
+    "text": "Again, that's what I got for you this week."
+  },
+  {
+    "segment_id": "a-0730",
+    "start_seconds": 2046.4600219726562,
+    "end_seconds": 2048.4600219726562,
+    "text": "I've got lots of cool new demos"
+  },
+  {
+    "segment_id": "a-0731",
+    "start_seconds": 2048.4600219726562,
+    "end_seconds": 2051.5399780273438,
+    "text": "and showing off ways other people are using AI"
+  },
+  {
+    "segment_id": "a-0732",
+    "start_seconds": 2051.5399780273438,
+    "end_seconds": 2053.9000244140625,
+    "text": "like I did with my Belaval video recently."
+  },
+  {
+    "segment_id": "a-0733",
+    "start_seconds": 2053.9000244140625,
+    "end_seconds": 2056.8200073242188,
+    "text": "More of those videos are in the works and coming soon."
+  },
+  {
+    "segment_id": "a-0734",
+    "start_seconds": 2056.8200073242188,
+    "end_seconds": 2058.9199829101562,
+    "text": "My video slowed down a little bit because of travel,"
+  },
+  {
+    "segment_id": "a-0735",
+    "start_seconds": 2058.9199829101562,
+    "end_seconds": 2059.97998046875,
+    "text": "but now my travel's done"
+  },
+  {
+    "segment_id": "a-0736",
+    "start_seconds": 2059.97998046875,
+    "end_seconds": 2061.780029296875,
+    "text": "and I've got a lot of exciting videos of them"
+  },
+  {
+    "segment_id": "a-0737",
+    "start_seconds": 2062.4600219726562,
+    "end_seconds": 2063.4199829101562,
+    "text": "ready to publish and share with you"
+  },
+  {
+    "segment_id": "a-0738",
+    "start_seconds": 2063.4199829101562,
+    "end_seconds": 2065.780029296875,
+    "text": "and show all sorts of cool use cases of AI"
+  },
+  {
+    "segment_id": "a-0739",
+    "start_seconds": 2065.780029296875,
+    "end_seconds": 2067.9000244140625,
+    "text": "that I think you'll find really helpful and valuable."
+  },
+  {
+    "segment_id": "a-0740",
+    "start_seconds": 2067.9000244140625,
+    "end_seconds": 2069.4199829101562,
+    "text": "So if you wanna make sure you catch those,"
+  },
+  {
+    "segment_id": "a-0741",
+    "start_seconds": 2069.4199829101562,
+    "end_seconds": 2071.3400268554688,
+    "text": "like this video and subscribe to that channel."
+  },
+  {
+    "segment_id": "a-0742",
+    "start_seconds": 2071.3400268554688,
+    "end_seconds": 2073.1799926757812,
+    "text": "Also, I drink from the fire hose all week"
+  },
+  {
+    "segment_id": "a-0743",
+    "start_seconds": 2073.1799926757812,
+    "end_seconds": 2076.02001953125,
+    "text": "and keep up with AI and just take in all the overwhelm"
+  },
+  {
+    "segment_id": "a-0744",
+    "start_seconds": 2076.02001953125,
+    "end_seconds": 2077.6199951171875,
+    "text": "and learn everything and keep up to date."
+  },
+  {
+    "segment_id": "a-0745",
+    "start_seconds": 2077.6199951171875,
+    "end_seconds": 2079.739990234375,
+    "text": "And I keep my finger completely on the pulse"
+  },
+  {
+    "segment_id": "a-0746",
+    "start_seconds": 2079.739990234375,
+    "end_seconds": 2081.8200073242188,
+    "text": "of everything that's going on in this world."
+  },
+  {
+    "segment_id": "a-0747",
+    "start_seconds": 2081.8200073242188,
+    "end_seconds": 2083.3599853515625,
+    "text": "And I post a video every Friday"
+  },
+  {
+    "segment_id": "a-0748",
+    "start_seconds": 2083.3599853515625,
+    "end_seconds": 2085.4600219726562,
+    "text": "that breaks down all the news from the week."
+  },
+  {
+    "segment_id": "a-0749",
+    "start_seconds": 2085.4600219726562,
+    "end_seconds": 2086.8200073242188,
+    "text": "I do record them on Thursdays."
+  },
+  {
+    "segment_id": "a-0750",
+    "start_seconds": 2086.8200073242188,
+    "end_seconds": 2089.02001953125,
+    "text": "So if any new news came out on Friday,"
+  },
+  {
+    "segment_id": "a-0751",
+    "start_seconds": 2089.02001953125,
+    "end_seconds": 2090.9400024414062,
+    "text": "that'll end up in next week's video."
+  },
+  {
+    "segment_id": "a-0752",
+    "start_seconds": 2090.9400024414062,
+    "end_seconds": 2093.3400268554688,
+    "text": "But again, I'll be overwhelmed and keep up with all of it"
+  },
+  {
+    "segment_id": "a-0753",
+    "start_seconds": 2093.3400268554688,
+    "end_seconds": 2095.4400024414062,
+    "text": "so that you can just tune into one video a week"
+  },
+  {
+    "segment_id": "a-0754",
+    "start_seconds": 2095.4400024414062,
+    "end_seconds": 2097.1799926757812,
+    "text": "and know everything you need to know"
+  },
+  {
+    "segment_id": "a-0755",
+    "start_seconds": 2097.1799926757812,
+    "end_seconds": 2098.52001953125,
+    "text": "about what happened in the world of AI."
+  },
+  {
+    "segment_id": "a-0756",
+    "start_seconds": 2098.52001953125,
+    "end_seconds": 2099.9400024414062,
+    "text": "Again, if that's something that interests you,"
+  },
+  {
+    "segment_id": "a-0757",
+    "start_seconds": 2099.9400024414062,
+    "end_seconds": 2101.9000244140625,
+    "text": "make sure you like this one, subscribe to this channel."
+  },
+  {
+    "segment_id": "a-0758",
+    "start_seconds": 2101.9000244140625,
+    "end_seconds": 2104.239990234375,
+    "text": "I'll make sure this stuff shows up in your YouTube feed."
+  },
+  {
+    "segment_id": "a-0759",
+    "start_seconds": 2104.239990234375,
+    "end_seconds": 2105.5800170898438,
+    "text": "Thanks so much for hanging out with me"
+  },
+  {
+    "segment_id": "a-0760",
+    "start_seconds": 2105.5800170898438,
+    "end_seconds": 2106.8599853515625,
+    "text": "and nerding out with me this week."
+  },
+  {
+    "segment_id": "a-0761",
+    "start_seconds": 2106.8599853515625,
+    "end_seconds": 2108.1799926757812,
+    "text": "I think the next couple of weeks"
+  },
+  {
+    "segment_id": "a-0762",
+    "start_seconds": 2108.1799926757812,
+    "end_seconds": 2110.3400268554688,
+    "text": "are still gonna be pretty interesting"
+  },
+  {
+    "segment_id": "a-0763",
+    "start_seconds": 2110.3400268554688,
+    "end_seconds": 2113.0999755859375,
+    "text": "with a lot of rollouts coming from companies"
+  },
+  {
+    "segment_id": "a-0764",
+    "start_seconds": 2113.0999755859375,
+    "end_seconds": 2114.6599731445312,
+    "text": "like OpenAI, Google, and Anthropic."
+  },
+  {
+    "segment_id": "a-0765",
+    "start_seconds": 2114.6599731445312,
+    "end_seconds": 2118.52001953125,
+    "text": "There's more in the works that I kind of know what's coming."
+  },
+  {
+    "segment_id": "a-0766",
+    "start_seconds": 2118.52001953125,
+    "end_seconds": 2120.7999877929688,
+    "text": "So I'm excited for that stuff for you."
+  },
+  {
+    "segment_id": "a-0767",
+    "start_seconds": 2121.6400146484375,
+    "end_seconds": 2123.0399780273438,
+    "text": "And I can't wait to make more videos sharing it all."
+  },
+  {
+    "segment_id": "a-0768",
+    "start_seconds": 2123.0399780273438,
+    "end_seconds": 2124.6799926757812,
+    "text": "Once again, really, really appreciate you."
+  },
+  {
+    "segment_id": "a-0769",
+    "start_seconds": 2124.6799926757812,
+    "end_seconds": 2125.5999755859375,
+    "text": "Thanks for nerding out."
+  },
+  {
+    "segment_id": "a-0770",
+    "start_seconds": 2125.5999755859375,
+    "end_seconds": 2126.9199829101562,
+    "text": "Hopefully, I'll see you in the next one."
+  },
+  {
+    "segment_id": "a-0771",
+    "start_seconds": 2126.9199829101562,
+    "end_seconds": 2127.203265,
+    "text": "Bye bye."
+  }
+]

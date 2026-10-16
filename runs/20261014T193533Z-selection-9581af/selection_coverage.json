@@ -1,0 +1,75 @@
+{
+  "counts": {
+    "accept": 13,
+    "reject": 1,
+    "defer": 2
+  },
+  "accepted_by_kind": {
+    "feed": 9,
+    "podcast": 2,
+    "youtube": 2
+  },
+  "accepted_publisher_groups": [
+    "allenai",
+    "google",
+    "huggingface",
+    "latent-space",
+    "liquidai",
+    "matt-wolfe",
+    "simon-willison",
+    "techcrunch",
+    "tiiuae"
+  ],
+  "pieces": {
+    "01": {
+      "item_count": 9,
+      "publisher_groups": [
+        "google",
+        "huggingface",
+        "liquidai",
+        "matt-wolfe",
+        "techcrunch",
+        "tiiuae"
+      ],
+      "by_kind": {
+        "feed": 7,
+        "youtube": 2
+      }
+    },
+    "02": {
+      "item_count": 8,
+      "publisher_groups": [
+        "allenai",
+        "google",
+        "huggingface",
+        "latent-space",
+        "liquidai",
+        "matt-wolfe",
+        "tiiuae"
+      ],
+      "by_kind": {
+        "feed": 5,
+        "podcast": 1,
+        "youtube": 2
+      }
+    },
+    "03": {
+      "item_count": 9,
+      "publisher_groups": [
+        "allenai",
+        "google",
+        "latent-space",
+        "liquidai",
+        "simon-willison",
+        "techcrunch",
+        "tiiuae"
+      ],
+      "by_kind": {
+        "feed": 7,
+        "podcast": 2
+      }
+    }
+  },
+  "independence_verified": false,
+  "human_approval": false
+}

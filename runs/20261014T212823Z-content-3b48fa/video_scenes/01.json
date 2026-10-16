@@ -1,0 +1,46 @@
+{
+  "piece_id": "01",
+  "scenes": [
+    {
+      "narration": "When a new AI model is announced, “available” can mean several different things. You might need a paid subscription, download model files to run them yourself, or settle for a web demo while fuller access is still planned. Those differences affect who can try a release and how. Here are four recent examples—and what their announcements and demonstrations can, and cannot, tell us.",
+      "visual": "Open on an illustrative three-way comparison card: paid hosted access, downloadable weights, demo. Label the graphic illustrative; do not show invented product interfaces.",
+      "claim_ids": [
+        "01-c6"
+      ]
+    },
+    {
+      "narration": "Google says Gemini 4 Argon is available to developers and enterprises through its API, and to consumers through Google AI Pro and Ultra subscriptions in the Gemini app and AI Mode in Search. That describes routes to use, not proof of quality. Matt Wolfe, who disclosed early access and a Google briefing, offers a small, more personal glimpse: a task stalled for about an hour, while another produced a six-slide deck explaining prompt injection, a kind of attack that tries to manipulate an AI using hidden or misleading instructions. Both outcomes came from one demonstration. They are not a controlled test of what users should generally expect.",
+      "visual": "Use a labeled comparison card for Google’s announced API and subscription routes. Add a separate text card, attributed to Matt Wolfe, with early access and a Google briefing disclosed: “One task stalled; a six-slide deck was produced.” No fabricated screenshots.",
+      "claim_ids": [
+        "01-c1",
+        "01-c2"
+      ]
+    },
+    {
+      "narration": "Liquid AI offers a different route. The company says its LFM2.5-24B-A2B reasoning model is open-weight and downloadable now. Open-weight means the model’s learned numerical settings can be obtained; it does not, by itself, mean every part of a project is open source. Liquid AI describes 24 billion total parameters, with two billion active per token. A token is a small unit of text, such as a word fragment. Parameters are internal values a model uses to process information; here, the active count indicates that only part of the model is used for each token. Downloading may suit people who want to run a model locally, but that depends on their hardware and setup.",
+      "visual": "Illustrative diagram: a full network with a smaller selected portion highlighted per token. Label figures as Liquid AI claims and label diagram illustrative.",
+      "claim_ids": [
+        "01-c3"
+      ]
+    },
+    {
+      "narration": "TII’s Falcon-ASR is a speech-recognition model with a more limited access offer: TII says people can try it in a Hugging Face demo, while API access and native applications are planned. Planned is not the same as available now. A separate Hugging Face article describes ML Intern, an agent-assisted workflow for building task-specific models. Its author reports that the workflow helped train, evaluate, and publish models, including a 0.8-billion-parameter prompt rewriter that runs on a CPU—the computer’s general-purpose processor. That is an author-reported project, not independent confirmation that other users will get the same result.",
+      "visual": "Show a labeled access card for Falcon-ASR: “Demo available; API and native apps planned,” attributed to TII. Follow with an illustrative workflow diagram: train, evaluate, publish; attribute CPU-model example to the author.",
+      "claim_ids": [
+        "01-c4",
+        "01-c5"
+      ]
+    },
+    {
+      "narration": "Together, the releases offer distinct choices: paid hosted access, downloadable weights, a demo with fuller access still pending, and a workflow for making a specialized model. They do not tell us which option users prefer, or which model performs best. The product descriptions and project results largely come from the companies or authors involved, and access conditions can change. So before trying one, ask: what can I use today, what does it require, and what evidence supports the result I care about?",
+      "visual": "Return to the illustrative comparison card and add a final checklist: “Available now?”, “What does it require?”, “Who reports the result?”",
+      "claim_ids": [
+        "01-c1",
+        "01-c3",
+        "01-c4",
+        "01-c5",
+        "01-c6"
+      ]
+    }
+  ]
+}

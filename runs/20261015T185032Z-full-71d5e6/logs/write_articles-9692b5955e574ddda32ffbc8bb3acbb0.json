@@ -1,0 +1,43 @@
+{
+  "stage": "write_articles",
+  "status": "completed",
+  "input_count": 3,
+  "output_count": 3,
+  "started_at": "2026-10-15T18:56:45.000417Z",
+  "tools": [
+    "Python stdlib",
+    "curl"
+  ],
+  "models": [
+    "gpt-6-luna"
+  ],
+  "cost_usd": 0.01234,
+  "cost_note": "Conservative token-fee estimate at cache-write input rates, without cached-input discounts; local costs unmeasured. Prices checked 2026-10-14",
+  "errors": [],
+  "request_fingerprint": "cc323f96eaf4492d05ede869d52c4d5e23cbfb634dd2e68ff28c9ac26310931c",
+  "request_bytes": 322840,
+  "request_fee_upper_bound_usd": 0.09321,
+  "model_requests": [
+    {
+      "status": "completed",
+      "estimated_cost_usd": 0.01234
+    }
+  ],
+  "cost_is_estimate": true,
+  "usage": {
+    "input_tokens": 83055,
+    "input_tokens_details": {
+      "cache_write_tokens": 83052,
+      "cached_tokens": 0
+    },
+    "output_tokens": 3917,
+    "output_tokens_details": {
+      "reasoning_tokens": 679
+    },
+    "total_tokens": 86972
+  },
+  "resolved_model": "gpt-6-luna",
+  "citation_number_normalizations": [],
+  "finished_at": "2026-10-15T18:57:36.303473Z",
+  "exit_code": 0
+}

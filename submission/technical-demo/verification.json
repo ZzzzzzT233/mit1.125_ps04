@@ -1,0 +1,31 @@
+{
+  "checked_at": "2026-10-16T02:48:09.759018Z",
+  "file": "technical-demo.mp4",
+  "source": "Photos video dated October 15, 2026 at 22:29:49 America/New_York; exported current edited version, excluding location/title metadata; lossless remux to MP4. Original remains in Photos.",
+  "duration_seconds": 251.72,
+  "size_bytes": 5686257,
+  "sha256": "73381602fc6ee3a78f8ef6e77e818445e3a950712766ab0882ef6982805ad729",
+  "streams": [
+    {
+      "codec_name": "h264",
+      "codec_type": "video",
+      "width": 1440,
+      "height": 900,
+      "duration": "251.720000"
+    },
+    {
+      "codec_name": "aac",
+      "codec_type": "audio",
+      "duration": "251.693333"
+    }
+  ],
+  "complete_decode": "passed: ffmpeg decoded full video/audio to null output",
+  "visual_spot_checks_seconds": [
+    30,
+    120,
+    220
+  ],
+  "visual_spot_check_result": "Observed architecture/entry command, source-to-claim evidence, policy and run comparison, and review/tradeoff material.",
+  "full_listening_review": false,
+  "note": "Media integrity and sampled frames were checked. This is not a word-by-word audio or full privacy review."
+}

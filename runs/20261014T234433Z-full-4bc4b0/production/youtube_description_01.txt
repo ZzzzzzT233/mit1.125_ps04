@@ -1,0 +1,22 @@
+A Release Is Only as Useful as Its Route to Users
+
+AI Frontier Watch — evidence edition: October 14, 2026 UTC.
+
+Read the matching article: https://tongzhou2.substack.com/p/a-release-is-only-as-useful-as-its
+
+This video uses AI-generated English narration and illustrative graphics. Company-reported results and interview statements are attributed in the presentation; they are not independent replications.
+
+Sources and referenced passages:
+Evidence as of 2026-10-14 UTC. Access conditions may change after publication.
+
+[1] [Gemini 4 Argon: Built to solve your hardest problems](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/).
+
+[2] [Run fast, private agents on-device with LFM2.5-24B-A2B](https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b).
+
+[3] [Introducing Falcon ASR](https://huggingface.co/blog/tiiuae/falcon-asr).
+
+[4] [Introducing Playground: Create and play custom games](https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/).
+
+[5] [Google Just Caught Up (Gemini-4 Argon)](https://www.youtube.com/watch?v=eBszYxzE2dk) (00:14:44–00:14:48); [Google Just Caught Up (Gemini-4 Argon)](https://www.youtube.com/watch?v=eBszYxzE2dk) (00:15:19–00:15:22); [Google Just Caught Up (Gemini-4 Argon)](https://www.youtube.com/watch?v=eBszYxzE2dk) (00:15:46–00:15:50); [Google Just Caught Up (Gemini-4 Argon)](https://www.youtube.com/watch?v=eBszYxzE2dk) (00:05:02–00:05:06); [Google Just Caught Up (Gemini-4 Argon)](https://www.youtube.com/watch?v=eBszYxzE2dk) (00:13:34–00:13:39).
+
+[6] [Gemini 4 Argon: Built to solve your hardest problems](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/); [Run fast, private agents on-device with LFM2.5-24B-A2B](https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b); [Introducing Falcon ASR](https://huggingface.co/blog/tiiuae/falcon-asr); [Introducing Playground: Create and play custom games](https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/).

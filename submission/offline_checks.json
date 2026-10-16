@@ -1,0 +1,32 @@
+{
+  "checked_at": "2026-10-16T02:53:55.015815Z",
+  "offline_checks": [
+    {
+      "command": ".venv/bin/python tests/test_collection.py",
+      "exit_code": 0
+    },
+    {
+      "command": ".venv/bin/python tests/test_selection.py",
+      "exit_code": 0
+    },
+    {
+      "command": ".venv/bin/python tests/test_briefs.py",
+      "exit_code": 0
+    },
+    {
+      "command": ".venv/bin/python tests/test_drafts.py",
+      "exit_code": 0
+    },
+    {
+      "command": ".venv/bin/python tests/test_workflows.py",
+      "exit_code": 0
+    }
+  ],
+  "offline_checks_note": "Executed during submission preparation. Negative-case diagnostic messages are expected; all five scripts exited 0. No paid API calls.",
+  "bash_syntax": "passed for all project Bash scripts",
+  "first_live_review_current": true,
+  "first_approved_package_current": true,
+  "second_live_review_current": true,
+  "second_student_approval_present": false,
+  "original_assignment_preserved_byte_for_byte": true
+}

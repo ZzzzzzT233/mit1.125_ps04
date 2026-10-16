@@ -1,0 +1,30 @@
+{
+  "stage": "transcription_transport_smoke",
+  "status": "completed",
+  "input_count": 1,
+  "output_count": 1,
+  "started_at": "2026-10-14T18:10:47.985840Z",
+  "tools": [
+    "Python stdlib",
+    "curl",
+    "ffmpeg"
+  ],
+  "models": [
+    "whisper-1"
+  ],
+  "cost_usd": 0.0005,
+  "cost_note": "Estimated API transcription fees only; local compute/transfer not measured. Rate checked 2026-10-14",
+  "errors": [],
+  "note": "Live five-second excerpt to verify the IPv4 curl transport. Not an additional substantive evidence item.",
+  "transcription_requests": [
+    {
+      "offset_seconds": 0,
+      "status": "completed",
+      "estimated_cost_usd": 0.0005,
+      "billed_or_estimated_seconds": 5
+    }
+  ],
+  "cost_is_estimate": true,
+  "finished_at": "2026-10-14T18:11:00.681049Z",
+  "exit_code": 0
+}

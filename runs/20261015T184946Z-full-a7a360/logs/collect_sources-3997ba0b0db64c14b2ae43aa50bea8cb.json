@@ -1,0 +1,17 @@
+{
+  "stage": "collect_sources",
+  "status": "incomplete",
+  "exit_code": 1,
+  "started_at": "2026-10-15T18:50:09Z",
+  "finished_at": "2026-10-15T18:50:24.163656Z",
+  "input_count": 0,
+  "output_count": 19,
+  "tools": [
+    "Bash"
+  ],
+  "models": [],
+  "cost_usd": null,
+  "errors": [
+    "One or more collection components failed; inspect their receipts."
+  ]
+}

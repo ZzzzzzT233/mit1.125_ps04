@@ -1,0 +1,1279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:yt="http://www.youtube.com/xml/schemas/2015" xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom">
+ <link rel="self" href="http://www.youtube.com/feeds/videos.xml?channel_id=UCNJ1Ymd5yFuUPtn21xtRbbw"/>
+ <id>yt:channel:NJ1Ymd5yFuUPtn21xtRbbw</id>
+ <yt:channelId>NJ1Ymd5yFuUPtn21xtRbbw</yt:channelId>
+ <title>AI Explained</title>
+ <link rel="alternate" href="https://www.youtube.com/channel/UCNJ1Ymd5yFuUPtn21xtRbbw"/>
+ <author>
+  <name>AI Explained</name>
+  <uri>https://www.youtube.com/channel/UCNJ1Ymd5yFuUPtn21xtRbbw</uri>
+ </author>
+ <published>2023-01-03T15:41:34+00:00</published>
+ <entry>
+  <id>yt:video:C4Sq3Rot8FU</id>
+  <yt:videoId>C4Sq3Rot8FU</yt:videoId>
+  <yt:channelId>UCNJ1Ymd5yFuUPtn21xtRbbw</yt:channelId>
+  <title>AI Labs Warn Race Makes Breach ‘Inevitable’</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=C4Sq3Rot8FU"/>
+  <author>
+   <name>AI Explained</name>
+   <uri>https://www.youtube.com/channel/UCNJ1Ymd5yFuUPtn21xtRbbw</uri>
+  </author>
+  <published>2026-10-12T22:52:31+00:00</published>
+  <updated>2026-10-14T15:54:24+00:00</updated>
+  <media:group>
+   <media:title>AI Labs Warn Race Makes Breach ‘Inevitable’</media:title>
+   <media:content url="https://www.youtube.com/v/C4Sq3Rot8FU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/C4Sq3Rot8FU/hqdefault.jpg" width="480" height="360"/>
+   <media:description>In the week that software got reverse engineered, Sam Altman warned 6.1 Astra ‘tipped toward [breach risk], and Muse Wonder showed the race isn’t slowing, I try to step back and show where it is all going, on current trends. Agree or disagree, it is certainly interesting times.
+
+Exclusives, and ad-free early access vids ($9!): https://www.patreon.com/AIExplained
+
+Chapters:
+00:00 - Introduction
+0:41 Part 1: The Forthcoming Breach
+8:43 Part 2: Why the Labs Keep Racing
+15:41 Part 3: Why the Next 18 Months Are Hard to Predict
+
+
+Sam Altman: the accident risk, Vanity Fair: https://www.vanityfair.com/story/sam-altman-exclusive-interview-part-2
+
+Dario Amodei: We Must Pace the Frontier: https://darioamodei.com/post/we-must-pace-the-frontier
+
+Jakub Pachocki: An Alien Mind: https://openai.com/index/an-alien-mind/
+
+OpenAI: progress in mathematics: https://openai.com/index/sharing-ai-progress-in-mathematics/
+
+OpenAI mathematical manuscripts: https://github.com/openai/math
+
+AHM statement on OpenAI’s mathematics release: https://terrytao.wordpress.com/2026/10/07/ahm-statement-on-openais-october-6-release-of-mathematical-documents/
+
+TasteVal: research taste in AI systems: https://pzeroresearch.com/work/tasteval/
+
+TasteVal paper: https://arxiv.org/abs/2610.06824
+
+Claude Opus 5.5 system card: https://anthropic.com/claude-opus-5-5-system-card
+
+Jack Clark: creativity and recursive self-improvement: https://jack-clark.net/2026/10/12/import-ai-476-creativity-and-rsi-worse-than-china-open-weight-models-ai-goes-to-space/
+
+Andrej Karpathy: the widening AI perception gap: https://x.com/karpathy/status/2109361546505966046
+
+Axios: AI companies plan for a major incident: https://www.axios.com/2026/10/09/ai-companies-day-after-major-attack
+
+Anthropic: investigating unintended model actions: https://www.anthropic.com/research/investigating-unintended-model-actions
+
+CIAware-Bench: detecting control interventions: https://arxiv.org/abs/2606.11063
+
+Yoshua Bengio: prioritizing safety at frontier labs: https://www.transformernews.ai/p/yoshua-bengio-if-you-prioritize-safety-leave-frontier-ai-companies
+
+David Silver: Where are we going without AI?: https://www.ft.com/content/462c303b-b96c-4262-a7ca-e9ae7e440828
+
+Satya Nadella: models as insider risks: https://x.com/satyanadella/status/2108931348857827686
+
+Beyond Owls: skills, hacking and backdoors: https://arxiv.org/abs/2610.10657
+
+Owain Evans: backdoors through number sequences: https://x.com/OwainEvans_UK/status/2108589303249166621
+
+The Verge: mathematicians assess OpenAI’s release: https://www.theverge.com/ai-artificial-intelligence/1008726/openai-mathematics-solutions-chaos
+
+New York Times: AI models and Hurricane Isaias: https://www.nytimes.com/2026/10/09/weather/ai-models-hurricane-isaias.html
+
+Politico: AI agents and the law: https://www.politico.com/news/2026/10/12/AI-agents-hacking-cases
+
+The Economist: liability law will not tame AI: https://www.economist.com/united-states/2026/10/08/liability-law-will-not-tame-ai
+
+Olivia Scharfman and David Bellamy: biosecurity and AI: https://writing.oliviahelens.com/p/biosecurity-ai-and-the-culture-war
+
+Alignment Engineering vs Misalignment Science: https://www.lesswrong.com/posts/FogmcDHA6AdMGukum/alignment-engineering-vs-misalignment-science
+
+Sam Altman: the US lead in AI: https://x.com/sama/status/2080683363174945065
+
+The Guardian: China and the AI race: https://www.theguardian.com/technology/ng-interactive/2026/sep/19/china-ai-foreign-policy-dario-amodei
+
+Joe on AI sandboxes and security: https://x.com/joedaroo/status/2104335929293127851
+
+REA: Reverse Engineer Anything: https://www.reddit.com/r/tech_x/comments/1x2d66l/github_project_called_rea_reverse_engineer/
+
+Nikita Bier: AI-assisted fabrication: https://x.com/nikitabier/status/2106104189457952911
+
+Sam Altman: how sci-fi will it get?: https://x.com/vikktorrrre/status/2107736059006050810
+
+
+
+Non-hype Newsletter: https://signaltonoise.beehiiv.com/
+
+Podcast: https://aiexplainedopodcast.buzzsprout.com/</media:description>
+   <media:community>
+    <media:starRating count="2623" average="5.00" min="1" max="5"/>
+    <media:statistics views="121739"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:_rtp1XzaP6Q</id>
+  <yt:videoId>_rtp1XzaP6Q</yt:videoId>
+  <yt:channelId>UCNJ1Ymd5yFuUPtn21xtRbbw</yt:channelId>
+  <title>OpenAI Security: Controlling Models is Now ‘Hell’</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=_rtp1XzaP6Q"/>
+  <author>
+   <name>AI Explained</name>
+   <uri>https://www.youtube.com/channel/UCNJ1Ymd5yFuUPtn21xtRbbw</uri>
+  </author>
+  <published>2026-10-01T21:20:12+00:00</published>
+  <updated>2026-10-04T23:40:22+00:00</updated>
+  <media:group>
+   <media:title>OpenAI Security: Controlling Models is Now ‘Hell’</media:title>
+   <media:content url="https://www.youtube.com/v/_rtp1XzaP6Q?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/_rtp1XzaP6Q/hqdefault.jpg" width="480" height="360"/>
+   <media:description>This video is hard to summarise. A cracked cipher, an OpenAI security warning, Gemini 4 Argon, RSI paper (co-authored by a who’s who of AI), Lab White House commitments, new hacks emerging, ‘deep personas’, biology Kasparov competitions, and so much more, ending with an epic Opus outro.
+
+
+Patreon Exclusives: https://www.patreon.com/AIExplained
+
+Chapters:
+00:00 - Introduction
+01:32 - Wrong about Opus 5.5? Deciphering 16th Century Text
+05:01 - Why the models keep breaking out
+11:40 - What the models aren't telling us
+15:36 - Gemini 4 and the race to release
+19:19 - What happens when AI improves AI?
+28:31 - Biology, consciousness, and what we still don't understand
+
+
+Joe Darrow: Not Just the Sandbox: https://x.com/joedaroo/status/2104335929293127851
+
+GPT-6.1 Sol System Card: https://cdn.openai.com/pdf/38e3efcf-545e-44cd-99ec-2b7eb395f4cc/oai_GPT_6_1_Sol.pdf
+
+Intelligence Explosion Paper: https://casp.ac/__l5e/assets-v1/5efd4b41-deb5-4513-a0a3-b4f82d2b79ea/intelligence-explosion.pdf
+
+OpenAI Research Acceleration: https://openai.com/index/research-acceleration-view-inside-openai/
+
+OpenAI Training Safety Cases: https://openai.com/index/towards-safety-cases-for-frontier-ai-training/
+
+Catherine de Medicis Cipher: https://cryptiana.web.fc2.com/code/henryiii.htm
+
+Proposed du Croc Decipherment: https://claude.ai/artifact/1W7B3WxkTAEGzfv3TaKXb4
+
+Rogue Agents Investigation: https://asymmetricsecurity.com/newsroom/rogue-agents-investigation/
+
+OpenAI Shelves GPT-6.1 Astra: https://www.reuters.com/business/openai-shelves-new-ai-model-after-internal-safety-tests-wsj-reports-2026-09-28/
+
+The Case for Reasoning Transparency: https://institute.deepmind.com/essays/the-case-for-reasoning-transparency/
+
+Gemini 4 Argon: https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/
+
+OpenAI–Anthropic Rivalry: https://www.theatlantic.com/technology/2026/09/openai-v-anthropic-inside-biggest-rivalry-tech/688819/
+
+NYT: OpenAI Security Warnings: https://www.nytimes.com/2026/09/29/technology/openai-warnings-security.html
+
+NYT: Claude’s Morals: https://www.nytimes.com/2026/09/29/us/anthropic-claude-morals-ai.html
+
+Jasmine Wang on RSI: https://x.com/j_asminewang/status/2097840245786157432
+
+OpenAI Departures Roundup: https://x.com/Bayesian0_0/status/2105680470566686805
+
+White House AI Commitments: https://x.com/Danmar_here/status/2105168138392183146
+
+Sarah Heck on Safety: https://x.com/SarahKHeck/status/2105058513370448280
+
+Sam Altman on Alignment: https://x.com/tbpn/status/2105028992843833459
+
+Sam Altman on Agent Logs: https://x.com/sama/status/2103567198690349362
+
+Micah Carroll: Misalignment Reports: https://x.com/MicahCarroll/status/2103665811051397256
+
+Zuxin Liu on the Incident: https://x.com/LiuZuxin/status/2103699462648639645
+
+Deepa Seetharaman: User Images: https://x.com/dseetharaman/status/2103585482793943203
+
+OpenAI Revenue Chart: https://x.com/PaulBonnet/status/2105288259324567884/photo/1
+
+Nvidia Agent Safety Platform: https://edition.cnn.com/2026/09/28/business/nvidia-ai-safety-system
+
+IntegrityBench: https://integrity-bench.com
+
+Neel Nanda on Interpretability: https://x.com/PalisadeAI/status/2104949061325652001
+
+Biology Contest: Humans and AI: https://www.theinformation.com/articles/inside-drama-behind-biology-contest-pits-openai-agents-humans
+
+Pushmeet Kohli: SynthID Bio: https://x.com/pushmeet/status/2105314763148321102
+
+Ataraxos and Stratego: https://x.com/ssokota/status/2105362040328159526
+
+Benign Data and Hidden Personas: https://x.com/OwainEvans_UK/status/1999172949975392417
+
+Anthropic: Introspection: https://www.anthropic.com/research/introspection
+
+Claude Cheating Results: https://x.com/lukaspet/status/2104634759339298930
+
+Roon on Mathematics and Learning Theory: https://x.com/tszzl/status/2105619006488993898
+
+GPT-4 Research: https://openai.com/index/gpt-4-research/
+
+I.J. Good: Ultraintelligent Machine: https://incompleteideas.net/papers/Good65ultraintelligent.pdf
+
+Terence Tao’s 2024 Interview: https://www.scientificamerican.com/article/ai-will-become-mathematicians-co-pilot/
+
+Hugging Face Incident: https://openai.com/index/hugging-face-incident-and-the-road-ahead/
+
+Claude and Suno Music Video: https://x.com/sevdeawesome/status/2104985610012504181
+
+
+
+Podcast: https://aiexplainedopodcast.buzzsprout.com/</media:description>
+   <media:community>
+    <media:starRating count="4599" average="5.00" min="1" max="5"/>
+    <media:statistics views="281254"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:R9momwXV9w4</id>
+  <yt:videoId>R9momwXV9w4</yt:videoId>
+  <yt:channelId>UCNJ1Ymd5yFuUPtn21xtRbbw</yt:channelId>
+  <title>Opus 5.5: How Close Are We to Automated AI Research?</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=R9momwXV9w4"/>
+  <author>
+   <name>AI Explained</name>
+   <uri>https://www.youtube.com/channel/UCNJ1Ymd5yFuUPtn21xtRbbw</uri>
+  </author>
+  <published>2026-09-24T22:51:54+00:00</published>
+  <updated>2026-10-02T07:56:55+00:00</updated>
+  <media:group>
+   <media:title>Opus 5.5: How Close Are We to Automated AI Research?</media:title>
+   <media:content url="https://www.youtube.com/v/R9momwXV9w4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/R9momwXV9w4/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Not only is Opus 5.5 out, pushing the frontier of AI, it also tells us much about what is going on inside the labs, as they both warn about, and promise, Recursive Self Improvement, aka automated AI research. I cover the model (digging into its 230 page paper), labs’ mixed record on promises, why following what is happening in AI is getting almost impossible, and just so much more that even a summary in this description would get too long.
+
+
+AI Insiders ($9!): https://www.patreon.com/AIExplained
+
+Chapters:
+00:00 - Introduction
+02:20 - Opus 5.5 and why it came so soon
+07:52 - The RSI goalposts keep moving?
+15:41 - Can we actually test these models?
+23:50 - where this is heading, options
+
+
+Introducing Claude Opus 5.5: https://www.anthropic.com/claude-opus-5-5
+Claude Opus 5.5 System Card: https://www-cdn.anthropic.com/fc1b44717c85dc068bc6ba5024219938094694bd/Claude%20Opus%205.5%20System%20Card.pdf
+Anthropic: Measurements for understanding the pace of AI development inside frontier labs: https://www.anthropic.com/institute/measuring-pace-of-ai-development
+Anthropic Responsible Scaling Policy, July 2026, version 3.4: https://www-cdn.anthropic.com/files/4zrzovbb/website/0bacdc8440ea96e62a8766d99ebe1d4eea6d5f3a.pdf
+Anthropic Responsible Scaling Policy, October 2024: https://www-cdn.anthropic.com/616dee633636e5bd309cb73aed8622e80fe47839.pdf
+Anthropic Responsible Scaling Policy — March 2025, version 2.1: https://www-cdn.anthropic.com/17310f6d70ae5627f55313ed067afc1a762a4068.pdf
+Noam Brown, Agent swarms and recursive self-improvement: https://www.youtube.com/watch?v=6AgOfiZOWiY
+OpenAI: Building standards for the next phase of AI: https://openai.com/index/building-standards-next-phase-ai/
+Jakub Pachocki: An Alien Mind: https://openai.com/index/an-alien-mind/
+HLE-Diamond, Humanity’s Last Exam: https://lastexam.ai/blog/hle-diamond
+Google, OpenAI and Anthropic AI Safety, The Information: https://www.theinformation.com/articles/google-openai-anthropic-ai-safety-group-takes-shape
+Lawrence Chan on AI agents attempting cryptocurrency trades: https://x.com/justanotherlaw/status/2103032173708337188
+Australian government incident timeline: https://x.com/ShakeelHashim/status/2103108058779922577/photo/1
+Anthropic’s core/old views on AI safety: https://www.anthropic.com/news/core-views-on-ai-safety
+Dario Amodei: The Urgency of Interpretability: https://darioamodei.com/post/the-urgency-of-interpretability
+Massive AI-Fueled Hack Hit 100 Companies in Days, Forbes: https://www.forbes.com/sites/thomasbrewster/2026/09/22/huge-cyberattack-uses-anthropic-and-deepseek-ai-to-target-100-companies/
+DrivingBench https://x.com/DrivingBench/status/2102110605448737268
+Jay Chooi: GPT-6 Astra and MolmoAct2 robotics comparison: https://x.com/chooi_jeq/status/2098427488787730636
+ZeroBench: An Impossible Visual Benchmark for Contemporary Large Multimodal Models: https://arxiv.org/pdf/2502.09696
+Archie Hall on AI and short-term superforecasting: https://x.com/ArchieHall/status/2100914560580337897
+
+Keller Jordan, AI research and reinforcement learning: https://x.com/kellerjordan0/status/2102956913545936959
+Daniel Liu, recursive self-improvement: https://x.com/daniel_c0deb0t/status/2102628246408036654
+Altman and Amodei, UN Security Council: https://www.theguardian.com/world/2026/sep/23/unga-sam-altman-dario-amodei
+Rehan Sheikh: Interactive YT podcast demo: https://x.com/rehan_shei/status/2102835377426034734
+https://simple-bench.com/
+
+AI Explained: The State of AI — interactive diagram: https://claude.ai/artifact/LQHr9WgvQZ6cMdH6fkiQpi
+AI Explained: Shards of Aether: https://ai-explained.itch.io/shards-of-aether
+
+roon on the pace of cultural change: https://x.com/tszzl/status/2101462171410677962
+Sam Altman on AI-risk: https://www.youtube.com/watch?v=YE5adUeTe_I
+Jensen Huang’s AI-control remarks: https://x.com/_NathanCalvin/status/2102756997649355231/photo/2
+s1r1us on an upcoming vulnerability disclosure: https://x.com/S1r1u5_/status/2102467878423592969
+Jake Adler on biodefense infrastructure: https://x.com/jakeadler/status/2102812430808363433
+Derek Thompson: Why we’re wrong about China and AI: https://x.com/DKThomp/status/2103120690370982017/photo/1
+Sanders and Casar introduce the Ban Artificial Superintelligence Act: https://www.sanders.senate.gov/press-releases/news-sanders-casar-introduce-legislation-to-create-new-federal-agency-to-ban-artificial-superintelligence-pause-advanced-ai-development/
+
+
+
+Non-hype Newsletter: https://signaltonoise.beehiiv.com/
+
+Podcast: https://aiexplainedopodcast.buzzsprout.com/</media:description>
+   <media:community>
+    <media:starRating count="4602" average="5.00" min="1" max="5"/>
+    <media:statistics views="303684"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:J3ljHm57yU0</id>
+  <yt:videoId>J3ljHm57yU0</yt:videoId>
+  <yt:channelId>UCNJ1Ymd5yFuUPtn21xtRbbw</yt:channelId>
+  <title>What AI Researchers Saw, Before Their Demand to ‘Pace’ AI</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=J3ljHm57yU0"/>
+  <author>
+   <name>AI Explained</name>
+   <uri>https://www.youtube.com/channel/UCNJ1Ymd5yFuUPtn21xtRbbw</uri>
+  </author>
+  <published>2026-09-16T20:51:40+00:00</published>
+  <updated>2026-09-30T11:37:53+00:00</updated>
+  <media:group>
+   <media:title>What AI Researchers Saw, Before Their Demand to ‘Pace’ AI</media:title>
+   <media:content url="https://www.youtube.com/v/J3ljHm57yU0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/J3ljHm57yU0/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Why has it been the last few days that the calls to come to pace the frontier AI have come so loudly? The safety warnings, and lab leader messages? Let’s explore the six axes that the researchers are looking at, the incidence reports and trends, to get a better gauge on what has dominated the world’s headlines for over two weeks…
+
+AI Insiders ($9!): https://www.patreon.com/AIExplained
+
+Chapters:
+00:00 - Introduction
+0:00 - The warnings that have gone omega-viral
+4:23 - Six axes the researchers saw
+9:32 - Why AI Might Be Becoming Harder to Control
+15:06 - Amodei, China and Cooperation
+18:42 - From AI Capabilities to Real-World Harm?
+23:22 - The upside and the warning
+
+We Must Pace the Frontier
+https://darioamodei.com/post/we-must-pace-the-frontier
+
+Adam Majmudar on scaling and the internal/external perception gap
+https://x.com/MajmudarAdam/status/2098881885200081234
+
+AI Explained — What’s Behind the Sudden Talk of Pacing AI? (extended previous video)
+https://www.patreon.com/AIExplained/posts/whats-behind-of-169507775
+
+Jacob Coxon resignation
+https://x.com/hilbertspaess/status/2097476196791709843
+
+Dan Selsam — Personal Statement on AI Risk
+https://docs.google.com/document/d/e/2PACX-1vQNl3SEX5IyA6d9qHjjFZN-qzGRZNFI6b63g-yu1Fy-ZYkVfCWm7i9WXRXw63m6yDB_auDuPLyQ7jBm/pub
+
+Demis Hassabis: A Framework for Frontier AI and the Dawning of a New Age
+https://demishassabis.substack.com/p/a-framework-for-frontier-ai-and-the-dawning-of-a-new-age
+
+OpenAI: The Hugging Face incident and the road ahead
+https://openai.com/index/hugging-face-incident-and-the-road-ahead/
+
+Jakub Pachocki: An Alien Mind
+https://openai.com/index/an-alien-mind/
+
+Anthropic: Patterns and problems in multiagent systems
+https://www.anthropic.com/research/multiagent-systems
+
+OpenAI: Navier–Stokes Millennium Prize Problem
+https://openai.com/index/navier-stokes-solution/
+
+Noam Brown on reasons for AI-safety concern
+https://x.com/polynoamial/status/2099726370356314563
+
+Noam Brown — What Happens When AI Starts Improving AI? (The Information interview)
+https://www.youtube.com/watch?v=fqcy0xQATq0
+
+Paul Christiano: Personal statement on joining the OpenAI board
+https://x.com/paulfchristiano/status/2097733214303645729
+
+Neel Nanda: Astra can do a concerning amount with no chain of thought
+https://www.lesswrong.com/posts/eRmzz8J8Qkzqvzrgg/astra-can-do-a-concerning-amount-with-no-chain-of-thought
+
+Tomek Korbak on GPT-6 Astra monitorability
+https://x.com/tomekkorbak/status/2095596839886274689
+
+Anthropic: Detecting and countering misuse of AI—September 2026
+https://www.anthropic.com/threat-intelligence-report-september-2026
+
+DeepSeek engineer — I Have to Bury My Talent in Yesterday (Chinese original)
+https://mp.weixin.qq.com/s/zk0KxuLzhmMJ4LPYW_OHMA
+
+Jacob Coxon on AI race and negotiation
+https://x.com/hilbertspaess/status/2099954626040905834
+
+Mo Bavarian on responsibility and AI progress
+https://x.com/mobav0/status/2097507030080888864
+
+Addy Osmani on Anthropic engineering throughput
+https://x.com/addyosmani/status/2099577600159158765
+
+OpenAI: Jalapeño inference-chip results
+https://openai.com/index/jalapeno-first-results/
+
+New York Times: For China, a Mock AI Attack on WeChat Signals a Dangerous New Era
+https://www.nytimes.com/2026/09/11/world/asia/china-ai-attack-wechat.html
+
+OpenAI: Accelerating antibiotic discovery with ChatGPT
+https://openai.com/index/accelerating-antibiotic-discovery/
+
+David Bellamy on wet-lab bottlenecks
+https://x.com/DavidRBellamy/status/2099197234772607026
+
+Chris Rohlf on infrastructure and AI risk
+https://x.com/chrisrohlf/status/2099867580668215622
+
+BBC: Titan CEO dismissed safety warnings as baseless cries
+https://www.bbc.co.uk/news/world-us-canada-65998914
+
+
+Non-hype Newsletter: https://signaltonoise.beehiiv.com/
+
+Podcast: https://aiexplainedopodcast.buzzsprout.com/</media:description>
+   <media:community>
+    <media:starRating count="4724" average="5.00" min="1" max="5"/>
+    <media:statistics views="234842"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:Spuza-KwTJ4</id>
+  <yt:videoId>Spuza-KwTJ4</yt:videoId>
+  <yt:channelId>UCNJ1Ymd5yFuUPtn21xtRbbw</yt:channelId>
+  <title>GPT 6 Astra, so good even OpenAI are worried</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=Spuza-KwTJ4"/>
+  <author>
+   <name>AI Explained</name>
+   <uri>https://www.youtube.com/channel/UCNJ1Ymd5yFuUPtn21xtRbbw</uri>
+  </author>
+  <published>2026-09-04T11:37:27+00:00</published>
+  <updated>2026-10-10T22:08:35+00:00</updated>
+  <media:group>
+   <media:title>GPT 6 Astra, so good even OpenAI are worried</media:title>
+   <media:content url="https://www.youtube.com/v/Spuza-KwTJ4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/Spuza-KwTJ4/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Where to start? A new era of cost-efficient AI on a day benchmark-makers got humbled, traders got excited, and AI safety researchers got unnerved. From monitorability losing hold of GPT-6 Astra’s chains of thought to breakthrough discoveries, Fable-mogging and much more…
+
+Exclusive Vids ($9!): https://www.patreon.com/AIExplained
+
+Chapters:
+00:00 - Introduction
+00:53 - vs Fable
+05:27 - most impressive results
+13:06 - bonus comparisons (plus trading)
+18:40 - concerning trend
+21:24 - Cot Control
+
+GPT-6: https://openai.com/index/gpt-6-astra/
+Paper: https://deploymentsafety.openai.com/gpt-6-astra/gpt-6-astra.pdf
+
+Looped Transformers and AGI Milestone: https://www.patreon.com/AIExplained/posts/breakthrough-and-168513408
+
+Messy Rollout: https://x.com/sama/status/2095678759651438887
+Much More Capable Models Coming: https://x.com/MTSlive/status/2095573400899170592
+‘AGI Era’ https://www.theverge.com/ai-artificial-intelligence/989601/openai-gpt-6-astra-release
+
+ARC-AGI 3: https://x.com/fchollet/status/2095598451115614371
+https://x.com/fchollet/status/2095607046129463577
+https://arcprize.org/blog/astra
+
+FrontierMath: https://epoch.ai/frontiermath/tiers-1-4/about
+Discovery: https://x.com/jdlichtman/status/2095660916310483087
+
+Fable 5.1: https://www.anthropic.com/claude-fable-and-mythos-5-1
+https://science-task-lens.aiex.chatgpt.site/securebio
+Agents Last Exam: https://agents-last-exam.org/
+Terminal Bench Science: https://github.com/harbor-framework/terminal-bench-science#task-coverage
+SRE Bench: https://x.com/ValsAI/status/2087682813743317396
+ScreenSpot Pro: https://arxiv.org/pdf/2504.07981
+Weathernext 3: https://www.youtube.com/watch?v=_6jZlnRsXXQ
+DayBreak: https://x.com/fouadmatin/status/2095634888951250983
+AA Index: https://artificialanalysis.ai/evaluations/gdpval-aa
+
+Visual Demos: https://x.com/mattshumer_/status/2095609734845927525
+https://x.com/codestantine/status/2095598327115260368
+https://x.com/SahilExec/status/2095688272269984016
+
+Monitorability: https://x.com/NeelNanda5/status/2095533397297045716
+https://x.com/tomekkorbak/status/2095596848581071020
+https://x.com/Marcus_J_W/status/2095623593006686475
+https://x.com/MicahCarroll/status/2095603855316996529
+Not Accept Degradation: https://www.nbcnews.com/tech/tech-news/openai-debuts-gpt-6-astra-security-measures-rcna595940
+
+RSI: https://x.com/LiuZuxin/status/2095600499911446697
+
+
+
+Non-hype Newsletter: https://signaltonoise.beehiiv.com/
+
+Podcast: https://aiexplainedopodcast.buzzsprout.com/</media:description>
+   <media:community>
+    <media:starRating count="10724" average="5.00" min="1" max="5"/>
+    <media:statistics views="855769"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:KL9_1GbmCic</id>
+  <yt:videoId>KL9_1GbmCic</yt:videoId>
+  <yt:channelId>UCNJ1Ymd5yFuUPtn21xtRbbw</yt:channelId>
+  <title>Sam Altman :‘AGI in 2026’, just as Models Start to [Mis]Train Themselves</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=KL9_1GbmCic"/>
+  <author>
+   <name>AI Explained</name>
+   <uri>https://www.youtube.com/channel/UCNJ1Ymd5yFuUPtn21xtRbbw</uri>
+  </author>
+  <published>2026-08-27T19:16:24+00:00</published>
+  <updated>2026-10-01T10:25:22+00:00</updated>
+  <media:group>
+   <media:title>Sam Altman :‘AGI in 2026’, just as Models Start to [Mis]Train Themselves</media:title>
+   <media:content url="https://www.youtube.com/v/KL9_1GbmCic?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/KL9_1GbmCic/hqdefault.jpg" width="480" height="360"/>
+   <media:description>First, a Time Magazine spread has Sam Altman declaring AGI is imminent, at the same time as we get two bombshell reports, from OpenAI and METR which on first glance are detailing the AI swarm, but reveal a deeper story about how we are making AI in 2026. From redacted risk reports, to Chinese Labs, pre-training debacles to questionable cybersecurity calls, a lot has happened recently, beneath the headlines…
+
+https://80000hours.org/aiexplained
+
+
+pablo2004romero@gmail.com
+https://integrity-bench.com/
+
+https://www.patreon.com/AIExplained/posts/ai-swarm-cometh-166671390
+
+
+Chapters:
+00:00 - Introduction
+02:10 - METR Report
+05:00 - Secrets of MultI-Agent Swarm
+07:46 - Anthropic Too
+10:00 - And China
+11:07 - AI Agents Analysing AI Agents
+13:37 - Altman AGI 2026
+15:36 - Astra Paused
+16:01 - Integrity Bench
+19:03 - Swarm Dynamics
+21:58 - No Human Contact?
+
+
+METR Post: https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/#agents-knew-hacking-hugging-face-was-out-of-scope-and-sometimes-expressed-ethical-hesitation,-but-this-very-rarely-limited-their-behavior
+OpenAI Release: https://openai.com/index/hugging-face-incident-and-the-road-ahead/
+Technical Paper: https://cdn.openai.com/pdf/67869394-cb91-4c12-888c-5cbd85c7814c/OpenAI-Hugging-Face%20Incident-Technical-Report.pdf
+
+BlackHat Talk: https://www.youtube.com/watch?v=87DyyMV0kCY
+
+Anthropic Risk Report: https://www-cdn.anthropic.com/f61d49fa5596956a5dec75fea0e973bf6a6a8378/Redacted%20Risk%20Report%20August%202026%20.pdf
+
+
+Value Leakage Paper: https://valueleakage.net/?utm_source=chatgpt.com
+
+
+Paused Training: https://x.com/sama/status/2089787807611195475
+https://openai.com/index/pacing-model-development-cyber-capabilities/
+AGI 2026: https://time.com/article/2026/08/26/openai-sam-altman-interview/?utm_source=twitter&amp;utm_medium=social&amp;utm_campaign=editorial&amp;utm_content=260826
+
+Greenblatt Tweets: https://x.com/RyanGreenblatt/status/2092769422104822031
+https://x.com/RyanGreenblatt/status/2092692685224325542
+
+Cyberdefense Call: https://openai.com/collective-cyberdefense/
+
+GLM 5.3 and 5.3 Flash / ox alpha: https://x.com/MTSlive/status/2089865956558528552
+https://pbs.twimg.com/media/HPqiTkAa0AAZiuv?format=jpg&amp;name=large
+
+
+
+Non-hype Newsletter: https://signaltonoise.beehiiv.com/
+
+Podcast: https://aiexplainedopodcast.buzzsprout.com/</media:description>
+   <media:community>
+    <media:starRating count="3329" average="5.00" min="1" max="5"/>
+    <media:statistics views="209321"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:xGzseSSStnw</id>
+  <yt:videoId>xGzseSSStnw</yt:videoId>
+  <yt:channelId>UCNJ1Ymd5yFuUPtn21xtRbbw</yt:channelId>
+  <title>AI is getting a little out of control</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=xGzseSSStnw"/>
+  <author>
+   <name>AI Explained</name>
+   <uri>https://www.youtube.com/channel/UCNJ1Ymd5yFuUPtn21xtRbbw</uri>
+  </author>
+  <published>2026-08-06T15:02:06+00:00</published>
+  <updated>2026-10-05T07:17:41+00:00</updated>
+  <media:group>
+   <media:title>AI is getting a little out of control</media:title>
+   <media:content url="https://www.youtube.com/v/xGzseSSStnw?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/xGzseSSStnw/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Wow. Mathematical breakthroughs that would be called genius if done by humans. A secret message-board w/ AI agent swarms leaving notes read by future versions. Hassabis leaves CEO position, or was pushed out? Not to mention news of constitutional breakdowns, Gemini 4 and Jeff Dean…
+
+https://80000hours.org/aiexplained
+
+
+Exclusive Videos - AI Insiders ($7/month if annual!): https://www.patreon.com/AIExplained
+
+Chapters:
+00:00 - Introduction
+01:16 - 10 Autonomous Discoveries
+08:20 - The Security ‘Incident’
+15:29 - MessageBoard
+19:50 - Constitutional Failure
+24:30 - Google Explosion
+29:12 - Closing Thoughts
+
+Security Incident: Paper: https://cdn.prod.website-files.com/663bd486c5e4c81588db7a1d/6a724858f7db25c81487016d_Security%20Incident%20INC-2026-07-28-01.pdf
+Post: https://www.aisi.gov.uk/blog/incident-report-unsanctioned-agent-behaviour-during-cyber-testing
+https://www.theguardian.com/technology/2026/aug/05/ai-models-have-been-going-rogue-in-tests-how-worried-should-we-be
+Meta too: https://www.theinformation.com/articles/meta-ai-model-hacked-another-company-cybersecurity-testing?rc=sy0ihq
+Blatantly Misaligned: https://x.com/yonashav/status/2085167279893795022
+No Excuses: https://x.com/boazbaraktcs/status/2085034783541964945
+Surreal Moment: https://x.com/mobav0/status/2084341687883841732
+Wired Article: https://archive.is/20260806002210/https://www.wired.com/story/openai-didnt-notice-its-ai-agents-using-a-message-board-to-plan-their-hacking-spree/
+Chunky Post-training: https://x.com/johnschulman2/status/2084835800899076313
+Watershed Moment: https://www.groundlevel-ai.com/p/openai-gives-first-detailed-debrief?has_completed_unsubscribed_unlock=true
+HedgeFund Hack: https://finance.yahoo.com/technology/ai/articles/major-hedge-funds-targeted-wave-154044981.html
+
+10 Discoveries:
+Paper: https://cdn.openai.com/pdf/ten-proofs-oai.pdf
+Post: https://openai.com/index/ten-advances-in-mathematics/
+Haven’t Solved Math: https://x.com/polynoamial/status/2083476852216369294
+Half with Fable: https://x.com/__alpoge__/status/2083855298239078748
+Pivot to Safety: https://www.understandingai.org/p/mathematicians-are-grappling-with
+
+
+Amodei Essay: https://darioamodei.com/essay/the-adolescence-of-technology?utm_source=chatgpt.com
+Constitution: https://www.anthropic.com/constitution
+Midtraining: https://arxiv.org/pdf/2605.02087
+
+DroneBench: https://andonlabs.com/evals/drone-bench
+https://x.com/andonlabs/status/2085125235188310445
+
+Book Deal: https://x.com/venturetwins/status/2085185278378222054
+Making Marble: https://x.com/Rainmaker1973/status/2084560915404382685
+
+Google News:
+Hassabis Move: https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum/
+Resignation: https://x.com/Turn_Trout/status/2077448610157891734
+Periodic Labs: https://periodic.com/
+Jeff Dean: https://x.com/JeffDean/status/2085034604172603724
+14 Challenges: https://gcsp.engineering.asu.edu/apply/become-a-grand-challenge-scholar/the-14-grand-challenges-for-engineering/
+Going Places for Sure: https://x.com/thsottiaux/status/2085223189555126579
+Gemini 4: https://x.com/firstadopter/status/2085215060532535449
+
+
+Pacing Frontier Patreon Video: https://www.patreon.com/AIExplained/posts/opus-5-amodei-165170363
+
+
+
+Non-hype Newsletter: https://signaltonoise.beehiiv.com/
+
+Podcast: https://aiexplainedopodcast.buzzsprout.com/</media:description>
+   <media:community>
+    <media:starRating count="3866" average="5.00" min="1" max="5"/>
+    <media:statistics views="110558"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:wzY2fV4Mp3U</id>
+  <yt:videoId>wzY2fV4Mp3U</yt:videoId>
+  <yt:channelId>UCNJ1Ymd5yFuUPtn21xtRbbw</yt:channelId>
+  <title>GPT-6 Goes Rogue? The HuggingFace Incident, Sans Hype</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=wzY2fV4Mp3U"/>
+  <author>
+   <name>AI Explained</name>
+   <uri>https://www.youtube.com/channel/UCNJ1Ymd5yFuUPtn21xtRbbw</uri>
+  </author>
+  <published>2026-07-22T16:36:53+00:00</published>
+  <updated>2026-10-04T16:42:37+00:00</updated>
+  <media:group>
+   <media:title>GPT-6 Goes Rogue? The HuggingFace Incident, Sans Hype</media:title>
+   <media:content url="https://www.youtube.com/v/wzY2fV4Mp3U?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/wzY2fV4Mp3U/hqdefault.jpg" width="480" height="360"/>
+   <media:description>An unreleased internal OpenAI model, very likely to be called GPT-6, was able to autonomously break out of its sandbox AND break into HuggingFace, just to score higher on a benchmark prompt. This video has the details you may have missed, a layperson analogy, whether this is truly novel, and more…
+
+Dozens more Exclusive videos on Patreon ($9!): https://www.patreon.com/AIExplained
+
+Chapters:
+00:00 - Introduction
+01:17 - HuggingFace Earlier Report - the possible week gap
+02:24 - But what happened?
+05:45 - Simplified Version
+07:56 - Not the first time…
+10:54 - What Does it Mean for Open Source?
+
+The Incident: https://openai.com/index/hugging-face-model-evaluation-security-incident/
+https://huggingface.co/blog/security-incident-july-2026
+
+
+The Post the Day Before: https://openai.com/index/safety-alignment-long-horizon-models/
+
+
+Mythos’ Earlier Escape: https://futurism.com/artificial-intelligence/anthropic-claude-mythos-escaped-sandbox
+
+ExploitGym: https://arxiv.org/pdf/2605.11086
+
+Sam Confession: https://x.com/sama/status/2079661132302995790
+
+Anthropic Researcher Reacts: https://x.com/Mononofu/status/2079724399452926055
+
+Clem (HuggingFace CEO): https://x.com/ClementDelangue/status/2079670308156645882
+https://x.com/ClementDelangue/status/2079301434357456931
+
+Xi Jinping: https://archive.fo/20260717195548/https://www.businessinsider.com/xi-jinping-open-source-ai-us-competition-openai-anthropic-models-2026-7
+Bans: https://www.axios.com/2026/07/20/ai-us-china-open-source-kimi
+Qwen Retweet: https://x.com/AlibabaGroup/with_replies
+
+Codex Growth: https://x.com/petergostev/status/2079614914398740764/photo/1 
+
+Kimi K3: https://artificialanalysis.ai/evaluations/harvey-lab-aa?eval-score=all-pass-rate
+
+GPT 5.6 Sol Cheats on METR: https://metr.substack.com/p/2026-06-26-gpt-5-6-sol
+
+Guardian Headline: https://www.theguardian.com/technology/2026/jul/22/openai-says-its-models-went-rogue-and-hacked-startup-in-unprecedented-incident
+
+Russian Origin?: https://news.ycombinator.com/item?id=48998362
+
+Power Trends: https://pbs.twimg.com/media/HNRtrjhagAAvBN_?format=png&amp;name=900x900
+
+
+
+Kimi K3 Exclusive Video: https://www.patreon.com/AIExplained/posts/kimi-moment-kimi-164108791
+
+
+
+Podcast: https://aiexplainedopodcast.buzzsprout.com/</media:description>
+   <media:community>
+    <media:starRating count="4225" average="5.00" min="1" max="5"/>
+    <media:statistics views="128887"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:mWlCituW7wo</id>
+  <yt:videoId>mWlCituW7wo</yt:videoId>
+  <yt:channelId>UCNJ1Ymd5yFuUPtn21xtRbbw</yt:channelId>
+  <title>A Model Explosion: GPT 5.6 Sol, Grok 4.5 and Meta Muse Rewrite the Rules</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=mWlCituW7wo"/>
+  <author>
+   <name>AI Explained</name>
+   <uri>https://www.youtube.com/channel/UCNJ1Ymd5yFuUPtn21xtRbbw</uri>
+  </author>
+  <published>2026-07-10T12:40:15+00:00</published>
+  <updated>2026-10-04T05:13:04+00:00</updated>
+  <media:group>
+   <media:title>A Model Explosion: GPT 5.6 Sol, Grok 4.5 and Meta Muse Rewrite the Rules</media:title>
+   <media:content url="https://www.youtube.com/v/mWlCituW7wo?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/mWlCituW7wo/hqdefault.jpg" width="480" height="360"/>
+   <media:description>What a week in AI, for real. GPT 5.6 may actually beat Claude Fable, in what you get for your money, while the new Grok 4.5 and Meta Muse Spark 1.1 make the choice even harder. Uncovering a dozen nuggets of gold you may have missed from all the viral headlines, I can also assure you you’ll learn something you didn’t know before.
+
+For Exclusive Videos, go to AI Insiders (less than $9!): https://www.patreon.com/AIExplained
+
+Chapters:
+00:00 - Introduction
+01:03 - GPT 5.6 Sol Reveals
+05:08 - Missing benches, plus Grok 4.5
+07:17 - Gaming as the new frontier?
+08:31 - Muse Spark 1.1
+10:03 - SimpleBench Upgrade
+11:17 - Ultra Sol + Self-Improvement
+13:44 - well, this is awkward
+15:41 - Why model improvement will not plateau anytime soon
+
+
+AI Consciousness: https://www.patreon.com/AIExplained/posts/anthropics-quite-163360718
+
+
+I Smell Fear: https://x.com/thsottiaux/status/2075287108680601929
+GPT 5.6: https://openai.com/index/gpt-5-6/
+
+Grok 4.5: https://x.ai/news/grok-4-5?twclid=2ezs408o0z23pw07tmxcwbzibd
+Meta Muse Spark 1.1: https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/
+
+Proliferating GPT Toggles: https://x.com/rasbt/status/2075369179817902176/photo/1
+Anthropic Call-out: https://x.com/Mononofu
+AI Security Institute Finding: https://x.com/alxndrdavies/status/2075279480331874306
+Competitive Coding: https://x.com/FakePsyho/status/2075128093891801305/photo/1
+
+Agents Last Exam: https://agents-last-exam.org/
+Dawn Song: https://x.com/dawnsongtweets/status/2065095757988868190
+
+https://simple-bench.com/
+
+SWE-Marathon: https://www.swe-marathon.org/
+https://www.frontierswe.com/
+ARC-AGI 3: https://x.com/arcprize/status/2075270869992264003
+Automation Bench: https://zapier.com/benchmarks
+VibeCode Bench: https://www.vals.ai/benchmarks/vibe-code
+
+‘Post-Train Claim’: https://posttrainbench.com/
+
+Redwall Game: https://redwall-bellmaker-7e03e4.surge.sh/
+
+
+
+
+Podcast: https://aiexplainedopodcast.buzzsprout.com/</media:description>
+   <media:community>
+    <media:starRating count="3045" average="5.00" min="1" max="5"/>
+    <media:statistics views="89070"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:y24lF1q4SFY</id>
+  <yt:videoId>y24lF1q4SFY</yt:videoId>
+  <yt:channelId>UCNJ1Ymd5yFuUPtn21xtRbbw</yt:channelId>
+  <title>Fable 5 vs GPT 5.6 Sol: The Early Results</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=y24lF1q4SFY"/>
+  <author>
+   <name>AI Explained</name>
+   <uri>https://www.youtube.com/channel/UCNJ1Ymd5yFuUPtn21xtRbbw</uri>
+  </author>
+  <published>2026-07-02T16:27:26+00:00</published>
+  <updated>2026-10-05T02:06:47+00:00</updated>
+  <media:group>
+   <media:title>Fable 5 vs GPT 5.6 Sol: The Early Results</media:title>
+   <media:content url="https://www.youtube.com/v/y24lF1q4SFY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/y24lF1q4SFY/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Fable 5 (newly re-released) vs GPT 5.6 Sol, what comparisons can we unearth? Plus, Sonnet 5, a 5% equity seizure by US Govt, the ‘largest heist’, Beetlejuice and more…
+
+
+
+Exclusive Vids in AI Insiders ($9!): https://www.patreon.com/AIExplained
+
+
+Chapters:
+00:00 - Introduction
+01:06 - Fable Timeline
+02:59 - Sol Release?
+06:01 - the Chinese Angle
+07:35 - 5% Stake
+09:10 - Fable vs Sol - the numbers
+13:57 - Sol Misalignment
+15:27 - Claude Sonnet 5
+16:24 - GLM 5.2 + New Paper on Large Model Learning
+
+GPT 5.6 Sol Release: https://openai.com/index/previewing-gpt-5-6-sol/
+Altman on Concentrated Power: https://x.com/giacomomiolo/status/2070609506925478352
+System Card: https://deploymentsafety.openai.com/gpt-5-6-preview/gpt-5-6-preview.pdf
+
+GLM 5.2: https://www.patreon.com/AIExplained/posts/glm-5-2-and-nsa-161869508
+
+Altman Memo: https://www.theinformation.com/articles/trump-administration-asks-openai-stagger-release-new-model-security-concerns?rc=sy0ihq
+
+Fable 5 Revised Timeline: https://www.anthropic.com/news/redeploying-fable-5
+
+Claude Sonnet 5: https://www.anthropic.com/news/claude-sonnet-5
+
+Mythose 5 System Card: https://www-cdn.anthropic.com/9e6a1044980d8c4ed85669faf9c2a8342e2e9f1e/Claude%20Sonnet%205%20System%20Card.pdf
+
+Anthropic Accuse Alibaba Cloud / Qwen: https://www.bbc.co.uk/news/articles/cwyklykn5dwo
+
+Betelgeuse: https://upload.wikimedia.org/wikipedia/commons/6/69/Well_known_stars_2.png
+
+OpenAI 5%: https://edition.cnn.com/2026/07/02/business/openai-trump-stake-intl
+
+Why Larger Models Learn More: https://arxiv.org/pdf/2605.29548
+
+Patreon Post: https://www.patreon.com/AIExplained/posts/glm-5-2-and-nsa-161869508
+
+
+
+Non-hype Newsletter: https://signaltonoise.beehiiv.com/
+
+Podcast: https://aiexplainedopodcast.buzzsprout.com/</media:description>
+   <media:community>
+    <media:starRating count="2871" average="5.00" min="1" max="5"/>
+    <media:statistics views="122218"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:Qj71N0tBzRo</id>
+  <yt:videoId>Qj71N0tBzRo</yt:videoId>
+  <yt:channelId>UCNJ1Ymd5yFuUPtn21xtRbbw</yt:channelId>
+  <title>Claude Fable Blocked - 11 Quiet Details on What’s Next</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=Qj71N0tBzRo"/>
+  <author>
+   <name>AI Explained</name>
+   <uri>https://www.youtube.com/channel/UCNJ1Ymd5yFuUPtn21xtRbbw</uri>
+  </author>
+  <published>2026-06-14T14:52:27+00:00</published>
+  <updated>2026-10-07T13:33:52+00:00</updated>
+  <media:group>
+   <media:title>Claude Fable Blocked - 11 Quiet Details on What’s Next</media:title>
+   <media:content url="https://www.youtube.com/v/Qj71N0tBzRo?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/Qj71N0tBzRo/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Claude Fable 5 banned, but what’s the bigger story. We go through 11 under-reported details, so you have the context to see what’s coming next for your use of AI. From whether the ban will last, what the possible motives are, what the model can actually do, and some wild over-extrapolations going on.
+
+
+Check out my fast-growing (!) app, free to use, and code INSIDER15 for paid tiers: https://lmcouncil.ai
+
+AI Insiders ($9!): https://www.patreon.com/AIExplained
+
+Chapters:
+00:00 - Introduction
+00:51 - Came from an Anthropic Investor ‘and other tech leaders’
+01:47 - Govt pressured by CEOs like Jamie Dimon
+03:01 - ‘Already decided’
+04:02 - Prompt Injection Robustness Comparison
+05:15 - Wellness?
+06:36 - “Overreach”
+08:17 - Anthropic Did Admit it would cause Difficulty
+09:32 - 90 Minutes
+10:02 - Equity Absence 
+10:31 - Lobbying and OpenAI
+
+‘Already Decided’ - https://www.theinformation.com/articles/amazons-jassy-raised-concerns-anthropic-model-trump-crackdown?rc=sy0ihq
+
+Not for Other Models: https://www.theinformation.com/briefings/u-s-government-unlikely-extend-anthropic-export-control-ai-companies?rc=sy0ihq
+
+90 Minutes: https://archive.fo/20260614001605/https://www.politico.com/news/2026/06/13/inside-the-whirlwind-24-hours-that-led-the-white-house-to-slap-export-controls-on-anthropic-00961519#selection-807.1-807.219
+
+Anthropic Statement: https://www.anthropic.com/news/fable-mythos-access
+
+Life Comes at you Fast: https://x.com/etbrooking/status/2065638276388495742
+
+Anthropic Deputy CISO: https://x.com/TheTranscript_/status/2065883670053847324
+
+Hegseth Gloat: https://x.com/PeteHegseth/status/2065897156226015690
+
+Roon Speculation: https://x.com/tszzl/status/2065939227167392147
+
+Mythos System Card: https://www-cdn.anthropic.com/d00db56fa754a1b115b6dd7cb2e3c342ee809620.pdf
+
+Sachs Statement: https://x.com/DavidSacks/status/2065853007619588171
+
+
+OpenAI Lobbying: https://thehill.com/policy/technology/5912720-altman-openai-get-bogged-down-in-political-spending-fight/
+
+Absent from Equity Talks: https://finance.yahoo.com/sectors/technology/articles/trump-ai-ownership-plan-could-131053732.html
+
+Pliny Jaibreak: https://x.com/elder_plinius/status/2064776322979676227
+
+Fusion: https://x.com/OpenRouter/status/2065856871215329545
+
+https://lmcouncil.ai 
+
+
+
+Non-hype Newsletter: https://signaltonoise.beehiiv.com/
+
+Podcast: https://aiexplainedopodcast.buzzsprout.com/</media:description>
+   <media:community>
+    <media:starRating count="2877" average="5.00" min="1" max="5"/>
+    <media:statistics views="77359"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:haK1KoQWm18</id>
+  <yt:videoId>haK1KoQWm18</yt:videoId>
+  <yt:channelId>UCNJ1Ymd5yFuUPtn21xtRbbw</yt:channelId>
+  <title>Claude Fable 5 - Full 319 page Breakdown</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=haK1KoQWm18"/>
+  <author>
+   <name>AI Explained</name>
+   <uri>https://www.youtube.com/channel/UCNJ1Ymd5yFuUPtn21xtRbbw</uri>
+  </author>
+  <published>2026-06-10T18:43:12+00:00</published>
+  <updated>2026-10-14T07:06:02+00:00</updated>
+  <media:group>
+   <media:title>Claude Fable 5 - Full 319 page Breakdown</media:title>
+   <media:content url="https://www.youtube.com/v/haK1KoQWm18?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/haK1KoQWm18/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Fable 5 is out - and it’s good, very good. But beyond the splashy demos, I want to bring you the 20+ nuggets from the 319 page system card, which I read in full, all day, plus benchmarks you may not have noticed. 
+
+https://assemblyai.com/aiexplained
+
+Plus two worrying trends inside the ‘mind’ of Claude, how OpenAI counter, and the transformer inventor’s warning.
+
+
+
+Check out my fast-growing (!) app, free to use, and code INSIDER15 for paid tiers: https://lmcouncil.ai
+
+AI Insiders ($9!): https://www.patreon.com/AIExplained
+
+Chapters:
+00:00 - Introduction
+01:06 - Blocks + Better Models
+02:42 - Fable 5 Upgrade over Mythos Preview
+04:49 - ML Acceleration Bombshell
+07:11 - No RSI yet
+07:41 - Bio-capable
+14:51 - Creative Writing … no
+17:23 - Does need bug-checks
+18:57 - OpenAI Response
+19:23 - Benchmark Bonanza
+28:06 - Chain of Thought worrying trend
+
+Fable 5 Release: https://www.anthropic.com/news/claude-fable-5-mythos-5
+
+System Card: https://www-cdn.anthropic.com/d00db56fa754a1b115b6dd7cb2e3c342ee809620.pdf
+
+Intelligence Explosion: https://www.patreon.com/posts/anthropic-charts-160231656
+
+Annotated: https://x.com/Miles_Brundage/status/2064500190523113816/photo/1
+
+OpenAI Counter: https://x.com/thsottiaux/status/2064572118264913923
+https://x.com/thsottiaux/status/2043177597434306699
+
+Double Lifespan: https://darioamodei.com/essay/machines-of-loving-grace
+
+AutomationBench: https://zapier.com/benchmarks
+Vending Bench: https://x.com/andonlabs/status/2064429817530085804
+CritPt: https://critpt.com/
+Riemann Bench: https://surgehq.ai/leaderboards/riemann-bench
+GDPVal: https://artificialanalysis.ai/evaluations/gdpval-aa
+BluePrint Bench 2: https://andonlabs.com/evals/blueprint-bench-2
+MCP Atlas: https://labs.scale.com/leaderboard/mcp_atlas
+FutureSim: https://x.com/nikhilchandak29/status/2064676801440358774
+
+Roon Stun Lock: https://x.com/tszzl/status/2064454617568874669
+
+Noam Brown Inference Ceiling: https://x.com/polynoamial/status/2064210146558136827
+
+Isochronic Chart: https://isochronic-passage-chart.netlify.app/#nyc
+Rose Tavern: https://claude.ai/public/artifacts/2295bebe-77e6-43e2-ae94-0fe49e9a776b
+Redwall Game: https://redwall-mossflower.surge.sh/
+
+Risk Report: https://www-cdn.anthropic.com/097c63b5fe7dd8b14866e1f15bb1910ec713658a.pdf
+
+Transformer Inventor Warning: https://x.com/tszzl/status/2064563986914554125
+
+
+
+Non-hype Newsletter: https://signaltonoise.beehiiv.com/
+
+Podcast: https://aiexplainedopodcast.buzzsprout.com/</media:description>
+   <media:community>
+    <media:starRating count="4508" average="5.00" min="1" max="5"/>
+    <media:statistics views="115548"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:aJvP3nXWkwM</id>
+  <yt:videoId>aJvP3nXWkwM</yt:videoId>
+  <yt:channelId>UCNJ1Ymd5yFuUPtn21xtRbbw</yt:channelId>
+  <title>New Claude Opus 4.8: 15 Things You May’ve Missed</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=aJvP3nXWkwM"/>
+  <author>
+   <name>AI Explained</name>
+   <uri>https://www.youtube.com/channel/UCNJ1Ymd5yFuUPtn21xtRbbw</uri>
+  </author>
+  <published>2026-05-29T15:07:35+00:00</published>
+  <updated>2026-10-05T16:20:06+00:00</updated>
+  <media:group>
+   <media:title>New Claude Opus 4.8: 15 Things You May’ve Missed</media:title>
+   <media:content url="https://www.youtube.com/v/aJvP3nXWkwM?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/aJvP3nXWkwM/hqdefault.jpg" width="480" height="360"/>
+   <media:description>The ‘best’ generally available AI model just dropped, but there is plenty I bet you missed about what it is, how it performs, and what the release tells us. 15 highlights from the 244 page system card, plus private testing, leader interview and more.
+
+AI Insiders ($9!): https://www.patreon.com/AIExplained
+
+Chapters:
+00:00 - Introduction
+00:49 - Mythos in Weeks
+01:49 - Adaptive not necessary
+02:26 - Honesty?
+04:37 - Flagging Uncertainty
+04:57 - Benchmarks
+08:54 - Mythos will be even better
+10:30 - Business skillz
+11:15 - Model Welfare
+12:16 - Cyber Comparable
+13:10 - Misalignment Concerns
+16:22 - Meta Inabilities
+17:58 - Code flagging
+18:34 - Go to sleep
+18:50 - Fast Mode
+20:21 - Dynamic Workflows
+
+
+Opus 4.8 Paper: https://cdn.sanity.io/files/4zrzovbb/website/c886650a2e96fc0925c805a1a7ca77314ccbf4a6.pdf
+
+Release: https://www.anthropic.com/news/claude-opus-4-8
+
+Chips: https://www.theinformation.com/articles/anthropic-talks-use-microsofts-ai-chips?rc=sy0ihq
+https://www.anthropic.com/news/expanding-our-use-of-google-cloud-tpus-and-services
+https://www.anthropic.com/news/higher-limits-spacex
+
+Patreon Vid: https://www.patreon.com/posts/re-up-anthropics-159289449
+
+GDPVal: https://artificialanalysis.ai/evaluations/omniscience
+https://arxiv.org/abs/2510.04374
+
+Amodei Technical Debt: https://www.youtube.com/watch?v=7xco5Qd2Oo8
+
+Dynamic Workflows: https://x.com/ClaudeDevs/status/2060044853279617150
+https://x.com/_catwu/status/2060054180379689074/photo/1
+https://claude.com/blog/introducing-dynamic-workflows-in-claude-code
+
+https://simple-bench.com/
+
+
+
+Check out my fast-growing (!) app, free to use, and code INSIDER15 for paid tiers: https://lmcouncil.ai
+
+Non-hype Newsletter: https://signaltonoise.beehiiv.com/
+
+Podcast: https://aiexplainedopodcast.buzzsprout.com/</media:description>
+   <media:community>
+    <media:starRating count="3207" average="5.00" min="1" max="5"/>
+    <media:statistics views="87517"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:o_av1b9rs2g</id>
+  <yt:videoId>o_av1b9rs2g</yt:videoId>
+  <yt:channelId>UCNJ1Ymd5yFuUPtn21xtRbbw</yt:channelId>
+  <title>Two Rival Bets on AGI: Google I/O Highlights</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=o_av1b9rs2g"/>
+  <author>
+   <name>AI Explained</name>
+   <uri>https://www.youtube.com/channel/UCNJ1Ymd5yFuUPtn21xtRbbw</uri>
+  </author>
+  <published>2026-05-20T16:50:34+00:00</published>
+  <updated>2026-10-14T06:45:25+00:00</updated>
+  <media:group>
+   <media:title>Two Rival Bets on AGI: Google I/O Highlights</media:title>
+   <media:content url="https://www.youtube.com/v/o_av1b9rs2g?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/o_av1b9rs2g/hqdefault.jpg" width="480" height="360"/>
+   <media:description>The biggest Google AI push of the year, but what is the bigger story? Why is Google pursuing a different fork in the road than OpenAI or Anthropic? 
+
+https://assemblyai.com/aiexplained
+
+What does Gemini 3.5 Flash mean for the near-term future of AI? Plus the highlights from a provocative new paper on AI, 8 key moments you may have missed, and the signal from 5+ hours of AI lab interviews.
+
+
+
+Check out my free app, code INSIDER15 for paid tiers: https://lmcouncil.ai
+
+AI Insiders ($9!): https://www.patreon.com/AIExplained
+
+Chapters:
+00:00 - Introduction
+00:38 - Vibes and Google Goal
+02:18 - Omni, again?
+06:57 - Taking the same road
+07:44 - Gemini 3 Flash
+12:37 - Pitching on Cost?
+13:55 - Agentic Task Search
+14:30 - 1-shot OS but jagged, negation paper
+20:02 - The Karpathy Moonshot 
+
+Mostafa Deghani Interview: https://www.youtube.com/watch?v=Bo19sXssYXI
+
+Negation Neglect Paper: https://arxiv.org/pdf/2605.13829
+
+Gemini 3.5 Flash Headline Scores: https://deepmind.google/models/model-cards/gemini-3-5-flash/
+
+Sors original AGI Path: https://www.theguardian.com/commentisfree/2024/feb/24/openai-video-generation-tool-sora-babies-ai-artificial-intelligence
+
+Hassabis Helped Set-up Anthropic: https://archive.fo/20260519070857/https://www.ft.com/content/8f2a529e-7a1b-4d8e-95be-338d0c4c98f5
+
+Intelligence to Output Speed: https://artificialanalysis.ai/models?intelligence-comparison=intelligence-vs-output-speed#intelligence
+
+VibeCodeBench + Finance Agent: https://www.vals.ai/home
+
+OpenAI Needs Ads: https://archive.ph/20260409123153/https://www.reuters.com/business/media-telecom/openai-projects-25-billion-ad-revenue-this-year-100-billion-by-2030-axios-2026-04-09/
+
+Anthropic Core Views: https://www.anthropic.com/news/core-views-on-ai-safety
+
+Karpathy Move: https://x.com/karpathy/status/2056753169888334312
+https://www.axios.com/2026/05/19/anthropic-openai-karpathy-andrej-claude
+
+Recursive Self-Improvement: https://www.patreon.com/posts/ineffably-smart-156866417
+
+
+
+Non-hype Newsletter: https://signaltonoise.beehiiv.com/
+
+Podcast: https://aiexplainedopodcast.buzzsprout.com/</media:description>
+   <media:community>
+    <media:starRating count="2376" average="5.00" min="1" max="5"/>
+    <media:statistics views="75901"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:jz0rNhfAKo8</id>
+  <yt:videoId>jz0rNhfAKo8</yt:videoId>
+  <yt:channelId>UCNJ1Ymd5yFuUPtn21xtRbbw</yt:channelId>
+  <title>GPT 5.5 Arrives, DeepSeek V4 Drops, and the Compute War Intensifies</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=jz0rNhfAKo8"/>
+  <author>
+   <name>AI Explained</name>
+   <uri>https://www.youtube.com/channel/UCNJ1Ymd5yFuUPtn21xtRbbw</uri>
+  </author>
+  <published>2026-04-24T18:45:02+00:00</published>
+  <updated>2026-10-05T17:33:00+00:00</updated>
+  <media:group>
+   <media:title>GPT 5.5 Arrives, DeepSeek V4 Drops, and the Compute War Intensifies</media:title>
+   <media:content url="https://www.youtube.com/v/jz0rNhfAKo8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/jz0rNhfAKo8/hqdefault.jpg" width="480" height="360"/>
+   <media:description>GPT 5.5 full analysis, plus DeepSeek V4 paper highlights, comparisons with Mythos, a vibe-coded game w/ GPT Image 2, and 50 data-points you wouldn’t get from just reading the headlines.
+
+https://80000hours.org/aiexplained
+
+
+
+Check out my fast-growing (!) app, free to use, and code INSIDER15 for paid tiers: https://lmcouncil.ai
+
+AI Insiders ($9!): https://www.patreon.com/AIExplained
+
+
+Chapters:
+00:00 - Introduction
+01:11 - GPT 5.5 Comparison
+06:04 - Mythos Marketing
+11:50 - Recursive Self-Improvement?
+14:11 - Deepseek V4
+18:03 - VibeCode Experiment Extravaganza
+21:44 - The Scarce Compute Era
+
+
+OpenAI Benchmarks: https://openai.com/index/introducing-gpt-5-5/
+
+5.5 System Card: https://deploymentsafety.openai.com/gpt-5-5/gpt-5-5.pdf
+
+Direct Comparison: https://pbs.twimg.com/media/HGnNm5GWEAAJ1Ob?format=jpg&amp;name=4096x4096
+
+DeepSeek Paper: https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro
+
+SWE Bench Pro - benchmark of choice? https://x.com/ChowdhuryNeil/status/2047416077622395025
+
+
+AA Omniscience: https://artificialanalysis.ai/evaluations/omniscience
+
+Vending Bench: https://x.com/andonlabs/status/2047377260412649967
+
+Opus 4.7 System Card: https://cdn.sanity.io/files/4zrzovbb/website/037f06850df7fbe871e206dad004c3db5fd50340.pdf
+
+Sam Altman Drunk Phase: https://x.com/sama/with_replies
+
+Noam Brown: https://x.com/polynoamial/status/2047387675762802998
+
+DeepSeek Compute Crunch: https://www.bloomberg.com/news/articles/2026-04-24/deepseek-unveils-newest-flagship-a-year-after-ai-breakthrough?srnd=phx-ai
+
+Spreadsheet Bench: https://x.com/nicochristie/status/2047476237464211721
+
+Pattern Recognition: https://arcprize.org/leaderboard
+
+Leader Interviews: 
+Core Memory: https://www.youtube.com/watch?v=NCKQL0op30E
+Knowledge Podcast: https://www.youtube.com/watch?v=6JoUcQ1qmAc
+Big Tech Round 1: https://www.youtube.com/watch?v=J6vYvk7R190&amp;t=1116s
+Big Tech Round 2: https://www.youtube.com/watch?v=YnoQ8RJbALw&amp;t=8s
+
+Claude Code Limitations: https://x.com/TheAmolAvasare/status/2046724659039932830
+
+ChatGPT 5.4 for Clinicians: https://openai.com/index/making-chatgpt-better-for-clinicians/
+
+Image Arena: https://x.com/arena/status/2046670703311884548
+
+VibeCode Bench: https://www.vals.ai/benchmarks/vibe-code
+
+5.5-made Game +Seedance 2.0: https://rosemere-quest.pages.dev/
+
+
+Non-hype Newsletter: https://signaltonoise.beehiiv.com/
+
+Podcast: https://aiexplainedopodcast.buzzsprout.com/</media:description>
+   <media:community>
+    <media:starRating count="3405" average="5.00" min="1" max="5"/>
+    <media:statistics views="108990"/>
+   </media:community>
+  </media:group>
+ </entry>
+</feed>

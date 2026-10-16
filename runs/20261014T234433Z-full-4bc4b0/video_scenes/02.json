@@ -1,0 +1,49 @@
+{
+  "piece_id": "02",
+  "scenes": [
+    {
+      "narration": "A benchmark score can sound like a verdict. More often, it answers a narrower question: how did a system perform on a particular task, using a particular test and setup? This month’s examples make that distinction clear. Liquid AI evaluates a language model on tool use, instruction following, knowledge and coding. TII tests speech transcription. Ai2 works on high-resolution weather simulation. Their results may each matter for their intended use, but they are not entries in one shared competition.",
+      "visual": "Opening graphic with three separate labeled lanes: language-model tasks, speech transcription, and weather simulation. Add “Different tasks, different measures,” without a ranking or score chart.",
+      "claim_ids": [
+        "02-c7"
+      ]
+    },
+    {
+      "narration": "Liquid AI says its LFM2.5-24B-A2B model uses a mixture-of-experts design. In plain language, that means it contains multiple expert components, while a routing mechanism selects only some for each token. The company describes 40 layers and 64 experts in each block, with four selected at a time. It also says the context window—the amount of material the model can consider in a session—grew from 32,000 to 131,000 tokens. These design details explain the system’s structure; by themselves, they do not show how well it will serve a particular user.",
+      "visual": "Illustrative diagram: several expert boxes feeding a router that highlights four. Label “Liquid AI description: 40 layers; 64 experts per block; top-four routing; context 32K to 131K tokens.”",
+      "claim_ids": [
+        "02-c1"
+      ]
+    },
+    {
+      "narration": "The company’s own benchmark table tells a mixed story. Liquid AI reports competitive results on several tool-use and instruction-following tests, while its table shows larger rivals ahead on several knowledge-heavy and coding benchmarks. It says the models were evaluated with vLLM, a tool for running language models, using each benchmark’s recommended generation settings. That supplies some shared context, but the results remain company-produced and specific to those tests. The useful takeaway is not that one model wins at everything; it is that a model’s strengths can depend on the job.",
+      "visual": "A labeled comparison card with two columns, “Reported strengths” and “Reported areas where rivals lead.” Avoid score bars or a winner badge; attribute the summary to Liquid AI.",
+      "claim_ids": [
+        "02-c2"
+      ]
+    },
+    {
+      "narration": "Falcon-ASR addresses a different task: converting speech into text, with a particular focus on Arabic and the Emirati dialect. TII reports a mean word error rate, or WER, of 20.92 percent across six public Arabic test sets. WER is the share of words transcribed incorrectly, so lower is better. TII compares that result with 23.17 percent for the best published result in its September 30, 2026 leaderboard snapshot. This is a developer-reported comparison under that protocol, not an independent replication or a guarantee for every recording.",
+      "visual": "A simple, attributed text card: “TII reports mean Arabic WER across six public test sets: 20.92%; comparator in its Sept. 30, 2026 snapshot: 23.17%.” Explain “lower WER is better.”",
+      "claim_ids": [
+        "02-c3"
+      ]
+    },
+    {
+      "narration": "TII also reports a separate internal Emirati evaluation using held-out recordings and transcripts checked by people. For that test, it reports 22.73 percent WER and 10.19 percent character error rate. But the account here does not specify the sample size or how representative those recordings are. That makes the result relevant to the material tested while leaving an important question open: would performance transfer to other speakers, recording conditions or mixtures of dialects? A metric is only as informative as the test material and the scope of the claim.",
+      "visual": "Two labeled metric tiles for the internal evaluation: “WER 22.73%” and “CER 10.19%,” both marked “TII-reported.” Add “Sample size and representativeness not specified here.”",
+      "claim_ids": [
+        "02-c4"
+      ]
+    },
+    {
+      "narration": "Ai2’s HiRO-ACEv2 is different again: it sharpens coarse climate-model output into higher-resolution weather detail. Ai2 says its updated model predicts several fields, not just rainfall, and improves performance on extreme events. But it currently works only with the ACE version tuned to match X-SHiELD, the reference simulation it learned from. This is evidence about agreement under those conditions, not proof of forecasting skill across every climate. A separate Hugging Face post describes asking for a baseline, a small smoke test and a spending cap before larger training jobs. Those author-reported practices illustrate evaluation discipline, not independent validation. Across these examples, what does a test measure—and does that match the decision you need to make?",
+      "visual": "Show a restrained diagram from coarse to finer simulated weather, labeled “Ai2-reported; ACE tuned to X-SHiELD.” Beside it, show illustrative checklist labels: Baseline, Smoke test, Cost cap. End with the spoken closing question on screen.",
+      "claim_ids": [
+        "02-c5",
+        "02-c6",
+        "02-c7"
+      ]
+    }
+  ]
+}

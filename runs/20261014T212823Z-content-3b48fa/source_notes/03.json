@@ -1,0 +1,190 @@
+{
+  "piece_id": "03",
+  "as_of_date": "2026-10-14",
+  "claims": [
+    {
+      "claim_id": "03-c1",
+      "statement": "Willison reports Anthropic’s figures of about 2,500 daily merged code changes in May 2026 and more than 30,000 in September; the figures are attributed to Anthropic, not independently verified here.",
+      "type": "source_claim",
+      "evidence": [
+        {
+          "item_id": "feed:3e807c680553afa8e7a7fab0c86367379ffe15326fd7fb88ab84c99f58a26838",
+          "version_id": "762431b12089d558384624c5365c4d9f4316771bfac0653e587b4ddbec4299f3",
+          "locator": {
+            "type": "text",
+            "quote": "In May 2026, Anthropic averaged around 2,500 code changes merged per day; as of September, we merged over 30,000 per day."
+          },
+          "title": "Redesigning source control at Anthropic",
+          "url": "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/",
+          "publisher_id": "simon-willison",
+          "published_at": "2026-10-13T23:00:06Z"
+        }
+      ]
+    },
+    {
+      "claim_id": "03-c2",
+      "statement": "Willison says his proposed connection between Anthropic’s higher coding velocity and its newer models is a guess, and notes that public model-release dates do not show when models became available internally.",
+      "type": "reported_fact",
+      "evidence": [
+        {
+          "item_id": "feed:3e807c680553afa8e7a7fab0c86367379ffe15326fd7fb88ab84c99f58a26838",
+          "version_id": "762431b12089d558384624c5365c4d9f4316771bfac0653e587b4ddbec4299f3",
+          "locator": {
+            "type": "text",
+            "quote": "My guess is that the introduction of Fable/Mythos class models is a key factor in the increased coding velocity."
+          },
+          "title": "Redesigning source control at Anthropic",
+          "url": "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/",
+          "publisher_id": "simon-willison",
+          "published_at": "2026-10-13T23:00:06Z"
+        },
+        {
+          "item_id": "feed:3e807c680553afa8e7a7fab0c86367379ffe15326fd7fb88ab84c99f58a26838",
+          "version_id": "762431b12089d558384624c5365c4d9f4316771bfac0653e587b4ddbec4299f3",
+          "locator": {
+            "type": "text",
+            "quote": "This shows public release dates, not the date when models became available for Anthropic's internal use."
+          },
+          "title": "Redesigning source control at Anthropic",
+          "url": "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/",
+          "publisher_id": "simon-willison",
+          "published_at": "2026-10-13T23:00:06Z"
+        }
+      ]
+    },
+    {
+      "claim_id": "03-c3",
+      "statement": "Dyna Robotics’ co-founder says its robotics approach combines diverse human video with robot-specific data, because human actions do not directly match the company’s robot hardware.",
+      "type": "source_claim",
+      "evidence": [
+        {
+          "item_id": "podcast:a5722550a3b286ab7f03971ecfd02300b82428497f446ada3c8328f7918d698c",
+          "version_id": "f64a606580eb9edf5dd23191b9292737d4e0411a2640395aaedede16ce22520c",
+          "locator": {
+            "type": "segment",
+            "segment_id": "p-0019"
+          },
+          "title": "Dyna-2: General Purpose Physical Agents with Hour-Long Autonomy — Jason Ma, Dyna Robotics",
+          "url": "https://www.latent.space/p/dyna",
+          "publisher_id": "latent-space",
+          "published_at": "2026-10-13T22:25:55Z",
+          "start_seconds": 544.0,
+          "end_seconds": 685.0
+        }
+      ]
+    },
+    {
+      "claim_id": "03-c4",
+      "statement": "Dyna’s co-founder also says hardware stability and data limit broader robotics deployment; these are the company representative’s views, not independent findings.",
+      "type": "source_claim",
+      "evidence": [
+        {
+          "item_id": "podcast:a5722550a3b286ab7f03971ecfd02300b82428497f446ada3c8328f7918d698c",
+          "version_id": "f64a606580eb9edf5dd23191b9292737d4e0411a2640395aaedede16ce22520c",
+          "locator": {
+            "type": "segment",
+            "segment_id": "p-0104"
+          },
+          "title": "Dyna-2: General Purpose Physical Agents with Hour-Long Autonomy — Jason Ma, Dyna Robotics",
+          "url": "https://www.latent.space/p/dyna",
+          "publisher_id": "latent-space",
+          "published_at": "2026-10-13T22:25:55Z",
+          "start_seconds": 2000.0,
+          "end_seconds": 2055.0
+        },
+        {
+          "item_id": "podcast:a5722550a3b286ab7f03971ecfd02300b82428497f446ada3c8328f7918d698c",
+          "version_id": "f64a606580eb9edf5dd23191b9292737d4e0411a2640395aaedede16ce22520c",
+          "locator": {
+            "type": "segment",
+            "segment_id": "p-0107"
+          },
+          "title": "Dyna-2: General Purpose Physical Agents with Hour-Long Autonomy — Jason Ma, Dyna Robotics",
+          "url": "https://www.latent.space/p/dyna",
+          "publisher_id": "latent-space",
+          "published_at": "2026-10-13T22:25:55Z",
+          "start_seconds": 2060.0,
+          "end_seconds": 2105.0
+        }
+      ]
+    },
+    {
+      "claim_id": "03-c5",
+      "statement": "Ai2 says HiROv2 currently depends on an ACE system tuned to X-SHiELD and cannot yet generate high-resolution data for other climates, including a warmer future.",
+      "type": "source_claim",
+      "evidence": [
+        {
+          "item_id": "feed:890d9b1abb1aee38ddaf66fc51c1b22e40dbf1502357c1561af5a99a67ec4252",
+          "version_id": "347feda09f10a36f91fcebf27f2cb941254596fb8682d717b46e8f806db78699",
+          "locator": {
+            "type": "text",
+            "quote": "That means it can't yet produce high-resolution data for other climates, such as a warmer future or the historical record in datasets like ERA5."
+          },
+          "title": "HiRO-ACEv2: Simulating extreme weather at 3 km resolution for a fraction of the cost",
+          "url": "https://huggingface.co/blog/allenai/hiro-acev2",
+          "publisher_id": "allenai",
+          "published_at": "2026-10-14T16:12:42Z"
+        }
+      ]
+    },
+    {
+      "claim_id": "03-c6",
+      "statement": "In the interview, DeepMind and Biohub participants argue that research should begin with the scientific problem and determine whether modeling, data collection, or expertise is needed; combining this perspective with the Anthropic, Dyna, and Ai2 cases suggests system constraints matter, though the examples cannot establish a field-wide rule.",
+      "type": "inference",
+      "evidence": [
+        {
+          "item_id": "podcast:1bd3dabb637d0dd2fadd3382acf4046bd254c3557fceff4ff2b5486a71ece8e1",
+          "version_id": "5259e67e25b483e81d2665f323cf8954ce22e841727d3df19089dd9ead614f73",
+          "locator": {
+            "type": "segment",
+            "segment_id": "p-0006"
+          },
+          "title": "Why AlphaFold Didn't Solve Protein Folding — Pushmeet Kohli, Google DeepMind & Sal Candido, Biohub",
+          "url": "https://www.latent.space/p/biohub-deepmind",
+          "publisher_id": "latent-space",
+          "published_at": "2026-10-10T00:31:26Z",
+          "start_seconds": 294.0,
+          "end_seconds": 503.0
+        },
+        {
+          "item_id": "feed:3e807c680553afa8e7a7fab0c86367379ffe15326fd7fb88ab84c99f58a26838",
+          "version_id": "762431b12089d558384624c5365c4d9f4316771bfac0653e587b4ddbec4299f3",
+          "locator": {
+            "type": "text",
+            "quote": "The new system was built by a team of seven people, and the migration from Git was completed in five months."
+          },
+          "title": "Redesigning source control at Anthropic",
+          "url": "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/",
+          "publisher_id": "simon-willison",
+          "published_at": "2026-10-13T23:00:06Z"
+        },
+        {
+          "item_id": "podcast:a5722550a3b286ab7f03971ecfd02300b82428497f446ada3c8328f7918d698c",
+          "version_id": "f64a606580eb9edf5dd23191b9292737d4e0411a2640395aaedede16ce22520c",
+          "locator": {
+            "type": "segment",
+            "segment_id": "p-0107"
+          },
+          "title": "Dyna-2: General Purpose Physical Agents with Hour-Long Autonomy — Jason Ma, Dyna Robotics",
+          "url": "https://www.latent.space/p/dyna",
+          "publisher_id": "latent-space",
+          "published_at": "2026-10-13T22:25:55Z",
+          "start_seconds": 2060.0,
+          "end_seconds": 2105.0
+        },
+        {
+          "item_id": "feed:890d9b1abb1aee38ddaf66fc51c1b22e40dbf1502357c1561af5a99a67ec4252",
+          "version_id": "347feda09f10a36f91fcebf27f2cb941254596fb8682d717b46e8f806db78699",
+          "locator": {
+            "type": "text",
+            "quote": "because HiRO learned from X-SHiELD, it only works with the version of ACE tuned to match X-SHiELD."
+          },
+          "title": "HiRO-ACEv2: Simulating extreme weather at 3 km resolution for a fraction of the cost",
+          "url": "https://huggingface.co/blog/allenai/hiro-acev2",
+          "publisher_id": "allenai",
+          "published_at": "2026-10-14T16:12:42Z"
+        }
+      ]
+    }
+  ]
+}

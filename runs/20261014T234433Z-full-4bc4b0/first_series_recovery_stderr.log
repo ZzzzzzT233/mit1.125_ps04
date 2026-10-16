@@ -1,0 +1,2 @@
+write_articles: Model draft validation failed: Article 02 has 909 words; expected 600–900
+Series stopped at content/write_articles; partial stream retained at runs/20261014T234433Z-full-4bc4b0/articles.jsonl.pending-68172

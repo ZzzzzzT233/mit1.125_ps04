@@ -1,0 +1,42 @@
+{
+  "piece_id": "02",
+  "scenes": [
+    {
+      "narration": "A benchmark score can sound like a universal verdict. It is not. A benchmark is a defined task, dataset, and scoring method; it tells us how a system did under those conditions. Recent reports cover language-model agents, speech recognition, climate simulation, and robotics. They ask different questions, so their results cannot be lined up as if they were one contest. The useful habit is to ask what was measured, against what reference, and how closely that resembles the intended use.",
+      "visual": "Open with four labeled, illustrative tiles: language tasks, speech, climate simulation, robotics. Add: “Different tasks; not one shared ranking.”",
+      "claim_ids": [
+        "02-c6"
+      ]
+    },
+    {
+      "narration": "Liquid AI describes LFM2.5-24B-A2B as a mixture-of-experts model. Think of it as a network with specialized sections: its stated design has 40 layers and 64 experts in each mixture-of-experts block, with top-four routing. In plain language, each block selects four experts for a token rather than using every expert at once. Its published table reports a mixed picture: the model scores ahead of the listed competitors on LiveClaw, but trails Qwen3.6 on GPQA Diamond and SWE-Bench Verified. Those are company-reported comparisons using the company’s stated evaluation setup and each benchmark’s recommended generation settings—not a universal assessment of model quality.",
+      "visual": "Illustrative network diagram with four highlighted experts. Then show a restrained comparison card with benchmark names only; attribute results to Liquid AI and note its stated evaluation conditions.",
+      "claim_ids": [
+        "02-c1",
+        "02-c2"
+      ]
+    },
+    {
+      "narration": "TII’s Falcon-ASR tackles a different problem: turning speech into text, with particular attention to Arabic and Emirati speech. TII reports a 20.92 percent average word error rate across six public Arabic test sets, and 22.73 percent on a separate internal Emirati evaluation. Word error rate counts transcription errors against reference words; lower is better. The public tests and the internal dialect evaluation are not the same comparison. These are producer-reported figures, and neither number guarantees the same result for every speaker, dialect, or recording condition.",
+      "visual": "Create two separate, clearly labeled cards: “Six public Arabic test sets” and “Separate internal Emirati evaluation.” Show WER units as percentages, note “lower is better,” and attribute both figures to TII. Add “Different test sets; not a direct head-to-head comparison.”",
+      "claim_ids": [
+        "02-c3"
+      ]
+    },
+    {
+      "narration": "Ai2’s HiRO-ACEv2 addresses climate simulation. Its system takes coarse outputs and generates finer detail; Ai2 says HiROv2 can predict several high-resolution fields, including rain, wind, and pressure, at three-kilometer detail. Against the X-SHiELD target simulation, Ai2 reports matching high-resolution statistics within three percent, even for events it describes as occurring once in a million data points. That is a result against a particular simulation, not a guarantee about every real-world climate. Ai2 also says the system currently depends on an ACE version tuned to X-SHiELD.",
+      "visual": "Use an illustrative coarse-to-fine grid diagram labeled “Coarse ACE outputs” and “3 km HiRO detail,” with rain, wind, and pressure labels. Attribute the within-3% result to Ai2 and identify X-SHiELD as the reference simulation.",
+      "claim_ids": [
+        "02-c4"
+      ]
+    },
+    {
+      "narration": "Robotics adds another kind of evidence. In a podcast interview, Dyna Robotics co-founder Jason Ma describes Dyna-2 as taking video, robot-joint information, and language instructions, then producing actions and predicted future video. Joint information means readings about the robot’s body and movement. The predicted video represents what the system expects may happen; the actions are intended to control the robot. This explains the company’s design, but an interview is not an independent performance test. Across all four cases, the conclusion is bounded: each report can inform us about its own task and conditions, but none establishes a common winner. What independent testing would show whether these results hold in everyday use remains an open question.",
+      "visual": "Show an illustrative input-output diagram for the Dyna-2 description, labeled “Company co-founder’s account; not an independent test.” End on a card: “What was measured—and under what conditions?”",
+      "claim_ids": [
+        "02-c5",
+        "02-c6"
+      ]
+    }
+  ]
+}

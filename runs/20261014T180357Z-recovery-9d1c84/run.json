@@ -1,0 +1,9 @@
+{
+  "run_id": "20261014T180357Z-recovery-9d1c84",
+  "started_at": "2026-10-14T18:03:57.545994Z",
+  "as_of_date": "2026-10-14",
+  "mode": "live",
+  "previous_run_id": "20261014T175645Z-recovery-e794a6",
+  "scope": "collection_media_recovery",
+  "note": "Live video recovery after successful IPv4 diagnostic. Only the two configured YouTube channels are scanned; eligible corpus includes previously retained written and podcast evidence. Earlier failures remain in their original runs. Collection only."
+}

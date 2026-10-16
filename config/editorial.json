@@ -1,0 +1,15 @@
+{
+  "provider": "openai",
+  "model": "gpt-6-luna",
+  "reasoning_effort": "medium",
+  "max_output_tokens": 16000,
+  "max_request_bytes": 900000,
+  "request_budget_usd": 0.25,
+  "input_usd_per_million": 0.1,
+  "cached_input_usd_per_million": 0.01,
+  "cache_write_usd_per_million": 0.125,
+  "output_usd_per_million": 0.5,
+  "price_checked_on": "2026-10-14",
+  "model_documentation": "https://developers.openai.com/api/docs/models/gpt-6-luna",
+  "structured_output_documentation": "https://developers.openai.com/api/docs/guides/structured-outputs?api-mode=responses"
+}

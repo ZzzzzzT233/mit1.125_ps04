@@ -1,0 +1,120 @@
+{
+  "previous_complete_run_id": "20261014T234433Z-full-4bc4b0",
+  "current_run_id": "20261015T185032Z-full-71d5e6",
+  "actual_dates": [
+    "2026-10-14",
+    "2026-10-15"
+  ],
+  "current_collection_changes": {
+    "unchanged": 7,
+    "new": 7
+  },
+  "eligible_count_before": 19,
+  "eligible_count_after": 26,
+  "newly_collected_items": [
+    {
+      "item_id": "feed:e0c4cbb1514f53cea2127ff828cf01663429588c0c77de65f35d35817e1d0a58",
+      "title": "Apertus 1.5 Release Notes",
+      "url": "https://huggingface.co/blog/swiss-ai/apertus-v15-release-notes",
+      "published_at": "2026-10-15T09:08:45Z",
+      "decision": "accept"
+    },
+    {
+      "item_id": "feed:227fcb0d624bcb1af08f2a503e5e63ae07741e6a1d5cbda81125e8eac82c391b",
+      "title": "Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta",
+      "url": "https://huggingface.co/blog/meta-muse-spark-open",
+      "published_at": "2026-10-15T00:00:00Z",
+      "decision": "accept"
+    },
+    {
+      "item_id": "feed:f4c1aba7aa2b70e606d5f5f962ae3e8cb37fab22a9ab9903388b64809393291f",
+      "title": "Anthropic tells investors quarterly revenue up nearly 50% to $16.8bn ahead of IPO",
+      "url": "https://simonwillison.net/2026/Oct/15/anthropic-tells-investors/",
+      "published_at": "2026-10-15T13:04:03Z",
+      "decision": "accept"
+    },
+    {
+      "item_id": "feed:31fba83120d3c8e2e5f2d038e2e9672ea0fcd762783a0b96705843f1f31d8ad2",
+      "title": "Tree Appreciator",
+      "url": "https://simonwillison.net/2026/Oct/14/tree-appreciator/",
+      "published_at": "2026-10-14T21:23:01Z",
+      "decision": "reject"
+    },
+    {
+      "item_id": "feed:b148a9649cd0db0af6ad033cc971d093a6ee7e3bbfc757e4a65ac438eb5631a4",
+      "title": "Last chance to save up to $200 on your TechCrunch Founder Summit pass: Early booking ends October 16",
+      "url": "https://techcrunch.com/2026/10/15/last-chance-to-save-up-to-200-on-techcrunch-founder-summit-early-booking-ends-oct-16/",
+      "published_at": "2026-10-15T18:00:00Z",
+      "decision": "reject"
+    },
+    {
+      "item_id": "feed:2fffc3a0ae26605ae50fefc2aec50e9d6ea95e2cd439d59db1589cade15da72e",
+      "title": "AI agents are coming to Rivian’s cars",
+      "url": "https://techcrunch.com/2026/10/15/ai-agents-are-coming-to-rivians-cars/",
+      "published_at": "2026-10-15T15:02:36Z",
+      "decision": "defer"
+    },
+    {
+      "item_id": "feed:6e0da7d6a1c569e840a5790952d8f29d31b1523e1ea9c68b6bf1e92c0e1465fb",
+      "title": "Google’s Universal Cart shopping tool launches in the US",
+      "url": "https://techcrunch.com/2026/10/15/googles-universal-cart-shopping-tool-launches-in-the-us/",
+      "published_at": "2026-10-15T14:29:33Z",
+      "decision": "accept"
+    }
+  ],
+  "pieces": [
+    {
+      "piece_id": "01",
+      "title": "Open weights, different doors: what you can actually use now",
+      "source_count": 5,
+      "newly_collected_source_ids": [
+        "feed:227fcb0d624bcb1af08f2a503e5e63ae07741e6a1d5cbda81125e8eac82c391b"
+      ],
+      "retained_source_ids": [
+        "feed:2417547fbcd4a08ff39cb3a84b7d6eede16d0808f385137d06219c2a3818e01d",
+        "feed:74f7c639767e5ff1cb437b2bfcedd7b9e9b9aadebbe208b61dad37317a2a8eff",
+        "feed:7a6c716455f6be1bfda0beca6dfbc9cf90cf96199fa7d648b2b2f127c50b6b39",
+        "youtube:eBszYxzE2dk"
+      ],
+      "article_words": 754,
+      "spoken_words": 498,
+      "estimated_minutes": 3.69
+    },
+    {
+      "piece_id": "02",
+      "title": "Model scores need a map: what these evaluations actually test",
+      "source_count": 4,
+      "newly_collected_source_ids": [
+        "feed:e0c4cbb1514f53cea2127ff828cf01663429588c0c77de65f35d35817e1d0a58"
+      ],
+      "retained_source_ids": [
+        "feed:7a6c716455f6be1bfda0beca6dfbc9cf90cf96199fa7d648b2b2f127c50b6b39",
+        "feed:890d9b1abb1aee38ddaf66fc51c1b22e40dbf1502357c1561af5a99a67ec4252",
+        "podcast:a5722550a3b286ab7f03971ecfd02300b82428497f446ada3c8328f7918d698c"
+      ],
+      "article_words": 751,
+      "spoken_words": 511,
+      "estimated_minutes": 3.79
+    },
+    {
+      "piece_id": "03",
+      "title": "Beyond the model demo: agents are changing work, and shifting the bottlenecks",
+      "source_count": 6,
+      "newly_collected_source_ids": [],
+      "retained_source_ids": [
+        "feed:0d26c42f4dbee4d81bb457a0f7e7507cf6b9c7eb8875a14e845577dc5d01132b",
+        "feed:1d28b948019906af44beedd1d629604c92976362f43d35af7df3595d7756a95c",
+        "feed:21e7f3f15b3e9c2e170ab98ea75f451bd4ed9d6ef08b70a13748c6ecc1972231",
+        "feed:3e807c680553afa8e7a7fab0c86367379ffe15326fd7fb88ab84c99f58a26838",
+        "feed:855ef2ce6c6083db9cb9f7eaaab38698c38de14ab18bfeb0ea4645cef1b80384",
+        "podcast:a5722550a3b286ab7f03971ecfd02300b82428497f446ada3c8328f7918d698c"
+      ],
+      "article_words": 819,
+      "spoken_words": 526,
+      "estimated_minutes": 3.9
+    }
+  ],
+  "meaning_of_new": "Newly collected means absent from the previous completed run; it does not establish that the event happened today. Piece 03 reuses retained evidence within the current date window. All drafts were generated anew.",
+  "configuration_and_prompts_unchanged": true,
+  "human_approval": false
+}

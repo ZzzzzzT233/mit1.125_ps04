@@ -1,0 +1,122 @@
+{
+  "stage": "extract_content",
+  "status": "incomplete",
+  "input_count": 17,
+  "output_count": 10,
+  "started_at": "2026-10-14T17:36:02.314418Z",
+  "tools": [
+    "Python stdlib",
+    "curl",
+    "ffmpeg",
+    "ffprobe",
+    "yt-dlp"
+  ],
+  "models": [
+    "whisper-1"
+  ],
+  "cost_usd": 0.12,
+  "cost_note": "Estimated API transcription fees only; local compute/transfer not measured. Rate checked 2026-10-14",
+  "errors": [
+    "feed:6be51ff4ef44242d2e51699f539898cfa63365126a958310926f240d3e689cea: curl: (56) The requested URL returned error: 403",
+    "feed:e6966472d6db331ee36a98f2ac2b7d710119dc13c60b4264eefa2d606ec2543f: curl: (56) The requested URL returned error: 403",
+    "feed:890d9b1abb1aee38ddaf66fc51c1b22e40dbf1502357c1561af5a99a67ec4252: Retrieved page has insufficient substantive text",
+    "feed:74f7c639767e5ff1cb437b2bfcedd7b9e9b9aadebbe208b61dad37317a2a8eff: Retrieved page has insufficient substantive text",
+    "youtube:C4Sq3Rot8FU: Command '['/Users/zhoutong/Desktop/Harvard/2026 Fall/MIT 1.125/mit1.125_ps04/.venv/bin/python', '-m', 'yt_dlp', '--ignore-config', '--no-playlist', '--no-progress', '--js-runtimes', 'node', '--socket-timeout', '20', '--retries', '1', '--format', 'bestaudio[ext=m4a]/bestaudio', '--output', '/Users/zhoutong/Desktop/Harvard/2026 Fall/MIT 1.125/mit1.125_ps04/data/media/tmp781twev4/source.%(ext)s', 'https://www.youtube.com/watch?v=C4Sq3Rot8FU']' timed out after 240 seconds",
+    "youtube:NUizyuGj-kE: Command '['/Users/zhoutong/Desktop/Harvard/2026 Fall/MIT 1.125/mit1.125_ps04/.venv/bin/python', '-m', 'yt_dlp', '--ignore-config', '--no-playlist', '--no-progress', '--js-runtimes', 'node', '--socket-timeout', '20', '--retries', '1', '--format', 'bestaudio[ext=m4a]/bestaudio', '--output', '/Users/zhoutong/Desktop/Harvard/2026 Fall/MIT 1.125/mit1.125_ps04/data/media/tmpj21y7fnw/source.%(ext)s', 'https://www.youtube.com/watch?v=NUizyuGj-kE']' timed out after 240 seconds",
+    "podcast:ed7136659afac296738ddacd4b3b83a7bc659aa0e3d3b08982d0ed56162c2829: The read operation timed out"
+  ],
+  "reused_count": 1,
+  "item_results": [
+    {
+      "item_id": "feed:6be51ff4ef44242d2e51699f539898cfa63365126a958310926f240d3e689cea",
+      "status": "incomplete",
+      "error": "curl: (56) The requested URL returned error: 403"
+    },
+    {
+      "item_id": "feed:e6966472d6db331ee36a98f2ac2b7d710119dc13c60b4264eefa2d606ec2543f",
+      "status": "incomplete",
+      "error": "curl: (56) The requested URL returned error: 403"
+    },
+    {
+      "item_id": "feed:2417547fbcd4a08ff39cb3a84b7d6eede16d0808f385137d06219c2a3818e01d",
+      "status": "completed"
+    },
+    {
+      "item_id": "feed:650b1a40a921dc2f281493121ff171444b307775d255cfead9769244d805999d",
+      "status": "completed"
+    },
+    {
+      "item_id": "feed:890d9b1abb1aee38ddaf66fc51c1b22e40dbf1502357c1561af5a99a67ec4252",
+      "status": "incomplete",
+      "error": "Retrieved page has insufficient substantive text"
+    },
+    {
+      "item_id": "feed:74f7c639767e5ff1cb437b2bfcedd7b9e9b9aadebbe208b61dad37317a2a8eff",
+      "status": "incomplete",
+      "error": "Retrieved page has insufficient substantive text"
+    },
+    {
+      "item_id": "feed:8e314f039d969d5d3a6c5d21dc7b29f29bfbf3b5af93341fcab7e9aa486ce339",
+      "status": "completed"
+    },
+    {
+      "item_id": "feed:3e807c680553afa8e7a7fab0c86367379ffe15326fd7fb88ab84c99f58a26838",
+      "status": "completed"
+    },
+    {
+      "item_id": "feed:855ef2ce6c6083db9cb9f7eaaab38698c38de14ab18bfeb0ea4645cef1b80384",
+      "status": "completed"
+    },
+    {
+      "item_id": "feed:588f8b8ae0feda6cf3a99904e35e7cf01d9049314f16927e0c54591069aad961",
+      "status": "completed"
+    },
+    {
+      "item_id": "feed:73d08bbada55fd77cb56da8f5d11da3619cb06d4f50272cc9fa6babe58c18220",
+      "status": "completed"
+    },
+    {
+      "item_id": "youtube:C4Sq3Rot8FU",
+      "status": "incomplete",
+      "error": "Command '['/Users/zhoutong/Desktop/Harvard/2026 Fall/MIT 1.125/mit1.125_ps04/.venv/bin/python', '-m', 'yt_dlp', '--ignore-config', '--no-playlist', '--no-progress', '--js-runtimes', 'node', '--socket-timeout', '20', '--retries', '1', '--format', 'bestaudio[ext=m4a]/bestaudio', '--output', '/Users/zhoutong/Desktop/Harvard/2026 Fall/MIT 1.125/mit1.125_ps04/data/media/tmp781twev4/source.%(ext)s', 'https://www.youtube.com/watch?v=C4Sq3Rot8FU']' timed out after 240 seconds"
+    },
+    {
+      "item_id": "youtube:eBszYxzE2dk",
+      "status": "completed"
+    },
+    {
+      "item_id": "youtube:NUizyuGj-kE",
+      "status": "incomplete",
+      "error": "Command '['/Users/zhoutong/Desktop/Harvard/2026 Fall/MIT 1.125/mit1.125_ps04/.venv/bin/python', '-m', 'yt_dlp', '--ignore-config', '--no-playlist', '--no-progress', '--js-runtimes', 'node', '--socket-timeout', '20', '--retries', '1', '--format', 'bestaudio[ext=m4a]/bestaudio', '--output', '/Users/zhoutong/Desktop/Harvard/2026 Fall/MIT 1.125/mit1.125_ps04/data/media/tmpj21y7fnw/source.%(ext)s', 'https://www.youtube.com/watch?v=NUizyuGj-kE']' timed out after 240 seconds"
+    },
+    {
+      "item_id": "podcast:a5722550a3b286ab7f03971ecfd02300b82428497f446ada3c8328f7918d698c",
+      "status": "completed"
+    },
+    {
+      "item_id": "podcast:1bd3dabb637d0dd2fadd3382acf4046bd254c3557fceff4ff2b5486a71ece8e1",
+      "status": "completed"
+    },
+    {
+      "item_id": "podcast:ed7136659afac296738ddacd4b3b83a7bc659aa0e3d3b08982d0ed56162c2829",
+      "status": "incomplete",
+      "error": "The read operation timed out"
+    }
+  ],
+  "transcription_requests": [
+    {
+      "offset_seconds": 0,
+      "status": "completed",
+      "estimated_cost_usd": 0.12,
+      "billed_or_estimated_seconds": 1200
+    },
+    {
+      "offset_seconds": 1200,
+      "status": "requested",
+      "estimated_cost_usd": null
+    }
+  ],
+  "cost_is_estimate": true,
+  "finished_at": "2026-10-14T17:53:05.070919Z",
+  "exit_code": 1
+}

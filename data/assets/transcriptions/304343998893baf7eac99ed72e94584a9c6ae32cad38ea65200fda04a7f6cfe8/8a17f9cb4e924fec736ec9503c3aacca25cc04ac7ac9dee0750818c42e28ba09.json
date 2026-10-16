@@ -1,0 +1,44 @@
+{
+  "task": "transcribe",
+  "language": "english",
+  "duration": 5.0,
+  "text": "So Google's newest model Gemini 4 Argon is here and it's pretty big",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 4.960000038146973,
+      "text": " So Google's newest model Gemini 4 Argon is here and it's pretty big",
+      "tokens": [
+        50364,
+        407,
+        3329,
+        311,
+        17569,
+        2316,
+        22894,
+        3812,
+        1017,
+        1587,
+        10660,
+        307,
+        510,
+        293,
+        309,
+        311,
+        1238,
+        955,
+        50612
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.29113784432411194,
+      "compression_ratio": 0.9305555820465088,
+      "no_speech_prob": 0.03444172441959381
+    }
+  ],
+  "usage": {
+    "type": "duration",
+    "seconds": 5
+  }
+}

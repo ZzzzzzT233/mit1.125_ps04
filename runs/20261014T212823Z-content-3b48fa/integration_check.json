@@ -1,0 +1,12 @@
+{
+  "checked_at": "2026-10-14T22:12:02.543171Z",
+  "scope": "Real retained drafts; missing-approval gate only. No collection, generation, paid API calls, or actual production package.",
+  "entry_command": "bash run.sh --package runs/20261014T212823Z-content-3b48fa",
+  "exit_code": 1,
+  "status": "awaiting_review",
+  "review_status": "passed",
+  "drafts_and_snapshots_unchanged": true,
+  "approval_created": false,
+  "package_created": false,
+  "diagnostic": "Missing student approval correctly blocks packaging."
+}

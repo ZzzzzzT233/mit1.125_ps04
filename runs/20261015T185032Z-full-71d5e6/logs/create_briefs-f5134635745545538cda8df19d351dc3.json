@@ -1,0 +1,44 @@
+{
+  "stage": "create_briefs",
+  "status": "failed",
+  "input_count": 26,
+  "output_count": 0,
+  "started_at": "2026-10-15T18:53:30.761771Z",
+  "tools": [
+    "Python stdlib",
+    "curl"
+  ],
+  "models": [
+    "gpt-6-luna"
+  ],
+  "cost_usd": 0.021971,
+  "cost_note": "Conservative token-fee estimate at cache-write input rates, without cached-input discounts; local costs unmeasured. Prices checked 2026-10-14",
+  "errors": [
+    "Model brief validation failed: Written quote is absent, empty, or longer than 25 words"
+  ],
+  "request_fingerprint": "08777eae315dd71534c259051f3393725679ac9d007e5277bb260c5ed16f2be3",
+  "request_bytes": 491306,
+  "request_fee_upper_bound_usd": 0.135326,
+  "model_requests": [
+    {
+      "status": "completed",
+      "estimated_cost_usd": 0.021971
+    }
+  ],
+  "cost_is_estimate": true,
+  "usage": {
+    "input_tokens": 131901,
+    "input_tokens_details": {
+      "cache_write_tokens": 131898,
+      "cached_tokens": 0
+    },
+    "output_tokens": 10967,
+    "output_tokens_details": {
+      "reasoning_tokens": 3879
+    },
+    "total_tokens": 142868
+  },
+  "resolved_model": "gpt-6-luna",
+  "finished_at": "2026-10-15T18:55:34.876320Z",
+  "exit_code": 1
+}

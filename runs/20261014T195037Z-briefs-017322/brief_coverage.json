@@ -1,0 +1,67 @@
+{
+  "pieces": {
+    "01": {
+      "item_ids": [
+        "feed:1d28b948019906af44beedd1d629604c92976362f43d35af7df3595d7756a95c",
+        "feed:2417547fbcd4a08ff39cb3a84b7d6eede16d0808f385137d06219c2a3818e01d",
+        "feed:74f7c639767e5ff1cb437b2bfcedd7b9e9b9aadebbe208b61dad37317a2a8eff",
+        "feed:7a6c716455f6be1bfda0beca6dfbc9cf90cf96199fa7d648b2b2f127c50b6b39",
+        "youtube:eBszYxzE2dk"
+      ],
+      "publisher_groups": [
+        "google",
+        "huggingface",
+        "liquidai",
+        "matt-wolfe",
+        "tiiuae"
+      ],
+      "input_kinds": [
+        "feed",
+        "youtube"
+      ],
+      "claim_count": 6,
+      "independence_verified": false
+    },
+    "02": {
+      "item_ids": [
+        "feed:74f7c639767e5ff1cb437b2bfcedd7b9e9b9aadebbe208b61dad37317a2a8eff",
+        "feed:7a6c716455f6be1bfda0beca6dfbc9cf90cf96199fa7d648b2b2f127c50b6b39",
+        "feed:890d9b1abb1aee38ddaf66fc51c1b22e40dbf1502357c1561af5a99a67ec4252",
+        "podcast:a5722550a3b286ab7f03971ecfd02300b82428497f446ada3c8328f7918d698c"
+      ],
+      "publisher_groups": [
+        "allenai",
+        "latent-space",
+        "liquidai",
+        "tiiuae"
+      ],
+      "input_kinds": [
+        "feed",
+        "podcast"
+      ],
+      "claim_count": 6,
+      "independence_verified": false
+    },
+    "03": {
+      "item_ids": [
+        "feed:3e807c680553afa8e7a7fab0c86367379ffe15326fd7fb88ab84c99f58a26838",
+        "feed:890d9b1abb1aee38ddaf66fc51c1b22e40dbf1502357c1561af5a99a67ec4252",
+        "podcast:1bd3dabb637d0dd2fadd3382acf4046bd254c3557fceff4ff2b5486a71ece8e1",
+        "podcast:a5722550a3b286ab7f03971ecfd02300b82428497f446ada3c8328f7918d698c"
+      ],
+      "publisher_groups": [
+        "allenai",
+        "latent-space",
+        "simon-willison"
+      ],
+      "input_kinds": [
+        "feed",
+        "podcast"
+      ],
+      "claim_count": 6,
+      "independence_verified": false
+    }
+  },
+  "human_approval": false,
+  "checks": "Exact versions, quotes, segment IDs, producer minimums, multi-source inference references, and series input types. Semantic support and source independence still require review."
+}

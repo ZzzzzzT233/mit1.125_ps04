@@ -1,0 +1,12 @@
+[
+  {
+    "source_id": "huggingface-blog",
+    "publisher_id": "huggingface",
+    "kind": "feed",
+    "url": "https://huggingface.co/blog/feed.xml",
+    "name": "Hugging Face Blog",
+    "homepage": "https://huggingface.co/blog",
+    "notes": "Technical and open-model discovery. Resolve each candidate's publisher_id to the originating author organization when different from Hugging Face; hosting does not establish independence.",
+    "limit": 3
+  }
+]

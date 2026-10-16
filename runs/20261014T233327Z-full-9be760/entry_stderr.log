@@ -1,0 +1,23 @@
+Run artifacts: runs/20261014T233327Z-full-9be760
+fetch_youtube: ai-explained-youtube: curl: (56) The requested URL returned error: 404
+fetch_youtube: matt-wolfe-youtube: curl: (56) The requested URL returned error: 404
+Extracting feed: Amp puts AI agents to work beyond code with OpenAI models
+Extracting feed: SentinelOne cuts malware analysis from weeks to hours
+Extracting feed: Gemini 4 Argon: Built to solve your hardest problems
+Extracting feed: Introducing Playground: Create and play custom games
+Extracting feed: HiRO-ACEv2: Simulating extreme weather at 3 km resolution for a fraction of the cost
+Extracting feed: Run fast, private agents on-device with LFM2.5-24B-A2B
+Extracting feed: AI is mass decompiling games. That's both awesome and scary.
+Extracting feed: Redesigning source control at Anthropic
+Extracting feed: Flock CEO says its microphones detect ‘just gunshots’ — its website says different
+Extracting feed: YouTube Music launches new labels as AI-generated music floods streaming platforms
+Extracting feed: Apate sends AI agents undercover to get scammed so they can gather fraud intelligence
+Extracting podcast: Lab-in-the-Loop at Compute Speed — Ian Quigley, Leash Bio 
+Extracting podcast: Dyna-2: General Purpose Physical Agents with Hour-Long Autonomy — Jason Ma, Dyna Robotics
+Extracting podcast: LWiAI Podcast #258 - Opus 5.5, Sol and Luna, Muse, DeepSeek-V4.1-Flash, Xi
+extract_content: feed:6be51ff4ef44242d2e51699f539898cfa63365126a958310926f240d3e689cea: curl: (56) The requested URL returned error: 403
+extract_content: feed:9f9b8f5f04cba70c0a59d13454de38250463b79dc28d5331d9cc225a8dc9d6bc: curl: (56) The requested URL returned error: 403
+extract_content: podcast:8ddeacd8202375dcb627807364fa86ebbf721d5d9481f5eda6dcfca243729511: OpenAI transcription transport failed (curl exit 56); request cost is unconfirmed
+extract_content: podcast:ed7136659afac296738ddacd4b3b83a7bc659aa0e3d3b08982d0ed56162c2829: OpenAI transcription transport failed (curl exit 56); request cost is unconfirmed
+create_briefs: Model brief validation failed: Written quote is absent, empty, or longer than 25 words
+Series stopped at editorial/create_briefs; partial stream retained at runs/20261014T233327Z-full-9be760/briefs.jsonl.pending-67094

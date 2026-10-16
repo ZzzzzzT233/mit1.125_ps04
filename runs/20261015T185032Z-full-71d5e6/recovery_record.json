@@ -1,0 +1,15 @@
+{
+  "recorded_at": "2026-10-15T18:59:35.463162Z",
+  "initial_entry_command": "bash run.sh",
+  "initial_entry_exit_code": 1,
+  "first_pass_summary": "first_pass_summary.json",
+  "recovery_command": "bash workflows/create_series.sh runs/20261015T185032Z-full-71d5e6",
+  "recovery_exit_code": 0,
+  "summary_command": "bash reporting/summarize_run.sh runs/20261015T185032Z-full-71d5e6 > runs/20261015T185032Z-full-71d5e6/summary.json",
+  "correction_record": "brief_corrections.json",
+  "recovery_scope": "Existing correction mechanism applied to the cached brief output; selection and brief responses reused. Article and video-script requests were real provider calls. No code, policy, prompt, or configuration change.",
+  "failed_sandbox_attempt": "../20261015T184946Z-full-a7a360/summary.json",
+  "failed_sandbox_attempt_counts_as_complete_run": false,
+  "note": "Original failure receipts and raw provider responses remain preserved. This is a completed lifecycle with recovery, not an uninterrupted successful entry invocation.",
+  "human_approval": false
+}

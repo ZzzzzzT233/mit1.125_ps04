@@ -1,0 +1,743 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:yt="http://www.youtube.com/xml/schemas/2015" xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom">
+ <link rel="self" href="http://www.youtube.com/feeds/videos.xml?channel_id=UChpleBmo18P08aKCIgti38g"/>
+ <id>yt:channel:hpleBmo18P08aKCIgti38g</id>
+ <yt:channelId>hpleBmo18P08aKCIgti38g</yt:channelId>
+ <title>Matt Wolfe</title>
+ <link rel="alternate" href="https://www.youtube.com/channel/UChpleBmo18P08aKCIgti38g"/>
+ <author>
+  <name>Matt Wolfe</name>
+  <uri>https://www.youtube.com/channel/UChpleBmo18P08aKCIgti38g</uri>
+ </author>
+ <published>2009-04-08T19:44:18+00:00</published>
+ <entry>
+  <id>yt:video:XEl4ZQKKxig</id>
+  <yt:videoId>XEl4ZQKKxig</yt:videoId>
+  <yt:channelId>UChpleBmo18P08aKCIgti38g</yt:channelId>
+  <title>This Robot Is Unlike Any Other On The Market</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/XEl4ZQKKxig"/>
+  <author>
+   <name>Matt Wolfe</name>
+   <uri>https://www.youtube.com/channel/UChpleBmo18P08aKCIgti38g</uri>
+  </author>
+  <published>2026-10-14T14:41:38+00:00</published>
+  <updated>2026-10-14T16:54:29+00:00</updated>
+  <media:group>
+   <media:title>This Robot Is Unlike Any Other On The Market</media:title>
+   <media:content url="https://www.youtube.com/v/XEl4ZQKKxig?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/XEl4ZQKKxig/hqdefault.jpg" width="480" height="360"/>
+   <media:description>This week I discovered the Flourish 1, a $3,500 robot that uses a Raspberry Pi instead of expensive hardware and can learn household chores just by watching you move your phone.
+
+It focuses on practical tasks instead of flashy features, and the price reflects that.
+
+Only 50 are being made in the first batch with shipping planned for December.
+
+Would you rather get this instead of an ultra advanced $20,000 robot? 
+
+#Robotics #FutureTech #AI #AInews</media:description>
+   <media:community>
+    <media:starRating count="37" average="5.00" min="1" max="5"/>
+    <media:statistics views="1014"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:eBszYxzE2dk</id>
+  <yt:videoId>eBszYxzE2dk</yt:videoId>
+  <yt:channelId>UChpleBmo18P08aKCIgti38g</yt:channelId>
+  <title>Google Just Caught Up (Gemini-4 Argon)</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=eBszYxzE2dk"/>
+  <author>
+   <name>Matt Wolfe</name>
+   <uri>https://www.youtube.com/channel/UChpleBmo18P08aKCIgti38g</uri>
+  </author>
+  <published>2026-10-13T16:47:07+00:00</published>
+  <updated>2026-10-14T12:45:52+00:00</updated>
+  <media:group>
+   <media:title>Google Just Caught Up (Gemini-4 Argon)</media:title>
+   <media:content url="https://www.youtube.com/v/eBszYxzE2dk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/eBszYxzE2dk/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Gemini 4 Argon is finally here, so I put it through some hands-on tests—from coding games to 3D printing Gary Busey. Here’s what impressed me, what got stuck, and how Google stacks up against Claude and ChatGPT.
+
+Sharing the latest news and advancements in AI
+
+Discover More:
+🛠️ Explore AI Tools &amp; News: https://futuretools.io/
+📰 Weekly Newsletter: https://futuretools.io/newsletter
+
+Socials:
+❌ Twiter/X: https://x.com/mreflow
+🖼️ Instagram: https://instagram.com/mr.eflow
+🧵 Threads: https://www.threads.net/@mr.eflow
+🟦 LinkedIn: https://www.linkedin.com/in/matt-wolfe-30841712/
+👍 Facebook: https://www.facebook.com/mattrwolfe
+
+
+Let’s work together!
+- Brand, sponsorship &amp; business inquiries: business@mattwolfe.com 
+
+#Gemini4 #GoogleGemini #AITools
+
+Time Stamps:
+00:00 Gemini 4 Argon Is Here
+01:47 Benchmarks and the Million-Token Output
+04:32 Antigravity and Gemini App Updates
+06:54 Pricing and Who Gets Access
+08:21 Coding Tests: SVGs, Games and Physics
+11:38 Scheduling and Research Tests
+13:34 3D Printing Gary Busey
+15:00 Testing Gemini Tasks
+16:30 Teaching a Robot to Play Cornhole
+17:35 Has Google Caught Up?</media:description>
+   <media:community>
+    <media:starRating count="2894" average="5.00" min="1" max="5"/>
+    <media:statistics views="183700"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:b0jA6fkGsk8</id>
+  <yt:videoId>b0jA6fkGsk8</yt:videoId>
+  <yt:channelId>UChpleBmo18P08aKCIgti38g</yt:channelId>
+  <title>How To Stop Being An &quot;AI Meat Proxy&quot;</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/b0jA6fkGsk8"/>
+  <author>
+   <name>Matt Wolfe</name>
+   <uri>https://www.youtube.com/channel/UChpleBmo18P08aKCIgti38g</uri>
+  </author>
+  <published>2026-10-13T15:10:54+00:00</published>
+  <updated>2026-10-14T13:50:30+00:00</updated>
+  <media:group>
+   <media:title>How To Stop Being An &quot;AI Meat Proxy&quot;</media:title>
+   <media:content url="https://www.youtube.com/v/b0jA6fkGsk8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/b0jA6fkGsk8/hqdefault.jpg" width="480" height="360"/>
+   <media:description>The whole point of AI is to do LESS busywork. So why do I feel like an AI Meat Proxy?!
+
+AI helps write an email, but we’re still doing all the copying, pasting, sending, and checking.
+
+That stuff adds up, especially when you’re running a business.
+
+@birdHQ built a platform where AI agents can handle more of those repetitive tasks, while you decide what still needs your review.
+
+If you're interested, check them out at the link in the pinned comment.
+
+#BirdPartner #customerservice #aitools #ai #smallbusiness</media:description>
+   <media:community>
+    <media:starRating count="122" average="5.00" min="1" max="5"/>
+    <media:statistics views="5381"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:NUizyuGj-kE</id>
+  <yt:videoId>NUizyuGj-kE</yt:videoId>
+  <yt:channelId>UChpleBmo18P08aKCIgti38g</yt:channelId>
+  <title>AI News: Haiku-5.5, Visual ChatGPT, Grok's New Trick, and more!</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=NUizyuGj-kE"/>
+  <author>
+   <name>Matt Wolfe</name>
+   <uri>https://www.youtube.com/channel/UChpleBmo18P08aKCIgti38g</uri>
+  </author>
+  <published>2026-10-09T15:00:01+00:00</published>
+  <updated>2026-10-10T14:53:38+00:00</updated>
+  <media:group>
+   <media:title>AI News: Haiku-5.5, Visual ChatGPT, Grok's New Trick, and more!</media:title>
+   <media:content url="https://www.youtube.com/v/NUizyuGj-kE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/NUizyuGj-kE/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Here's The AI News You Probably Missed This Week! Get $100 in free credits for @Hyperagent when you sign up for a paid plan here: https://hyperagent.com/invite/MATT100?utm_source=youtube&amp;utm_medium=influencer&amp;utm_campaign=MATT100
+
+Discover More:
+🛠️ Explore AI Tools &amp; News: https://futuretools.io/
+📰 Weekly Newsletter: https://futuretools.io/newsletter
+
+Socials:
+❌ Twiter/X: https://x.com/mreflow
+🖼️ Instagram: https://instagram.com/mr.eflow
+🧵 Threads: https://www.threads.net/@mr.eflow
+🟦 LinkedIn: https://www.linkedin.com/in/matt-wolfe-30841712/
+👍 Facebook: https://www.facebook.com/mattrwolfe
+
+Resources From Today's Video:
+Claude Haiku 5.5: https://www.anthropic.com/claude-haiku-5-5
+Claude Dashboards &amp; Motion: https://claude.com/resources/articles/dashboards-and-motion
+Codex 28-Day Improvements: https://x.com/thsottiaux/status/2106845241357824205
+GPT-6 for Everyone: https://openai.com/index/gpt-6-for-everyone/
+Codex Faster Default Speed: https://x.com/thsottiaux/status/2107158998495748264
+Free Codex Auto-Review: https://x.com/thsottiaux/status/2107368734981517634
+ChatGPT Meetings Plugin: https://x.com/ChatGPT/status/2107567930557026653
+OpenAI Decisions API: https://x.com/OpenAIDevs/status/2107573382229188645
+OpenAI Developers Post: https://x.com/OpenAIDevs/status/2107539647392096384
+GPT-6.1 Sol Ultrafast: https://x.com/OpenAIDevs/status/2108262812489531498
+Codex Instant Steering: https://x.com/thsottiaux/status/2108275041276420573
+Grok Multi-Model Backend: https://x.com/elonmusk/status/2107724314451878104
+Grok Bot Monitors X: https://x.com/bot/status/2107949161878606089
+Mistral Large 4: https://mistral.ai/news/mistral-large-4/
+Reflection Beam Model: https://reflection.ai/blog/introducing-beam
+Google Playground Games: https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/
+Google Offline Note-Taker: https://www.theverge.com/tech/1007985/google-ai-notetaking-app-transcribe-offline
+Gemini Agent Launch: https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026
+SynthID Detector Expansion: https://blog.google/innovation-and-ai/models-and-research/google-deepmind/synth-id-ai-content/
+Hark Pro Intro: https://www.youtube.com/watch?v=i3mfnrEwaA0
+Meta Muse Gadgets Open-Sourced: https://www.theverge.com/tech/1004330/meta-muse-ai-gadgets-home-link
+Claude Abuse Policy: https://x.com/AndrewCurran_/status/2108244808494154089
+Andrew Curran Post: https://x.com/AndrewCurran_/status/2108278519163912412
+Suleyman on AI Jobs: https://x.com/mustafasuleyman/status/2107475087075197239
+
+Let’s work together!
+- Brand, sponsorship &amp; business inquiries: business@mattwolfe.com
+
+#AINews #AITools #ArtificialIntelligence
+
+Time Stamps:
+0:00 Intro
+0:11 Claude Haiku 5.5
+4:25 Claude Live Dashboards and Motion
+7:00 HyperAgent
+10:02 OpenAI 28-Days
+10:23 GPT-6 and Intelligent UI
+13:29 GPT Speed Update
+13:50 OpenAI Free Auto-Review
+14:47 ChatGPT Note Taker
+15:46 Decisions API
+16:46 OpenAI API Pricing Update
+17:02 GPT-6.1 Ultrafast
+18:05 GPT Better Course-Correct
+18:58 GrokBot Updates
+24:37 Mistral Large 4
+25:26 Reflections 501B
+26:39 Google Playground
+27:29 Google AI Notetaker
+28:23 Gemini Agent
+29:34 SynthID Update
+29:53 Hark Pro
+31:29 Muse AI Gadgets
+31:39 No Claude Abuse
+32:32 AI Won't Take As Many Jobs
+33:10 Final Thoughts</media:description>
+   <media:community>
+    <media:starRating count="2346" average="5.00" min="1" max="5"/>
+    <media:statistics views="125152"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:grOilk8aCS0</id>
+  <yt:videoId>grOilk8aCS0</yt:videoId>
+  <yt:channelId>UChpleBmo18P08aKCIgti38g</yt:channelId>
+  <title>AI Design Hack Saves HOURS</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/grOilk8aCS0"/>
+  <author>
+   <name>Matt Wolfe</name>
+   <uri>https://www.youtube.com/channel/UChpleBmo18P08aKCIgti38g</uri>
+  </author>
+  <published>2026-10-08T15:13:52+00:00</published>
+  <updated>2026-10-10T17:06:30+00:00</updated>
+  <media:group>
+   <media:title>AI Design Hack Saves HOURS</media:title>
+   <media:content url="https://www.youtube.com/v/grOilk8aCS0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/grOilk8aCS0/hqdefault.jpg" width="480" height="360"/>
+   <media:description>#ad I used @GensparkProduct Design to generate the UI for a FutureTools app... and it only took me about 30 minutes.
+
+It created the home feed, individual tool pages, and a layered, fully editable design. I could even generate a launch video in the same visual style, share the project with my team, and bring it into Genspark Code to start turning it into a working product.
+
+If you want to check out all their design templates, or start one from scratch, sign up and get free credits at the link in the pinned comment. 
+
+#Genspark #GensparkDesign #WorkwithGenspark #AI #AITools</media:description>
+   <media:community>
+    <media:starRating count="217" average="5.00" min="1" max="5"/>
+    <media:statistics views="11484"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:dDgncbBAA0c</id>
+  <yt:videoId>dDgncbBAA0c</yt:videoId>
+  <yt:channelId>UChpleBmo18P08aKCIgti38g</yt:channelId>
+  <title>AI News: Dots, GPT-6.1 Sol, Sonnet 5.5, Gemini 4, and everything you need to know</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=dDgncbBAA0c"/>
+  <author>
+   <name>Matt Wolfe</name>
+   <uri>https://www.youtube.com/channel/UChpleBmo18P08aKCIgti38g</uri>
+  </author>
+  <published>2026-10-02T15:00:16+00:00</published>
+  <updated>2026-10-07T21:58:40+00:00</updated>
+  <media:group>
+   <media:title>AI News: Dots, GPT-6.1 Sol, Sonnet 5.5, Gemini 4, and everything you need to know</media:title>
+   <media:content url="https://www.youtube.com/v/dDgncbBAA0c?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/dDgncbBAA0c/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Here's the AI News you probably missed this week. See what Optimizely’s Virtual Teammates can automate for you at https://optimizely.com/mattwolfe 
+
+Discover More:
+🛠️ Explore AI Tools &amp; News: https://futuretools.io/
+📰 Weekly Newsletter: https://futuretools.io/newsletter
+
+Socials:
+❌ Twiter/X: https://x.com/mreflow
+🖼️ Instagram: https://instagram.com/mr.eflow
+🧵 Threads: https://www.threads.net/@mr.eflow
+🟦 LinkedIn: https://www.linkedin.com/in/matt-wolfe-30841712/
+👍 Facebook: https://www.facebook.com/mattrwolfe
+
+Resources From Today's Video:
+DevDay 2026 Recap: https://openai.com/index/devday-2026-recap/
+OpenAI Introduces Dots: https://openai.com/index/introducing-dots/
+xAI Trolls Dots Launch: https://techcrunch.com/2026/09/29/the-internet-is-convinced-elon-musks-xai-trolled-openais-dots-launch/
+GPT-6.1 Sol: https://openai.com/index/introducing-gpt-6-1-sol/
+Claude Sonnet 5.5: https://www.anthropic.com/claude-sonnet-5-5
+Claude Code Mods: https://claude.com/blog/claude-code-mods
+ClaudeDevs Mods Announcement: https://x.com/ClaudeDevs/status/2105721434807083061
+Gemini 4 Argon: https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/
+Ideogram 4.5: https://ideogram.ai/models/4.5/
+Strands Decider 2B: https://strandsagents.com/blog/introducing-strands-decider/
+xAI Team Bots: https://x.ai/news/team-bots
+ElevenLabs Eleven v4: https://elevenlabs.io/blog/eleven-v4
+Microsoft MAI-Voice-2.1: https://microsoft.ai/models/mai-voice-2-1/
+Microsoft Streaming Transcription Model: https://microsoft.ai/news/our-first-streaming-transcription-model/
+Trump Superintelligence Executive Order: https://www.theverge.com/policy/1002468/trump-ai-superintelligence-executive-order-ai
+
+Let’s work together!
+- Brand, sponsorship &amp; business inquiries: business@mattwolfe.com
+
+#AINews #AITools #ArtificialIntelligence
+
+Time Stamps:
+0:00 Intro
+0:27 Dots
+7:31 GPT-6.1 Sol
+9:24 Other Dev Day Announcements
+10:35 Decisions API
+11:39 ChatGPT Space and Pages
+12:40 Meeting Plugin
+12:57 Sign in with ChatGPT
+13:55 Optimizely Update
+15:07 Claude Sonnet 5.5
+19:12 Mod Claude Code
+19:39 Gemini 4 Argon
+22:03 Ideogram 4.5
+23:17 Strands Decider 2B
+24:04 Grok Team Bots
+24:34 Eleven V4
+25:24 MAI-Voice-2.1
+25:52 MAI-Transcribe
+26:06 Super Intelligence Agreement
+27:15 Final Thoughts</media:description>
+   <media:community>
+    <media:starRating count="2716" average="5.00" min="1" max="5"/>
+    <media:statistics views="158889"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:c7twMUavy5Q</id>
+  <yt:videoId>c7twMUavy5Q</yt:videoId>
+  <yt:channelId>UChpleBmo18P08aKCIgti38g</yt:channelId>
+  <title>AI Made a Game I’d ACTUALLY Play</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/c7twMUavy5Q"/>
+  <author>
+   <name>Matt Wolfe</name>
+   <uri>https://www.youtube.com/channel/UChpleBmo18P08aKCIgti38g</uri>
+  </author>
+  <published>2026-09-30T12:15:21+00:00</published>
+  <updated>2026-10-04T23:36:42+00:00</updated>
+  <media:group>
+   <media:title>AI Made a Game I’d ACTUALLY Play</media:title>
+   <media:content url="https://www.youtube.com/v/c7twMUavy5Q?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/c7twMUavy5Q/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Opus 5.5 might be the best coding model you can use right now.
+
+I let it run my Megabonk game test for almost 20 HOURS… and the result is kind of insane.
+
+It's also surprisingly affordable. Opus 5.5 is available on Claude’s Pro, Max, Team, and Enterprise plans, so you can access it starting with the $20/month Pro plan.
+
+If you’re using the API, it’s $4 per million input tokens and $20 per million output tokens.
+
+That price-to-performance ratio is pretty wild for a model this good at long-running coding tasks.
+
+Have you tried Opus 5.5 yet?
+
+#ai #ainews #claude #anthropic #vibecoding</media:description>
+   <media:community>
+    <media:starRating count="186" average="5.00" min="1" max="5"/>
+    <media:statistics views="9979"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:hx42whM7NsY</id>
+  <yt:videoId>hx42whM7NsY</yt:videoId>
+  <yt:channelId>UChpleBmo18P08aKCIgti38g</yt:channelId>
+  <title>This AI Model Is INSANELY Fast &amp; Cheap</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/hx42whM7NsY"/>
+  <author>
+   <name>Matt Wolfe</name>
+   <uri>https://www.youtube.com/channel/UChpleBmo18P08aKCIgti38g</uri>
+  </author>
+  <published>2026-09-28T17:07:47+00:00</published>
+  <updated>2026-10-06T05:53:46+00:00</updated>
+  <media:group>
+   <media:title>This AI Model Is INSANELY Fast &amp; Cheap</media:title>
+   <media:content url="https://www.youtube.com/v/hx42whM7NsY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/hx42whM7NsY/hqdefault.jpg" width="480" height="360"/>
+   <media:description>This AI model doesn’t use… WORDS?
+
+It’s called Jev, from Typesafe AI, and instead of generating paragraphs or code text, it skips straight to making a decision.
+
+Instead of text, it’s outputs are things like:→ a choice→ a score→ true/false
+
+That makes it insanely fast and ridiculously cheap. Input costs start at just 4¢ per million tokens, and outputs are free because they’re apparently too cheap to meter.
+
+Would you actually build with something like this?
+
+#ai #ainews #futuretech #aimodel</media:description>
+   <media:community>
+    <media:starRating count="40" average="5.00" min="1" max="5"/>
+    <media:statistics views="2279"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:aDpIra7NFuE</id>
+  <yt:videoId>aDpIra7NFuE</yt:videoId>
+  <yt:channelId>UChpleBmo18P08aKCIgti38g</yt:channelId>
+  <title>AI News: Opus 5.5, GPT-6 Sol, Jev, Muse and More!</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=aDpIra7NFuE"/>
+  <author>
+   <name>Matt Wolfe</name>
+   <uri>https://www.youtube.com/channel/UChpleBmo18P08aKCIgti38g</uri>
+  </author>
+  <published>2026-09-26T02:37:49+00:00</published>
+  <updated>2026-10-07T21:58:54+00:00</updated>
+  <media:group>
+   <media:title>AI News: Opus 5.5, GPT-6 Sol, Jev, Muse and More!</media:title>
+   <media:content url="https://www.youtube.com/v/aDpIra7NFuE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/aDpIra7NFuE/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Here's the AI News you probably missed this week. Learn more about GPT-Live 1 and the Agent API here: https://developers.openai.com/api/docs/guides/live
+
+Discover More:
+🛠️ Explore AI Tools &amp; News: https://futuretools.io/
+📰 Weekly Newsletter: https://futuretools.io/newsletter
+
+Socials:
+❌ Twiter/X: https://x.com/mreflow
+🖼️ Instagram: https://instagram.com/mr.eflow
+🧵 Threads: https://www.threads.net/@mr.eflow
+🟦 LinkedIn: https://www.linkedin.com/in/matt-wolfe-30841712/
+👍 Facebook: https://www.facebook.com/mattrwolfe
+
+Resources From Today's Video:
+Meta Connect 2026: https://about.fb.com/news/2026/09/the-biggest-news-from-connect-2026/
+ChatGPT Voice Upgrades: https://x.com/OpenAI/status/2102808325742322002
+GPT-6 Sol and Luna: https://openai.com/index/introducing-gpt-6-sol-and-luna/
+Claude Opus 5.5: https://www.anthropic.com/claude-opus-5-5
+Grok 4.7: https://x.ai/news/grok-4-7
+New AI Model Type: https://techcrunch.com/2026/09/18/a-new-kind-of-ai-model-from-a-chatgpt-inventor-is-thrilling-developers/
+Made On YouTube: https://www.youtube.com/creators/made-on/
+New Microsoft Copilot: https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/
+Gemini 3.8 Live Avatar: https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-with-live-avatar/
+Gemini 3.8 Flash TTS: https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/
+Gemini in Google Vids: https://blog.google/products-and-platforms/products/workspace/gemini-omni-in-google-vids/
+Spotify Taste Profile: https://newsroom.spotify.com/2026-09-23/taste-profile-shape-home-feed/
+Google Project Suncatcher: https://blog.google/innovation-and-ai/models-and-research/google-research/google-project-suncatcher-facts/
+
+Let’s work together!
+- Brand, sponsorship &amp; business inquiries: business@mattwolfe.com
+
+#AINews #AITools #ArtificialIntelligence
+
+Time Stamps:
+0:00 Intro
+0:26 Meta Connect Updates
+8:42 GPT-Live-1
+9:48 GPT-6 Sol and Luna
+12:59 Claude Opus 5.5
+18:13 Grok 4.7
+22:04 JEV
+26:52 Made on YouTube Updates
+29:06 New Microsoft Copilot
+30:33 Gemini 3.8 Live Avatar
+30:56 Gemini 3.8 Text-To-Speech
+31:30 Google Vids Update
+31:53 Spotify Update
+32:12 Project Suncatcher
+33:04 Final Thoughts</media:description>
+   <media:community>
+    <media:starRating count="3210" average="5.00" min="1" max="5"/>
+    <media:statistics views="200803"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:SUtGm-nr4Hk</id>
+  <yt:videoId>SUtGm-nr4Hk</yt:videoId>
+  <yt:channelId>UChpleBmo18P08aKCIgti38g</yt:channelId>
+  <title>5 ChatGPT Prompts To Try Right Now!</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/SUtGm-nr4Hk"/>
+  <author>
+   <name>Matt Wolfe</name>
+   <uri>https://www.youtube.com/channel/UChpleBmo18P08aKCIgti38g</uri>
+  </author>
+  <published>2026-09-24T21:27:54+00:00</published>
+  <updated>2026-10-01T20:28:51+00:00</updated>
+  <media:group>
+   <media:title>5 ChatGPT Prompts To Try Right Now!</media:title>
+   <media:content url="https://www.youtube.com/v/SUtGm-nr4Hk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/SUtGm-nr4Hk/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Here are 5 new ways to use ChatGPT’s 5 new features 👇
+
+1. Use GPT-6’s upgraded computer use to turn you workspace into a digital diorama in Blender.
+2. Use GPT Image 2.5 to redesign one corner of a room while preserving the rest.
+3. Use ChatGPT Work’s cloud browser to check your AI subscriptions across websites you’re signed into and build a dashboard of costs and renewal dates.
+4. Use GPT-Live 1 to build a travel planner you can talk to while it researches.
+5. Use The Agents API to build a guitar-practice coach that remembers your progress between sessions.
+
+🔗 Head to the link in the pinned comment to download @OpenAI Codex and try these prompts for yourself!
+
+#ChatGPT_Partner #AI #ChatGPT #Codex #aiprompts</media:description>
+   <media:community>
+    <media:starRating count="400" average="5.00" min="1" max="5"/>
+    <media:statistics views="17629"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:nsA_HeY3idE</id>
+  <yt:videoId>nsA_HeY3idE</yt:videoId>
+  <yt:channelId>UChpleBmo18P08aKCIgti38g</yt:channelId>
+  <title>I hate it when they do this!</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/nsA_HeY3idE"/>
+  <author>
+   <name>Matt Wolfe</name>
+   <uri>https://www.youtube.com/channel/UChpleBmo18P08aKCIgti38g</uri>
+  </author>
+  <published>2026-09-23T16:41:20+00:00</published>
+  <updated>2026-10-02T13:31:26+00:00</updated>
+  <media:group>
+   <media:title>I hate it when they do this!</media:title>
+   <media:content url="https://www.youtube.com/v/nsA_HeY3idE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/nsA_HeY3idE/hqdefault.jpg" width="480" height="360"/>
+   <media:description>PSA to all the AI companies:
+
+Please stop announcing features like they’re live when they’re still rolling out “over the coming weeks.” 
+
+This happened for like 4 different demos in my recent AI news roundup video...
+
+Is it so hard to just make an announcement when I can actually use the new feature 😅
+
+#ai #ainews #claude</media:description>
+   <media:community>
+    <media:starRating count="115" average="5.00" min="1" max="5"/>
+    <media:statistics views="5990"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:0t-eWrGFZyA</id>
+  <yt:videoId>0t-eWrGFZyA</yt:videoId>
+  <yt:channelId>UChpleBmo18P08aKCIgti38g</yt:channelId>
+  <title>Claude Opus 5.5 Didn’t Need to Go This Hard</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=0t-eWrGFZyA"/>
+  <author>
+   <name>Matt Wolfe</name>
+   <uri>https://www.youtube.com/channel/UChpleBmo18P08aKCIgti38g</uri>
+  </author>
+  <published>2026-09-22T22:30:04+00:00</published>
+  <updated>2026-10-07T21:58:59+00:00</updated>
+  <media:group>
+   <media:title>Claude Opus 5.5 Didn’t Need to Go This Hard</media:title>
+   <media:content url="https://www.youtube.com/v/0t-eWrGFZyA?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/0t-eWrGFZyA/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Two new models in the same day?? Claude and ChatGPT.
+
+Discover More:
+🛠️ Explore AI Tools &amp; News: https://futuretools.io/
+📰 Weekly Newsletter: https://futuretools.io/newsletter
+
+Socials:
+❌ Twiter/X: https://x.com/mreflow
+🖼️ Instagram: https://instagram.com/mr.eflow
+🧵 Threads: https://www.threads.net/@mr.eflow
+🟦 LinkedIn: https://www.linkedin.com/in/matt-wolfe-30841712/
+👍 Facebook: https://www.facebook.com/mattrwolfe
+
+Let’s work together!
+- Brand, sponsorship &amp; business inquiries: business@mattwolfe.com
+
+#AINews #AITools #ArtificialIntelligence</media:description>
+   <media:community>
+    <media:starRating count="2626" average="5.00" min="1" max="5"/>
+    <media:statistics views="223262"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:rcUTZysF9s4</id>
+  <yt:videoId>rcUTZysF9s4</yt:videoId>
+  <yt:channelId>UChpleBmo18P08aKCIgti38g</yt:channelId>
+  <title>This Robot Looks DEMONIC... On Purpose?</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/rcUTZysF9s4"/>
+  <author>
+   <name>Matt Wolfe</name>
+   <uri>https://www.youtube.com/channel/UChpleBmo18P08aKCIgti38g</uri>
+  </author>
+  <published>2026-09-21T12:43:38+00:00</published>
+  <updated>2026-09-27T01:57:33+00:00</updated>
+  <media:group>
+   <media:title>This Robot Looks DEMONIC... On Purpose?</media:title>
+   <media:content url="https://www.youtube.com/v/rcUTZysF9s4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/rcUTZysF9s4/hqdefault.jpg" width="480" height="360"/>
+   <media:description>This robot looks straight up like a fantasy movie villain, but it was designed like that on purpose.
+
+Despite how it looks, the Threehalves robot's design actually makes perfect sense: four legs for stability, tools that attach directly to its wrists, and horns that house cameras for a remote operator.
+
+The goal is to let skilled workers tackle dangerous jobs from a safe distance, like wildfire zones, collapsed buildings, and toxic environments.
+
+It’s still a half-built proof of concept. But this is the kind of robotics idea I want to see work. Even if I’d absolutely run the other way if I saw it in the woods.
+
+#Robotics #FutureTech #AInews #ai</media:description>
+   <media:community>
+    <media:starRating count="375" average="5.00" min="1" max="5"/>
+    <media:statistics views="15170"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:Kof2VcHTjrk</id>
+  <yt:videoId>Kof2VcHTjrk</yt:videoId>
+  <yt:channelId>UChpleBmo18P08aKCIgti38g</yt:channelId>
+  <title>AI News: The AI Slowdown: What You Need to Know</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=Kof2VcHTjrk"/>
+  <author>
+   <name>Matt Wolfe</name>
+   <uri>https://www.youtube.com/channel/UChpleBmo18P08aKCIgti38g</uri>
+  </author>
+  <published>2026-09-18T15:12:55+00:00</published>
+  <updated>2026-10-07T22:01:40+00:00</updated>
+  <media:group>
+   <media:title>AI News: The AI Slowdown: What You Need to Know</media:title>
+   <media:content url="https://www.youtube.com/v/Kof2VcHTjrk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/Kof2VcHTjrk/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Here's the AI News you probably missed from this week.
+
+Discover More:
+🛠️ Explore AI Tools &amp; News: https://futuretools.io/
+📰 Weekly Newsletter: https://futuretools.io/newsletter
+
+Socials:
+❌ Twiter/X: https://x.com/mreflow
+🖼️ Instagram: https://instagram.com/mr.eflow
+🧵 Threads: https://www.threads.net/@mr.eflow
+🟦 LinkedIn: https://www.linkedin.com/in/matt-wolfe-30841712/
+👍 Facebook: https://www.facebook.com/mattrwolfe
+
+Resources From Today's Video:
+Pace the Frontier Essay: https://darioamodei.com/post/we-must-pace-the-frontier
+Musk Backs Dario: https://x.com/elonmusk/status/2098789109980332057
+Altman Agrees on Pacing: https://x.com/sama/status/2098811563415150910
+Hassabis Endorses Dario Essay: https://x.com/demishassabis/status/2098909516582490602
+Zuckerberg Rejects AI Slowdown: https://apnews.com/article/ai-zuckerberg-meta-slowdown-2f4eab05b1e931456d00ebc2fe93c989
+Trump Calls Jensen Onstage: https://www.theverge.com/tech/995079/president-donald-trump-calls-nvidia-ceo-jensen-huang-all-in-summit
+Cowork Merges Into Claude: https://claude.com/blog/cowork-is-now-claude
+Claude Projects Redesigned: https://claude.com/blog/projects-redesigned
+Gemini Notebook Study Tools: https://blog.google/innovation-and-ai/products/gemini-notebook/new-study-tools-september-2026/
+Siri AI Launches: https://www.apple.com/newsroom/2026/09/siri-ai-a-profoundly-more-capable-and-personal-assistant-is-here/
+Qwen3.8 Omni Flash: https://qwen.ai/blog?id=qwen3.8-omni-flash
+OpenCode Union Alpha Free: https://x.com/opencode/status/2100236430890991782
+Meta One Subscription: https://about.fb.com/news/2026/09/introducing-meta-one-subscription-service-more-features-ai/
+Muse Outbound Calls Beta: https://x.com/wailord/status/2100342273854894533
+Gemini 3.8 Live: https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/
+CC Expands to Groups: https://blog.google/innovation-and-ai/models-and-research/google-labs/cc-expanding-to-groups/
+Grok Build Memory: https://x.ai/news/grok-build-memory
+ElevenLabs Music v2.5: https://elevenlabs.io/blog/music-v2-5-model
+ElevenLabs MCP Expansion: https://elevenlabs.io/blog/introducing-voice-music-image-and-video-generation-in-the-elevenlabs-mcp
+OpenAI AI Advertising: https://openai.com/index/reimagining-advertising-with-ai/
+UBTECH Humanoid Robot Factory: https://interestingengineering.com/ai-robotics/ubtech-starts-10000-unit-robot-factory
+
+Let’s work together!
+- Brand, sponsorship &amp; business inquiries: business@mattwolfe.com
+
+#AINews #AITools #ArtificialIntelligence
+
+Time Stamps:
+0:00 Intro
+0:34 Pacing AI Advancement
+9:36 Claude Combines Modes
+10:50 Claude Projects
+13:04 Gemini Notebook Update
+14:19 New Siri AI
+16:54 Qwen3.8-Omni-Flash
+17:45 Union Alpha Model
+19:51 New Meta Subscription
+20:37 Muse Agent Phone Calls
+21:17 Gemini 3.8 Live
+22:02 Google CC
+22:51 Memory in Grok Build
+23:08 ElevenLabs Music v2.5
+23:40 ElevenLabs MCP
+24:10 New ChatGPT Ads
+24:41 10,000 Robots Per Year
+25:22 Final Thoughts</media:description>
+   <media:community>
+    <media:starRating count="2277" average="5.00" min="1" max="5"/>
+    <media:statistics views="118988"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:S2VJU5DQqlU</id>
+  <yt:videoId>S2VJU5DQqlU</yt:videoId>
+  <yt:channelId>UChpleBmo18P08aKCIgti38g</yt:channelId>
+  <title>He Built The Ultimate Spy Tool (Free and Open-Source)</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=S2VJU5DQqlU"/>
+  <author>
+   <name>Matt Wolfe</name>
+   <uri>https://www.youtube.com/channel/UChpleBmo18P08aKCIgti38g</uri>
+  </author>
+  <published>2026-09-16T20:57:15+00:00</published>
+  <updated>2026-10-07T21:59:46+00:00</updated>
+  <media:group>
+   <media:title>He Built The Ultimate Spy Tool (Free and Open-Source)</media:title>
+   <media:content url="https://www.youtube.com/v/S2VJU5DQqlU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/S2VJU5DQqlU/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Check out God's Eye View:
+https://github.com/bilawalsidhu/gods-eye-view
+https://www.spatialintelligence.ai/
+
+What if you could turn your computer into a spy movie command center using real-world data? I sat down with Bilawal Sidhu to explore God's Eye View, his open-source tool that brings flights, satellites, ships, traffic, and more into one interactive 3D globe.
+
+We dive into how he built it with AI, try out its voice controls, and explore everything from military flight data to public traffic cameras and NASA fire detections. Bilawal also shows how people are using it to reconstruct real-world events, and I walk through getting it running on your own computer.
+
+The project is open source, and many of the data sources are free for personal use. Some features require API keys, and voice interaction or heavier usage can add costs.
+
+Discover More:
+🛠️ Explore AI Tools &amp; News: https://futuretools.io/
+📰 Weekly Newsletter: https://futuretools.io/newsletter
+
+Socials:
+❌ Twiter/X: https://x.com/mreflow
+🖼️ Instagram: https://instagram.com/mr.eflow
+🧵 Threads: https://www.threads.net/@mr.eflow
+🟦 LinkedIn: https://www.linkedin.com/in/matt-wolfe-30841712/
+👍 Facebook: https://www.facebook.com/mattrwolfe
+
+Let’s work together!
+- Brand, sponsorship &amp; business inquiries: business@mattwolfe.com
+
+#AINews #AITools #ArtificialIntelligence
+
+Chapters: 
+00:00 God's Eye View: Palantir at Home?
+00:27 What It Does and Who It's For
+02:07 How Bilawal Built It With AI
+03:22 API Costs and Privacy Limits
+06:24 Exploring the Globe With Voice Commands
+07:49 Tracking Flights and Asking AI for Context
+10:06 Exploring Public Cameras and Traffic Data
+11:57 Mapping Fires, Rocket Launches, and Real-World Events
+16:04 How to Install God's Eye View</media:description>
+   <media:community>
+    <media:starRating count="4204" average="5.00" min="1" max="5"/>
+    <media:statistics views="255559"/>
+   </media:community>
+  </media:group>
+ </entry>
+</feed>

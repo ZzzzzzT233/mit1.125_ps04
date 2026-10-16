@@ -1,0 +1,80 @@
+{
+  "counts": {
+    "accept": 19,
+    "defer": 3,
+    "reject": 4
+  },
+  "accepted_by_kind": {
+    "feed": 15,
+    "podcast": 2,
+    "youtube": 2
+  },
+  "accepted_publisher_groups": [
+    "allenai",
+    "google",
+    "huggingface",
+    "latent-space",
+    "liquidai",
+    "matt-wolfe",
+    "simon-willison",
+    "swiss-ai",
+    "techcrunch",
+    "tiiuae"
+  ],
+  "pieces": {
+    "01": {
+      "item_count": 12,
+      "publisher_groups": [
+        "allenai",
+        "google",
+        "huggingface",
+        "liquidai",
+        "matt-wolfe",
+        "techcrunch",
+        "tiiuae"
+      ],
+      "by_kind": {
+        "feed": 10,
+        "youtube": 2
+      }
+    },
+    "02": {
+      "item_count": 9,
+      "publisher_groups": [
+        "allenai",
+        "google",
+        "huggingface",
+        "latent-space",
+        "liquidai",
+        "matt-wolfe",
+        "swiss-ai",
+        "tiiuae"
+      ],
+      "by_kind": {
+        "feed": 7,
+        "podcast": 1,
+        "youtube": 1
+      }
+    },
+    "03": {
+      "item_count": 17,
+      "publisher_groups": [
+        "allenai",
+        "google",
+        "huggingface",
+        "latent-space",
+        "liquidai",
+        "simon-willison",
+        "swiss-ai",
+        "techcrunch",
+        "tiiuae"
+      ],
+      "by_kind": {
+        "feed": 15,
+        "podcast": 2
+      }
+    }
+  },
+  "independence_verified": false,
+  "human_approval": false
+}

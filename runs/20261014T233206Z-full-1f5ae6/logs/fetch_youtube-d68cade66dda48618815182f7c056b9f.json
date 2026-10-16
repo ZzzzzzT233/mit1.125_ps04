@@ -1,0 +1,34 @@
+{
+  "stage": "fetch_youtube",
+  "status": "incomplete",
+  "input_count": 2,
+  "output_count": 0,
+  "started_at": "2026-10-14T23:32:31.876079Z",
+  "tools": [
+    "Python stdlib",
+    "curl"
+  ],
+  "models": [],
+  "cost_usd": null,
+  "cost_note": "No model API used; local compute and transfer costs are not measured.",
+  "errors": [
+    "ai-explained-youtube: curl: (6) Could not resolve host: www.youtube.com",
+    "matt-wolfe-youtube: curl: (6) Could not resolve host: www.youtube.com"
+  ],
+  "source_results": [
+    {
+      "source_id": "ai-explained-youtube",
+      "status": "incomplete",
+      "count": 0,
+      "error": "curl: (6) Could not resolve host: www.youtube.com"
+    },
+    {
+      "source_id": "matt-wolfe-youtube",
+      "status": "incomplete",
+      "count": 0,
+      "error": "curl: (6) Could not resolve host: www.youtube.com"
+    }
+  ],
+  "finished_at": "2026-10-14T23:32:31.895842Z",
+  "exit_code": 1
+}

@@ -1,0 +1,8 @@
+{
+  "checked_at": "2026-10-15T19:00:57.009686Z",
+  "documentation_links_valid": true,
+  "new_blocking_issues": 0,
+  "previous_reviewed_files_unchanged": 18,
+  "configuration_and_prompts_unchanged": true,
+  "note": "The first ad hoc preservation check treated the as_of_date metadata key as a file path and failed; this corrected check validates only repository file keys. No artifact was modified by either check."
+}

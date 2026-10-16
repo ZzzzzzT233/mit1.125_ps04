@@ -1,0 +1,19 @@
+{
+  "checked_at": "2026-10-15T18:59:35.466362Z",
+  "complete_live_run": true,
+  "current_review_passed": true,
+  "review_id": "229743facb8cd23f8e152847d4fb5d8c76412ebcb654ad0be19b6800c76dbe01",
+  "artifact_counts": {
+    "briefs": 3,
+    "articles": 3,
+    "video_scripts": 3
+  },
+  "student_approval_present": false,
+  "package_present": false,
+  "two_distinct_actual_dates": [
+    "2026-10-14",
+    "2026-10-15"
+  ],
+  "code_unchanged": true,
+  "scope": "Existing pipeline validation and documentation checks; not student review or publication approval."
+}

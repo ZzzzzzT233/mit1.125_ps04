@@ -1,0 +1,9 @@
+{
+  "run_id": "20261014T173931Z-recovery-b48346",
+  "started_at": "2026-10-14T17:39:31.992305Z",
+  "as_of_date": "2026-10-14",
+  "mode": "live",
+  "previous_run_id": "20261014T173547Z-collection-055bc1",
+  "scope": "collection_recovery",
+  "note": "Live recovery of Hugging Face article extraction, plus one additional technical article. Collection only; source subset is explicit."
+}

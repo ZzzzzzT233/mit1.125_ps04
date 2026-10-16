@@ -1,0 +1,43 @@
+{
+  "piece_id": "02",
+  "scenes": [
+    {
+      "narration": "A model score is only meaningful if you know what was tested. Speech-recognition errors, weather-simulation statistics, and multimodal benchmarks answer different questions; they do not belong on one universal leaderboard. Recent reports from Project Apertus, TII, and Ai2 show why test data and comparison conditions matter. A robotics founder’s interview adds a reminder from the physical world: a model’s results do not alone tell you whether the whole system can do a job. Let’s look at what each piece of evidence measures—and what it leaves outside its frame.",
+      "visual": "Open on an illustrative “score needs a map” graphic, then show three distinct labeled task cards: multimodal input, Arabic transcription, and simulated weather. Do not rank them.",
+      "claim_ids": [
+        "02-c7"
+      ]
+    },
+    {
+      "narration": "Apertus 1.5 describes an approach called early fusion for images and audio. It turns those inputs into discrete tokens and places them in the same sequence as text tokens, rather than using a separate vision encoder. The project says the model can understand images and audio but generates text only. That explains what “multimodal” means in this case: it accepts different kinds of input, but the described output is text. The project also reports Evaluation Cards that record who ran a test, how the model was accessed, generation settings, and how to interpret a metric. Those details help readers inspect a score, but do not independently reproduce it.",
+      "visual": "Show an illustrative sequence of image, audio, and text tokens entering one model and text leaving it. Add a labeled Evaluation Card diagram for evaluator, access, settings, and metric interpretation.",
+      "claim_ids": [
+        "02-c1",
+        "02-c2"
+      ]
+    },
+    {
+      "narration": "TII reports Falcon-ASR’s average Arabic word error rate as 20.92 percent across six test sets, compared with 23.17 percent for the best published result in the leaderboard snapshot it used. Word error rate, or WER, counts transcription errors relative to the number of words; lower is better. TII says it used the same six benchmarks and competitor results checked on September 30, 2026. Separately, it reports a 22.73 percent WER on an internal Emirati evaluation, with the lowest word and character error rates among the systems it compared. That internal held-out test is not the public leaderboard result. Both comparisons are developer-reported, not independently replicated here.",
+      "visual": "Build two clearly separated, text-only comparison cards: public six-test-set result and internal Emirati result. Mark figures as TII-reported; preserve the test scope and distinguish the evaluations.",
+      "claim_ids": [
+        "02-c3",
+        "02-c4"
+      ]
+    },
+    {
+      "narration": "Ai2’s HiRO-ACEv2 is not a speech model. Its HiROv2 component sharpens coarse weather-simulation output into finer detail. Ai2 reports that it matched high-resolution statistics from X-SHiELD within three percent, even for events occurring once in a million data points. That is a result against a particular simulation, not proof of equal accuracy for real-world weather. Ai2 also says HiRO learned from X-SHiELD and currently works only with the version of ACE tuned to match it. The project says it cannot yet produce high-resolution data for other climates, including a warmer future or historical records such as ERA5.",
+      "visual": "Use an illustrative coarse-to-fine weather-grid diagram. Label the 3% and rare-event figure as Ai2-reported and explicitly label the comparison target “X-SHiELD simulation.”",
+      "claim_ids": [
+        "02-c5"
+      ]
+    },
+    {
+      "narration": "In an interview, Dyna Robotics co-founder Jason Ma describes Dyna-2 as predicting future video as well as actions a robot can execute. He says human demonstrations offer broad examples, but need adaptation using robot data because human and robot actions differ. He identifies data and hardware as constraints. This is a company representative’s account, not a controlled test. Across these examples, the useful question is whether an evaluation matches the task, data, and comparison conditions that matter. Reporting details can make results easier to interpret; it does not prove them independently. These unlike metrics should not be ranked against each other. What test would best match the use you care about?",
+      "visual": "Show an illustrative sequence from video observation to predicted action, labeled “Dyna co-founder’s description.” End on a question card about matching evaluation to intended use.",
+      "claim_ids": [
+        "02-c6",
+        "02-c7"
+      ]
+    }
+  ]
+}

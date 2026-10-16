@@ -1,0 +1,20 @@
+{
+  "recorded_at": "2026-10-14T23:55:11.306630Z",
+  "note": "Code hashes for this live run and its documented stage recovery; credentials are excluded.",
+  "sha256": {
+    "run.sh": "c982048097247f3a6dabc1f705ef9901802e9b62aed6b5e50efedacaa5cdc5ac",
+    "workflows/collect_sources.sh": "998fbd2f56c1708e4e82e1085b2474792f91f8f29a54557a8627db55776dd584",
+    "workflows/create_series.sh": "3c86598ae1eb36caaa3f0135757dd3d2110328d7348fcde98964daca2ffc84f7",
+    "pipeline_io.py": "ac800ca04b5eb2f8f6bc5c5e0574f901c7e8be6ab2fc2894c7647a9f777032a4",
+    "collectors/discover.py": "5a79e015c1ad7a824a057b49bd05858564110da0017e03dd69e33ccb78cb973d",
+    "processing/extract_content.py": "1af72c70f90f2d7b13d2500c0520b2fef55f5711b8f6e4d1bba9b3c5014a4b20",
+    "processing/transcribe.py": "ceb3eb0970add2c2b2a71587d2108274c306740ca9dcf22939518857297dd81d",
+    "processing/filter_items.py": "f0f19306c17a6209389a824a7251058821a4e5103bba0f6d45e4578c51754c4e",
+    "data/store.py": "b1a91cba796b0672ff1759f8783b62f3339fe4e9511e6b74899f1b5bb5f119f8",
+    "editorial/select_items.py": "40f92330381ca670226f35d4b094d2b6c24b236114915479aa94a23c4eff0941",
+    "editorial/create_briefs.py": "dd63dbcd665e6a0d5bab6dcd70fd7f9c161ba2c5a254379c706ee92890810a61",
+    "content/drafts.py": "d8e340d68053bf75f9874813d59a058303f3ab65fe769a9b325caa09aac5368d",
+    "review/check_content.py": "f5546e6875f43f107979d64c4e016dae0d4d2a344cdeb24e4a68b2478a151a6f",
+    "reporting/summarize_run.py": "46028b08a8f8a4c949fdd557ea2c307fa03797697a159801469127b63c9cd3b5"
+  }
+}

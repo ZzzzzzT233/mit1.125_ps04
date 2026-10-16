@@ -1,0 +1,9 @@
+{
+  "run_id": "20261014T233206Z-full-1f5ae6",
+  "started_at": "2026-10-14T23:32:06.427490Z",
+  "as_of_date": "2026-10-14",
+  "mode": "live",
+  "scope": "full_pipeline",
+  "previous_run_id": "20261014T212823Z-content-3b48fa",
+  "note": "Full collection-to-draft execution, ending with content checks and student review. Video production and publication remain manual."
+}

@@ -1,0 +1,89 @@
+{
+  "run_id": "20261014T173547Z-collection-055bc1",
+  "as_of_date": "2026-10-14",
+  "scope": "collection_only",
+  "status": "failed",
+  "status_reason": "The complete publication pipeline is not implemented; this execution covers collection only.",
+  "collection_status": "incomplete",
+  "counts": {
+    "discovered": 17,
+    "extracted": 10,
+    "eligible": 13,
+    "excluded": 0,
+    "articles": null,
+    "video_scripts": null,
+    "new": 7,
+    "changed": 0,
+    "unchanged": 3,
+    "accepted": null,
+    "rejected": null,
+    "deferred": null
+  },
+  "coverage": {
+    "distinct_underlying_items": 13,
+    "by_kind": {
+      "feed": 10,
+      "youtube": 1,
+      "podcast": 2
+    },
+    "originating_publishers": [
+      "allenai",
+      "google",
+      "huggingface",
+      "latent-space",
+      "liquidai",
+      "matt-wolfe",
+      "simon-willison",
+      "techcrunch"
+    ],
+    "publisher_count": 8,
+    "independence_verified": false,
+    "duplicate_observations": 0
+  },
+  "failed_or_incomplete_stages": [
+    {
+      "stage": "collect_sources",
+      "status": "incomplete",
+      "errors": [
+        "One or more collection components failed; inspect their receipts."
+      ]
+    },
+    {
+      "stage": "extract_content",
+      "status": "incomplete",
+      "errors": [
+        "feed:6be51ff4ef44242d2e51699f539898cfa63365126a958310926f240d3e689cea: curl: (56) The requested URL returned error: 403",
+        "feed:e6966472d6db331ee36a98f2ac2b7d710119dc13c60b4264eefa2d606ec2543f: curl: (56) The requested URL returned error: 403",
+        "feed:890d9b1abb1aee38ddaf66fc51c1b22e40dbf1502357c1561af5a99a67ec4252: Retrieved page has insufficient substantive text",
+        "feed:74f7c639767e5ff1cb437b2bfcedd7b9e9b9aadebbe208b61dad37317a2a8eff: Retrieved page has insufficient substantive text",
+        "youtube:C4Sq3Rot8FU: Command '['/Users/zhoutong/Desktop/Harvard/2026 Fall/MIT 1.125/mit1.125_ps04/.venv/bin/python', '-m', 'yt_dlp', '--ignore-config', '--no-playlist', '--no-progress', '--js-runtimes', 'node', '--socket-timeout', '20', '--retries', '1', '--format', 'bestaudio[ext=m4a]/bestaudio', '--output', '/Users/zhoutong/Desktop/Harvard/2026 Fall/MIT 1.125/mit1.125_ps04/data/media/tmp781twev4/source.%(ext)s', 'https://www.youtube.com/watch?v=C4Sq3Rot8FU']' timed out after 240 seconds",
+        "youtube:NUizyuGj-kE: Command '['/Users/zhoutong/Desktop/Harvard/2026 Fall/MIT 1.125/mit1.125_ps04/.venv/bin/python', '-m', 'yt_dlp', '--ignore-config', '--no-playlist', '--no-progress', '--js-runtimes', 'node', '--socket-timeout', '20', '--retries', '1', '--format', 'bestaudio[ext=m4a]/bestaudio', '--output', '/Users/zhoutong/Desktop/Harvard/2026 Fall/MIT 1.125/mit1.125_ps04/data/media/tmpj21y7fnw/source.%(ext)s', 'https://www.youtube.com/watch?v=NUizyuGj-kE']' timed out after 240 seconds",
+        "podcast:ed7136659afac296738ddacd4b3b83a7bc659aa0e3d3b08982d0ed56162c2829: The read operation timed out"
+      ]
+    }
+  ],
+  "elapsed_seconds": 1082.44,
+  "tools": [
+    "Bash",
+    "Python stdlib",
+    "SQLite",
+    "curl",
+    "ffmpeg",
+    "ffprobe",
+    "yt-dlp"
+  ],
+  "models": [
+    "whisper-1"
+  ],
+  "known_or_estimated_cost_usd": 0.12,
+  "unknown_cost_receipts": 6,
+  "remaining_manual_actions": [
+    "Complete the editorial, generation, review, and publication components.",
+    "Inspect originating-source independence and substantive quality; endpoint counts are not proof of corroboration.",
+    "Verify extracted text and media transcripts against their sources.",
+    "Meet the twelve-item, six-source, and input-type coverage requirements.",
+    "Complete human policy review, two full live runs on different days, video production, and publication."
+  ],
+  "collection_limits": "Bounded current feed snapshots; archives, mutable-media updates, transcript completeness, and claim independence need review.",
+  "unconfirmed_api_requests": 1
+}
